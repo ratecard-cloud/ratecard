@@ -149,21 +149,38 @@ const description =
       can read the collector that fetched it.
     </p>
 
-    <h2 style="font-size:19px;margin:32px 0 8px">Independence</h2>
+    <h2 id="independence" style="font-size:19px;margin:32px 0 8px">Independence</h2>
     <p class="muted">
       No provider pays for placement here, and no ranking is for sale. Where
       affiliate links exist they are marked as such, they never affect ordering,
       and every ranking on this site is computed from the price data alone.
     </p>
     <p class="muted">
-      <strong style="color:var(--fg)">Hosting disclosure:</strong>
-      {/* TODO: name the actual host once chosen. If it is a provider this site
-          ranks — Cloudflare, Hetzner, Netlify-on-AWS — say so explicitly here.
-          A neutrality claim is worth nothing if the host is undisclosed. */}
-      this site is served by a commercial host that also appears in these tables.
-      That is disclosed rather than avoided: any host fast and cheap enough to run
-      a site like this is a company we index. Hosting is paid for at list price
-      like anyone else, with no credits, discounts, or arrangement of any kind.
+      <strong style="color:var(--fg)">Hosting disclosure.</strong>
+      Two companies in these tables are part of how this site runs, so both are
+      named rather than glossed over:
+    </p>
+    <ul class="muted">
+      <li>
+        <strong style="color:var(--fg)">Cloudflare</strong> serves the site
+        (Workers static assets) and runs its DNS. Cloudflare R2 appears in the
+        egress table and currently ranks first there, because it charges nothing
+        for egress — a published fact anyone can check against
+        <a href="https://developers.cloudflare.com/r2/pricing/" rel="nofollow noopener" target="_blank">their pricing page</a>,
+        not a favour. You should still know who serves the page telling you so.
+      </li>
+      <li>
+        <strong style="color:var(--fg)">GitHub</strong>, a Microsoft subsidiary,
+        hosts the repository and runs the price collectors on GitHub Actions.
+        Microsoft Azure appears in these tables.
+      </li>
+    </ul>
+    <p class="muted">
+      Neither is a sponsorship, and no money moves in either direction: both sit
+      on the ordinary free tiers any user can sign up for — no credits, no
+      negotiated terms, no agreement of any kind. The honest position is that any
+      host fast and cheap enough to run a site like this is a company this site
+      indexes, so the answer is disclosure rather than pretending otherwise.
     </p>
 
     <h2 style="font-size:19px;margin:32px 0 8px">Where this is wrong</h2>
