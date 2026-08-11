@@ -1,0 +1,277 @@
+@import 'tailwindcss';
+
+/* Dense-data palette: near-neutral surfaces so the numbers carry the colour. */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace;
+}
+
+:root {
+  --bg: #ffffff;
+  --bg-soft: #f7f8fa;
+  --bg-inset: #eef0f4;
+  --fg: #14161a;
+  --fg-muted: #5c6470;
+  --fg-faint: #868e9c;
+  --border: #e2e5ea;
+  --border-strong: #cbd1da;
+  --accent: #1a6fd4;
+  --accent-soft: #e8f1fc;
+  --win: #0f7a4a;
+  --win-soft: #e6f5ee;
+  --warn: #a15c00;
+  --warn-soft: #fdf3e2;
+}
+
+/* System preference is the default signal; the explicit toggle below overrides it. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0d0f13;
+    --bg-soft: #14171d;
+    --bg-inset: #1b1f27;
+    --fg: #e8ebf0;
+    --fg-muted: #99a2b0;
+    --fg-faint: #6c7481;
+    --border: #242932;
+    --border-strong: #333a46;
+    --accent: #62a8f5;
+    --accent-soft: #16273c;
+    --win: #45c98b;
+    --win-soft: #12291f;
+    --warn: #e0a34a;
+    --warn-soft: #2a2010;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0d0f13;
+  --bg-soft: #14171d;
+  --bg-inset: #1b1f27;
+  --fg: #e8ebf0;
+  --fg-muted: #99a2b0;
+  --fg-faint: #6c7481;
+  --border: #242932;
+  --border-strong: #333a46;
+  --accent: #62a8f5;
+  --accent-soft: #16273c;
+  --win: #45c98b;
+  --win-soft: #12291f;
+  --warn: #e0a34a;
+  --warn-soft: #2a2010;
+}
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  line-height: 1.55;
+  font-size: 15px;
+}
+
+* { box-sizing: border-box; }
+
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
+.wrap-narrow { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+/* Tailwind's preflight zeroes margins and strips list markers. Prose pages
+   (methodology especially) rely on them, so restore sane defaults. Anything
+   with an inline margin still wins, since inline styles beat this. */
+main p { margin: 0 0 12px; }
+main ul, main ol { margin: 0 0 14px; padding-left: 22px; }
+main ul { list-style: disc; }
+main ol { list-style: decimal; }
+main li { margin: 4px 0; }
+main li::marker { color: var(--fg-faint); }
+main code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--bg-inset);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+/* ------------------------------------------------------------------ table */
+.table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+table.rc-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 13.5px;
+}
+
+table.rc-table th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg-soft);
+  border-bottom: 1px solid var(--border-strong);
+  padding: 9px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--fg-muted);
+  white-space: nowrap;
+}
+
+table.rc-table th[aria-sort] { cursor: pointer; user-select: none; }
+table.rc-table th[aria-sort]:hover { color: var(--fg); }
+table.rc-table th[aria-sort='ascending']::after { content: ' ▲'; color: var(--accent); }
+table.rc-table th[aria-sort='descending']::after { content: ' ▼'; color: var(--accent); }
+
+table.rc-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+table.rc-table tbody tr:hover td { background: var(--bg-soft); }
+table.rc-table tbody tr:last-child td { border-bottom: none; }
+table.rc-table tr.is-cheapest td { background: var(--win-soft); }
+table.rc-table tr.is-cheapest:hover td { background: var(--win-soft); filter: brightness(0.98); }
+
+.right { text-align: right; }
+
+/* ------------------------------------------------------------------ chips */
+.chip {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.chip-shared { background: var(--warn-soft); color: var(--warn); border-color: color-mix(in srgb, var(--warn) 25%, transparent); }
+.chip-dedicated { background: var(--bg-inset); color: var(--fg-muted); border-color: var(--border); }
+.chip-arm { background: var(--accent-soft); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 25%, transparent); }
+.chip-win { background: var(--win-soft); color: var(--win); border-color: color-mix(in srgb, var(--win) 30%, transparent); }
+.chip-unverified { background: var(--warn-soft); color: var(--warn); border-color: color-mix(in srgb, var(--warn) 25%, transparent); }
+
+/* --------------------------------------------------------------- controls */
+.control {
+  background: var(--bg);
+  border: 1px solid var(--border-strong);
+  color: var(--fg);
+  border-radius: 8px;
+  padding: 7px 10px;
+  font-size: 13.5px;
+  font-family: inherit;
+}
+.control:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+input[type='range'] { accent-color: var(--accent); }
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  background: var(--bg);
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+a.card:hover { border-color: var(--border-strong); background: var(--bg-soft); text-decoration: none; }
+
+.muted { color: var(--fg-muted); }
+.faint { color: var(--fg-faint); }
+
+/* --------------------------------------------- homepage egress spread chart */
+/* Provider and instance name get their own columns so neither is truncated;
+   the bar track takes the remaining space and the prices stay right-aligned. */
+.spread-row {
+  display: grid;
+  grid-template-columns: 78px minmax(160px, 220px) 1fr minmax(132px, auto);
+  gap: 18px;
+  align-items: center;
+  padding: 2px 0;
+}
+.spread-row .sku {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  /* Stack provider over SKU rather than dropping the SKU: several providers
+     appear more than once in this chart, so without it the rows are ambiguous.
+     Bars and price span both rows and stay vertically centred. */
+  .spread-row {
+    grid-template-columns: 104px 1fr minmax(112px, auto);
+    column-gap: 11px;
+    row-gap: 0;
+  }
+  .spread-row > :nth-child(1) { grid-column: 1; grid-row: 1; line-height: 1.3; }
+  .spread-row .sku { grid-column: 1; grid-row: 2; font-size: 10.5px; line-height: 1.3; }
+  .spread-row > :nth-child(3) { grid-column: 2; grid-row: 1 / span 2; }
+  .spread-row > :nth-child(4) { grid-column: 3; grid-row: 1 / span 2; }
+}
+
+details.notes summary { cursor: pointer; color: var(--fg-faint); font-size: 12px; }
+details.notes summary:hover { color: var(--accent); }
+
+/* Keep the provider visible while the table scrolls sideways. */
+table.rc-table th:first-child,
+table.rc-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--bg);
+}
+table.rc-table th:first-child { z-index: 3; background: var(--bg-soft); }
+table.rc-table tbody tr:hover td:first-child { background: var(--bg-soft); }
+table.rc-table tr.is-cheapest td:first-child { background: var(--win-soft); }
+
+@media (max-width: 860px) {
+  /* Drop secondary columns so the headline "Effective $/mo" is reachable
+     without scrolling past five things nobody sorted by. */
+  table.rc-table .col-optional { display: none; }
+}
+
+@media (max-width: 640px) {
+  table.rc-table { font-size: 12.5px; }
+  table.rc-table td, table.rc-table th { padding: 7px 9px; }
+  .hide-sm { display: none; }
+
+  /* Long SKU names would otherwise push the price columns off a phone screen. */
+  table.rc-table td:nth-child(2) {
+    max-width: 148px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .wrap, .wrap-narrow { padding: 0 14px; }
+  header .wrap { gap: 12px !important; }
+  header nav { gap: 12px !important; font-size: 13px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

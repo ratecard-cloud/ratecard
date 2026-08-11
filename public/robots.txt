@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cloudindex.dev/sitemap-index.xml

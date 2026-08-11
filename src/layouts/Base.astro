@@ -1,0 +1,95 @@
+---
+import '../styles/global.css';
+import { MANIFEST, freshness } from '../lib/data';
+
+interface Props { title: string; description: string; wide?: boolean }
+const { title, description, wide = true } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const nav = [
+  ['/compute', 'Compute'],
+  ['/egress', 'Egress'],
+  ['/methodology', 'Methodology'],
+];
+const here = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <!-- Set the theme before first paint so the toggle never flashes. -->
+    <script is:inline>
+      try {
+        const t = localStorage.getItem('rc-theme');
+        if (t) document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <header style="border-bottom:1px solid var(--border)">
+      <div class={wide ? 'wrap' : 'wrap-narrow'}
+           style="display:flex;align-items:center;gap:22px;height:56px">
+        <a href="/" style="font-weight:700;letter-spacing:-0.02em;color:var(--fg);text-decoration:none">
+          Rate<span style="color:var(--accent)">Card</span>
+        </a>
+        <nav style="display:flex;gap:18px;font-size:14px">
+          {nav.map(([href, label]) => (
+            <a href={href}
+               aria-current={here === href ? 'page' : undefined}
+               style={`color:${here === href ? 'var(--fg)' : 'var(--fg-muted)'};text-decoration:none;font-weight:${here === href ? 600 : 400}`}>
+              {label}
+            </a>
+          ))}
+        </nav>
+        <div style="margin-left:auto;display:flex;align-items:center;gap:14px">
+          <span class="faint hide-sm" style="font-size:12px">
+            Updated {freshness(MANIFEST.generated_at)}
+          </span>
+          <button id="theme-toggle" class="control" aria-label="Toggle colour theme"
+                  style="padding:5px 9px;line-height:1;cursor:pointer">
+            <span aria-hidden="true">◐</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main><slot /></main>
+
+    <footer style="border-top:1px solid var(--border);margin-top:64px;padding:28px 0 44px">
+      <div class={wide ? 'wrap' : 'wrap-narrow'}>
+        <p class="muted" style="font-size:13px;max-width:70ch;margin:0 0 14px">
+          <strong style="color:var(--fg)">List / on-demand prices only.</strong>
+          Real bills include committed-use discounts, taxes, support plans, inter-AZ
+          and inter-region transfer, and storage you provision separately. Always
+          verify against the provider's own pricing page before making a decision.
+        </p>
+        <p class="faint" style="font-size:12.5px;margin:0">
+          <a href="/methodology">Methodology</a> ·
+          <a href="/methodology#sources">Data sources</a> ·
+          <a href="https://github.com/ratecard-cloud/ratecard">Open data &amp; pipeline</a>
+          <br />
+          Not affiliated with any provider listed. No paid placements, no sponsored rankings.
+        </p>
+      </div>
+    </footer>
+
+    <script is:inline>
+      document.getElementById('theme-toggle')?.addEventListener('click', () => {
+        const el = document.documentElement;
+        const dark = el.dataset.theme
+          ? el.dataset.theme === 'dark'
+          : matchMedia('(prefers-color-scheme: dark)').matches;
+        el.dataset.theme = dark ? 'light' : 'dark';
+        try { localStorage.setItem('rc-theme', el.dataset.theme); } catch {}
+      });
+    </script>
+  </body>
+</html>

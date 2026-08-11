@@ -1,0 +1,103 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  EGRESS, PROVIDERS, REGIONS, egressCost, usd, gbLabel, MANIFEST, freshness,
+} from '../lib/data';
+
+const VOLUMES = [1024, 10240, 51200, 102400];
+const region = 'us-east';
+
+const rows = EGRESS
+  .filter((e) => e.region === region)
+  .map((e) => ({
+    e,
+    costs: VOLUMES.map((v) => egressCost(e, v)),
+    headline: e.tiers[0].usd_per_gb,
+  }))
+  .sort((a, b) => a.costs[1] - b.costs[1]);
+
+const title = 'Cloud egress pricing compared — the bandwidth tax — RateCard';
+const description =
+  'What each cloud charges to send data to the internet: AWS, Azure, OCI, ' +
+  'Linode, Vultr, Hetzner, Cloudflare R2 and Backblaze B2, per GB and at volume.';
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:36px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Egress</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:76ch">
+      The cost of sending data out to the internet. This is the single largest
+      source of surprise on a cloud bill, the least comparable line item between
+      providers, and where the spread between cheapest and dearest is measured in
+      multiples rather than percentages.
+    </p>
+    <p class="faint" style="margin:0 0 22px;font-size:13px">
+      {REGIONS[region].label} · outbound to internet · collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th class="right">First paid GB</th>
+            <th class="right">Free / bundled</th>
+            {VOLUMES.map((v) => <th class="right">{gbLabel(v)}/mo</th>)}
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(({ e, costs, headline }) => (
+            <tr class={costs[1] === Math.min(...rows.map((r) => r.costs[1])) ? 'is-cheapest' : ''}>
+              <td>
+                <strong>{PROVIDERS[e.provider].short}</strong>
+                {e.confidence !== 'high' && (
+                  <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
+                )}
+              </td>
+              <td class="right num">
+                {headline === 0 ? <span style="color:var(--win);font-weight:700">free</span>
+                  : `$${headline.toFixed(5).replace(/0+$/, '').replace(/\.$/, '')}`}
+              </td>
+              <td class="right num faint">
+                {e.bundled_with_compute
+                  ? 'per plan'
+                  : e.free_gb_per_month
+                    ? gbLabel(e.free_gb_per_month)
+                    : '—'}
+              </td>
+              {costs.map((c) => (
+                <td class="right num" style={c === 0 ? 'color:var(--win);font-weight:600' : ''}>
+                  {c === 0 ? 'free' : usd(c)}
+                </td>
+              ))}
+              <td>
+                <a href={e.source_url} rel="nofollow noopener" target="_blank"
+                   class="faint" style="font-size:12px">source ↗</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="faint" style="font-size:12.5px;margin:14px 0 0;max-width:82ch">
+      Volume columns assume a standalone bill with no bundled allowance applied —
+      for Hetzner, DigitalOcean, Linode and Vultr the plan allowance (shown on the
+      <a href="/compute">compute page</a>) is consumed first, so these figures are
+      the overage rate only and overstate what most users pay.
+    </p>
+
+    <h2 style="font-size:18px;margin:38px 0 10px;letter-spacing:-0.01em">Notes and caveats</h2>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      {rows.filter(({ e }) => e.notes.length).map(({ e }) => (
+        <div class="card" style="padding:13px 15px">
+          <strong style="font-size:13.5px">{PROVIDERS[e.provider].short}</strong>
+          <ul class="muted" style="margin:6px 0 0;padding-left:18px;font-size:13px">
+            {e.notes.map((n) => <li>{n}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,75 @@
+name: Refresh prices
+
+on:
+  schedule:
+    - cron: '17 5 * * *' # daily, off the hour to avoid provider API rush
+  workflow_dispatch:
+
+# The commit this job makes IS the public changelog, so it needs write access.
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-prices
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 23
+          cache: npm
+
+      - run: npm ci
+
+      # NOTE: do NOT cache data/cache/ here. The AWS collector prefers a cached
+      # CSV when one exists, so restoring yesterday's file would freeze AWS
+      # prices permanently — the one failure this site cannot tolerate.
+      # The ~600 MB download costs ~3-4 min and runs once a day. That is the
+      # correct trade. data/cache/ is a local-dev convenience only.
+
+      - name: Collect prices
+        env:
+          HETZNER_API_TOKEN: ${{ secrets.HETZNER_API_TOKEN }}
+          DO_API_TOKEN: ${{ secrets.DO_API_TOKEN }}
+          GCP_API_KEY: ${{ secrets.GCP_API_KEY }}
+        run: npm run data
+
+      # Guard against a provider returning an empty-but-valid response and
+      # silently wiping the dataset.
+      - name: Sanity-check the diff
+        run: |
+          COUNT=$(node -p "require('./data/normalized/compute.json').length")
+          echo "compute records: $COUNT"
+          if [ "$COUNT" -lt 100 ]; then
+            echo "::error::Only $COUNT compute records — refusing to commit a likely-broken dataset."
+            exit 1
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit price changes
+        run: |
+          git config user.name  "ratecard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No price changes today."
+            exit 0
+          fi
+          # Summarise what moved so the commit log reads as a changelog.
+          SUMMARY=$(git diff --staged --stat -- data/normalized | tail -1)
+          git commit -m "data: refresh prices ($(date -u +%Y-%m-%d))" -m "$SUMMARY"
+          git push
+
+      # No deploy step needed: Cloudflare Pages (or Netlify) git integration
+      # rebuilds on this push. If you'd rather deploy from CI than give the host
+      # repo access, add wrangler here instead:
+      #   npx wrangler pages deploy dist --project-name=ratecard
+      # with CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID in secrets.

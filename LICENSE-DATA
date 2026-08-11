@@ -1,0 +1,63 @@
+RateCard price dataset — Creative Commons Attribution 4.0 International
+
+SPDX-License-Identifier: CC-BY-4.0
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Ademar Gonzalez
+
+
+WHAT THIS COVERS
+────────────────
+Everything under data/ — the normalized datasets (data/normalized/), the
+curated schedules (data/curated/), the provider and region registries, and
+the schema. This is the compilation: the selection of providers, the choice
+of comparable machine shapes, the normalization rules, and the arrangement.
+
+Code is licensed separately under MIT; see LICENSE.
+
+
+WHAT YOU MAY DO
+───────────────
+Share and adapt the dataset for any purpose, including commercially, provided
+you give appropriate credit, link to this licence, and indicate if changes
+were made.
+
+
+HOW TO ATTRIBUTE
+────────────────
+A visible credit with a working link is enough:
+
+    Pricing data from RateCard (https://ratecard.cloud), CC BY 4.0.
+
+If you modified the data, say so — stale or altered prices attributed to us
+without a note damage the thing that makes this dataset worth using.
+
+
+AN HONEST NOTE ON WHAT IS ENFORCEABLE
+─────────────────────────────────────
+Individual prices are facts. In the United States facts are not copyrightable
+(Feist v. Rural Telephone, 499 U.S. 340), so no licence can restrict quoting
+that AWS charges a particular rate — nor should one try. What copyright can
+reach is the compilation: the selection, normalization, and arrangement above.
+The European Union additionally recognises sui generis database rights, which
+this licence covers where they apply.
+
+In practice this licence sets an expectation rather than a threat. The point
+of choosing CC BY over public domain is attribution: if you build on this,
+link back.
+
+
+NO WARRANTY
+───────────
+These are list prices collected from public sources and published in good
+faith. They will sometimes be stale or wrong. Nothing here is a quote, an
+offer, or financial advice, and the dataset comes with no warranty of accuracy
+or fitness for any purpose. Verify against the provider before spending money.
+
+
+TRADEMARKS
+──────────
+Provider names, service names, and logos belong to their respective owners.
+They are used here nominatively, to identify the services being priced.
+No affiliation with or endorsement by any provider is claimed or implied.

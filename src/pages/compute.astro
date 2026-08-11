@@ -1,0 +1,167 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  COMPUTE, EGRESS, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS,
+  effectiveMonthly, usd, gbLabel, MANIFEST, freshness,
+} from '../lib/data';
+
+const DEFAULT_REGION = 'us-east';
+const DEFAULT_SHAPE = '4/16';
+const DEFAULT_EGRESS = 1024;
+
+// Server-render the default view so crawlers (and no-JS users) get a real table.
+const [dv, dr] = DEFAULT_SHAPE.split('/').map(Number);
+const initial = COMPUTE
+  .filter((r) => r.region === DEFAULT_REGION && r.vcpu === dv && r.ram_gb === dr)
+  .map((r) => ({ r, e: effectiveMonthly(r, DEFAULT_EGRESS) }))
+  .sort((a, b) => a.e.total - b.e.total);
+
+const cheapest = initial[0]?.e.total;
+
+const payload = {
+  compute: COMPUTE,
+  egress: EGRESS,
+  providers: Object.fromEntries(
+    Object.entries(PROVIDERS).map(([k, v]) => [k, { short: v.short, name: v.name, url: v.url }]),
+  ),
+};
+
+const title = 'Cloud compute pricing compared — RateCard';
+const description =
+  'Side-by-side on-demand VM pricing across AWS, Azure, OCI, Linode and Vultr, ' +
+  'including the cost of egress. List prices, sourced and dated. No login.';
+---
+
+<Base title={title} description={description}>
+  <div class="sticky-bar">
+    <div class="wrap" style="padding-top:12px;padding-bottom:12px">
+      <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end">
+        <label style="display:flex;flex-direction:column;gap:4px">
+          <span class="faint" style="font-size:11px;text-transform:uppercase;letter-spacing:.05em">Region</span>
+          <select id="f-region" class="control">
+            {Object.entries(REGIONS).map(([k, v]) => (
+              <option value={k} selected={k === DEFAULT_REGION}>{v.label}</option>
+            ))}
+          </select>
+        </label>
+
+        <label style="display:flex;flex-direction:column;gap:4px">
+          <span class="faint" style="font-size:11px;text-transform:uppercase;letter-spacing:.05em">Shape</span>
+          <select id="f-shape" class="control">
+            {SHAPES.map((s) => (
+              <option value={s.key} selected={s.key === DEFAULT_SHAPE}>{s.label}</option>
+            ))}
+          </select>
+        </label>
+
+        <label style="display:flex;flex-direction:column;gap:4px">
+          <span class="faint" style="font-size:11px;text-transform:uppercase;letter-spacing:.05em">CPU</span>
+          <select id="f-cpu" class="control">
+            <option value="">Shared + dedicated</option>
+            <option value="dedicated">Dedicated only</option>
+            <option value="shared">Shared / burstable only</option>
+          </select>
+        </label>
+
+        <label style="display:flex;flex-direction:column;gap:4px">
+          <span class="faint" style="font-size:11px;text-transform:uppercase;letter-spacing:.05em">Arch</span>
+          <select id="f-arch" class="control">
+            <option value="">x86 + ARM</option>
+            <option value="x86_64">x86 only</option>
+            <option value="arm64">ARM only</option>
+          </select>
+        </label>
+
+        <div style="flex:1 1 260px;min-width:240px;display:flex;flex-direction:column;gap:2px">
+          <span class="faint" style="font-size:11px;text-transform:uppercase;letter-spacing:.05em">
+            Monthly egress to internet — <strong id="egress-label" style="color:var(--accent)">1 TB</strong>
+          </span>
+          <input id="f-egress" type="range" min="0" max="8" step="1" value="3"
+                 aria-label="Monthly egress to internet" style="width:100%" />
+          <span class="faint" style="font-size:11px">
+            Drag to see how the ranking changes once bandwidth is priced in.
+          </span>
+        </div>
+
+        <button id="f-reset" class="control" style="cursor:pointer">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-top:26px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Compute</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:78ch">
+      On-demand Linux VMs at matched vCPU/RAM. <strong style="color:var(--fg)">Effective $/mo</strong>
+      adds the cost of your egress to the instance price — the number that decides
+      real-world cheapest, and the one provider pricing pages never show you.
+    </p>
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
+      <span id="row-count">{initial.length}</span> instances ·
+      {ACTIVE_PROVIDERS.length} providers · prices collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div class="table-scroll">
+      <table class="rc-table" id="grid">
+        <thead>
+          <tr>
+            <th data-sort="provider" aria-sort="none">Provider</th>
+            <th data-sort="sku" aria-sort="none">Instance</th>
+            <th data-sort="cpu" aria-sort="none">CPU</th>
+            <th class="col-optional" data-sort="arch" aria-sort="none">Arch</th>
+            <th class="right col-optional" data-sort="bundled" aria-sort="none">Bundled egress</th>
+            <th class="right col-optional" data-sort="hourly" aria-sort="none">$/hr</th>
+            <th class="right" data-sort="base" aria-sort="none">$/mo</th>
+            <th class="right" data-sort="eg" aria-sort="none">+ egress</th>
+            <th class="right" data-sort="total" aria-sort="ascending">Effective $/mo</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody id="grid-body">
+          {initial.map(({ r, e }) => (
+            <tr class={e.total === cheapest ? 'is-cheapest' : ''}>
+              <td><strong>{PROVIDERS[r.provider].short}</strong></td>
+              <td class="num">{r.display_name}</td>
+              <td>
+                <span class={`chip chip-${r.vcpu_type}`}>
+                  {r.vcpu_type === 'shared' ? 'shared' : 'dedicated'}
+                </span>
+                <span class="faint" style="font-size:11.5px"> {r.vcpu_unit}s</span>
+              </td>
+              <td class="col-optional">
+                {r.arch === 'arm64'
+                  ? <span class="chip chip-arm">ARM</span>
+                  : <span class="faint" style="font-size:12px">x86</span>}
+              </td>
+              <td class="right num faint col-optional">{gbLabel(r.included_egress_gb)}</td>
+              <td class="right num muted col-optional">${r.price_hourly_usd.toFixed(4)}</td>
+              <td class="right num muted">{usd(e.base)}</td>
+              <td class="right num" style={e.egress > 0 ? 'color:var(--warn)' : 'color:var(--fg-faint)'}>
+                {e.egress > 0 ? usd(e.egress) : '—'}
+              </td>
+              <td class="right num" style="font-weight:700">
+                {usd(e.total)}
+                {e.total === cheapest && <span class="chip chip-win" style="margin-left:6px">cheapest</span>}
+              </td>
+              <td>
+                <a href={r.source_url} rel="nofollow noopener" target="_blank"
+                   class="faint" style="font-size:12px">source ↗</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="faint" style="font-size:12.5px;margin:14px 0 0;max-width:80ch">
+      <strong style="color:var(--fg-muted)">Reading this table:</strong>
+      a “shared” vCPU is a slice of a core that may be throttled or burst-credited;
+      a “dedicated” vCPU is not. A <em>thread</em> is one hyperthread (two per physical
+      core); a <em>core</em> is a whole physical core — ARM instances have no SMT, so
+      their vCPUs are genuinely bigger units than x86 vCPUs at the same count.
+      These are not interchangeable, and no benchmark is implied.
+    </p>
+  </div>
+
+  <script is:inline set:html={`window.__RC__=${JSON.stringify(payload)}`}></script>
+  <script src="/compute.js" is:inline></script>
+</Base>

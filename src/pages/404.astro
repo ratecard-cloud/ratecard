@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Not found — RateCard"
+  description="That page does not exist. Jump to the compute or egress price tables."
+>
+  <div class="wrap-narrow" style="padding:72px 20px 40px;text-align:center">
+    <p class="num faint" style="font-size:13px;letter-spacing:.1em;margin:0 0 8px">404</p>
+    <h1 style="font-size:27px;letter-spacing:-0.02em;margin:0 0 10px">
+      No price for that.
+    </h1>
+    <p class="muted" style="margin:0 auto 24px;max-width:46ch">
+      That page doesn't exist. If you followed a link from an old bookmark, the
+      tables have moved around a bit while the site is young.
+    </p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a href="/compute" class="control"
+         style="background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600;text-decoration:none;padding:9px 16px">
+        Compute prices
+      </a>
+      <a href="/egress" class="control" style="text-decoration:none;padding:9px 16px">
+        Egress prices
+      </a>
+    </div>
+  </div>
+</Base>

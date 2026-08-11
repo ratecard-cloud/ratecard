@@ -1,0 +1,12 @@
+{
+  "us-east": {
+    "label": "US East",
+    "blurb": "Northern Virginia / New Jersey / Ashburn — the default cheapest US region for most providers.",
+    "default": true
+  },
+  "eu-central": {
+    "label": "EU Central",
+    "blurb": "Frankfurt / Nuremberg / Amsterdam — the default EU region for most providers.",
+    "default": false
+  }
+}

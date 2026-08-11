@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-08-11T14:28:25.733Z",
+ "duration_ms": 13507,
+ "compute_records": 198,
+ "egress_records": 20,
+ "providers": {
+  "aws": {
+   "state": "ok",
+   "records": 64,
+   "ms": 7312
+  },
+  "azure": {
+   "state": "ok",
+   "records": 22,
+   "ms": 3489
+  },
+  "gcp": {
+   "state": "skipped",
+   "reason": "GCP_API_KEY not set — see README \"Credentials\""
+  },
+  "oci": {
+   "state": "ok",
+   "records": 16,
+   "ms": 1367
+  },
+  "hetzner": {
+   "state": "skipped",
+   "reason": "HETZNER_API_TOKEN not set — see README \"Credentials\""
+  },
+  "digitalocean": {
+   "state": "skipped",
+   "reason": "DO_API_TOKEN not set — see README \"Credentials\""
+  },
+  "linode": {
+   "state": "ok",
+   "records": 48,
+   "ms": 170
+  },
+  "vultr": {
+   "state": "ok",
+   "records": 48,
+   "ms": 638
+  }
+ }
+}

@@ -1,0 +1,163 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  COMPUTE, PROVIDERS, ACTIVE_PROVIDERS, MANIFEST,
+  effectiveMonthly, egressSchedule, usd, gbLabel, freshness,
+} from '../lib/data';
+
+/** Cheapest at a given shape and egress volume, for the headline table. */
+function cheapestAt(vcpu: number, ram: number, gb: number) {
+  return COMPUTE
+    .filter((r) => r.region === 'us-east' && r.vcpu === vcpu && r.ram_gb === ram)
+    .map((r) => ({ r, e: effectiveMonthly(r, gb) }))
+    .sort((a, b) => a.e.total - b.e.total)[0];
+}
+
+const WORKLOADS = [
+  { label: 'Quiet API server', vcpu: 2, ram: 8, gb: 100, blurb: 'barely any egress' },
+  { label: 'Busy web app', vcpu: 4, ram: 16, gb: 1024, blurb: '1 TB out' },
+  { label: 'Media / download host', vcpu: 4, ram: 16, gb: 20480, blurb: '20 TB out' },
+  { label: 'Heavy streaming', vcpu: 8, ram: 32, gb: 51200, blurb: '50 TB out' },
+].map((w) => ({ ...w, best: cheapestAt(w.vcpu, w.ram, w.gb) }));
+
+// The egress-tax story: same instance shape, cost at 0 vs 20 TB.
+const shape = { vcpu: 4, ram: 16 };
+const spread = COMPUTE
+  .filter((r) => r.region === 'us-east' && r.vcpu === shape.vcpu && r.ram_gb === shape.ram)
+  .map((r) => ({
+    r,
+    zero: effectiveMonthly(r, 0).total,
+    heavy: effectiveMonthly(r, 20480).total,
+  }))
+  .sort((a, b) => a.heavy - b.heavy);
+
+const maxHeavy = Math.max(...spread.map((s) => s.heavy));
+const title = 'RateCard — cloud list prices, with egress included';
+const description =
+  'Side-by-side list pricing for cloud compute and bandwidth across AWS, Azure, ' +
+  'OCI, Linode and Vultr. Every price sourced and dated. No login, no sales pitch.';
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:52px">
+    <h1 style="font-size:40px;line-height:1.12;letter-spacing:-0.03em;margin:0 0 14px;max-width:19ch">
+      Cloud pricing, with the egress tax included.
+    </h1>
+    <p class="muted" style="font-size:17px;max-width:62ch;margin:0 0 8px">
+      A <em style="color:var(--fg);font-style:normal">rate card</em> is the published
+      price before anyone negotiates. This is the rate card for the major clouds:
+      what each provider lists, pulled from their own API, stamped with a date, and
+      linked back to source.
+    </p>
+    <p class="faint" style="font-size:14px;margin:0 0 26px">
+      {MANIFEST.compute_records} prices · {ACTIVE_PROVIDERS.length} providers ·
+      updated {freshness(MANIFEST.generated_at)} · no login, no tracking, no paid rankings
+    </p>
+
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:52px">
+      <a href="/compute" class="control"
+         style="background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600;text-decoration:none;padding:9px 16px">
+        Compare compute →
+      </a>
+      <a href="/egress" class="control" style="text-decoration:none;padding:9px 16px">
+        Compare egress
+      </a>
+    </div>
+  </div>
+
+  <!-- ---------------------------------------------------- the egress story -->
+  <div class="wrap" style="margin-bottom:52px">
+    <h2 style="font-size:21px;letter-spacing:-0.02em;margin:0 0 4px">
+      The same server, at two different bandwidth bills
+    </h2>
+    <p class="muted" style="margin:0 0 18px;max-width:74ch;font-size:14.5px">
+      {shape.vcpu} vCPU / {shape.ram} GB in US East. The left number is the instance
+      price everyone quotes. The right number adds 20 TB of outbound traffic — and
+      reorders the entire market.
+    </p>
+
+    <div style="display:flex;flex-direction:column;gap:7px">
+      {spread.map((s) => (
+        <div class="spread-row">
+          <div style="font-size:13px;font-weight:700">{PROVIDERS[s.r.provider].short}</div>
+          <div class="faint num sku" style="font-size:11.5px">{s.r.display_name}</div>
+          {/* Bars are sized against the widest total, so they stay inside this column. */}
+          <div style="display:flex;align-items:center;height:22px" aria-hidden="true">
+            <div style={`height:22px;border-radius:4px 0 0 4px;background:var(--bg-inset);width:${(s.zero / maxHeavy) * 100}%;min-width:3px`}></div>
+            <div style={`height:22px;border-radius:0 4px 4px 0;background:color-mix(in srgb, var(--warn) 55%, transparent);width:${((s.heavy - s.zero) / maxHeavy) * 100}%`}></div>
+          </div>
+          <span class="num right" style="font-size:12.5px;white-space:nowrap">
+            <span class="muted">{usd(s.zero)}</span>
+            <span class="faint"> → </span>
+            <strong>{usd(s.heavy)}</strong>
+          </span>
+        </div>
+      ))}
+    </div>
+    <p class="faint" style="font-size:12px;margin:14px 0 0">
+      <span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--bg-inset);vertical-align:middle"></span>
+      instance ·
+      <span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:color-mix(in srgb, var(--warn) 55%, transparent);vertical-align:middle"></span>
+      20 TB egress. Providers that bundle transfer show little or no orange.
+    </p>
+  </div>
+
+  <!-- --------------------------------------------------------- workloads -->
+  <div class="wrap" style="margin-bottom:52px">
+    <h2 style="font-size:21px;letter-spacing:-0.02em;margin:0 0 14px">
+      Cheapest for a few common shapes
+    </h2>
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Workload</th><th>Shape</th><th>Egress</th>
+            <th>Cheapest</th><th class="right">Effective $/mo</th>
+          </tr>
+        </thead>
+        <tbody>
+          {WORKLOADS.filter((w) => w.best).map((w) => (
+            <tr>
+              <td><strong>{w.label}</strong></td>
+              <td class="num muted">{w.vcpu} vCPU / {w.ram} GB</td>
+              <td class="num muted">{gbLabel(w.gb)}</td>
+              <td>
+                <strong>{PROVIDERS[w.best.r.provider].short}</strong>
+                <span class="faint num" style="font-size:12px"> {w.best.r.display_name}</span>
+              </td>
+              <td class="right num" style="font-weight:700">{usd(w.best.e.total)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="faint" style="font-size:12.5px;margin:12px 0 0">
+      US East, on-demand Linux, list prices. “Cheapest” means lowest effective monthly
+      cost at that egress volume — not fastest, not most reliable, and not a recommendation.
+    </p>
+  </div>
+
+  <!-- --------------------------------------------------------- providers -->
+  <div class="wrap" style="margin-bottom:20px">
+    <h2 style="font-size:21px;letter-spacing:-0.02em;margin:0 0 14px">Coverage</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px">
+      {Object.entries(PROVIDERS).map(([key, p]) => {
+        const st = MANIFEST.providers[key];
+        const live = st?.state === 'ok';
+        return (
+          <div class="card" style="padding:13px">
+            <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
+              <strong style="font-size:14px">{p.short}</strong>
+              {live
+                ? <span class="chip chip-win">{st.records} live</span>
+                : <span class="chip chip-unverified">pending</span>}
+            </div>
+            <div class="faint" style="font-size:11.5px;margin-top:3px">
+              {live ? p.name : (st?.reason ? 'needs credentials' : 'not yet collected')}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</Base>

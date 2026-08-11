@@ -1,0 +1,920 @@
+{
+ "VM.Standard.E4.Flex": {
+  "ocpu": {
+   "partNumber": "B93113",
+   "displayName": "Compute - Standard - E4 - OCPU",
+   "metricName": "OCPU Per Hour",
+   "serviceCategory": "Compute - Virtual Machine",
+   "currencyCodeLocalizations": [
+    {
+     "currencyCode": "AED",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.091825
+      }
+     ]
+    },
+    {
+     "currencyCode": "ARS",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 37.42763
+      }
+     ]
+    },
+    {
+     "currencyCode": "AUD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0375
+      }
+     ]
+    },
+    {
+     "currencyCode": "BHD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0095
+      }
+     ]
+    },
+    {
+     "currencyCode": "BRL",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.1308925
+      }
+     ]
+    },
+    {
+     "currencyCode": "BSD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.025
+      }
+     ]
+    },
+    {
+     "currencyCode": "CAD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.032765
+      }
+     ]
+    },
+    {
+     "currencyCode": "CHF",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.02031
+      }
+     ]
+    },
+    {
+     "currencyCode": "CLP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 22.708125
+      }
+     ]
+    },
+    {
+     "currencyCode": "CNY",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.17055
+      }
+     ]
+    },
+    {
+     "currencyCode": "COP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 95.45
+      }
+     ]
+    },
+    {
+     "currencyCode": "CRC",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 12.502275
+      }
+     ]
+    },
+    {
+     "currencyCode": "CZK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.5742
+      }
+     ]
+    },
+    {
+     "currencyCode": "DKK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.1683
+      }
+     ]
+    },
+    {
+     "currencyCode": "EGP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 1.25232
+      }
+     ]
+    },
+    {
+     "currencyCode": "EUR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.02325
+      }
+     ]
+    },
+    {
+     "currencyCode": "GBP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0199675
+      }
+     ]
+    },
+    {
+     "currencyCode": "HKD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.1937475
+      }
+     ]
+    },
+    {
+     "currencyCode": "HRK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.1889375
+      }
+     ]
+    },
+    {
+     "currencyCode": "HUF",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 8.2634175
+      }
+     ]
+    },
+    {
+     "currencyCode": "IDR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 435.9025
+      }
+     ]
+    },
+    {
+     "currencyCode": "ILS",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.080515
+      }
+     ]
+    },
+    {
+     "currencyCode": "INR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 2.3750625
+      }
+     ]
+    },
+    {
+     "currencyCode": "ISK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 3.17295
+      }
+     ]
+    },
+    {
+     "currencyCode": "JPY",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 3.875
+      }
+     ]
+    },
+    {
+     "currencyCode": "KRW",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 36.13423
+      }
+     ]
+    },
+    {
+     "currencyCode": "KWD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00725
+      }
+     ]
+    },
+    {
+     "currencyCode": "MAD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.24175
+      }
+     ]
+    },
+    {
+     "currencyCode": "MXN",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.45161
+      }
+     ]
+    },
+    {
+     "currencyCode": "MYR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.1114925
+      }
+     ]
+    },
+    {
+     "currencyCode": "NOK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.23737
+      }
+     ]
+    },
+    {
+     "currencyCode": "NZD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.042755
+      }
+     ]
+    },
+    {
+     "currencyCode": "PEN",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.09267
+      }
+     ]
+    },
+    {
+     "currencyCode": "PHP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 1.416
+      }
+     ]
+    },
+    {
+     "currencyCode": "PKR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 6.51863
+      }
+     ]
+    },
+    {
+     "currencyCode": "PLN",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0962225
+      }
+     ]
+    },
+    {
+     "currencyCode": "QAR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.09102
+      }
+     ]
+    },
+    {
+     "currencyCode": "RON",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.11513
+      }
+     ]
+    },
+    {
+     "currencyCode": "RSD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 2.6398175
+      }
+     ]
+    },
+    {
+     "currencyCode": "RUB",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 2.6625
+      }
+     ]
+    },
+    {
+     "currencyCode": "SAR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.09376
+      }
+     ]
+    },
+    {
+     "currencyCode": "SEK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.2411725
+      }
+     ]
+    },
+    {
+     "currencyCode": "SGD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0345475
+      }
+     ]
+    },
+    {
+     "currencyCode": "THB",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.8752425
+      }
+     ]
+    },
+    {
+     "currencyCode": "TRY",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 1.093995
+      }
+     ]
+    },
+    {
+     "currencyCode": "TTD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.1695
+      }
+     ]
+    },
+    {
+     "currencyCode": "TWD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.780025
+      }
+     ]
+    },
+    {
+     "currencyCode": "USD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.025
+      }
+     ]
+    },
+    {
+     "currencyCode": "VND",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 659.375
+      }
+     ]
+    },
+    {
+     "currencyCode": "ZAR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.424215
+      }
+     ]
+    }
+   ]
+  },
+  "memory": {
+   "partNumber": "B93114",
+   "displayName": "Compute - Standard - E4  - Memory",
+   "metricName": "Gigabyte Per Hour",
+   "serviceCategory": "Compute - Virtual Machine",
+   "currencyCodeLocalizations": [
+    {
+     "currencyCode": "AED",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0055095
+      }
+     ]
+    },
+    {
+     "currencyCode": "ARS",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 2.2456578
+      }
+     ]
+    },
+    {
+     "currencyCode": "AUD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00225
+      }
+     ]
+    },
+    {
+     "currencyCode": "BHD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00057
+      }
+     ]
+    },
+    {
+     "currencyCode": "BRL",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00785355
+      }
+     ]
+    },
+    {
+     "currencyCode": "BSD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0015
+      }
+     ]
+    },
+    {
+     "currencyCode": "CAD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0019659
+      }
+     ]
+    },
+    {
+     "currencyCode": "CHF",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0012186
+      }
+     ]
+    },
+    {
+     "currencyCode": "CLP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 1.3624875
+      }
+     ]
+    },
+    {
+     "currencyCode": "CNY",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.010233
+      }
+     ]
+    },
+    {
+     "currencyCode": "COP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 5.727
+      }
+     ]
+    },
+    {
+     "currencyCode": "CRC",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.7501365
+      }
+     ]
+    },
+    {
+     "currencyCode": "CZK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.034452
+      }
+     ]
+    },
+    {
+     "currencyCode": "DKK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.010098
+      }
+     ]
+    },
+    {
+     "currencyCode": "EGP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0751392
+      }
+     ]
+    },
+    {
+     "currencyCode": "EUR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.001395
+      }
+     ]
+    },
+    {
+     "currencyCode": "GBP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00119805
+      }
+     ]
+    },
+    {
+     "currencyCode": "HKD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.01162485
+      }
+     ]
+    },
+    {
+     "currencyCode": "HRK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.01133625
+      }
+     ]
+    },
+    {
+     "currencyCode": "HUF",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.49580505
+      }
+     ]
+    },
+    {
+     "currencyCode": "IDR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 26.15415
+      }
+     ]
+    },
+    {
+     "currencyCode": "ILS",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0048309
+      }
+     ]
+    },
+    {
+     "currencyCode": "INR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.14250375
+      }
+     ]
+    },
+    {
+     "currencyCode": "ISK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.190377
+      }
+     ]
+    },
+    {
+     "currencyCode": "JPY",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.2325
+      }
+     ]
+    },
+    {
+     "currencyCode": "KRW",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 2.1680538
+      }
+     ]
+    },
+    {
+     "currencyCode": "KWD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.000435
+      }
+     ]
+    },
+    {
+     "currencyCode": "MAD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.014505
+      }
+     ]
+    },
+    {
+     "currencyCode": "MXN",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0270966
+      }
+     ]
+    },
+    {
+     "currencyCode": "MYR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00668955
+      }
+     ]
+    },
+    {
+     "currencyCode": "NOK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0142422
+      }
+     ]
+    },
+    {
+     "currencyCode": "NZD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0025653
+      }
+     ]
+    },
+    {
+     "currencyCode": "PEN",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0055602
+      }
+     ]
+    },
+    {
+     "currencyCode": "PHP",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.08496
+      }
+     ]
+    },
+    {
+     "currencyCode": "PKR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.3911178
+      }
+     ]
+    },
+    {
+     "currencyCode": "PLN",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00577335
+      }
+     ]
+    },
+    {
+     "currencyCode": "QAR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0054612
+      }
+     ]
+    },
+    {
+     "currencyCode": "RON",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0069078
+      }
+     ]
+    },
+    {
+     "currencyCode": "RSD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.15838905
+      }
+     ]
+    },
+    {
+     "currencyCode": "RUB",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.15975
+      }
+     ]
+    },
+    {
+     "currencyCode": "SAR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0056256
+      }
+     ]
+    },
+    {
+     "currencyCode": "SEK",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.01447035
+      }
+     ]
+    },
+    {
+     "currencyCode": "SGD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.00207285
+      }
+     ]
+    },
+    {
+     "currencyCode": "THB",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.05251455
+      }
+     ]
+    },
+    {
+     "currencyCode": "TRY",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0656397
+      }
+     ]
+    },
+    {
+     "currencyCode": "TTD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.01017
+      }
+     ]
+    },
+    {
+     "currencyCode": "TWD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0468015
+      }
+     ]
+    },
+    {
+     "currencyCode": "USD",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0015
+      }
+     ]
+    },
+    {
+     "currencyCode": "VND",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 39.5625
+      }
+     ]
+    },
+    {
+     "currencyCode": "ZAR",
+     "prices": [
+      {
+       "model": "PAY_AS_YOU_GO",
+       "value": 0.0254529
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

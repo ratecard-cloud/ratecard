@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+data/cache/
+.DS_Store
+.env
+
+# Local scratch, never published
+.local/

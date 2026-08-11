@@ -1,0 +1,188 @@
+---
+import Base from '../layouts/Base.astro';
+import { PROVIDERS, MANIFEST, freshness } from '../lib/data';
+
+const title = 'Methodology — how RateCard collects and normalises prices';
+const description =
+  'Exactly how RateCard gathers cloud pricing, what it normalises, what it ' +
+  'deliberately excludes, and where the numbers can be wrong.';
+---
+
+<Base title={title} description={description} wide={false}>
+  <div class="wrap-narrow" style="padding-top:38px;font-size:15px;line-height:1.65">
+    <h1 style="font-size:27px;letter-spacing:-0.02em;margin:0 0 6px">Methodology</h1>
+    <p class="faint" style="margin:0 0 30px;font-size:13px">
+      Data last collected {freshness(MANIFEST.generated_at)} ·
+      {MANIFEST.compute_records} compute prices
+    </p>
+
+    <h2 style="font-size:19px;margin:0 0 8px">What these numbers are</h2>
+    <p class="muted">
+      Public, on-demand, pay-as-you-go <strong style="color:var(--fg)">list prices</strong> for
+      Linux workloads, in USD, before tax. Nothing here reflects an actual bill.
+    </p>
+    <p class="muted">Specifically excluded, because they are not comparable between providers:</p>
+    <ul class="muted">
+      <li>Reserved instances, savings plans, and committed-use discounts</li>
+      <li>Spot, preemptible, and interruptible capacity</li>
+      <li>Enterprise agreements and negotiated rates</li>
+      <li>Free trial credits and promotional pricing</li>
+      <li>Support plans, taxes, and currency surcharges</li>
+      <li>Inter-AZ and inter-region transfer (only internet egress is priced)</li>
+      <li>Boot disks, snapshots, load balancers, and IP address charges</li>
+    </ul>
+    <p class="muted">
+      GCP's sustained-use discounts are a notable omission: they apply automatically
+      on real bills, so GCP's true cost for a month-long workload is lower than the
+      list price shown here.
+    </p>
+
+    <h2 style="font-size:19px;margin:32px 0 8px">Normalisation rules</h2>
+    <p class="muted">
+      A month is <strong style="color:var(--fg)">730 hours</strong>. Where a provider
+      quotes only an hourly rate, monthly is hourly × 730. Where a provider quotes a
+      monthly price <em>lower</em> than hourly × 730, that price is a billing cap and
+      is used as-is, with a note on the row.
+    </p>
+    <p class="muted">
+      Instances are grouped by matched vCPU count and RAM. That match is
+      <strong style="color:var(--fg)">not</strong> a performance equivalence, and the
+      table says so in two columns rather than burying it:
+    </p>
+    <ul class="muted">
+      <li>
+        <strong style="color:var(--fg)">shared vs dedicated</strong> — a shared vCPU is
+        a slice of a physical core, often burst-credited (AWS <code>t</code>-family,
+        Vultr Regular, Linode Shared). Sustained full load can throttle or cost more.
+      </li>
+      <li>
+        <strong style="color:var(--fg)">thread vs core</strong> — an x86 vCPU is one
+        hyperthread; two share a physical core. ARM cores (Graviton, Ampere) have no
+        SMT, so one ARM vCPU is a whole physical core. An 8-vCPU Graviton instance has
+        twice the physical cores of an 8-vCPU Intel instance.
+      </li>
+    </ul>
+    <p class="muted">
+      OCI prices flexible shapes per OCPU, where one OCPU is a full physical core.
+      We record those as 2 vCPU each so the count means the same thing as everywhere
+      else, and build the shapes to match the comparison grid rather than OCI's
+      default memory ratio.
+    </p>
+    <p class="muted">
+      GCP publishes no per-machine-type price at all — only separate per-vCPU-hour and
+      per-GB-hour SKUs. Its instance prices here are reassembled from those components
+      and marked <span class="chip chip-unverified">medium</span> confidence; the
+      arithmetic is shown in each row's notes.
+    </p>
+
+    <h2 style="font-size:19px;margin:32px 0 8px">Effective cost</h2>
+    <p class="muted">The headline number on the compute page is:</p>
+    <pre class="card num" style="font-size:12.5px;overflow-x:auto;padding:13px;background:var(--bg-soft)">effective = instance_monthly
+          + egress_cost(max(0, your_egress
+                              − plan_bundled_allowance
+                              − account_free_tier))</pre>
+    <p class="muted">
+      Bundled per-plan transfer is consumed first, then the account-wide free tier,
+      then paid tiers in order. Providers pool allowances differently — DigitalOcean
+      and Linode pool across the account, Vultr does not — which means a single-instance
+      comparison flatters the pooling providers less than reality. Assume one instance.
+    </p>
+
+    <h2 id="sources" style="font-size:19px;margin:32px 0 8px">Sources</h2>
+    <p class="muted">
+      Prices come from official APIs wherever one exists. Nothing is scraped from a
+      rendered page, and no provider's robots.txt is bypassed.
+    </p>
+    <div class="table-scroll" style="margin:14px 0">
+      <table class="rc-table">
+        <thead><tr><th>Provider</th><th>Method</th><th>Status</th></tr></thead>
+        <tbody>
+          {Object.entries(PROVIDERS).map(([key, p]) => {
+            const st = MANIFEST.providers[key];
+            const method = {
+              api: 'Public pricing API', 'api-key': 'Official API (key required)',
+              'api-token': 'Official API (token required)', curated: 'Curated from official docs',
+            }[p.collector] ?? p.collector;
+            return (
+              <tr>
+                <td><a href={p.url} rel="nofollow noopener" target="_blank">{p.short}</a></td>
+                <td class="muted" style="font-size:12.5px">{method}</td>
+                <td>
+                  {st?.state === 'ok'
+                    ? <span class="chip chip-win">{st.records} live</span>
+                    : <span class="chip chip-unverified">pending</span>}
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="font-size:19px;margin:32px 0 8px">Freshness and verification</h2>
+    <p class="muted">
+      Every record carries two separate timestamps, because an automated fetch and a
+      human check are different claims. <code>collected_at</code> is when a collector
+      last pulled the number. <code>source_verified_at</code> is when a person last
+      compared it against the provider's page. Rows whose numbers come from curated
+      documentation rather than an API are badged
+      <span class="chip chip-unverified">unverified</span> until that human pass happens.
+    </p>
+
+    <h2 id="reuse" style="font-size:19px;margin:32px 0 8px">Reuse this data</h2>
+    <p class="muted">
+      The dataset and the collectors that build it are public. The price data is
+      <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>
+      and the code is MIT, so you can use either for anything, including
+      commercially. Credit it like this:
+    </p>
+    <pre class="card num" style="font-size:12.5px;overflow-x:auto;padding:13px;background:var(--bg-soft)">Pricing data from RateCard (https://ratecard.cloud), CC BY 4.0.</pre>
+    <p class="muted">
+      If you change the numbers, say so. Stale or altered prices credited to us
+      damage the only thing that makes this worth using. The raw JSON lives in
+      <a href="https://github.com/ratecard-cloud/ratecard/tree/main/data/normalized">data/normalized</a>
+      and the git history is a dated record of every price change since launch.
+    </p>
+    <p class="muted">
+      Publishing the pipeline is also the strongest claim we can make about the
+      numbers: you do not have to take our word for how a price was derived, you
+      can read the collector that fetched it.
+    </p>
+
+    <h2 style="font-size:19px;margin:32px 0 8px">Independence</h2>
+    <p class="muted">
+      No provider pays for placement here, and no ranking is for sale. Where
+      affiliate links exist they are marked as such, they never affect ordering,
+      and every ranking on this site is computed from the price data alone.
+    </p>
+    <p class="muted">
+      <strong style="color:var(--fg)">Hosting disclosure:</strong>
+      {/* TODO: name the actual host once chosen. If it is a provider this site
+          ranks — Cloudflare, Hetzner, Netlify-on-AWS — say so explicitly here.
+          A neutrality claim is worth nothing if the host is undisclosed. */}
+      this site is served by a commercial host that also appears in these tables.
+      That is disclosed rather than avoided: any host fast and cheap enough to run
+      a site like this is a company we index. Hosting is paid for at list price
+      like anyone else, with no credits, discounts, or arrangement of any kind.
+    </p>
+
+    <h2 style="font-size:19px;margin:32px 0 8px">Where this is wrong</h2>
+    <p class="muted">
+      Cloud pricing is a moving target and this index will sometimes be stale or
+      mistaken. Known limitations, stated plainly:
+    </p>
+    <ul class="muted">
+      <li>Prices converted from another currency are our arithmetic at a dated FX rate — the provider does not reprice when FX moves.</li>
+      <li>Backblaze B2's free-egress allowance scales with stored bytes, so it cannot be modelled as a flat tier; its column overstates cost.</li>
+      <li>Azure's default Microsoft Global Network routing is indexed; the cheaper opt-in internet routing is not.</li>
+      <li>Bundled-transfer pooling across multiple instances is not modelled.</li>
+      <li>Region coverage is limited to one US and one EU region.</li>
+    </ul>
+    <p class="muted">
+      If a number here is wrong,
+      <a href="https://github.com/ratecard-cloud/ratecard/issues">open an issue</a> —
+      the dataset and the collectors are public, so corrections are a diff rather
+      than a support ticket.
+    </p>
+  </div>
+</Base>

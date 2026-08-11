@@ -1,0 +1,20 @@
+{
+  // Static-assets-only Worker: no `main` entry point, so there is no server-side
+  // code and every request is served straight from Cloudflare's edge cache.
+  // Static asset requests are not billed as Worker invocations.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ratecard",
+  "compatibility_date": "2026-08-01",
+
+  "assets": {
+    "directory": "./dist",
+
+    // Astro builds directory-style routes (/compute/index.html). This serves
+    // /compute and /compute/ from the same file without a redirect loop.
+    "html_handling": "auto-trailing-slash",
+
+    // Serve the real 404 page rather than Cloudflare's generic one. Without
+    // this, an unknown path returns a bare "not found" with no way back.
+    "not_found_handling": "404-page"
+  }
+}
