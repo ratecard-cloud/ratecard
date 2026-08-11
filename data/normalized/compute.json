@@ -16,7 +16,7 @@
   "price_monthly_usd": 85.5,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -41,7 +41,7 @@
   "price_monthly_usd": 60.23,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -66,7 +66,7 @@
   "price_monthly_usd": 74.35,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -91,7 +91,7 @@
   "price_monthly_usd": 35.04,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -117,7 +117,7 @@
   "price_monthly_usd": 28.03,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -143,7 +143,7 @@
   "price_monthly_usd": 101.37,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -168,7 +168,7 @@
   "price_monthly_usd": 71.39,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -193,7 +193,7 @@
   "price_monthly_usd": 88.15,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -218,7 +218,7 @@
   "price_monthly_usd": 70.08,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -244,7 +244,7 @@
   "price_monthly_usd": 56.06,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -270,7 +270,7 @@
   "price_monthly_usd": 171.01,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -295,7 +295,7 @@
   "price_monthly_usd": 120.38,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -320,7 +320,7 @@
   "price_monthly_usd": 148.7,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -345,7 +345,7 @@
   "price_monthly_usd": 202.74,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -370,7 +370,7 @@
   "price_monthly_usd": 142.72,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -395,7 +395,7 @@
   "price_monthly_usd": 176.3,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -420,7 +420,7 @@
   "price_monthly_usd": 140.16,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -446,7 +446,7 @@
   "price_monthly_usd": 112.13,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -472,7 +472,7 @@
   "price_monthly_usd": 342.02,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -497,7 +497,7 @@
   "price_monthly_usd": 240.75,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -522,7 +522,7 @@
   "price_monthly_usd": 297.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -547,7 +547,7 @@
   "price_monthly_usd": 405.47,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -572,7 +572,7 @@
   "price_monthly_usd": 285.43,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -597,7 +597,7 @@
   "price_monthly_usd": 352.59,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -622,7 +622,7 @@
   "price_monthly_usd": 280.32,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -648,7 +648,7 @@
   "price_monthly_usd": 224.26,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -674,7 +674,7 @@
   "price_monthly_usd": 684.04,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -699,7 +699,7 @@
   "price_monthly_usd": 481.51,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -724,7 +724,7 @@
   "price_monthly_usd": 594.8,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -749,7 +749,7 @@
   "price_monthly_usd": 810.94,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -774,7 +774,7 @@
   "price_monthly_usd": 570.93,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -799,7 +799,7 @@
   "price_monthly_usd": 705.18,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:19.537Z",
+  "collected_at": "2026-08-11T17:39:07.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -824,7 +824,7 @@
   "price_monthly_usd": 74.93,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.085Z",
+  "collected_at": "2026-08-11T17:39:03.810Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -849,7 +849,7 @@
   "price_monthly_usd": 52.93,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -874,7 +874,7 @@
   "price_monthly_usd": 65.15,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -899,7 +899,7 @@
   "price_monthly_usd": 30.37,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -925,7 +925,7 @@
   "price_monthly_usd": 24.53,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -951,7 +951,7 @@
   "price_monthly_usd": 84.62,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -976,7 +976,7 @@
   "price_monthly_usd": 59.57,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1001,7 +1001,7 @@
   "price_monthly_usd": 73.58,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1026,7 +1026,7 @@
   "price_monthly_usd": 60.74,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1052,7 +1052,7 @@
   "price_monthly_usd": 49.06,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1078,7 +1078,7 @@
   "price_monthly_usd": 149.85,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1103,7 +1103,7 @@
   "price_monthly_usd": 105.85,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1128,7 +1128,7 @@
   "price_monthly_usd": 130.31,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1153,7 +1153,7 @@
   "price_monthly_usd": 169.24,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1178,7 +1178,7 @@
   "price_monthly_usd": 119.14,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1203,7 +1203,7 @@
   "price_monthly_usd": 147.17,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1228,7 +1228,7 @@
   "price_monthly_usd": 121.47,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1254,7 +1254,7 @@
   "price_monthly_usd": 98.11,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1280,7 +1280,7 @@
   "price_monthly_usd": 299.71,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1305,7 +1305,7 @@
   "price_monthly_usd": 211.7,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1330,7 +1330,7 @@
   "price_monthly_usd": 260.61,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1355,7 +1355,7 @@
   "price_monthly_usd": 338.49,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1380,7 +1380,7 @@
   "price_monthly_usd": 238.27,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1405,7 +1405,7 @@
   "price_monthly_usd": 294.34,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1430,7 +1430,7 @@
   "price_monthly_usd": 242.94,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1456,7 +1456,7 @@
   "price_monthly_usd": 196.22,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1482,7 +1482,7 @@
   "price_monthly_usd": 599.42,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1507,7 +1507,7 @@
   "price_monthly_usd": 423.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1532,7 +1532,7 @@
   "price_monthly_usd": 521.22,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1557,7 +1557,7 @@
   "price_monthly_usd": 676.97,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1582,7 +1582,7 @@
   "price_monthly_usd": 476.54,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1607,7 +1607,7 @@
   "price_monthly_usd": 588.67,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:16.086Z",
+  "collected_at": "2026-08-11T17:39:03.811Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1632,7 +1632,7 @@
   "price_monthly_usd": 70.81,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.021Z",
+  "collected_at": "2026-08-11T17:39:13.315Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1657,7 +1657,7 @@
   "price_monthly_usd": 67.16,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.024Z",
+  "collected_at": "2026-08-11T17:39:13.322Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1682,7 +1682,7 @@
   "price_monthly_usd": 83.95,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.019Z",
+  "collected_at": "2026-08-11T17:39:13.312Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1707,7 +1707,7 @@
   "price_monthly_usd": 141.62,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.023Z",
+  "collected_at": "2026-08-11T17:39:13.318Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1732,7 +1732,7 @@
   "price_monthly_usd": 134.32,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.024Z",
+  "collected_at": "2026-08-11T17:39:13.322Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1757,7 +1757,7 @@
   "price_monthly_usd": 167.9,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.020Z",
+  "collected_at": "2026-08-11T17:39:13.313Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1782,7 +1782,7 @@
   "price_monthly_usd": 283.24,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.023Z",
+  "collected_at": "2026-08-11T17:39:13.320Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1807,7 +1807,7 @@
   "price_monthly_usd": 268.64,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.025Z",
+  "collected_at": "2026-08-11T17:39:13.322Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1832,7 +1832,7 @@
   "price_monthly_usd": 335.8,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.021Z",
+  "collected_at": "2026-08-11T17:39:13.315Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1857,7 +1857,7 @@
   "price_monthly_usd": 566.48,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.023Z",
+  "collected_at": "2026-08-11T17:39:13.320Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1882,7 +1882,7 @@
   "price_monthly_usd": 671.6,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:23.021Z",
+  "collected_at": "2026-08-11T17:39:13.315Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1907,7 +1907,7 @@
   "price_monthly_usd": 61.76,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.531Z",
+  "collected_at": "2026-08-11T17:39:11.177Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1932,7 +1932,7 @@
   "price_monthly_usd": 56.21,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.532Z",
+  "collected_at": "2026-08-11T17:39:11.177Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1957,7 +1957,7 @@
   "price_monthly_usd": 70.08,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.524Z",
+  "collected_at": "2026-08-11T17:39:11.173Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1982,7 +1982,7 @@
   "price_monthly_usd": 123.37,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.531Z",
+  "collected_at": "2026-08-11T17:39:11.177Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2007,7 +2007,7 @@
   "price_monthly_usd": 112.42,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.532Z",
+  "collected_at": "2026-08-11T17:39:11.177Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2032,7 +2032,7 @@
   "price_monthly_usd": 140.16,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.528Z",
+  "collected_at": "2026-08-11T17:39:11.175Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2057,7 +2057,7 @@
   "price_monthly_usd": 246.74,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.531Z",
+  "collected_at": "2026-08-11T17:39:11.177Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2082,7 +2082,7 @@
   "price_monthly_usd": 224.84,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.532Z",
+  "collected_at": "2026-08-11T17:39:11.178Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2107,7 +2107,7 @@
   "price_monthly_usd": 280.32,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.528Z",
+  "collected_at": "2026-08-11T17:39:11.175Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2132,7 +2132,7 @@
   "price_monthly_usd": 494.21,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.532Z",
+  "collected_at": "2026-08-11T17:39:11.177Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2157,7 +2157,7 @@
   "price_monthly_usd": 560.64,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:21.530Z",
+  "collected_at": "2026-08-11T17:39:11.176Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2182,7 +2182,7 @@
   "price_monthly_usd": 36,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2207,7 +2207,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2232,7 +2232,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2257,7 +2257,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2282,7 +2282,7 @@
   "price_monthly_usd": 51.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2307,7 +2307,7 @@
   "price_monthly_usd": 80.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2332,7 +2332,7 @@
   "price_monthly_usd": 72,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2357,7 +2357,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2382,7 +2382,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2407,7 +2407,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2432,7 +2432,7 @@
   "price_monthly_usd": 102.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2457,7 +2457,7 @@
   "price_monthly_usd": 153.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2482,7 +2482,7 @@
   "price_monthly_usd": 144,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2507,7 +2507,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2532,7 +2532,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2557,7 +2557,7 @@
   "price_monthly_usd": 197.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2582,7 +2582,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2607,7 +2607,7 @@
   "price_monthly_usd": 306.6,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2632,7 +2632,7 @@
   "price_monthly_usd": 288,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2657,7 +2657,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2682,7 +2682,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2707,7 +2707,7 @@
   "price_monthly_usd": 394.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2732,7 +2732,7 @@
   "price_monthly_usd": 384,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2757,7 +2757,7 @@
   "price_monthly_usd": 613.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2782,7 +2782,7 @@
   "price_monthly_usd": 36,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2807,7 +2807,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2832,7 +2832,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2857,7 +2857,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2882,7 +2882,7 @@
   "price_monthly_usd": 51.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2907,7 +2907,7 @@
   "price_monthly_usd": 80.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2932,7 +2932,7 @@
   "price_monthly_usd": 72,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2957,7 +2957,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2982,7 +2982,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3007,7 +3007,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3032,7 +3032,7 @@
   "price_monthly_usd": 102.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3057,7 +3057,7 @@
   "price_monthly_usd": 153.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3082,7 +3082,7 @@
   "price_monthly_usd": 144,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3107,7 +3107,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3132,7 +3132,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3157,7 +3157,7 @@
   "price_monthly_usd": 197.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3182,7 +3182,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3207,7 +3207,7 @@
   "price_monthly_usd": 306.6,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3232,7 +3232,7 @@
   "price_monthly_usd": 288,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3257,7 +3257,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3282,7 +3282,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3307,7 +3307,7 @@
   "price_monthly_usd": 394.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3332,7 +3332,7 @@
   "price_monthly_usd": 384,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3357,7 +3357,7 @@
   "price_monthly_usd": 613.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-11T14:28:24.567Z",
+  "collected_at": "2026-08-11T17:39:15.092Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3382,7 +3382,7 @@
   "price_monthly_usd": 22.63,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3408,7 +3408,7 @@
   "price_monthly_usd": 27.01,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3434,7 +3434,7 @@
   "price_monthly_usd": 45.26,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3460,7 +3460,7 @@
   "price_monthly_usd": 54.02,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3486,7 +3486,7 @@
   "price_monthly_usd": 90.52,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3512,7 +3512,7 @@
   "price_monthly_usd": 108.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3538,7 +3538,7 @@
   "price_monthly_usd": 181.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3564,7 +3564,7 @@
   "price_monthly_usd": 216.08,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.395Z",
+  "collected_at": "2026-08-11T17:39:14.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3590,7 +3590,7 @@
   "price_monthly_usd": 22.63,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3616,7 +3616,7 @@
   "price_monthly_usd": 27.01,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3642,7 +3642,7 @@
   "price_monthly_usd": 45.26,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3668,7 +3668,7 @@
   "price_monthly_usd": 54.02,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3694,7 +3694,7 @@
   "price_monthly_usd": 90.52,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3720,7 +3720,7 @@
   "price_monthly_usd": 108.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3746,7 +3746,7 @@
   "price_monthly_usd": 181.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.394Z",
+  "collected_at": "2026-08-11T17:39:14.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3772,7 +3772,7 @@
   "price_monthly_usd": 216.08,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-11T14:28:24.395Z",
+  "collected_at": "2026-08-11T17:39:14.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3798,7 +3798,7 @@
   "price_monthly_usd": 20,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.204Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3822,7 +3822,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3846,7 +3846,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3870,7 +3870,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3894,7 +3894,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3918,7 +3918,7 @@
   "price_monthly_usd": 45,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3942,7 +3942,7 @@
   "price_monthly_usd": 60,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3966,7 +3966,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.204Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3990,7 +3990,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4014,7 +4014,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4038,7 +4038,7 @@
   "price_monthly_usd": 90,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4062,35 +4062,11 @@
   "price_monthly_usd": 80,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "AMD CPU, local storage."
-  ]
- },
- {
-  "provider": "vultr",
-  "region": "eu-central",
-  "region_code": "fra",
-  "sku": "vhf-4c-16gb",
-  "display_name": "High Frequency 4C/16GB",
-  "vcpu": 4,
-  "vcpu_type": "shared",
-  "vcpu_unit": "thread",
-  "ram_gb": 16,
-  "arch": "x86_64",
-  "local_storage_gb": 384,
-  "included_egress_gb": 5120,
-  "price_hourly_usd": 0.132,
-  "price_monthly_usd": 96,
-  "currency": "USD",
-  "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Intel CPU, local storage."
   ]
  },
  {
@@ -4110,7 +4086,7 @@
   "price_monthly_usd": 120,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4134,7 +4110,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4158,7 +4134,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4182,7 +4158,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4206,7 +4182,7 @@
   "price_monthly_usd": 180,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4230,7 +4206,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4254,7 +4230,7 @@
   "price_monthly_usd": 240,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4278,7 +4254,7 @@
   "price_monthly_usd": 320,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4302,7 +4278,7 @@
   "price_monthly_usd": 360,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4326,7 +4302,7 @@
   "price_monthly_usd": 320,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4350,7 +4326,7 @@
   "price_monthly_usd": 480,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4374,7 +4350,7 @@
   "price_monthly_usd": 20,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.204Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4398,7 +4374,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4422,7 +4398,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4446,7 +4422,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4470,7 +4446,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4494,7 +4470,7 @@
   "price_monthly_usd": 45,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4518,7 +4494,7 @@
   "price_monthly_usd": 60,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4542,7 +4518,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.204Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4566,7 +4542,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4590,7 +4566,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4614,7 +4590,7 @@
   "price_monthly_usd": 90,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4638,7 +4614,7 @@
   "price_monthly_usd": 80,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4662,7 +4638,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4686,7 +4662,7 @@
   "price_monthly_usd": 120,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4710,7 +4686,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4734,7 +4710,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4758,7 +4734,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4782,7 +4758,7 @@
   "price_monthly_usd": 180,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4806,7 +4782,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4830,7 +4806,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4854,7 +4830,7 @@
   "price_monthly_usd": 240,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4878,7 +4854,7 @@
   "price_monthly_usd": 320,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4902,7 +4878,7 @@
   "price_monthly_usd": 360,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4926,7 +4902,7 @@
   "price_monthly_usd": 480,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.205Z",
+  "collected_at": "2026-08-11T17:39:15.686Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [

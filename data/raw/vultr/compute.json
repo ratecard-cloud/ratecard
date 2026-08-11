@@ -122,7 +122,6 @@
     "blr",
     "del",
     "scl",
-    "itm",
     "man"
    ],
    "cpu_vendor": "Intel",
@@ -594,6 +593,7 @@
     "waw",
     "mad",
     "icn",
+    "mia",
     "sgp",
     "sto",
     "mex",
@@ -886,7 +886,6 @@
     "atl",
     "ams",
     "lhr",
-    "fra",
     "sjc",
     "syd",
     "yto",
@@ -939,7 +938,6 @@
     "lax",
     "ams",
     "lhr",
-    "fra",
     "sjc",
     "syd",
     "yto",
@@ -1189,6 +1187,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -1251,6 +1250,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -1313,6 +1313,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -1488,6 +1489,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1549,6 +1551,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1610,6 +1613,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2570,7 +2574,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2634,7 +2637,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2826,7 +2828,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -5020,7 +5021,6 @@
     "ord",
     "sea",
     "lax",
-    "atl",
     "ams",
     "lhr",
     "fra",
@@ -5068,7 +5068,6 @@
    "locations": [
     "ewr",
     "lax",
-    "atl",
     "ams",
     "lhr",
     "fra",
@@ -5324,9 +5323,8 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
-    "ord",
     "atl",
-    "sjc",
+    "sgp",
     "blr"
    ],
    "cpu_vendor": "Intel",
@@ -6067,7 +6065,6 @@
     "ewr",
     "ord",
     "sea",
-    "atl",
     "ams",
     "lhr",
     "syd",
@@ -6104,7 +6101,8 @@
     "sea",
     "atl",
     "ams",
-    "nrt"
+    "nrt",
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -6163,7 +6161,6 @@
    "type": "vx1",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "ams",
     "nrt"
@@ -6194,7 +6191,6 @@
    "type": "vx1",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "ams",
     "nrt"
@@ -6633,7 +6629,6 @@
     "ewr",
     "ord",
     "sea",
-    "atl",
     "ams",
     "nrt"
    ],
@@ -6665,7 +6660,6 @@
     "ewr",
     "ord",
     "sea",
-    "atl",
     "ams",
     "nrt"
    ],
@@ -6752,7 +6746,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ord",
     "sea"
    ],
    "cpu_vendor": "AMD",
@@ -6780,7 +6773,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ord",
     "sea"
    ],
    "cpu_vendor": "AMD",

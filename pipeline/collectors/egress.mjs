@@ -137,6 +137,62 @@ async function azureSchedules() {
   return out;
 }
 
+/* ------------------------------------------------------------------ OCI -- */
+
+/**
+ * OCI's price list API carries tiered rates on a single part number, with
+ * explicit rangeMin/rangeMax bounds — so the schedule is derivable exactly
+ * rather than curated. Part numbers are not discoverable through the API and
+ * were read off the published price list.
+ *
+ *   B88327  North America, Europe and UK   (both our regions)
+ *   B93455  APAC, Japan, South America
+ *   B93456  Middle East and Africa
+ */
+const OCI_PART = { 'us-east': 'B88327', 'eu-central': 'B88327' };
+const OCI_API = 'https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/';
+
+async function ociSchedules() {
+  const out = {};
+  const raw = {};
+
+  for (const [canonical, part] of Object.entries(OCI_PART)) {
+    const body = await getJSON(`${OCI_API}?partNumber=${part}`);
+    const item = body.items?.[0];
+    if (!item) throw new Error(`OCI egress part ${part} not found`);
+    raw[canonical] = item;
+
+    const usd = item.currencyCodeLocalizations.find((c) => c.currencyCode === 'USD');
+    const bands = (usd?.prices ?? [])
+      .filter((p) => p.model === 'PAY_AS_YOU_GO')
+      .sort((a, b) => a.rangeMin - b.rangeMin);
+    if (!bands.length) throw new Error(`OCI egress part ${part} has no USD PAYG price`);
+
+    // A leading zero-priced band is the free allowance, not a tier.
+    const free = bands[0].value === 0 ? bands[0].rangeMax : 0;
+    const paid = bands.filter((b) => b.value > 0);
+
+    out[canonical] = {
+      free_gb_per_month: free,
+      bundled_with_compute: false,
+      // Tier bounds are absolute on OCI's side; ours are measured after the
+      // free allowance is consumed, so shift them down by `free`.
+      tiers: paid.map((b, i) => ({
+        up_to_gb:
+          i === paid.length - 1 || b.rangeMax > 1e12 ? null : round(b.rangeMax - free, 4),
+        usd_per_gb: round(b.value, 6),
+      })),
+      notes: [
+        `First ${free / 1024} TB/month outbound is free account-wide, not per instance.`,
+        'This single allowance is why OCI wins most egress-heavy comparisons.',
+        'Rates differ by originating region; these are the North America / Europe / UK figures.',
+      ],
+    };
+  }
+  await saveRaw('oci', 'egress', raw);
+  return out;
+}
+
 /* --------------------------------------------------------------- driver -- */
 
 export default async function collect() {
@@ -149,6 +205,7 @@ export default async function collect() {
   const live = {
     aws: await awsSchedules(),
     azure: await azureSchedules(),
+    oci: await ociSchedules(),
   };
 
   for (const [provider, byRegion] of Object.entries(live)) {
@@ -171,19 +228,25 @@ export default async function collect() {
 
   for (const [provider, sched] of Object.entries(curated)) {
     if (provider.startsWith('_')) continue;
+    if (live[provider]) continue; // a live collector supersedes curated data
+
     for (const region of Object.keys(PROVIDERS[provider].regions)) {
+      // Per-region overrides: GCP's top egress tier differs by destination
+      // continent ($0.08 to North America, $0.085 to Europe), so a single
+      // schedule per provider is not sufficient.
+      const r = sched.regions?.[region] ?? {};
       out.push({
         provider,
         region,
-        free_gb_per_month: sched.free_gb_per_month ?? 0,
-        bundled_with_compute: sched.bundled_with_compute ?? false,
-        tiers: sched.tiers,
+        free_gb_per_month: r.free_gb_per_month ?? sched.free_gb_per_month ?? 0,
+        bundled_with_compute: r.bundled_with_compute ?? sched.bundled_with_compute ?? false,
+        tiers: r.tiers ?? sched.tiers,
         currency: 'USD',
-        source_url: sched.source_url,
+        source_url: r.source_url ?? sched.source_url,
         collected_at: now,
-        source_verified_at: null,
-        confidence: sched.confidence ?? 'medium',
-        notes: sched.notes ?? [],
+        source_verified_at: r.source_verified_at ?? sched.source_verified_at ?? null,
+        confidence: r.confidence ?? sched.confidence ?? 'medium',
+        notes: [...(sched.notes ?? []), ...(r.notes ?? [])],
       });
     }
   }

@@ -51,7 +51,9 @@ const description =
             <tr class={costs[1] === Math.min(...rows.map((r) => r.costs[1])) ? 'is-cheapest' : ''}>
               <td>
                 <strong>{PROVIDERS[e.provider].short}</strong>
-                {e.confidence !== 'high' && (
+                {/* Badge only what nobody has stood behind: neither a live
+                    provider API (high) nor a dated human check. */}
+                {e.confidence !== 'high' && !e.source_verified_at && (
                   <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
                 )}
               </td>

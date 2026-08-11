@@ -24,7 +24,7 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -57,7 +57,7 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -94,7 +94,7 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -131,7 +131,7 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -152,13 +152,13 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Free egress up to 3x the average monthly stored bytes, then $0.01/GB.",
-   "The 3x allowance is storage-dependent, so it cannot be modelled as a flat free tier — treated as $0.01/GB throughout, which OVERSTATES cost for most workloads.",
-   "Free entirely to Cloudflare and other Bandwidth Alliance partners."
+   "Free egress up to 3x average monthly stored bytes, then $0.01/GB.",
+   "That allowance scales with storage, so it cannot be modelled as a flat free tier — the columns here assume no allowance and therefore OVERSTATE cost for most workloads.",
+   "Free entirely via many CDN and compute partners, including Cloudflare."
   ]
  },
  {
@@ -174,13 +174,13 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Free egress up to 3x the average monthly stored bytes, then $0.01/GB.",
-   "The 3x allowance is storage-dependent, so it cannot be modelled as a flat free tier — treated as $0.01/GB throughout, which OVERSTATES cost for most workloads.",
-   "Free entirely to Cloudflare and other Bandwidth Alliance partners."
+   "Free egress up to 3x average monthly stored bytes, then $0.01/GB.",
+   "That allowance scales with storage, so it cannot be modelled as a flat free tier — the columns here assume no allowance and therefore OVERSTATE cost for most workloads.",
+   "Free entirely via many CDN and compute partners, including Cloudflare."
   ]
  },
  {
@@ -196,13 +196,13 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "R2 charges zero egress. Unlimited, not an allowance — the structural outlier.",
-   "Storage and Class A/B operations are still billed.",
-   "Object storage only; there is no Cloudflare VM to attach this to."
+   "R2 charges zero egress on every storage class — unlimited, not an allowance. The structural outlier.",
+   "Storage and Class A/B operations are still billed, and Infrequent Access adds a $0.01/GB retrieval fee.",
+   "Object storage only; there is no Cloudflare VM for this to attach to."
   ]
  },
  {
@@ -218,13 +218,13 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "R2 charges zero egress. Unlimited, not an allowance — the structural outlier.",
-   "Storage and Class A/B operations are still billed.",
-   "Object storage only; there is no Cloudflare VM to attach this to."
+   "R2 charges zero egress on every storage class — unlimited, not an allowance. The structural outlier.",
+   "Storage and Class A/B operations are still billed, and Infrequent Access adds a $0.01/GB retrieval fee.",
+   "Object storage only; there is no Cloudflare VM for this to attach to."
   ]
  },
  {
@@ -239,13 +239,14 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://docs.digitalocean.com/products/billing/bandwidth/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Each Droplet adds its allowance to a shared account-wide pool.",
-   "Overage $0.01/GB."
+   "Droplet overage is $0.01 per GiB; inbound is free.",
+   "Allowances pool cumulatively across all Droplets at the team level, so a single-instance comparison understates the allowance a real account gets.",
+   "App Platform overage is $0.02/GiB and Spaces $0.01/GiB — neither is indexed here."
   ]
  },
  {
@@ -260,56 +261,60 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://docs.digitalocean.com/products/billing/bandwidth/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Each Droplet adds its allowance to a shared account-wide pool.",
-   "Overage $0.01/GB."
+   "Droplet overage is $0.01 per GiB; inbound is free.",
+   "Allowances pool cumulatively across all Droplets at the team level, so a single-instance comparison understates the allowance a real account gets.",
+   "App Platform overage is $0.02/GiB and Spaces $0.01/GiB — neither is indexed here."
   ]
  },
  {
   "provider": "gcp",
   "region": "eu-central",
-  "free_gb_per_month": 200,
+  "free_gb_per_month": 1,
   "bundled_with_compute": false,
   "tiers": [
    {
-    "up_to_gb": 1024,
+    "up_to_gb": 1023,
     "usd_per_gb": 0.12
    },
    {
-    "up_to_gb": 10240,
+    "up_to_gb": 10239,
     "usd_per_gb": 0.11
    },
    {
     "up_to_gb": null,
-    "usd_per_gb": 0.08
+    "usd_per_gb": 0.085
    }
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
    "Premium network tier (the default). Standard tier is cheaper but routes over the public internet sooner.",
-   "Rates vary by destination continent; these are the North America / Europe figures."
+   "Only the first 1 GiB/month is free — GCP's larger always-free allowances do not apply to Premium Tier egress.",
+   "Priced by DESTINATION continent, not source region; these figures assume traffic stays on the same continent as the instance.",
+   "GCP bills per GiB where most providers bill per GB, so these rates are ~7% higher than they look against a GB-priced competitor.",
+   "Top tier to Europe is $0.085/GiB, against $0.08 to North America."
   ]
  },
  {
   "provider": "gcp",
   "region": "us-east",
-  "free_gb_per_month": 200,
+  "free_gb_per_month": 1,
   "bundled_with_compute": false,
   "tiers": [
    {
-    "up_to_gb": 1024,
+    "up_to_gb": 1023,
     "usd_per_gb": 0.12
    },
    {
-    "up_to_gb": 10240,
+    "up_to_gb": 10239,
     "usd_per_gb": 0.11
    },
    {
@@ -319,12 +324,14 @@
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
    "Premium network tier (the default). Standard tier is cheaper but routes over the public internet sooner.",
-   "Rates vary by destination continent; these are the North America / Europe figures."
+   "Only the first 1 GiB/month is free — GCP's larger always-free allowances do not apply to Premium Tier egress.",
+   "Priced by DESTINATION continent, not source region; these figures assume traffic stays on the same continent as the instance.",
+   "GCP bills per GiB where most providers bill per GB, so these rates are ~7% higher than they look against a GB-priced competitor."
   ]
  },
  {
@@ -339,14 +346,14 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://docs.hetzner.com/cloud/billing/faq/#how-much-do-i-pay-for-traffic",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
-  "confidence": "medium",
+  "confidence": "low",
   "notes": [
-   "EU plans bundle ~20 TB/month; overage is billed at EUR 1.00/TB (~$0.00108/GB).",
-   "US locations (Ashburn, Hillsboro) bundle less traffic than EU locations — verify per location.",
-   "Roughly 80x cheaper per GB than AWS on-demand egress."
+   "UNVERIFIED RATE. Hetzner's FAQ confirms only outgoing traffic is billed, in 100 MB blocks, above a per-plan allowance — it does not publish the per-TB rate, and the pricing tables render client-side.",
+   "The figure here (~EUR 1.00/TB) is carried over pending confirmation from the Cloud API's traffic_price_per_tb, which needs an account token.",
+   "Included traffic differs by network zone (eu-central, us-east, us-west, ap-southeast); not yet modelled per zone."
   ]
  },
  {
@@ -361,14 +368,14 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://docs.hetzner.com/cloud/billing/faq/#how-much-do-i-pay-for-traffic",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
-  "confidence": "medium",
+  "confidence": "low",
   "notes": [
-   "EU plans bundle ~20 TB/month; overage is billed at EUR 1.00/TB (~$0.00108/GB).",
-   "US locations (Ashburn, Hillsboro) bundle less traffic than EU locations — verify per location.",
-   "Roughly 80x cheaper per GB than AWS on-demand egress."
+   "UNVERIFIED RATE. Hetzner's FAQ confirms only outgoing traffic is billed, in 100 MB blocks, above a per-plan allowance — it does not publish the per-TB rate, and the pricing tables render client-side.",
+   "The figure here (~EUR 1.00/TB) is carried over pending confirmation from the Cloud API's traffic_price_per_tb, which needs an account token.",
+   "Included traffic differs by network zone (eu-central, us-east, us-west, ap-southeast); not yet modelled per zone."
   ]
  },
  {
@@ -383,13 +390,14 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://www.linode.com/docs/products/platform/billing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Allowances pool across all Linodes in the account.",
-   "Overage $0.005/GB."
+   "Overage is $0.005/GB ($5/TB) in all core data centres, including both regions indexed here.",
+   "A few regions cost more — Jakarta $0.015/GB, Sao Paulo $0.007/GB.",
+   "Allowances pool across all Linodes on the account."
   ]
  },
  {
@@ -404,13 +412,14 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://www.linode.com/docs/products/platform/billing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Allowances pool across all Linodes in the account.",
-   "Overage $0.005/GB."
+   "Overage is $0.005/GB ($5/TB) in all core data centres, including both regions indexed here.",
+   "A few regions cost more — Jakarta $0.015/GB, Sao Paulo $0.007/GB.",
+   "Allowances pool across all Linodes on the account."
   ]
  },
  {
@@ -425,13 +434,14 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
-  "confidence": "medium",
+  "confidence": "high",
   "notes": [
-   "10 TB/month free account-wide, then a flat rate — by far the most generous hyperscaler allowance.",
-   "This single line is why OCI wins most egress-heavy comparisons."
+   "First 10 TB/month outbound is free account-wide, not per instance.",
+   "This single allowance is why OCI wins most egress-heavy comparisons.",
+   "Rates differ by originating region; these are the North America / Europe / UK figures."
   ]
  },
  {
@@ -446,13 +456,14 @@
    }
   ],
   "currency": "USD",
-  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-11T17:39:15.687Z",
   "source_verified_at": null,
-  "confidence": "medium",
+  "confidence": "high",
   "notes": [
-   "10 TB/month free account-wide, then a flat rate — by far the most generous hyperscaler allowance.",
-   "This single line is why OCI wins most egress-heavy comparisons."
+   "First 10 TB/month outbound is free account-wide, not per instance.",
+   "This single allowance is why OCI wins most egress-heavy comparisons.",
+   "Rates differ by originating region; these are the North America / Europe / UK figures."
   ]
  },
  {
@@ -468,11 +479,12 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Per-instance allowance; overage $0.01/GB."
+   "Vultr: \"We charge $0.01 per GB for bandwidth used in excess of your quota.\"",
+   "Allowance is per instance and does not pool across the account."
   ]
  },
  {
@@ -488,11 +500,12 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-11T14:28:25.206Z",
-  "source_verified_at": null,
+  "collected_at": "2026-08-11T17:39:15.687Z",
+  "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
-   "Per-instance allowance; overage $0.01/GB."
+   "Vultr: \"We charge $0.01 per GB for bandwidth used in excess of your quota.\"",
+   "Allowance is per instance and does not pool across the account."
   ]
  }
 ]
