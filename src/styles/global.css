@@ -237,6 +237,82 @@ a.card:hover { border-color: var(--border-strong); background: var(--bg-soft); t
 details.notes summary { cursor: pointer; color: var(--fg-faint); font-size: 12px; }
 details.notes summary:hover { color: var(--accent); }
 
+/* ------------------------------------------------------ explainer panel -- */
+details.explainer {
+  margin: 16px 0 0;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-soft);
+  max-width: 90ch;
+}
+details.explainer > summary {
+  cursor: pointer;
+  padding: 11px 15px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--fg-muted);
+  list-style: none;
+}
+details.explainer > summary::-webkit-details-marker { display: none; }
+details.explainer > summary::before {
+  content: '›';
+  display: inline-block;
+  margin-right: 8px;
+  color: var(--fg-faint);
+  transition: transform 0.15s ease;
+}
+details.explainer[open] > summary::before { transform: rotate(90deg); }
+details.explainer > summary:hover { color: var(--fg); }
+details.explainer > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+.explainer-body { padding: 2px 15px 14px; border-top: 1px solid var(--border); }
+.explainer-body dl { margin: 0; font-size: 13px; }
+.explainer-body dt { margin: 12px 0 3px; font-weight: 600; color: var(--fg); }
+.explainer-body dd { margin: 0; color: var(--fg-muted); max-width: 82ch; }
+
+/* --------------------------------------------------------- linked rows -- */
+table.rc-table tr.row-link:hover td { background: var(--accent-soft); }
+table.rc-table tr.row-link a { text-decoration: none; }
+table.rc-table tr.row-link:hover a { text-decoration: underline; }
+
+/* -------------------------------------------- egress volume presets bar -- */
+.presets { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.preset {
+  background: var(--bg);
+  border: 1px solid var(--border-strong);
+  color: var(--fg-muted);
+  border-radius: 7px;
+  padding: 5px 11px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.preset:hover { color: var(--fg); border-color: var(--fg-faint); }
+.preset[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+.preset:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* Selected volume column, so the eye lands on the number being sorted by. */
+table.rc-table th.col-active,
+table.rc-table td.col-active {
+  background: var(--accent-soft);
+  box-shadow: inset 1px 0 var(--border), inset -1px 0 var(--border);
+}
+table.rc-table tr.is-cheapest td.col-active { background: var(--win-soft); }
+
+/* --------------------------------------------------- recalculation flash -- */
+/* Brief tint on the headline column when the slider changes it, so the
+   re-ranking is visible rather than something you have to notice. */
+@keyframes rc-flash {
+  from { background: color-mix(in srgb, var(--accent) 26%, transparent); }
+  to { background: transparent; }
+}
+table.rc-table td.flash { animation: rc-flash 0.5s ease-out; }
+
 /* Keep the provider visible while the table scrolls sideways. */
 table.rc-table th:first-child,
 table.rc-table td:first-child {

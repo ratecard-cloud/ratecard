@@ -141,7 +141,7 @@
     });
   }
 
-  function render() {
+  function render(flash) {
     var data = rows();
     var min = data.length
       ? data.reduce(function (m, d) { return Math.min(m, d.total); }, Infinity)
@@ -184,6 +184,14 @@
     el.count.textContent = String(data.length);
     el.egressLabel.textContent = gbLabel(STEPS[+el.egress.value]);
 
+    // Tint the headline column when the slider caused the change, so the
+    // re-ranking reads as a consequence rather than the table just blinking.
+    // Skipped when the user prefers reduced motion.
+    if (flash && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      var cells = el.body.querySelectorAll('tr > td:nth-child(9)');
+      for (var k = 0; k < cells.length; k++) cells[k].classList.add('flash');
+    }
+
     var ths = el.table.querySelectorAll('th[data-sort]');
     for (var j = 0; j < ths.length; j++) {
       ths[j].setAttribute(
@@ -198,9 +206,9 @@
 
   /* --------------------------------------------------------------- wiring */
   ['region', 'shape', 'cpu', 'arch'].forEach(function (k) {
-    el[k].addEventListener('change', render);
+    el[k].addEventListener('change', function () { render(); });
   });
-  el.egress.addEventListener('input', render);
+  el.egress.addEventListener('input', function () { render(true); });
 
   el.reset.addEventListener('click', function () {
     el.region.value = 'us-east';

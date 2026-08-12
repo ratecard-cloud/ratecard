@@ -4,7 +4,8 @@ import {
   EGRESS, PROVIDERS, REGIONS, egressCost, usd, gbLabel, MANIFEST, freshness,
 } from '../lib/data';
 
-const VOLUMES = [1024, 10240, 51200, 102400];
+const VOLUMES = [100, 1024, 10240, 51200, 102400];
+const DEFAULT_VOLUME = 1024;
 const region = 'us-east';
 
 const rows = EGRESS
@@ -14,7 +15,27 @@ const rows = EGRESS
     costs: VOLUMES.map((v) => egressCost(e, v)),
     headline: e.tiers[0].usd_per_gb,
   }))
-  .sort((a, b) => a.costs[1] - b.costs[1]);
+  .sort(
+    (a, b) =>
+      a.costs[VOLUMES.indexOf(DEFAULT_VOLUME)] - b.costs[VOLUMES.indexOf(DEFAULT_VOLUME)],
+  );
+
+const cheapest = Math.min(...rows.map((r) => r.costs[VOLUMES.indexOf(DEFAULT_VOLUME)]));
+
+const payload = {
+  volumes: VOLUMES,
+  rows: rows.map(({ e, costs, headline }) => ({
+    provider: e.provider,
+    short: PROVIDERS[e.provider].short,
+    costs,
+    headline,
+    bundled: e.bundled_with_compute,
+    free: e.free_gb_per_month,
+    verified: e.source_verified_at,
+    confidence: e.confidence,
+    source_url: e.source_url,
+  })),
+};
 
 const title = 'Cloud egress pricing compared — the bandwidth tax — RateCard';
 const description =
@@ -31,34 +52,49 @@ const description =
       providers, and where the spread between cheapest and dearest is measured in
       multiples rather than percentages.
     </p>
-    <p class="faint" style="margin:0 0 22px;font-size:13px">
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
       {REGIONS[region].label} · outbound to internet · collected {freshness(MANIFEST.generated_at)}
     </p>
 
+    <div class="presets" style="margin:0 0 14px">
+      <span class="faint" style="font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-right:2px">
+        Sort by cost at
+      </span>
+      {VOLUMES.map((v) => (
+        <button class="preset" data-vol={v} aria-pressed={v === DEFAULT_VOLUME ? 'true' : 'false'}>
+          {gbLabel(v)}
+        </button>
+      ))}
+    </div>
+
     <div class="table-scroll">
-      <table class="rc-table">
+      <table class="rc-table" id="egress-grid">
         <thead>
           <tr>
             <th>Provider</th>
-            <th class="right">First paid GB</th>
+            <th class="right col-optional">First paid GB</th>
             <th class="right">Free / bundled</th>
-            {VOLUMES.map((v) => <th class="right">{gbLabel(v)}/mo</th>)}
+            {VOLUMES.map((v) => (
+              <th class={`right vol-col${v === DEFAULT_VOLUME ? ' col-active' : ''}`} data-vol={v}>
+                {gbLabel(v)}/mo
+              </th>
+            ))}
+            <th class="col-optional">Verified</th>
             <th>Source</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="egress-body">
           {rows.map(({ e, costs, headline }) => (
-            <tr class={costs[1] === Math.min(...rows.map((r) => r.costs[1])) ? 'is-cheapest' : ''}>
+            <tr class={costs[VOLUMES.indexOf(DEFAULT_VOLUME)] === cheapest ? 'is-cheapest' : ''}>
               <td>
                 <strong>{PROVIDERS[e.provider].short}</strong>
-                {/* Badge only what nobody has stood behind: neither a live
-                    provider API (high) nor a dated human check. */}
                 {e.confidence !== 'high' && !e.source_verified_at && (
                   <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
                 )}
               </td>
-              <td class="right num">
-                {headline === 0 ? <span style="color:var(--win);font-weight:700">free</span>
+              <td class="right num col-optional">
+                {headline === 0
+                  ? <span style="color:var(--win);font-weight:700">free</span>
                   : `$${headline.toFixed(5).replace(/0+$/, '').replace(/\.$/, '')}`}
               </td>
               <td class="right num faint">
@@ -68,11 +104,22 @@ const description =
                     ? gbLabel(e.free_gb_per_month)
                     : '—'}
               </td>
-              {costs.map((c) => (
-                <td class="right num" style={c === 0 ? 'color:var(--win);font-weight:600' : ''}>
+              {costs.map((c, i) => (
+                <td
+                  class={`right num vol-col${VOLUMES[i] === DEFAULT_VOLUME ? ' col-active' : ''}`}
+                  data-vol={VOLUMES[i]}
+                  style={c === 0 ? 'color:var(--win);font-weight:600' : ''}
+                >
                   {c === 0 ? 'free' : usd(c)}
                 </td>
               ))}
+              <td class="col-optional faint" style="font-size:12px">
+                {e.confidence === 'high'
+                  ? <span title="Collected from the provider's own API">live API</span>
+                  : e.source_verified_at
+                    ? e.source_verified_at
+                    : '—'}
+              </td>
               <td>
                 <a href={e.source_url} rel="nofollow noopener" target="_blank"
                    class="faint" style="font-size:12px">source ↗</a>
@@ -84,10 +131,12 @@ const description =
     </div>
 
     <p class="faint" style="font-size:12.5px;margin:14px 0 0;max-width:82ch">
-      Volume columns assume a standalone bill with no bundled allowance applied —
-      for Hetzner, DigitalOcean, Linode and Vultr the plan allowance (shown on the
-      <a href="/compute">compute page</a>) is consumed first, so these figures are
-      the overage rate only and overstate what most users pay.
+      Volume columns price a standalone bill with no bundled allowance applied. For
+      Hetzner, DigitalOcean, Linode and Vultr the plan allowance shown on the
+      <a href="/compute">compute page</a> is consumed first — often tens of terabytes —
+      so these figures are the overage rate only and overstate what most users pay.
+      <strong style="color:var(--fg-muted)">Verified</strong> is “live API” where the
+      number comes straight from the provider, or the date a human last checked it.
     </p>
 
     <h2 style="font-size:18px;margin:38px 0 10px;letter-spacing:-0.01em">Notes and caveats</h2>
@@ -102,4 +151,7 @@ const description =
       ))}
     </div>
   </div>
+
+  <script is:inline set:html={`window.__RCE__=${JSON.stringify(payload)}`}></script>
+  <script src="/egress.js" is:inline></script>
 </Base>

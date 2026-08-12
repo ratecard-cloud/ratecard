@@ -152,14 +152,48 @@ const description =
       </table>
     </div>
 
-    <p class="faint" style="font-size:12.5px;margin:14px 0 0;max-width:80ch">
-      <strong style="color:var(--fg-muted)">Reading this table:</strong>
-      a “shared” vCPU is a slice of a core that may be throttled or burst-credited;
-      a “dedicated” vCPU is not. A <em>thread</em> is one hyperthread (two per physical
-      core); a <em>core</em> is a whole physical core — ARM instances have no SMT, so
-      their vCPUs are genuinely bigger units than x86 vCPUs at the same count.
-      These are not interchangeable, and no benchmark is implied.
-    </p>
+    <details class="explainer">
+      <summary>How to read this table</summary>
+      <div class="explainer-body">
+        <dl>
+          <dt><span class="chip chip-shared">shared</span> vs <span class="chip chip-dedicated">dedicated</span></dt>
+          <dd>
+            A shared vCPU is a slice of a physical core that can be throttled or
+            metered by CPU credits under sustained load — AWS <code>t</code>-family,
+            Vultr Regular, Linode Shared, Hetzner CX/CPX/CAX. A dedicated vCPU is not
+            shared with another tenant.
+          </dd>
+
+          <dt>threads vs cores</dt>
+          <dd>
+            An x86 vCPU is one hyperthread, and two of them share a physical core.
+            ARM cores (Graviton, Ampere) have no SMT, so one ARM vCPU is a whole
+            physical core. An 8-vCPU Graviton instance therefore has twice the
+            physical cores of an 8-vCPU Intel instance at the same vCPU count.
+          </dd>
+
+          <dt>Bundled egress</dt>
+          <dd>
+            Outbound transfer included with the instance. It is consumed before any
+            paid tier, and it varies enormously — from 0 on the hyperscalers to tens
+            of terabytes on the value providers, and even between regions of the same
+            provider.
+          </dd>
+
+          <dt>Effective $/mo</dt>
+          <dd>
+            Instance price plus what your egress costs after the bundled allowance and
+            any account-level free tier are used up. This is the column that decides
+            real-world cheapest; drag the egress slider and watch the order change.
+          </dd>
+        </dl>
+        <p class="faint" style="margin:10px 0 0">
+          Matching vCPU and RAM is <strong>not</strong> a performance equivalence and no
+          benchmark is implied — see <a href="/methodology">methodology</a> for what is
+          and isn't included.
+        </p>
+      </div>
+    </details>
   </div>
 
   <script is:inline set:html={`window.__RC__=${JSON.stringify(payload)}`}></script>

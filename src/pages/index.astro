@@ -13,12 +13,21 @@ function cheapestAt(vcpu: number, ram: number, gb: number) {
     .sort((a, b) => a.e.total - b.e.total)[0];
 }
 
+/**
+ * Egress volumes must be values the compute page's slider can land on, or the
+ * deep link opens on a different number than the row promised.
+ */
 const WORKLOADS = [
-  { label: 'Quiet API server', vcpu: 2, ram: 8, gb: 100, blurb: 'barely any egress' },
-  { label: 'Busy web app', vcpu: 4, ram: 16, gb: 1024, blurb: '1 TB out' },
-  { label: 'Media / download host', vcpu: 4, ram: 16, gb: 20480, blurb: '20 TB out' },
-  { label: 'Heavy streaming', vcpu: 8, ram: 32, gb: 51200, blurb: '50 TB out' },
-].map((w) => ({ ...w, best: cheapestAt(w.vcpu, w.ram, w.gb) }));
+  { label: 'Quiet API server', vcpu: 2, ram: 8, gb: 100 },
+  { label: 'CI runner', vcpu: 8, ram: 16, gb: 500 },
+  { label: 'Busy web app', vcpu: 4, ram: 16, gb: 1024 },
+  { label: 'Media / download host', vcpu: 4, ram: 16, gb: 20480 },
+  { label: 'Heavy streaming', vcpu: 8, ram: 32, gb: 51200 },
+].map((w) => ({
+  ...w,
+  best: cheapestAt(w.vcpu, w.ram, w.gb),
+  href: `/compute?region=us-east&shape=${w.vcpu}/${w.ram}&egress=${w.gb}`,
+}));
 
 // The egress-tax story: same instance shape, cost at 0 vs 20 TB.
 const shape = { vcpu: 4, ram: 16 };
@@ -112,13 +121,17 @@ const description =
         <thead>
           <tr>
             <th>Workload</th><th>Shape</th><th>Egress</th>
-            <th>Cheapest</th><th class="right">Effective $/mo</th>
+            <th>Cheapest</th><th class="right">Effective $/mo</th><th></th>
           </tr>
         </thead>
         <tbody>
           {WORKLOADS.filter((w) => w.best).map((w) => (
-            <tr>
-              <td><strong>{w.label}</strong></td>
+            <tr class="row-link">
+              <td>
+                <a href={w.href} style="color:inherit;text-decoration:none">
+                  <strong>{w.label}</strong>
+                </a>
+              </td>
               <td class="num muted">{w.vcpu} vCPU / {w.ram} GB</td>
               <td class="num muted">{gbLabel(w.gb)}</td>
               <td>
@@ -126,6 +139,10 @@ const description =
                 <span class="faint num" style="font-size:12px"> {w.best.r.display_name}</span>
               </td>
               <td class="right num" style="font-weight:700">{usd(w.best.e.total)}</td>
+              <td class="right">
+                <a href={w.href} style="font-size:12px;white-space:nowrap"
+                   aria-label={`Compare ${w.label} on the compute page`}>compare →</a>
+              </td>
             </tr>
           ))}
         </tbody>
