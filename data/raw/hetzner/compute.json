@@ -2859,15 +2859,15 @@
      {
       "id": 2,
       "name": "nbg1",
-      "available": true,
+      "available": false,
       "recommended": false,
       "deprecation": null
      },
      {
       "id": 3,
       "name": "hel1",
-      "available": true,
-      "recommended": true,
+      "available": false,
+      "recommended": false,
       "deprecation": null
      }
     ]

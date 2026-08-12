@@ -1,0 +1,7478 @@
+[
+ {
+  "name": "services/6F81-5844-456A/skus/011F-F649-4A0D",
+  "skuId": "011F-F649-4A0D",
+  "description": "N2D AMD Instance Core running in Salt Lake City",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 33034000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/019D-ED1E-9BD7",
+  "skuId": "019D-ED1E-9BD7",
+  "description": "N2D AMD Instance Ram running in Israel",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4054600
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0365-2006-3FFE",
+  "skuId": "0365-2006-3FFE",
+  "description": "N2D AMD Instance Core running in Santiago",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 39327860
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0382-1327-146D",
+  "skuId": "0382-1327-146D",
+  "description": "N2 Instance Core running in Sydney",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 44856000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0450-45CE-C078",
+  "skuId": "0450-45CE-C078",
+  "description": "N2D AMD Instance Core running in Netherlands",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30278000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/069E-200D-3C4D",
+  "skuId": "069E-200D-3C4D",
+  "description": "N2D AMD Instance Ram running in Warsaw",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4460000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/09B1-0975-EC89",
+  "skuId": "09B1-0975-EC89",
+  "description": "N2D AMD Instance Ram running in Toronto",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4058000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0A3A-4D14-E11B",
+  "skuId": "0A3A-4D14-E11B",
+  "description": "N2D AMD Instance Ram running in EMEA",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4055000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0B56-1371-9FBF",
+  "skuId": "0B56-1371-9FBF",
+  "description": "N2D AMD Instance Core running in Milan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 31902320
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0DAC-F520-B2D1",
+  "skuId": "0DAC-F520-B2D1",
+  "description": "N2D AMD Instance Core running in Mumbai",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 18151000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0DC1-8F7F-175B",
+  "skuId": "0DC1-8F7F-175B",
+  "description": "N2 Instance Ram running in Santiago",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 6058910
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/0E8D-9FEF-852D",
+  "skuId": "0E8D-9FEF-852D",
+  "description": "N2D AMD Instance Core running in Las Vegas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30976000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/13DD-415F-AF29",
+  "skuId": "13DD-415F-AF29",
+  "description": "N2D AMD Instance Core running in Montreal",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30278000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/18D3-E0E1-C1A1",
+  "skuId": "18D3-E0E1-C1A1",
+  "description": "N2D AMD Instance Core running in Frankfurt",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35435000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/1B12-3BA5-80A4",
+  "skuId": "1B12-3BA5-80A4",
+  "description": "N2D AMD Instance Core running in London",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35435000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/1B7D-AA31-0142",
+  "skuId": "1B7D-AA31-0142",
+  "description": "N2 Instance Ram running in Melbourne",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5109000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/1B8C-264F-447E",
+  "skuId": "1B8C-264F-447E",
+  "description": "N2 Instance Core running in APAC",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 36602000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/1CE2-252E-D1EA",
+  "skuId": "1CE2-252E-D1EA",
+  "description": "N2 Instance Ram running in Dammam",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 6779200
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/1D50-295D-6619",
+  "skuId": "1D50-295D-6619",
+  "description": "N2D AMD Instance Ram running in Turin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west12"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4754940
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west12"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/1E79-A719-6653",
+  "skuId": "1E79-A719-6653",
+  "description": "N2 Instance Core running in Jakarta",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 42508910
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/1FEE-CE8E-2D35",
+  "skuId": "1FEE-CE8E-2D35",
+  "description": "N2D AMD Instance Ram running in Los Angeles",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4427000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/21FA-D397-3735",
+  "skuId": "21FA-D397-3735",
+  "description": "T2A Arm Instance Core running in Singapore",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30720000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2297-D3C7-1085",
+  "skuId": "2297-D3C7-1085",
+  "description": "N2 Instance Ram running in APAC",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4906000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/23FA-BF9A-7C7A",
+  "skuId": "23FA-BF9A-7C7A",
+  "description": "N2 Instance Ram running in Mumbai",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5088000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2514-CA24-299A",
+  "skuId": "2514-CA24-299A",
+  "description": "N2 Instance Core running in Singapore",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 38999000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2516-7FC7-97F9",
+  "skuId": "2516-7FC7-97F9",
+  "description": "N2D AMD Instance Ram running in Melbourne",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4446000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2540-FD54-92D3",
+  "skuId": "2540-FD54-92D3",
+  "description": "N2D AMD Instance Core running in Los Angeles",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 33034000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/25E5-DDFF-6CD2",
+  "skuId": "25E5-DDFF-6CD2",
+  "description": "N2 Instance Ram running in Columbus",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east5"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4237000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east5"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2756-7DCF-9D01",
+  "skuId": "2756-7DCF-9D01",
+  "description": "N2 Instance Ram running in Dallas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4999660
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2877-22EB-5946",
+  "skuId": "2877-22EB-5946",
+  "description": "N2 Instance Ram running in Johannesburg",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "africa-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4661000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "africa-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/28C0-92D5-8DE5",
+  "skuId": "28C0-92D5-8DE5",
+  "description": "N2 Instance Ram running in Los Angeles",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5089000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/296B-A47C-3667",
+  "skuId": "296B-A47C-3667",
+  "description": "N2D AMD Instance Ram running in Dallas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4349480
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/29DE-E9FE-7872",
+  "skuId": "29DE-E9FE-7872",
+  "description": "N2D AMD Instance Core running in Dallas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 32452360
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2AAC-5430-5052",
+  "skuId": "2AAC-5430-5052",
+  "description": "N2 Instance Core running in Berlin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west10"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 40731340
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west10"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2B20-9526-9061",
+  "skuId": "2B20-9526-9061",
+  "description": "N2D AMD Instance Ram running in Madrid",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-southwest1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4349480
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-southwest1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2C08-0DED-36F3",
+  "skuId": "2C08-0DED-36F3",
+  "description": "N2D AMD Instance Core running in Columbus",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east5"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 27502000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east5"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2C8B-C962-467D",
+  "skuId": "2C8B-C962-467D",
+  "description": "N2 Instance Ram running in Hong Kong",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5928000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2F62-931F-7C45",
+  "skuId": "2F62-931F-7C45",
+  "description": "N2D AMD Instance Core running in Sydney",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 39025000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/35E6-B2EE-DE63",
+  "skuId": "35E6-B2EE-DE63",
+  "description": "N2 Instance Core running in Warsaw",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 38250000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/3A1A-7CFC-5747",
+  "skuId": "3A1A-7CFC-5747",
+  "description": "N2 Instance Core running in Mumbai",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 37970000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/3A30-DAD5-14D3",
+  "skuId": "3A30-DAD5-14D3",
+  "description": "N2 Instance Ram running in Phoenix",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4237000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4192-5050-2178",
+  "skuId": "4192-5050-2178",
+  "description": "N2D AMD Instance Core running in Zurich",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west6"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 36026000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west6"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4289-2AC4-32AE",
+  "skuId": "4289-2AC4-32AE",
+  "description": "N2D AMD Instance Core running in Delhi",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 33034000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/45C7-42BE-4253",
+  "skuId": "45C7-42BE-4253",
+  "description": "N2 Instance Ram running in Montreal",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4664000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/462E-70CF-C7AF",
+  "skuId": "462E-70CF-C7AF",
+  "description": "N2D AMD Instance Ram running in London",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4748000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4791-064D-3189",
+  "skuId": "4791-064D-3189",
+  "description": "N2D AMD Instance Core running in Finland",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-north1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30281000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-north1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4C01-B57D-5057",
+  "skuId": "4C01-B57D-5057",
+  "description": "N2D AMD Instance Core running in Melbourne",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 33171000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4DE7-0DB1-1ECB",
+  "skuId": "4DE7-0DB1-1ECB",
+  "description": "N2D AMD Instance Ram running in Japan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4715000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4F32-A552-9B5C",
+  "skuId": "4F32-A552-9B5C",
+  "description": "N2D AMD Instance Ram running in Dammam",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5897600
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4FC1-0994-5D3A",
+  "skuId": "4FC1-0994-5D3A",
+  "description": "N2 Instance Ram running in Delhi",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5088000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5301-3C91-6D0A",
+  "skuId": "5301-3C91-6D0A",
+  "description": "N2D AMD Instance Core running in Toronto",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30278000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/53BB-FF1B-0C91",
+  "skuId": "53BB-FF1B-0C91",
+  "description": "N2 Instance Core running in Frankfurt",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 40730000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5467-593D-DD72",
+  "skuId": "5467-593D-DD72",
+  "description": "N2 Instance Core running in Las Vegas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35603000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5535-6D2D-4B50",
+  "skuId": "5535-6D2D-4B50",
+  "description": "N2D AMD Instance Ram running in Americas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-central1",
+   "us-east1",
+   "us-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 3686000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "MULTI_REGIONAL",
+   "regions": [
+    "us-central1",
+    "us-east1",
+    "us-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5571-8F21-9137",
+  "skuId": "5571-8F21-9137",
+  "description": "N2 Instance Core running in Virginia",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35605000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5682-8AD5-97D9",
+  "skuId": "5682-8AD5-97D9",
+  "description": "N2D AMD Instance Ram running in Columbus",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east5"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 3686000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east5"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5825-9018-A945",
+  "skuId": "5825-9018-A945",
+  "description": "T2A Arm Instance Core running in Netherlands",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 26164090
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5929-5298-664A",
+  "skuId": "5929-5298-664A",
+  "description": "N2D AMD Instance Ram running in Montreal",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4058000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/59FD-DA88-2A13",
+  "skuId": "59FD-DA88-2A13",
+  "description": "N2 Instance Core running in Finland",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-north1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 34806000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-north1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5B01-D157-A097",
+  "skuId": "5B01-D157-A097",
+  "description": "N2 Instance Ram running in Americas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-central1",
+   "us-east1",
+   "us-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4237000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "MULTI_REGIONAL",
+   "regions": [
+    "us-central1",
+    "us-east1",
+    "us-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5D73-8F02-FE5C",
+  "skuId": "5D73-8F02-FE5C",
+  "description": "N2D AMD Instance Ram running in Paris",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west9"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4275760
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west9"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5F90-8155-6576",
+  "skuId": "5F90-8155-6576",
+  "description": "N2D AMD Instance Ram running in Zurich",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west6"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4829000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west6"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/62EC-22E4-6E3D",
+  "skuId": "62EC-22E4-6E3D",
+  "description": "N2 Instance Core running in Dallas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 37300980
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6320-5E2C-96C1",
+  "skuId": "6320-5E2C-96C1",
+  "description": "N2 Instance Core running in Zurich",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west6"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 41409000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west6"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6487-C110-BE19",
+  "skuId": "6487-C110-BE19",
+  "description": "N2 Instance Ram running in Sao Paulo",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 6725000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/64D3-DA96-E5F0",
+  "skuId": "64D3-DA96-E5F0",
+  "description": "N2 Instance Ram running in Warsaw",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5127000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/662F-0A9B-36DE",
+  "skuId": "662F-0A9B-36DE",
+  "description": "N2 Instance Core running in Salt Lake City",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 37970000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/68CB-4CDF-D6C2",
+  "skuId": "68CB-4CDF-D6C2",
+  "description": "N2 Instance Core running in Hong Kong",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 44231000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6BEF-1529-C828",
+  "skuId": "6BEF-1529-C828",
+  "description": "N2 Instance Ram running in Toronto",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4664000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6EA2-F2F1-BBB4",
+  "skuId": "6EA2-F2F1-BBB4",
+  "description": "N2 Instance Core running in London",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 40730000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7293-75B6-FE15",
+  "skuId": "7293-75B6-FE15",
+  "description": "N2 Instance Core running in Milan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 36668760
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/73EE-1419-7501",
+  "skuId": "73EE-1419-7501",
+  "description": "N2 Instance Core running in Delhi",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 37970000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7426-261D-34A4",
+  "skuId": "7426-261D-34A4",
+  "description": "N2 Instance Core running in Santiago",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 45203730
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7609-A4B6-9218",
+  "skuId": "7609-A4B6-9218",
+  "description": "N2D AMD Instance Ram running in Seoul",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4734000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/761E-277E-41F6",
+  "skuId": "761E-277E-41F6",
+  "description": "T2A Arm Instance Ram running in Singapore",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4190000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7B47-C603-1F9F",
+  "skuId": "7B47-C603-1F9F",
+  "description": "T2A Arm Instance Ram running in Netherlands",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 3570000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7DD8-7C56-8F10",
+  "skuId": "7DD8-7C56-8F10",
+  "description": "N2D AMD Instance Ram running in Osaka",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4734000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7F42-2C35-6872",
+  "skuId": "7F42-2C35-6872",
+  "description": "T2A Arm Instance Core running in Americas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-central1",
+   "us-east1",
+   "us-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 24900000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "MULTI_REGIONAL",
+   "regions": [
+    "us-central1",
+    "us-east1",
+    "us-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/809C-1E3B-306E",
+  "skuId": "809C-1E3B-306E",
+  "description": "N2D AMD Instance Core running in Virginia",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30976000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/852E-0449-B664",
+  "skuId": "852E-0449-B664",
+  "description": "N2 Instance Ram running in Jakarta",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5696340
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/894B-36DF-FDC1",
+  "skuId": "894B-36DF-FDC1",
+  "description": "N2D AMD Instance Core running in Dammam",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 44003200
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/8B33-9CF5-6D1E",
+  "skuId": "8B33-9CF5-6D1E",
+  "description": "N2 Instance Ram running in Turin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west12"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5465730
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west12"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/8B4E-B458-AD51",
+  "skuId": "8B4E-B458-AD51",
+  "description": "N2D AMD Instance Core running in Singapore",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 33929000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/8F60-4F60-EE56",
+  "skuId": "8F60-4F60-EE56",
+  "description": "N2 Instance Core running in Sao Paulo",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 50180000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/9201-F0D0-15DA",
+  "skuId": "9201-F0D0-15DA",
+  "description": "N2D AMD Instance Core running in EMEA",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30253000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/92EB-71EA-DA74",
+  "skuId": "92EB-71EA-DA74",
+  "description": "N2D AMD Instance Ram running in Singapore",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4547000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/95C6-3CAC-175A",
+  "skuId": "95C6-3CAC-175A",
+  "description": "N2D AMD Instance Ram running in Hong Kong",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5157000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/95C7-D6E0-3BF6",
+  "skuId": "95C7-D6E0-3BF6",
+  "description": "N2D AMD Instance Ram running in Sydney",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5230000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/9653-E8D4-C871",
+  "skuId": "9653-E8D4-C871",
+  "description": "N2D AMD Instance Core running in Jakarta",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 36982610
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/989D-20AE-D4FC",
+  "skuId": "989D-20AE-D4FC",
+  "description": "N2 Instance Core running in Israel",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 34772100
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/98E9-BA44-DDD2",
+  "skuId": "98E9-BA44-DDD2",
+  "description": "N2D AMD Instance Ram running in Salt Lake City",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4427000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/9A1E-0C13-E40C",
+  "skuId": "9A1E-0C13-E40C",
+  "description": "N2D AMD Instance Core running in Paris",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west9"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 31902320
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west9"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/9F49-AF93-20A7",
+  "skuId": "9F49-AF93-20A7",
+  "description": "N2D AMD Instance Core running in Seoul",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35318000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/9F61-45D7-D4FB",
+  "skuId": "9F61-45D7-D4FB",
+  "description": "N2 Instance Core running in EMEA",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 34773000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A03E-E620-7389",
+  "skuId": "A03E-E620-7389",
+  "description": "N2D AMD Instance Core running in Americas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-central1",
+   "us-east1",
+   "us-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 27502000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "MULTI_REGIONAL",
+   "regions": [
+    "us-central1",
+    "us-east1",
+    "us-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A109-54C1-7CB0",
+  "skuId": "A109-54C1-7CB0",
+  "description": "N2 Instance Ram running in EMEA",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4661000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A118-C0E0-D091",
+  "skuId": "A118-C0E0-D091",
+  "description": "N2 Instance Core running in Los Angeles",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 37970000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A4C4-8D51-DDBF",
+  "skuId": "A4C4-8D51-DDBF",
+  "description": "N2D AMD Instance Core running in Turin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west12"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35477580
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west12"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A557-29AB-E13A",
+  "skuId": "A557-29AB-E13A",
+  "description": "N2 Instance Ram running in London",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5458000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A57E-8491-5C53",
+  "skuId": "A57E-8491-5C53",
+  "description": "N2D AMD Instance Ram running in Frankfurt",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4748000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A5A6-3EDC-7F3C",
+  "skuId": "A5A6-3EDC-7F3C",
+  "description": "N2 Instance Ram running in Frankfurt",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5458000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A640-62BC-0C6C",
+  "skuId": "A640-62BC-0C6C",
+  "description": "N2D AMD Instance Core running in Hong Kong",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 38481000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A7C6-F754-76FF",
+  "skuId": "A7C6-F754-76FF",
+  "description": "N2 Instance Ram running in Zurich",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west6"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5551000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west6"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A85D-97DD-5B85",
+  "skuId": "A85D-97DD-5B85",
+  "description": "N2 Instance Ram running in Israel",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4660700
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A903-CE02-AD33",
+  "skuId": "A903-CE02-AD33",
+  "description": "N2D AMD Instance Core running in Johannesburg",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "africa-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30253000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "africa-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A96B-6699-99E0",
+  "skuId": "A96B-6699-99E0",
+  "description": "N2 Instance Ram running in Virginia",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4771000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/A9FC-4BD1-8E21",
+  "skuId": "A9FC-4BD1-8E21",
+  "description": "N2 Instance Ram running in Seoul",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5441000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/AB68-2A46-1E54",
+  "skuId": "AB68-2A46-1E54",
+  "description": "N2 Instance Ram running in Osaka",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5441000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/ABD2-309F-B86A",
+  "skuId": "ABD2-309F-B86A",
+  "description": "N2D AMD Instance Ram running in Las Vegas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4151000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/AC56-47BD-703D",
+  "skuId": "AC56-47BD-703D",
+  "description": "N2 Instance Core running in Columbus",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east5"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 31611000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east5"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/AFF5-E97F-63FD",
+  "skuId": "AFF5-E97F-63FD",
+  "description": "N2 Instance Core running in Doha",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 38407370
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B319-78AD-242C",
+  "skuId": "B319-78AD-242C",
+  "description": "N2 Instance Ram running in Milan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4914920
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B39E-9089-083F",
+  "skuId": "B39E-9089-083F",
+  "description": "N2D AMD Instance Ram running in Santiago",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5270980
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B3C2-5A26-804C",
+  "skuId": "B3C2-5A26-804C",
+  "description": "N2D AMD Instance Ram running in Phoenix",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 3686000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B46B-6090-FA88",
+  "skuId": "B46B-6090-FA88",
+  "description": "N2 Instance Core running in Netherlands",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 34802000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B6B6-38EC-824B",
+  "skuId": "B6B6-38EC-824B",
+  "description": "N2 Instance Ram running in Madrid",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-southwest1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4999660
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-southwest1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/BB77-5FDA-69D9",
+  "skuId": "BB77-5FDA-69D9",
+  "description": "N2 Instance Core running in Americas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-central1",
+   "us-east1",
+   "us-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 31611000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "MULTI_REGIONAL",
+   "regions": [
+    "us-central1",
+    "us-east1",
+    "us-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/BD2C-2B6F-83BC",
+  "skuId": "BD2C-2B6F-83BC",
+  "description": "N2D AMD Instance Ram running in Milan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4275760
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C458-9509-E762",
+  "skuId": "C458-9509-E762",
+  "description": "N2 Instance Ram running in Finland",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-north1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4664000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-north1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C4D8-6E4C-3BF9",
+  "skuId": "C4D8-6E4C-3BF9",
+  "description": "N2 Instance Core running in Osaka",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 40595000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C5C1-548B-71FE",
+  "skuId": "C5C1-548B-71FE",
+  "description": "T2A Arm Instance Ram running in Americas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-central1",
+   "us-east1",
+   "us-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 3400000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "MULTI_REGIONAL",
+   "regions": [
+    "us-central1",
+    "us-east1",
+    "us-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C639-5472-507A",
+  "skuId": "C639-5472-507A",
+  "description": "N2 Instance Core running in Turin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west12"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 40778190
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west12"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C84B-1AD4-8EAE",
+  "skuId": "C84B-1AD4-8EAE",
+  "description": "N2 Instance Ram running in Singapore",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5226000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C8AE-0102-5B06",
+  "skuId": "C8AE-0102-5B06",
+  "description": "N2D AMD Instance Core running in Berlin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west10"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35436820
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west10"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C8C8-6EAA-E72D",
+  "skuId": "C8C8-6EAA-E72D",
+  "description": "N2 Instance Core running in Madrid",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-southwest1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 37300980
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-southwest1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C8D0-536C-DF7C",
+  "skuId": "C8D0-536C-DF7C",
+  "description": "N2D AMD Instance Ram running in Delhi",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4427000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/CBC9-2071-267A",
+  "skuId": "CBC9-2071-267A",
+  "description": "N2 Instance Core running in Montreal",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 34802000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/CCE4-BB91-51FE",
+  "skuId": "CCE4-BB91-51FE",
+  "description": "N2 Instance Ram running in Salt Lake City",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5089000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/CDA5-479A-D53F",
+  "skuId": "CDA5-479A-D53F",
+  "description": "N2D AMD Instance Core running in Osaka",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35318000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/CDAA-A05D-DE0B",
+  "skuId": "CDAA-A05D-DE0B",
+  "description": "N2 Instance Ram running in Doha",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5147955
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/CFB3-624B-6A52",
+  "skuId": "CFB3-624B-6A52",
+  "description": "N2 Instance Ram running in Japan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5419000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/D293-6255-369A",
+  "skuId": "D293-6255-369A",
+  "description": "N2D AMD Instance Ram running in Virginia",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4151000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/D455-945C-A274",
+  "skuId": "D455-945C-A274",
+  "description": "N2D AMD Instance Ram running in Johannesburg",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "africa-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4055000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "africa-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/D484-E83B-5FD6",
+  "skuId": "D484-E83B-5FD6",
+  "description": "N2D AMD Instance Ram running in Netherlands",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4058000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/D6C7-BFE7-CA01",
+  "skuId": "D6C7-BFE7-CA01",
+  "description": "N2D AMD Instance Core running in Warsaw",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 33277000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/D71C-9B8F-0ED9",
+  "skuId": "D71C-9B8F-0ED9",
+  "description": "N2 Instance Core running in Seoul",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 40595000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/DAAA-3573-68F7",
+  "skuId": "DAAA-3573-68F7",
+  "description": "N2 Instance Core running in Phoenix",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 31611000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/E021-0FE4-1AC3",
+  "skuId": "E021-0FE4-1AC3",
+  "description": "N2D AMD Instance Ram running in Mumbai",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 2433000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/E137-7DDF-1143",
+  "skuId": "E137-7DDF-1143",
+  "description": "N2 Instance Core running in Japan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 40618000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/E2D3-0481-0A4E",
+  "skuId": "E2D3-0481-0A4E",
+  "description": "N2D AMD Instance Core running in Phoenix",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 27502000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/E3DA-E73C-3FCD",
+  "skuId": "E3DA-E73C-3FCD",
+  "description": "N2D AMD Instance Core running in Japan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 35338000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/E66C-DA13-79E7",
+  "skuId": "E66C-DA13-79E7",
+  "description": "N2D AMD Instance Ram running in Doha",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4478490
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EAF9-3DFB-1CDF",
+  "skuId": "EAF9-3DFB-1CDF",
+  "description": "N2D AMD Instance Core running in Doha",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 33414930
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EC56-EBB7-DAB3",
+  "skuId": "EC56-EBB7-DAB3",
+  "description": "N2 Instance Core running in Toronto",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 34802000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EC8A-8CC8-A8F0",
+  "skuId": "EC8A-8CC8-A8F0",
+  "description": "N2D AMD Instance Core running in Sao Paulo",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 43657000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EDA5-E252-95C0",
+  "skuId": "EDA5-E252-95C0",
+  "description": "N2D AMD Instance Ram running in Berlin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west10"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4747770
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west10"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EE46-3F79-CA9D",
+  "skuId": "EE46-3F79-CA9D",
+  "description": "N2 Instance Core running in Johannesburg",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "africa-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 34773000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "africa-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EF6C-66BA-C9C6",
+  "skuId": "EF6C-66BA-C9C6",
+  "description": "N2D AMD Instance Core running in APAC",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 31844000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EFCB-2D7A-52B6",
+  "skuId": "EFCB-2D7A-52B6",
+  "description": "N2 Instance Ram running in Netherlands",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4664000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/EFD6-197E-0212",
+  "skuId": "EFD6-197E-0212",
+  "description": "N2 Instance Ram running in Berlin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west10"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5458150
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west10"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/F1DD-9B94-5C6C",
+  "skuId": "F1DD-9B94-5C6C",
+  "description": "N2 Instance Core running in Melbourne",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 38128000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/F264-E520-0277",
+  "skuId": "F264-E520-0277",
+  "description": "N2 Instance Core running in Paris",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west9"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 36668760
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west9"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/F50A-B110-CF48",
+  "skuId": "F50A-B110-CF48",
+  "description": "N2D AMD Instance Ram running in Jakarta",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4956230
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/F579-1568-AEED",
+  "skuId": "F579-1568-AEED",
+  "description": "N2D AMD Instance Ram running in Finland",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-north1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4058000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-north1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/F83E-0ED3-1C12",
+  "skuId": "F83E-0ED3-1C12",
+  "description": "N2 Instance Ram running in Paris",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west9"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4914920
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west9"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/F892-6AA0-B93C",
+  "skuId": "F892-6AA0-B93C",
+  "description": "N2 Instance Core running in Dammam",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 50577600
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/F92D-0A8D-649F",
+  "skuId": "F92D-0A8D-649F",
+  "description": "N2D AMD Instance Ram running in Sao Paulo",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5851000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/FA34-B408-E0FF",
+  "skuId": "FA34-B408-E0FF",
+  "description": "N2 Instance Ram running in Las Vegas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4771000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/FC62-C94D-BE38",
+  "skuId": "FC62-C94D-BE38",
+  "description": "N2 Instance Ram running in Sydney",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 6011000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/FCE5-6D7D-935F",
+  "skuId": "FCE5-6D7D-935F",
+  "description": "N2D AMD Instance Core running in Madrid",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-southwest1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 32452360
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-southwest1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/FE03-BB37-AD1F",
+  "skuId": "FE03-BB37-AD1F",
+  "description": "N2D AMD Instance Core running in Israel",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "CPU",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 30252200
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/FFF7-7A42-F2E8",
+  "skuId": "FFF7-7A42-F2E8",
+  "description": "N2D AMD Instance Ram running in APAC",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Compute",
+   "resourceGroup": "RAM",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 4268000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte hour",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 3865470566400
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-11T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east1"
+   ]
+  }
+ }
+]

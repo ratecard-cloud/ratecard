@@ -16,7 +16,7 @@
   "price_monthly_usd": 85.5,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -41,7 +41,7 @@
   "price_monthly_usd": 60.23,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -66,7 +66,7 @@
   "price_monthly_usd": 74.35,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -91,7 +91,7 @@
   "price_monthly_usd": 35.04,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -117,7 +117,7 @@
   "price_monthly_usd": 28.03,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -143,7 +143,7 @@
   "price_monthly_usd": 101.37,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -168,7 +168,7 @@
   "price_monthly_usd": 71.39,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -193,7 +193,7 @@
   "price_monthly_usd": 88.15,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -218,7 +218,7 @@
   "price_monthly_usd": 70.08,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -244,7 +244,7 @@
   "price_monthly_usd": 56.06,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -270,7 +270,7 @@
   "price_monthly_usd": 171.01,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -295,7 +295,7 @@
   "price_monthly_usd": 120.38,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -320,7 +320,7 @@
   "price_monthly_usd": 148.7,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -345,7 +345,7 @@
   "price_monthly_usd": 202.74,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -370,7 +370,7 @@
   "price_monthly_usd": 142.72,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -395,7 +395,7 @@
   "price_monthly_usd": 176.3,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -420,7 +420,7 @@
   "price_monthly_usd": 140.16,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -446,7 +446,7 @@
   "price_monthly_usd": 112.13,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -472,7 +472,7 @@
   "price_monthly_usd": 342.02,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -497,7 +497,7 @@
   "price_monthly_usd": 240.75,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -522,7 +522,7 @@
   "price_monthly_usd": 297.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -547,7 +547,7 @@
   "price_monthly_usd": 405.47,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -572,7 +572,7 @@
   "price_monthly_usd": 285.43,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -597,7 +597,7 @@
   "price_monthly_usd": 352.59,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -622,7 +622,7 @@
   "price_monthly_usd": 280.32,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -648,7 +648,7 @@
   "price_monthly_usd": 224.26,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -674,7 +674,7 @@
   "price_monthly_usd": 684.04,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -699,7 +699,7 @@
   "price_monthly_usd": 481.51,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -724,7 +724,7 @@
   "price_monthly_usd": 594.8,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -749,7 +749,7 @@
   "price_monthly_usd": 810.94,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -774,7 +774,7 @@
   "price_monthly_usd": 570.93,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.389Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -799,7 +799,7 @@
   "price_monthly_usd": 705.18,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:31.388Z",
+  "collected_at": "2026-08-12T04:18:13.471Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -824,7 +824,7 @@
   "price_monthly_usd": 74.93,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -849,7 +849,7 @@
   "price_monthly_usd": 52.93,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -874,7 +874,7 @@
   "price_monthly_usd": 65.15,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -899,7 +899,7 @@
   "price_monthly_usd": 30.37,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -925,7 +925,7 @@
   "price_monthly_usd": 24.53,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -951,7 +951,7 @@
   "price_monthly_usd": 84.62,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -976,7 +976,7 @@
   "price_monthly_usd": 59.57,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1001,7 +1001,7 @@
   "price_monthly_usd": 73.58,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1026,7 +1026,7 @@
   "price_monthly_usd": 60.74,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1052,7 +1052,7 @@
   "price_monthly_usd": 49.06,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1078,7 +1078,7 @@
   "price_monthly_usd": 149.85,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1103,7 +1103,7 @@
   "price_monthly_usd": 105.85,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1128,7 +1128,7 @@
   "price_monthly_usd": 130.31,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1153,7 +1153,7 @@
   "price_monthly_usd": 169.24,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1178,7 +1178,7 @@
   "price_monthly_usd": 119.14,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1203,7 +1203,7 @@
   "price_monthly_usd": 147.17,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1228,7 +1228,7 @@
   "price_monthly_usd": 121.47,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1254,7 +1254,7 @@
   "price_monthly_usd": 98.11,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1280,7 +1280,7 @@
   "price_monthly_usd": 299.71,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1305,7 +1305,7 @@
   "price_monthly_usd": 211.7,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1330,7 +1330,7 @@
   "price_monthly_usd": 260.61,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1355,7 +1355,7 @@
   "price_monthly_usd": 338.49,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1380,7 +1380,7 @@
   "price_monthly_usd": 238.27,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1405,7 +1405,7 @@
   "price_monthly_usd": 294.34,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1430,7 +1430,7 @@
   "price_monthly_usd": 242.94,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1456,7 +1456,7 @@
   "price_monthly_usd": 196.22,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1482,7 +1482,7 @@
   "price_monthly_usd": 599.42,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1507,7 +1507,7 @@
   "price_monthly_usd": 423.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1532,7 +1532,7 @@
   "price_monthly_usd": 521.22,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1557,7 +1557,7 @@
   "price_monthly_usd": 676.97,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.115Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1582,7 +1582,7 @@
   "price_monthly_usd": 476.54,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1607,7 +1607,7 @@
   "price_monthly_usd": 588.67,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:26.451Z",
+  "collected_at": "2026-08-12T04:18:07.114Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1632,7 +1632,7 @@
   "price_monthly_usd": 70.81,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.454Z",
+  "collected_at": "2026-08-12T04:18:17.806Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1657,7 +1657,7 @@
   "price_monthly_usd": 67.16,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.454Z",
+  "collected_at": "2026-08-12T04:18:17.807Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1682,7 +1682,7 @@
   "price_monthly_usd": 83.95,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.453Z",
+  "collected_at": "2026-08-12T04:18:17.806Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1707,7 +1707,7 @@
   "price_monthly_usd": 141.62,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.454Z",
+  "collected_at": "2026-08-12T04:18:17.807Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1732,7 +1732,7 @@
   "price_monthly_usd": 134.32,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.454Z",
+  "collected_at": "2026-08-12T04:18:17.807Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1757,7 +1757,7 @@
   "price_monthly_usd": 167.9,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.453Z",
+  "collected_at": "2026-08-12T04:18:17.806Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1782,7 +1782,7 @@
   "price_monthly_usd": 283.24,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.454Z",
+  "collected_at": "2026-08-12T04:18:17.807Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1807,7 +1807,7 @@
   "price_monthly_usd": 268.64,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.454Z",
+  "collected_at": "2026-08-12T04:18:17.807Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1832,7 +1832,7 @@
   "price_monthly_usd": 335.8,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.453Z",
+  "collected_at": "2026-08-12T04:18:17.806Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1857,7 +1857,7 @@
   "price_monthly_usd": 566.48,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.454Z",
+  "collected_at": "2026-08-12T04:18:17.807Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1882,7 +1882,7 @@
   "price_monthly_usd": 671.6,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:33.453Z",
+  "collected_at": "2026-08-12T04:18:17.806Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1907,7 +1907,7 @@
   "price_monthly_usd": 61.76,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.488Z",
+  "collected_at": "2026-08-12T04:18:16.272Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1932,7 +1932,7 @@
   "price_monthly_usd": 56.21,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.488Z",
+  "collected_at": "2026-08-12T04:18:16.272Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1957,7 +1957,7 @@
   "price_monthly_usd": 70.08,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.486Z",
+  "collected_at": "2026-08-12T04:18:16.270Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1982,7 +1982,7 @@
   "price_monthly_usd": 123.37,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.488Z",
+  "collected_at": "2026-08-12T04:18:16.272Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2007,7 +2007,7 @@
   "price_monthly_usd": 112.42,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.488Z",
+  "collected_at": "2026-08-12T04:18:16.272Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2032,7 +2032,7 @@
   "price_monthly_usd": 140.16,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.487Z",
+  "collected_at": "2026-08-12T04:18:16.271Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2057,7 +2057,7 @@
   "price_monthly_usd": 246.74,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.488Z",
+  "collected_at": "2026-08-12T04:18:16.272Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2082,7 +2082,7 @@
   "price_monthly_usd": 224.84,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.488Z",
+  "collected_at": "2026-08-12T04:18:16.272Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2107,7 +2107,7 @@
   "price_monthly_usd": 280.32,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.487Z",
+  "collected_at": "2026-08-12T04:18:16.271Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2132,7 +2132,7 @@
   "price_monthly_usd": 494.21,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.488Z",
+  "collected_at": "2026-08-12T04:18:16.272Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2157,7 +2157,7 @@
   "price_monthly_usd": 560.64,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:32.487Z",
+  "collected_at": "2026-08-12T04:18:16.271Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2182,7 +2182,7 @@
   "price_monthly_usd": 42,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2207,7 +2207,7 @@
   "price_monthly_usd": 47,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2232,7 +2232,7 @@
   "price_monthly_usd": 62,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2257,7 +2257,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2282,7 +2282,7 @@
   "price_monthly_usd": 32,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2307,7 +2307,7 @@
   "price_monthly_usd": 28,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2332,7 +2332,7 @@
   "price_monthly_usd": 28,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2357,57 +2357,7 @@
   "price_monthly_usd": 63,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 4 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g-2vcpu-8gb-intel",
-  "display_name": "General Purpose — Premium Intel",
-  "vcpu": 2,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 8,
-  "arch": "x86_64",
-  "local_storage_gb": 30,
-  "included_egress_gb": 4096,
-  "price_hourly_usd": 0.1131,
-  "price_monthly_usd": 76,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 4 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g5_5-2vcpu-8gb-intel",
-  "display_name": "General Purpose - Premium Intel 5.5x SSD",
-  "vcpu": 2,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 8,
-  "arch": "x86_64",
-  "local_storage_gb": 165,
-  "included_egress_gb": 4096,
-  "price_hourly_usd": 0.1372,
-  "price_monthly_usd": 92.2,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2432,7 +2382,7 @@
   "price_monthly_usd": 90.6,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2457,32 +2407,7 @@
   "price_monthly_usd": 68,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 4 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "gd-2vcpu-8gb-intel",
-  "display_name": "General Purpose — Premium Intel 2x SSD",
-  "vcpu": 2,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 8,
-  "arch": "x86_64",
-  "local_storage_gb": 60,
-  "included_egress_gb": 4096,
-  "price_hourly_usd": 0.11756,
-  "price_monthly_usd": 79,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2507,7 +2432,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2532,7 +2457,7 @@
   "price_monthly_usd": 42,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2557,32 +2482,7 @@
   "price_monthly_usd": 84,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 5 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c-4-intel",
-  "display_name": "Premium Intel",
-  "vcpu": 4,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 8,
-  "arch": "x86_64",
-  "local_storage_gb": 50,
-  "included_egress_gb": 5120,
-  "price_hourly_usd": 0.1622,
-  "price_monthly_usd": 109,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2607,32 +2507,7 @@
   "price_monthly_usd": 94,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 5 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c2-4vcpu-8gb-intel",
-  "display_name": "Premium Intel",
-  "vcpu": 4,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 8,
-  "arch": "x86_64",
-  "local_storage_gb": 100,
-  "included_egress_gb": 5120,
-  "price_hourly_usd": 0.18155,
-  "price_monthly_usd": 122,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2657,32 +2532,7 @@
   "price_monthly_usd": 124,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 5 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c5-4vcpu-8gb-intel",
-  "display_name": "CPU Optimized - Premium Intel 5x SSD",
-  "vcpu": 4,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 8,
-  "arch": "x86_64",
-  "local_storage_gb": 250,
-  "included_egress_gb": 5120,
-  "price_hourly_usd": 0.23958,
-  "price_monthly_usd": 161,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2707,7 +2557,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2732,7 +2582,7 @@
   "price_monthly_usd": 64,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2757,7 +2607,7 @@
   "price_monthly_usd": 56,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2782,7 +2632,7 @@
   "price_monthly_usd": 56,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2807,57 +2657,7 @@
   "price_monthly_usd": 126,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 5 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g-4vcpu-16gb-intel",
-  "display_name": "General Purpose — Premium Intel",
-  "vcpu": 4,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 16,
-  "arch": "x86_64",
-  "local_storage_gb": 60,
-  "included_egress_gb": 5120,
-  "price_hourly_usd": 0.2247,
-  "price_monthly_usd": 151,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 5 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g5_5-4vcpu-16gb-intel",
-  "display_name": "General Purpose - Premium Intel 5.5x SSD",
-  "vcpu": 4,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 16,
-  "arch": "x86_64",
-  "local_storage_gb": 330,
-  "included_egress_gb": 5120,
-  "price_hourly_usd": 0.27292,
-  "price_monthly_usd": 183.4,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2882,7 +2682,7 @@
   "price_monthly_usd": 181,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2907,32 +2707,7 @@
   "price_monthly_usd": 136,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 5 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "gd-4vcpu-16gb-intel",
-  "display_name": "General Purpose — Premium Intel 2x SSD",
-  "vcpu": 4,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 16,
-  "arch": "x86_64",
-  "local_storage_gb": 120,
-  "included_egress_gb": 5120,
-  "price_hourly_usd": 0.23512,
-  "price_monthly_usd": 158,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2957,7 +2732,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -2982,7 +2757,7 @@
   "price_monthly_usd": 84,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3007,32 +2782,7 @@
   "price_monthly_usd": 168,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 6 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c-8-intel",
-  "display_name": "Premium Intel",
-  "vcpu": 8,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 16,
-  "arch": "x86_64",
-  "local_storage_gb": 100,
-  "included_egress_gb": 6144,
-  "price_hourly_usd": 0.3244,
-  "price_monthly_usd": 218,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3057,32 +2807,7 @@
   "price_monthly_usd": 188,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 6 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c2-8vcpu-16gb-intel",
-  "display_name": "Premium Intel",
-  "vcpu": 8,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 16,
-  "arch": "x86_64",
-  "local_storage_gb": 200,
-  "included_egress_gb": 6144,
-  "price_hourly_usd": 0.3631,
-  "price_monthly_usd": 244,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3107,32 +2832,7 @@
   "price_monthly_usd": 248,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 6 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c5-8vcpu-16gb-intel",
-  "display_name": "CPU Optimized - Premium Intel 5x SSD",
-  "vcpu": 8,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 16,
-  "arch": "x86_64",
-  "local_storage_gb": 500,
-  "included_egress_gb": 6144,
-  "price_hourly_usd": 0.47917,
-  "price_monthly_usd": 322,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3157,7 +2857,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3182,7 +2882,7 @@
   "price_monthly_usd": 128,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3207,7 +2907,7 @@
   "price_monthly_usd": 112,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3232,7 +2932,7 @@
   "price_monthly_usd": 112,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3257,57 +2957,7 @@
   "price_monthly_usd": 252,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 6 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g-8vcpu-32gb-intel",
-  "display_name": "General Purpose — Premium Intel",
-  "vcpu": 8,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 32,
-  "arch": "x86_64",
-  "local_storage_gb": 120,
-  "included_egress_gb": 6144,
-  "price_hourly_usd": 0.4494,
-  "price_monthly_usd": 302,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 6 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g5_5-8vcpu-32gb-intel",
-  "display_name": "General Purpose - Premium Intel 5.5x SSD",
-  "vcpu": 8,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 32,
-  "arch": "x86_64",
-  "local_storage_gb": 660,
-  "included_egress_gb": 6144,
-  "price_hourly_usd": 0.54583,
-  "price_monthly_usd": 366.8,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3332,7 +2982,7 @@
   "price_monthly_usd": 362,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3357,32 +3007,7 @@
   "price_monthly_usd": 272,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 6 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "gd-8vcpu-32gb-intel",
-  "display_name": "General Purpose — Premium Intel 2x SSD",
-  "vcpu": 8,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 32,
-  "arch": "x86_64",
-  "local_storage_gb": 240,
-  "included_egress_gb": 6144,
-  "price_hourly_usd": 0.47173,
-  "price_monthly_usd": 317,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3407,7 +3032,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3432,7 +3057,7 @@
   "price_monthly_usd": 168,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3457,32 +3082,7 @@
   "price_monthly_usd": 336,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 7 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c-16-intel",
-  "display_name": "Premium Intel",
-  "vcpu": 16,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 32,
-  "arch": "x86_64",
-  "local_storage_gb": 200,
-  "included_egress_gb": 7168,
-  "price_hourly_usd": 0.6503,
-  "price_monthly_usd": 437,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3507,32 +3107,7 @@
   "price_monthly_usd": 376,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 7 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c2-16vcpu-32gb-intel",
-  "display_name": "Premium Intel",
-  "vcpu": 16,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 32,
-  "arch": "x86_64",
-  "local_storage_gb": 400,
-  "included_egress_gb": 7168,
-  "price_hourly_usd": 0.72768,
-  "price_monthly_usd": 489,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3557,32 +3132,7 @@
   "price_monthly_usd": 496,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 7 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "c5-16vcpu-32gb-intel",
-  "display_name": "CPU Optimized - Premium Intel 5x SSD",
-  "vcpu": 16,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 32,
-  "arch": "x86_64",
-  "local_storage_gb": 1000,
-  "included_egress_gb": 7168,
-  "price_hourly_usd": 0.95982,
-  "price_monthly_usd": 645,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3607,57 +3157,7 @@
   "price_monthly_usd": 504,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 7 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g-16vcpu-64gb-intel",
-  "display_name": "General Purpose — Premium Intel",
-  "vcpu": 16,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 64,
-  "arch": "x86_64",
-  "local_storage_gb": 240,
-  "included_egress_gb": 7168,
-  "price_hourly_usd": 0.9003,
-  "price_monthly_usd": 605,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 7 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "g5_5-16vcpu-64gb-intel",
-  "display_name": "General Purpose - Premium Intel 5.5x SSD",
-  "vcpu": 16,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 64,
-  "arch": "x86_64",
-  "local_storage_gb": 1320,
-  "included_egress_gb": 7168,
-  "price_hourly_usd": 1.09315,
-  "price_monthly_usd": 734.6,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3682,7 +3182,7 @@
   "price_monthly_usd": 724,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3707,32 +3207,7 @@
   "price_monthly_usd": 544,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
-  "source_verified_at": null,
-  "confidence": "high",
-  "notes": [
-   "Includes 7 TB outbound transfer per month.",
-   "Transfer allowance is pooled across all Droplets on the account."
-  ]
- },
- {
-  "provider": "digitalocean",
-  "region": "eu-central",
-  "region_code": "fra1",
-  "sku": "gd-16vcpu-64gb-intel",
-  "display_name": "General Purpose — Premium Intel 2x SSD",
-  "vcpu": 16,
-  "vcpu_type": "dedicated",
-  "vcpu_unit": "core",
-  "ram_gb": 64,
-  "arch": "x86_64",
-  "local_storage_gb": 480,
-  "included_egress_gb": 7168,
-  "price_hourly_usd": 0.94345,
-  "price_monthly_usd": 634,
-  "currency": "USD",
-  "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3757,7 +3232,7 @@
   "price_monthly_usd": 42,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3782,7 +3257,7 @@
   "price_monthly_usd": 47,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3807,7 +3282,7 @@
   "price_monthly_usd": 62,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3832,7 +3307,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.833Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3857,7 +3332,7 @@
   "price_monthly_usd": 32,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3882,7 +3357,7 @@
   "price_monthly_usd": 28,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3907,7 +3382,7 @@
   "price_monthly_usd": 28,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3932,7 +3407,7 @@
   "price_monthly_usd": 63,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3957,7 +3432,7 @@
   "price_monthly_usd": 90.6,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -3982,7 +3457,7 @@
   "price_monthly_usd": 68,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4007,7 +3482,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4032,7 +3507,7 @@
   "price_monthly_usd": 42,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4057,7 +3532,7 @@
   "price_monthly_usd": 84,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4082,7 +3557,7 @@
   "price_monthly_usd": 94,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4107,7 +3582,7 @@
   "price_monthly_usd": 124,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4132,7 +3607,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4157,7 +3632,7 @@
   "price_monthly_usd": 64,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4182,7 +3657,7 @@
   "price_monthly_usd": 56,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4207,7 +3682,7 @@
   "price_monthly_usd": 56,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4232,7 +3707,7 @@
   "price_monthly_usd": 126,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4257,7 +3732,7 @@
   "price_monthly_usd": 181,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4282,7 +3757,7 @@
   "price_monthly_usd": 136,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4307,7 +3782,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4332,7 +3807,7 @@
   "price_monthly_usd": 84,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4357,7 +3832,7 @@
   "price_monthly_usd": 168,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4382,7 +3857,7 @@
   "price_monthly_usd": 188,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4407,7 +3882,7 @@
   "price_monthly_usd": 248,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4432,7 +3907,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4457,7 +3932,7 @@
   "price_monthly_usd": 128,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4482,7 +3957,7 @@
   "price_monthly_usd": 112,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4507,7 +3982,7 @@
   "price_monthly_usd": 112,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4532,7 +4007,7 @@
   "price_monthly_usd": 252,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4557,7 +4032,7 @@
   "price_monthly_usd": 362,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4582,7 +4057,7 @@
   "price_monthly_usd": 272,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4607,7 +4082,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4632,7 +4107,7 @@
   "price_monthly_usd": 168,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4657,7 +4132,7 @@
   "price_monthly_usd": 336,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4682,7 +4157,7 @@
   "price_monthly_usd": 376,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4707,7 +4182,7 @@
   "price_monthly_usd": 496,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4732,7 +4207,7 @@
   "price_monthly_usd": 504,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4757,7 +4232,7 @@
   "price_monthly_usd": 724,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -4782,12 +4257,444 @@
   "price_monthly_usd": 544,
   "currency": "USD",
   "source_url": "https://www.digitalocean.com/pricing/droplets",
-  "collected_at": "2026-08-12T01:24:36.430Z",
+  "collected_at": "2026-08-12T04:18:26.834Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "Includes 7 TB outbound transfer per month.",
    "Transfer allowance is pooled across all Droplets on the account."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2-standard-2",
+  "display_name": "n2-standard-2",
+  "vcpu": 2,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 8,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.125124,
+  "price_monthly_usd": 91.34,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 2 vCPU x $0.040730/hr + 8 GB x $0.005458/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2d-standard-2",
+  "display_name": "n2d-standard-2",
+  "vcpu": 2,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 8,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.108854,
+  "price_monthly_usd": 79.46,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.792Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 2 vCPU x $0.035435/hr + 8 GB x $0.004748/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2-standard-4",
+  "display_name": "n2-standard-4",
+  "vcpu": 4,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 16,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.250248,
+  "price_monthly_usd": 182.68,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 4 vCPU x $0.040730/hr + 16 GB x $0.005458/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2d-standard-4",
+  "display_name": "n2d-standard-4",
+  "vcpu": 4,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 16,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.217708,
+  "price_monthly_usd": 158.93,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.792Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 4 vCPU x $0.035435/hr + 16 GB x $0.004748/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2-standard-8",
+  "display_name": "n2-standard-8",
+  "vcpu": 8,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 32,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.500496,
+  "price_monthly_usd": 365.36,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 8 vCPU x $0.040730/hr + 32 GB x $0.005458/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2d-standard-8",
+  "display_name": "n2d-standard-8",
+  "vcpu": 8,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 32,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.435416,
+  "price_monthly_usd": 317.85,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.792Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 8 vCPU x $0.035435/hr + 32 GB x $0.004748/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2-standard-16",
+  "display_name": "n2-standard-16",
+  "vcpu": 16,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 64,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 1.000992,
+  "price_monthly_usd": 730.72,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.792Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 16 vCPU x $0.040730/hr + 64 GB x $0.005458/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "eu-central",
+  "region_code": "europe-west3",
+  "sku": "n2d-standard-16",
+  "display_name": "n2d-standard-16",
+  "vcpu": 16,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 64,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.870832,
+  "price_monthly_usd": 635.71,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.792Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 16 vCPU x $0.035435/hr + 64 GB x $0.004748/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2-standard-2",
+  "display_name": "n2-standard-2",
+  "vcpu": 2,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 8,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.109378,
+  "price_monthly_usd": 79.85,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 2 vCPU x $0.035605/hr + 8 GB x $0.004771/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2d-standard-2",
+  "display_name": "n2d-standard-2",
+  "vcpu": 2,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 8,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.09516,
+  "price_monthly_usd": 69.47,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 2 vCPU x $0.030976/hr + 8 GB x $0.004151/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2-standard-4",
+  "display_name": "n2-standard-4",
+  "vcpu": 4,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 16,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.218756,
+  "price_monthly_usd": 159.69,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 4 vCPU x $0.035605/hr + 16 GB x $0.004771/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2d-standard-4",
+  "display_name": "n2d-standard-4",
+  "vcpu": 4,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 16,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.19032,
+  "price_monthly_usd": 138.93,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 4 vCPU x $0.030976/hr + 16 GB x $0.004151/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2-standard-8",
+  "display_name": "n2-standard-8",
+  "vcpu": 8,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 32,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.437512,
+  "price_monthly_usd": 319.38,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 8 vCPU x $0.035605/hr + 32 GB x $0.004771/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2d-standard-8",
+  "display_name": "n2d-standard-8",
+  "vcpu": 8,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 32,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.38064,
+  "price_monthly_usd": 277.87,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 8 vCPU x $0.030976/hr + 32 GB x $0.004151/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2-standard-16",
+  "display_name": "n2-standard-16",
+  "vcpu": 16,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 64,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.875024,
+  "price_monthly_usd": 638.77,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 16 vCPU x $0.035605/hr + 64 GB x $0.004771/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-east",
+  "region_code": "us-east4",
+  "sku": "n2d-standard-16",
+  "display_name": "n2d-standard-16",
+  "vcpu": 16,
+  "vcpu_type": "dedicated",
+  "vcpu_unit": "thread",
+  "ram_gb": 64,
+  "arch": "x86_64",
+  "local_storage_gb": 0,
+  "included_egress_gb": 0,
+  "price_hourly_usd": 0.76128,
+  "price_monthly_usd": 555.73,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/compute/vm-instance-pricing",
+  "collected_at": "2026-08-12T04:18:23.791Z",
+  "source_verified_at": null,
+  "confidence": "medium",
+  "notes": [
+   "Reassembled from component SKUs: 16 vCPU x $0.030976/hr + 64 GB x $0.004151/hr.",
+   "GCP does not publish a single per-machine-type price; this is the sum of its parts.",
+   "Excludes sustained-use discounts, which apply automatically on real bills.",
+   "Boot disk and egress billed separately."
   ]
  },
  {
@@ -4802,17 +4709,19 @@
   "ram_gb": 4,
   "arch": "arm64",
   "local_storage_gb": 40,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0112,
   "price_monthly_usd": 6.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CAX11",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -4827,17 +4736,19 @@
   "ram_gb": 4,
   "arch": "x86_64",
   "local_storage_gb": 80,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0368,
   "price_monthly_usd": 22.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 22",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -4852,17 +4763,19 @@
   "ram_gb": 4,
   "arch": "x86_64",
   "local_storage_gb": 40,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0104,
   "price_monthly_usd": 6.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CX 23",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -4877,17 +4790,19 @@
   "ram_gb": 8,
   "arch": "x86_64",
   "local_storage_gb": 80,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0809,
   "price_monthly_usd": 50.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX13 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -4902,17 +4817,19 @@
   "ram_gb": 8,
   "arch": "arm64",
   "local_storage_gb": 80,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.02,
   "price_monthly_usd": 12.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CAX21",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -4927,17 +4844,19 @@
   "ram_gb": 8,
   "arch": "x86_64",
   "local_storage_gb": 160,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0328,
   "price_monthly_usd": 20.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 31",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -4952,17 +4871,19 @@
   "ram_gb": 8,
   "arch": "x86_64",
   "local_storage_gb": 160,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0673,
   "price_monthly_usd": 41.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 32",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -4977,17 +4898,19 @@
   "ram_gb": 8,
   "arch": "x86_64",
   "local_storage_gb": 80,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.016,
   "price_monthly_usd": 8.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CX 33",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5002,17 +4925,19 @@
   "ram_gb": 16,
   "arch": "x86_64",
   "local_storage_gb": 160,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.1626,
   "price_monthly_usd": 101.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX23 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5027,17 +4952,19 @@
   "ram_gb": 16,
   "arch": "arm64",
   "local_storage_gb": 160,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.04,
   "price_monthly_usd": 24.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CAX31",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5052,17 +4979,19 @@
   "ram_gb": 16,
   "arch": "x86_64",
   "local_storage_gb": 240,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0609,
   "price_monthly_usd": 37.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 41",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5077,17 +5006,19 @@
   "ram_gb": 16,
   "arch": "x86_64",
   "local_storage_gb": 320,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.1314,
   "price_monthly_usd": 81.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 42",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5102,17 +5033,19 @@
   "ram_gb": 16,
   "arch": "x86_64",
   "local_storage_gb": 160,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0296,
   "price_monthly_usd": 18.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CX 43",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5127,17 +5060,19 @@
   "ram_gb": 32,
   "arch": "x86_64",
   "local_storage_gb": 240,
-  "included_egress_gb": 0,
+  "included_egress_gb": 30720,
   "price_hourly_usd": 0.2612,
   "price_monthly_usd": 162.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX33 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 30 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5152,17 +5087,19 @@
   "ram_gb": 32,
   "arch": "arm64",
   "local_storage_gb": 320,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0777,
   "price_monthly_usd": 48.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CAX41",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5177,17 +5114,19 @@
   "ram_gb": 32,
   "arch": "x86_64",
   "local_storage_gb": 360,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.1338,
   "price_monthly_usd": 83.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 51",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5202,17 +5141,19 @@
   "ram_gb": 32,
   "arch": "x86_64",
   "local_storage_gb": 640,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.2452,
   "price_monthly_usd": 152.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 62",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5227,17 +5168,19 @@
   "ram_gb": 32,
   "arch": "x86_64",
   "local_storage_gb": 320,
-  "included_egress_gb": 0,
+  "included_egress_gb": 20480,
   "price_hourly_usd": 0.0561,
   "price_monthly_usd": 34.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CX 53",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 20 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5252,17 +5195,19 @@
   "ram_gb": 64,
   "arch": "x86_64",
   "local_storage_gb": 360,
-  "included_egress_gb": 0,
+  "included_egress_gb": 40960,
   "price_hourly_usd": 0.5216,
   "price_monthly_usd": 325.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX43 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 40 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5277,17 +5222,19 @@
   "ram_gb": 8,
   "arch": "x86_64",
   "local_storage_gb": 80,
-  "included_egress_gb": 0,
+  "included_egress_gb": 1024,
   "price_hourly_usd": 0.0817,
   "price_monthly_usd": 50.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX13 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 1 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5302,17 +5249,19 @@
   "ram_gb": 8,
   "arch": "x86_64",
   "local_storage_gb": 160,
-  "included_egress_gb": 0,
+  "included_egress_gb": 3072,
   "price_hourly_usd": 0.1178,
   "price_monthly_usd": 73.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.584Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 31",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 3 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5327,17 +5276,19 @@
   "ram_gb": 16,
   "arch": "x86_64",
   "local_storage_gb": 160,
-  "included_egress_gb": 0,
+  "included_egress_gb": 2048,
   "price_hourly_usd": 0.165,
   "price_monthly_usd": 102.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX23 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 2 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5352,17 +5303,19 @@
   "ram_gb": 16,
   "arch": "x86_64",
   "local_storage_gb": 240,
-  "included_egress_gb": 0,
+  "included_egress_gb": 4096,
   "price_hourly_usd": 0.2267,
   "price_monthly_usd": 141.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 41",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 4 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5377,17 +5330,19 @@
   "ram_gb": 32,
   "arch": "x86_64",
   "local_storage_gb": 240,
-  "included_egress_gb": 0,
+  "included_egress_gb": 3072,
   "price_hourly_usd": 0.266,
   "price_monthly_usd": 165.99,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX33 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 3 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5402,17 +5357,19 @@
   "ram_gb": 32,
   "arch": "x86_64",
   "local_storage_gb": 360,
-  "included_egress_gb": 0,
+  "included_egress_gb": 5120,
   "price_hourly_usd": 0.4479,
   "price_monthly_usd": 279.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.214Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CPX 51",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 5 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5427,17 +5384,19 @@
   "ram_gb": 64,
   "arch": "x86_64",
   "local_storage_gb": 360,
-  "included_egress_gb": 0,
+  "included_egress_gb": 4096,
   "price_hourly_usd": 0.528,
   "price_monthly_usd": 329.49,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-12T01:24:35.585Z",
+  "collected_at": "2026-08-12T04:18:26.215Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "CCX43 Dedicated CPU",
-   "Prices are net of VAT."
+   "Prices are net of VAT.",
+   "Bundled traffic differs sharply by location: this one includes 4 TiB/month.",
+   "Overage $1.20 per TiB."
   ]
  },
  {
@@ -5457,7 +5416,7 @@
   "price_monthly_usd": 36,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5482,7 +5441,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.065Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5507,7 +5466,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5532,7 +5491,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5557,7 +5516,7 @@
   "price_monthly_usd": 51.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5582,7 +5541,7 @@
   "price_monthly_usd": 80.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5607,7 +5566,7 @@
   "price_monthly_usd": 72,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5632,7 +5591,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.065Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5657,7 +5616,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5682,7 +5641,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5707,7 +5666,7 @@
   "price_monthly_usd": 102.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5732,7 +5691,7 @@
   "price_monthly_usd": 153.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5757,7 +5716,7 @@
   "price_monthly_usd": 144,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5782,7 +5741,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5807,7 +5766,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5832,7 +5791,7 @@
   "price_monthly_usd": 197.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5857,7 +5816,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5882,7 +5841,7 @@
   "price_monthly_usd": 306.6,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5907,7 +5866,7 @@
   "price_monthly_usd": 288,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5932,7 +5891,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5957,7 +5916,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -5982,7 +5941,7 @@
   "price_monthly_usd": 394.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6007,7 +5966,7 @@
   "price_monthly_usd": 384,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6032,7 +5991,7 @@
   "price_monthly_usd": 613.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6057,7 +6016,7 @@
   "price_monthly_usd": 36,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6082,7 +6041,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.065Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6107,7 +6066,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6132,7 +6091,7 @@
   "price_monthly_usd": 43,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6157,7 +6116,7 @@
   "price_monthly_usd": 51.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6182,7 +6141,7 @@
   "price_monthly_usd": 80.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6207,7 +6166,7 @@
   "price_monthly_usd": 72,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6232,7 +6191,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.065Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6257,7 +6216,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6282,7 +6241,7 @@
   "price_monthly_usd": 86,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6307,7 +6266,7 @@
   "price_monthly_usd": 102.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6332,7 +6291,7 @@
   "price_monthly_usd": 153.3,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6357,7 +6316,7 @@
   "price_monthly_usd": 144,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6382,7 +6341,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6407,7 +6366,7 @@
   "price_monthly_usd": 173,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6432,7 +6391,7 @@
   "price_monthly_usd": 197.1,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6457,7 +6416,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6482,7 +6441,7 @@
   "price_monthly_usd": 306.6,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6507,7 +6466,7 @@
   "price_monthly_usd": 288,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6532,7 +6491,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6557,7 +6516,7 @@
   "price_monthly_usd": 346,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6582,7 +6541,7 @@
   "price_monthly_usd": 394.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6607,7 +6566,7 @@
   "price_monthly_usd": 384,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6632,7 +6591,7 @@
   "price_monthly_usd": 613.2,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-08-12T01:24:36.584Z",
+  "collected_at": "2026-08-12T04:18:27.066Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6657,7 +6616,7 @@
   "price_monthly_usd": 22.63,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6683,7 +6642,7 @@
   "price_monthly_usd": 27.01,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6709,7 +6668,7 @@
   "price_monthly_usd": 45.26,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6735,7 +6694,7 @@
   "price_monthly_usd": 54.02,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6761,7 +6720,7 @@
   "price_monthly_usd": 90.52,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6787,7 +6746,7 @@
   "price_monthly_usd": 108.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6813,7 +6772,7 @@
   "price_monthly_usd": 181.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6839,7 +6798,7 @@
   "price_monthly_usd": 216.08,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.864Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6865,7 +6824,7 @@
   "price_monthly_usd": 22.63,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6891,7 +6850,7 @@
   "price_monthly_usd": 27.01,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6917,7 +6876,7 @@
   "price_monthly_usd": 45.26,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6943,7 +6902,7 @@
   "price_monthly_usd": 54.02,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6969,7 +6928,7 @@
   "price_monthly_usd": 90.52,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -6995,7 +6954,7 @@
   "price_monthly_usd": 108.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7021,7 +6980,7 @@
   "price_monthly_usd": 181.04,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.863Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7047,7 +7006,7 @@
   "price_monthly_usd": 216.08,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:34.864Z",
+  "collected_at": "2026-08-12T04:18:25.572Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7073,7 +7032,7 @@
   "price_monthly_usd": 20,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7097,7 +7056,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7121,7 +7080,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7145,7 +7104,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7169,7 +7128,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7193,7 +7152,7 @@
   "price_monthly_usd": 45,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7217,7 +7176,7 @@
   "price_monthly_usd": 60,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7241,7 +7200,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7265,7 +7224,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7289,7 +7248,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7313,7 +7272,7 @@
   "price_monthly_usd": 90,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7337,7 +7296,7 @@
   "price_monthly_usd": 80,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7361,7 +7320,7 @@
   "price_monthly_usd": 120,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7385,7 +7344,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7409,7 +7368,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7433,7 +7392,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7457,7 +7416,7 @@
   "price_monthly_usd": 180,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7481,7 +7440,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7505,7 +7464,7 @@
   "price_monthly_usd": 240,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7529,7 +7488,7 @@
   "price_monthly_usd": 320,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7553,7 +7512,7 @@
   "price_monthly_usd": 360,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7577,7 +7536,7 @@
   "price_monthly_usd": 320,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7601,7 +7560,7 @@
   "price_monthly_usd": 480,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7625,7 +7584,7 @@
   "price_monthly_usd": 20,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.250Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7649,7 +7608,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7673,7 +7632,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7697,7 +7656,7 @@
   "price_monthly_usd": 24,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7721,7 +7680,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7745,7 +7704,7 @@
   "price_monthly_usd": 45,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7769,7 +7728,7 @@
   "price_monthly_usd": 60,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7793,7 +7752,7 @@
   "price_monthly_usd": 40,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7817,7 +7776,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7841,7 +7800,7 @@
   "price_monthly_usd": 48,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7865,7 +7824,7 @@
   "price_monthly_usd": 90,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7889,7 +7848,7 @@
   "price_monthly_usd": 80,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7913,7 +7872,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7937,7 +7896,7 @@
   "price_monthly_usd": 120,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7961,7 +7920,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -7985,7 +7944,7 @@
   "price_monthly_usd": 96,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8009,7 +7968,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8033,7 +7992,7 @@
   "price_monthly_usd": 180,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8057,7 +8016,7 @@
   "price_monthly_usd": 160,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8081,7 +8040,7 @@
   "price_monthly_usd": 192,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8105,7 +8064,7 @@
   "price_monthly_usd": 240,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8129,7 +8088,7 @@
   "price_monthly_usd": 320,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8153,7 +8112,7 @@
   "price_monthly_usd": 360,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -8177,7 +8136,7 @@
   "price_monthly_usd": 480,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.010Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [

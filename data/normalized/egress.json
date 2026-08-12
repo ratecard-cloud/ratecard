@@ -24,7 +24,7 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -57,7 +57,7 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -94,7 +94,7 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -131,7 +131,7 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -152,7 +152,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -174,7 +174,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -196,7 +196,7 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -218,7 +218,7 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -240,7 +240,7 @@
   ],
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -262,7 +262,7 @@
   ],
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -292,7 +292,7 @@
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -324,7 +324,7 @@
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -342,18 +342,18 @@
   "tiers": [
    {
     "up_to_gb": null,
-    "usd_per_gb": 0.00108
+    "usd_per_gb": 0.00117188
    }
   ],
   "currency": "USD",
-  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "source_url": "https://www.hetzner.com/cloud/",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
-  "confidence": "low",
+  "confidence": "high",
   "notes": [
-   "UNVERIFIED RATE. Hetzner's FAQ confirms only outgoing traffic is billed, in 100 MB blocks, above a per-plan allowance — it does not publish the per-TB rate, and the pricing tables render client-side.",
-   "The figure here (~EUR 1.00/TB) is carried over pending confirmation from the Cloud API's traffic_price_per_tb, which needs an account token.",
-   "Included traffic differs by network zone (eu-central, us-east, us-west, ap-southeast); not yet modelled per zone."
+   "Overage is USD 1.20 per TiB, billed in 100 MB blocks.",
+   "Only outgoing traffic is billed; inbound and internal traffic are free.",
+   "The bundled allowance is per plan and per location — see the compute table."
   ]
  },
  {
@@ -364,18 +364,18 @@
   "tiers": [
    {
     "up_to_gb": null,
-    "usd_per_gb": 0.00108
+    "usd_per_gb": 0.00117188
    }
   ],
   "currency": "USD",
-  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "source_url": "https://www.hetzner.com/cloud/",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
-  "confidence": "low",
+  "confidence": "high",
   "notes": [
-   "UNVERIFIED RATE. Hetzner's FAQ confirms only outgoing traffic is billed, in 100 MB blocks, above a per-plan allowance — it does not publish the per-TB rate, and the pricing tables render client-side.",
-   "The figure here (~EUR 1.00/TB) is carried over pending confirmation from the Cloud API's traffic_price_per_tb, which needs an account token.",
-   "Included traffic differs by network zone (eu-central, us-east, us-west, ap-southeast); not yet modelled per zone."
+   "Overage is USD 1.20 per TiB, billed in 100 MB blocks.",
+   "Only outgoing traffic is billed; inbound and internal traffic are free.",
+   "The bundled allowance is per plan and per location — see the compute table."
   ]
  },
  {
@@ -391,7 +391,7 @@
   ],
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -413,7 +413,7 @@
   ],
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -435,7 +435,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -457,7 +457,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -479,7 +479,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -500,7 +500,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-12T01:24:37.251Z",
+  "collected_at": "2026-08-12T04:18:28.013Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
