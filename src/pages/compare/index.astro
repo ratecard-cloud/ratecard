@@ -1,0 +1,88 @@
+---
+import Base from '../../layouts/Base.astro';
+import {
+  COMPUTE, PROVIDERS, SHAPES, MANIFEST,
+  effectiveMonthly, crossover, gbLabel, usd, freshness,
+} from '../../lib/data';
+
+const REGION = 'us-east';
+const live = [...new Set(COMPUTE.map((r) => r.provider))]
+  .filter((k) => PROVIDERS[k]?.kind === 'compute')
+  .sort();
+
+const pick = (p: string, vcpu: number, ram: number) =>
+  COMPUTE
+    .filter((r) => r.provider === p && r.region === REGION && r.vcpu === vcpu && r.ram_gb === ram)
+    .sort((x, y) => x.price_monthly_usd - y.price_monthly_usd)[0];
+
+const ref = SHAPES.find((s) => s.vcpu === 4 && s.ram_gb === 16) ?? SHAPES[0];
+
+const pairs = [];
+for (let i = 0; i < live.length; i++) {
+  for (let j = i + 1; j < live.length; j++) {
+    const a = live[i], bKey = live[j];
+    const ra = pick(a, ref.vcpu, ref.ram_gb);
+    const rb = pick(bKey, ref.vcpu, ref.ram_gb);
+    const cross = ra && rb ? crossover(ra, rb) : null;
+    pairs.push({
+      a, b: bKey,
+      href: `/compare/${a}-vs-${bKey}`,
+      cross,
+      note: !ra || !rb
+        ? 'no shared shape'
+        : cross
+          ? `winner changes at ${gbLabel(cross.gb)}`
+          : `${PROVIDERS[effectiveMonthly(ra, 1024).total < effectiveMonthly(rb, 1024).total ? a : bKey].short} cheaper throughout`,
+      flips: !!cross,
+    });
+  }
+}
+// Pairs whose answer depends on the workload are the ones worth reading.
+pairs.sort((x, y) => Number(y.flips) - Number(x.flips) || x.a.localeCompare(y.a));
+
+const flipCount = pairs.filter((p) => p.flips).length;
+
+const title = 'Cloud provider price comparisons — RateCard';
+const description =
+  `Head-to-head pricing for every pair of ${live.length} cloud providers, including ` +
+  `egress. ${flipCount} of ${pairs.length} pairs change winner as bandwidth rises.`;
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:38px">
+    <h1 style="font-size:27px;letter-spacing:-0.02em;margin:0 0 8px">Head to head</h1>
+    <p class="muted" style="max-width:78ch;margin:0 0 6px">
+      Every pair of the {live.length} compute providers indexed here, compared on total
+      cost rather than sticker price. In
+      <strong style="color:var(--fg)">{flipCount} of {pairs.length}</strong> pairings the
+      cheaper provider changes as bandwidth grows — which is why "who is cheaper" has no
+      answer until you say how much traffic you send.
+    </p>
+    <p class="faint" style="margin:0 0 20px;font-size:13px">
+      At {ref.label} in US East · prices collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px">
+      {pairs.map((p) => (
+        <a class="card" href={p.href} style="padding:13px 15px">
+          <div style="display:flex;align-items:center;gap:7px;font-size:14px">
+            <strong>{PROVIDERS[p.a].short}</strong>
+            <span class="faint">vs</span>
+            <strong>{PROVIDERS[p.b].short}</strong>
+          </div>
+          <div class="faint" style="font-size:12px;margin-top:3px">
+            {p.flips
+              ? <span style="color:var(--accent)">{p.note}</span>
+              : p.note}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <p class="faint" style="font-size:12.5px;margin:22px 0 0;max-width:78ch">
+      Each pairing is generated from the same dataset as the rest of the site and
+      updates with it. For a workload-specific answer rather than a head-to-head,
+      use the <a href="/placement">placement page</a>.
+    </p>
+  </div>
+</Base>

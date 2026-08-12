@@ -142,6 +142,44 @@ export function paybackMonths(
   return Math.round((toll / saving) * 10) / 10;
 }
 
+/**
+ * The egress volume at which the cheaper of two options changes hands, or null
+ * if one is cheaper at every volume.
+ *
+ * This is the only genuinely interesting thing to say about a provider pair.
+ * "AWS costs $119, Hetzner costs $101" is a fact anyone can look up; "AWS is
+ * cheaper until you send 500 GB a month, after which it never is again" is the
+ * answer to the question people actually have.
+ */
+export function crossover(a: ComputeRow, b: ComputeRow) {
+  const diff = (gb: number) =>
+    effectiveMonthly(a, gb).total - effectiveMonthly(b, gb).total;
+
+  const start = Math.sign(diff(0));
+  if (start === 0) return null;
+
+  const scan = [0, 50, 100, 250, 500, 1024, 2048, 5120, 10240, 20480, 51200, 102400];
+  let lo = 0;
+  let hi: number | null = null;
+  for (const gb of scan) {
+    const s = Math.sign(diff(gb));
+    if (s !== start && s !== 0) { hi = gb; break; }
+    lo = gb;
+  }
+  if (hi === null) return null;
+
+  // Narrow to a usable figure rather than reporting the whole bracket.
+  for (let i = 0; i < 40; i++) {
+    const mid = (lo + hi) / 2;
+    if (Math.sign(diff(mid)) === start) lo = mid; else hi = mid;
+  }
+  return {
+    gb: Math.round(hi),
+    cheaperBelow: start < 0 ? a : b,
+    cheaperAbove: start < 0 ? b : a,
+  };
+}
+
 export const usd = (n: number) =>
   n >= 1000
     ? `$${n.toLocaleString('en-US', { maximumFractionDigits: 0 })}`

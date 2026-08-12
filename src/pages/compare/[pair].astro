@@ -1,0 +1,244 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProviderSignup from '../../components/ProviderSignup.astro';
+import {
+  COMPUTE, PROVIDERS, REGIONS, SHAPES, MANIFEST,
+  effectiveMonthly, egressSchedule, egressCost, exitCost, crossover,
+  usd, gbLabel, freshness,
+} from '../../lib/data';
+import type { ComputeRow } from '../../lib/data';
+
+/**
+ * One page per unordered provider pair. Generated in sorted order only —
+ * emitting both /a-vs-b and /b-vs-a would be duplicate content competing with
+ * itself, which is worse than not having the second URL at all.
+ */
+export function getStaticPaths() {
+  const live = [...new Set(COMPUTE.map((r) => r.provider))]
+    .filter((k) => PROVIDERS[k]?.kind === 'compute')
+    .sort();
+
+  const paths = [];
+  for (let i = 0; i < live.length; i++) {
+    for (let j = i + 1; j < live.length; j++) {
+      paths.push({ params: { pair: `${live[i]}-vs-${live[j]}` }, props: { a: live[i], b: live[j] } });
+    }
+  }
+  return paths;
+}
+
+const { a, b } = Astro.props;
+const A = PROVIDERS[a];
+const B = PROVIDERS[b];
+const REGION = 'us-east';
+const HEADLINE_EGRESS = 1024;
+
+const pick = (p: string, vcpu: number, ram: number, region = REGION) =>
+  COMPUTE
+    .filter((r) => r.provider === p && r.region === region && r.vcpu === vcpu && r.ram_gb === ram)
+    .sort((x, y) => x.price_monthly_usd - y.price_monthly_usd)[0];
+
+// Only shapes both providers actually offer — a row with one side blank is noise.
+const shared = SHAPES
+  .map((s) => ({ s, ra: pick(a, s.vcpu, s.ram_gb), rb: pick(b, s.vcpu, s.ram_gb) }))
+  .filter((x) => x.ra && x.rb);
+
+const ref = shared.find((x) => x.s.vcpu === 4 && x.s.ram_gb === 16) ?? shared[Math.floor(shared.length / 2)];
+const cross = ref ? crossover(ref.ra, ref.rb) : null;
+
+const schedA = egressSchedule(a, REGION);
+const schedB = egressSchedule(b, REGION);
+const VOLUMES = [1024, 10240, 51200];
+const DATASET = 5120;
+
+const shortOf = (r: ComputeRow) => PROVIDERS[r.provider].short;
+
+let verdict: string;
+if (!ref) {
+  verdict = `${A.short} and ${B.short} share no directly comparable machine size in this region.`;
+} else if (cross) {
+  verdict =
+    `${shortOf(cross.cheaperBelow)} is cheaper below ${gbLabel(cross.gb)} of egress a month. ` +
+    `Past that, ${shortOf(cross.cheaperAbove)} wins and keeps winning.`;
+} else {
+  const ea = effectiveMonthly(ref.ra, HEADLINE_EGRESS).total;
+  const eb = effectiveMonthly(ref.rb, HEADLINE_EGRESS).total;
+  const win = ea < eb ? ref.ra : ref.rb;
+  verdict =
+    `${shortOf(win)} is cheaper at every egress volume for this shape — ` +
+    `there is no crossover to look for.`;
+}
+
+const title = `${A.short} vs ${B.short} pricing compared — RateCard`;
+const description =
+  `${A.name} against ${B.name} on total monthly cost including egress, at matched ` +
+  `vCPU and RAM. ${cross ? `Cheaper option changes at ${gbLabel(cross.gb)}/month.` : ''} ` +
+  `List prices, sourced and dated.`;
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:38px">
+    <p class="faint" style="font-size:12.5px;margin:0 0 6px">
+      <a href="/compare">All comparisons</a>
+    </p>
+    <h1 style="font-size:28px;letter-spacing:-0.025em;margin:0 0 8px">
+      {A.short} vs {B.short}
+    </h1>
+    <p class="muted" style="margin:0 0 6px;max-width:78ch">
+      {A.name} and {B.name} at matched vCPU and RAM in {REGIONS[REGION].label}, priced
+      on what actually lands on the bill — the instance plus the bandwidth it sends.
+    </p>
+    <p class="faint" style="margin:0 0 20px;font-size:13px">
+      On-demand Linux list prices · collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div class="card" style="margin:0 0 24px;padding:15px 17px;background:var(--bg-soft)">
+      <div style="font-size:14px"><strong>{verdict}</strong></div>
+      {cross && ref && (
+        <div class="muted" style="font-size:13px;margin-top:6px">
+          At {ref.s.label}: {shortOf(ref.ra)} is {usd(effectiveMonthly(ref.ra, 0).total)}/mo
+          and {shortOf(ref.rb)} is {usd(effectiveMonthly(ref.rb, 0).total)}/mo before any
+          traffic. Bandwidth is what separates them — {A.short} bundles
+          {' '}{gbLabel(ref.ra.included_egress_gb)} and {B.short} bundles
+          {' '}{gbLabel(ref.rb.included_egress_gb)}.
+        </div>
+      )}
+    </div>
+
+    {shared.length > 0 && (
+      <>
+        <h2 style="font-size:18px;letter-spacing:-0.01em;margin:0 0 3px">
+          Total cost by machine size
+        </h2>
+        <p class="faint" style="font-size:12.5px;margin:0 0 10px">
+          Effective monthly cost with {gbLabel(HEADLINE_EGRESS)} of egress: the cheapest
+          plan each provider offers at that shape, instance price plus bandwidth.
+        </p>
+        <div class="table-scroll">
+          <table class="rc-table">
+            <thead>
+              <tr>
+                <th>Shape</th>
+                <th class="col-optional">{A.short} plan</th>
+                <th class="right">{A.short}</th>
+                <th class="col-optional">{B.short} plan</th>
+                <th class="right">{B.short}</th>
+                <th class="right">Difference</th>
+              </tr>
+            </thead>
+            <tbody>
+              {shared.map(({ s, ra, rb }) => {
+                const ea = effectiveMonthly(ra, HEADLINE_EGRESS).total;
+                const eb = effectiveMonthly(rb, HEADLINE_EGRESS).total;
+                const d = Math.abs(ea - eb);
+                const win = ea < eb ? A.short : B.short;
+                return (
+                  <tr>
+                    <td data-label="Shape"><strong>{s.label}</strong></td>
+                    <td class="num faint col-optional" data-label={`${A.short} plan`}>{ra.display_name}</td>
+                    <td class="right num" data-label={A.short}
+                        style={ea < eb ? 'font-weight:700;color:var(--win)' : ''}>{usd(ea)}</td>
+                    <td class="num faint col-optional" data-label={`${B.short} plan`}>{rb.display_name}</td>
+                    <td class="right num" data-label={B.short}
+                        style={eb < ea ? 'font-weight:700;color:var(--win)' : ''}>{usd(eb)}</td>
+                    <td class="right num faint" data-label="Difference">
+                      {d < 0.01 ? 'level' : `${usd(d)} to ${win}`}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </>
+    )}
+
+    <h2 style="font-size:18px;letter-spacing:-0.01em;margin:30px 0 3px">Bandwidth</h2>
+    <p class="faint" style="font-size:12.5px;margin:0 0 10px">
+      Standalone egress cost, before any allowance bundled with an instance.
+    </p>
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th class="right">First paid GB</th>
+            <th class="right col-optional">Free tier</th>
+            {VOLUMES.map((v) => <th class="right">{gbLabel(v)}/mo</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {[[a, schedA], [b, schedB]].map(([key, sc]: any) => (
+            <tr>
+              <td data-label="Provider"><strong>{PROVIDERS[key].short}</strong></td>
+              <td class="right num" data-label="First paid GB">
+                {sc ? (sc.tiers[0].usd_per_gb === 0
+                  ? <span style="color:var(--win);font-weight:700">free</span>
+                  : `$${sc.tiers[0].usd_per_gb.toFixed(5).replace(/0+$/, '').replace(/\.$/, '')}`) : '—'}
+              </td>
+              <td class="right num faint col-optional" data-label="Free tier">
+                {sc?.bundled_with_compute ? 'per plan' : sc?.free_gb_per_month ? gbLabel(sc.free_gb_per_month) : '—'}
+              </td>
+              {VOLUMES.map((v) => (
+                <td class="right num" data-label={`${gbLabel(v)}/mo`}>
+                  {sc ? (egressCost(sc, v) === 0
+                    ? <span style="color:var(--win);font-weight:600">free</span>
+                    : usd(egressCost(sc, v))) : '—'}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    {ref && (
+      <>
+        <h2 style="font-size:18px;letter-spacing:-0.01em;margin:30px 0 3px">
+          What it costs to leave
+        </h2>
+        <p class="faint" style="font-size:12.5px;margin:0 0 10px">
+          One-off egress to carry {gbLabel(DATASET)} of data out again, at {ref.s.label} with
+          {' '}{gbLabel(HEADLINE_EGRESS)}/month of ordinary traffic. The number that decides how
+          reversible the choice is.
+        </p>
+        <div class="table-scroll">
+          <table class="rc-table">
+            <thead>
+              <tr>
+                <th>Provider</th>
+                <th class="right">Cost to leave</th>
+                <th class="right">Months of spend</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[ref.ra, ref.rb].map((r) => {
+                const x = exitCost(r, DATASET, HEADLINE_EGRESS);
+                const eff = effectiveMonthly(r, HEADLINE_EGRESS).total;
+                return (
+                  <tr>
+                    <td data-label="Provider"><strong>{shortOf(r)}</strong></td>
+                    <td class="right num" data-label="Cost to leave"
+                        style={x > 0 ? 'color:var(--warn)' : 'color:var(--win);font-weight:600'}>
+                      {x > 0 ? usd(x) : 'free'}
+                    </td>
+                    <td class="right num faint" data-label="Months of spend">{(x / eff).toFixed(1)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      </>
+    )}
+
+    <p class="muted" style="font-size:13px;margin:24px 0 0;max-width:78ch">
+      Matched vCPU and RAM is not a performance equivalence — see
+      {' '}<a href="/methodology">methodology</a> for what these numbers include and exclude.
+      Run your own numbers on the <a href="/compute">compute table</a> or work out
+      whether a move pays back on the <a href="/placement">placement page</a>.
+    </p>
+
+    <ProviderSignup only={[a, b]} heading="Signing up" />
+  </div>
+</Base>
