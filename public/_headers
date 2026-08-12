@@ -1,13 +1,17 @@
 # Parsed by Workers static assets; not served itself.
+# Note: rules from matching blocks are combined, so a header set in both /api/*
+# and /* is emitted twice. Keep site-wide headers in /* only.
 
 /api/*
-  # Unmetered public data — usable from a browser without a proxy.
+  # Unmetered public data — callable from a browser without a proxy.
   Access-Control-Allow-Origin: *
-  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
-  # Rebuilt daily. An hour of freshness is plenty, and stale-while-revalidate
+  # OPTIONS is deliberately not advertised: static assets cannot answer a
+  # preflight, so claiming support for one would be a lie. Simple GETs (no
+  # custom request headers) never preflight, which is the whole intended use.
+  Access-Control-Allow-Methods: GET, HEAD
+  # Rebuilt daily. An hour of freshness is ample, and stale-while-revalidate
   # means a consumer never blocks on our origin.
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
-  X-Content-Type-Options: nosniff
 
 /*
   X-Content-Type-Options: nosniff

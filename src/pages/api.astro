@@ -112,7 +112,12 @@ const description =
       </p>
       <p class="muted">
         <code>Access-Control-Allow-Origin: *</code>, so you can call this straight from
-        a browser without proxying it.
+        a browser without proxying it. Send a plain <code>GET</code> with no custom
+        request headers and it will not trigger a CORS preflight — which matters,
+        because these are static files and nothing here can answer an
+        {' '}<code>OPTIONS</code> request. Adding an <code>Authorization</code> or
+        custom <code>X-</code> header to a browser request will fail the preflight;
+        there is nothing to authenticate against anyway.
       </p>
 
       <h2 style="font-size:19px;margin:28px 0 8px">Attribution</h2>
