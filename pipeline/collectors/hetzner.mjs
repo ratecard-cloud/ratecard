@@ -68,12 +68,22 @@ export default async function collect() {
           ram_gb,
           arch: t.architecture === 'arm' ? 'arm64' : 'x86_64',
           local_storage_gb: t.disk,
-          included_egress_gb: (t.included_traffic ?? 0) / 1024 ** 3,
+          // included_traffic lives on the per-LOCATION price entry, not on the
+          // server type. Reading it off the type yields undefined -> 0, which
+          // silently strips Hetzner's whole advantage: EU locations bundle
+          // ~20 TiB while US locations bundle only 1-8 TiB.
+          included_egress_gb: Math.round((loc.included_traffic ?? 0) / 1024 ** 3),
           price_hourly_usd: await toUSD(hourlyNative, currency),
           price_monthly_usd: await toUSD(monthlyNative, currency),
           source_url: SOURCE,
           confidence: 'high',
-          notes: [t.description, note, 'Prices are net of VAT.'].filter(Boolean),
+          notes: [
+            t.description,
+            note,
+            'Prices are net of VAT.',
+            `Bundled traffic differs sharply by location: this one includes ${Math.round((loc.included_traffic ?? 0) / 1024 ** 4)} TiB/month.`,
+            `Overage $${parseFloat(loc.price_per_tb_traffic.net).toFixed(2)} per TiB.`,
+          ].filter(Boolean),
         }),
       );
     }

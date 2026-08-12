@@ -193,6 +193,55 @@ async function ociSchedules() {
   return out;
 }
 
+/* -------------------------------------------------------------- Hetzner -- */
+
+/**
+ * Hetzner publishes price_per_tb_traffic per location on /v1/pricing, so the
+ * overage rate is exact rather than curated. Needs HETZNER_API_TOKEN; without
+ * it we fall back to the curated entry, which is explicitly marked unverified.
+ *
+ * The bundled allowance itself lives on the compute records, because it varies
+ * enormously by location (EU ~20 TiB, US 1-8 TiB) and even by server type.
+ */
+async function hetznerSchedules() {
+  const token = process.env.HETZNER_API_TOKEN;
+  if (!token) return null;
+
+  const body = await getJSON('https://api.hetzner.cloud/v1/pricing', {
+    headers: { authorization: `Bearer ${token}` },
+  });
+  await saveRaw('hetzner', 'egress', body);
+
+  const currency = body.pricing.currency ?? 'EUR';
+  const out = {};
+
+  for (const [canonical, code] of Object.entries(PROVIDERS.hetzner.regions)) {
+    // Every server type quotes the same per-TB rate at a given location.
+    let perTb = null;
+    for (const st of body.pricing.server_types) {
+      const loc = st.prices.find((p) => p.location === code);
+      if (loc?.price_per_tb_traffic?.net) {
+        perTb = parseFloat(loc.price_per_tb_traffic.net);
+        break;
+      }
+    }
+    if (perTb == null) continue;
+
+    out[canonical] = {
+      free_gb_per_month: 0,
+      bundled_with_compute: true,
+      // Hetzner's "TB" is a TiB: included_traffic is an exact multiple of 1024^4.
+      tiers: [{ up_to_gb: null, usd_per_gb: round(perTb / 1024, 8) }],
+      notes: [
+        `Overage is ${currency} ${perTb.toFixed(2)} per TiB, billed in 100 MB blocks.`,
+        'Only outgoing traffic is billed; inbound and internal traffic are free.',
+        'The bundled allowance is per plan and per location — see the compute table.',
+      ],
+    };
+  }
+  return Object.keys(out).length ? out : null;
+}
+
 /* --------------------------------------------------------------- driver -- */
 
 export default async function collect() {
@@ -207,6 +256,9 @@ export default async function collect() {
     azure: await azureSchedules(),
     oci: await ociSchedules(),
   };
+  // Only supersedes the curated entry when a token is available.
+  const hetzner = await hetznerSchedules();
+  if (hetzner) live.hetzner = hetzner;
 
   for (const [provider, byRegion] of Object.entries(live)) {
     for (const [region, sched] of Object.entries(byRegion)) {
