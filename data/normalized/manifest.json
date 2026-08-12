@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-08-11T17:39:17.302Z",
- "duration_ms": 17271,
- "compute_records": 197,
+ "generated_at": "2026-08-12T01:24:40.104Z",
+ "duration_ms": 19220,
+ "compute_records": 328,
  "egress_records": 20,
  "providers": {
   "aws": {
    "state": "ok",
    "records": 64,
-   "ms": 7220
+   "ms": 10506
   },
   "azure": {
    "state": "ok",
    "records": 22,
-   "ms": 6072
+   "ms": 2065
   },
   "gcp": {
    "state": "skipped",
@@ -21,25 +21,27 @@
   "oci": {
    "state": "ok",
    "records": 16,
-   "ms": 1511
+   "ms": 1458
   },
   "hetzner": {
-   "state": "skipped",
-   "reason": "HETZNER_API_TOKEN not set — see README \"Credentials\""
+   "state": "ok",
+   "records": 26,
+   "ms": 672
   },
   "digitalocean": {
-   "state": "skipped",
-   "reason": "DO_API_TOKEN not set — see README \"Credentials\""
+   "state": "ok",
+   "records": 105,
+   "ms": 845
   },
   "linode": {
    "state": "ok",
    "records": 48,
-   "ms": 254
+   "ms": 154
   },
   "vultr": {
    "state": "ok",
    "records": 47,
-   "ms": 595
+   "ms": 667
   }
  }
 }
