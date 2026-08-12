@@ -1034,7 +1034,6 @@
    "type": "vhf",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "lax",
     "ams",
@@ -2179,6 +2178,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -5327,7 +5327,6 @@
     "ord",
     "atl",
     "sjc",
-    "sgp",
     "blr"
    ],
    "cpu_vendor": "Intel",
@@ -5407,9 +5406,7 @@
    "hourly_cost_preemptible": 1.671,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [
-    "atl"
-   ],
+   "locations": [],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -6164,6 +6161,7 @@
    "type": "vx1",
    "locations": [
     "ewr",
+    "ord",
     "sea",
     "ams",
     "nrt"
@@ -6194,6 +6192,7 @@
    "type": "vx1",
    "locations": [
     "ewr",
+    "ord",
     "sea",
     "ams",
     "nrt"
@@ -6749,6 +6748,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ord",
     "sea"
    ],
    "cpu_vendor": "AMD",
@@ -6776,6 +6776,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ord",
     "sea"
    ],
    "cpu_vendor": "AMD",
@@ -6902,9 +6903,7 @@
    "hourly_cost_preemptible": 3.342,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [
-    "atl"
-   ],
+   "locations": [],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
