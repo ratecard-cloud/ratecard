@@ -1,0 +1,200 @@
+---
+import Base from '../layouts/Base.astro';
+import ProviderSignup from '../components/ProviderSignup.astro';
+import {
+  COMPUTE, EGRESS, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS, MANIFEST,
+  effectiveMonthly, exitCost, paybackMonths, usd, gbLabel, freshness,
+} from '../lib/data';
+
+const DEFAULTS = { region: 'us-east', shape: '4/16', egress: 1024, dataset: 5120, from: '' };
+
+const [dv, dr] = DEFAULTS.shape.split('/').map(Number);
+const candidates = COMPUTE
+  .filter((r) => r.region === DEFAULTS.region && r.vcpu === dv && r.ram_gb === dr)
+  .map((r) => ({
+    r,
+    eff: effectiveMonthly(r, DEFAULTS.egress).total,
+    exit: exitCost(r, DEFAULTS.dataset, DEFAULTS.egress),
+  }))
+  .sort((a, b) => a.eff - b.eff);
+
+const best = candidates[0];
+
+const payload = {
+  compute: COMPUTE,
+  egress: EGRESS,
+  providers: Object.fromEntries(
+    Object.entries(PROVIDERS).map(([k, v]) => [k, { short: v.short, name: v.name }]),
+  ),
+};
+
+const title = 'Where should this run? — cloud placement and exit cost — RateCard';
+const description =
+  'Pick a home for a workload on total cost, then see what it would cost to ' +
+  'leave again. Exit tolls and migration payback across 8 cloud providers.';
+---
+
+<Base title={title} description={description}>
+  <div class="sticky-bar">
+    <div class="wrap" style="padding-top:12px;padding-bottom:12px">
+      <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end">
+        <label style="display:flex;flex-direction:column;gap:4px">
+          <span class="faint ctl-label">Region</span>
+          <select id="p-region" class="control">
+            {Object.entries(REGIONS).map(([k, v]) => (
+              <option value={k} selected={k === DEFAULTS.region}>{v.label}</option>
+            ))}
+          </select>
+        </label>
+
+        <label style="display:flex;flex-direction:column;gap:4px">
+          <span class="faint ctl-label">Shape</span>
+          <select id="p-shape" class="control">
+            {SHAPES.map((s) => (
+              <option value={s.key} selected={s.key === DEFAULTS.shape}>{s.label}</option>
+            ))}
+          </select>
+        </label>
+
+        <label style="display:flex;flex-direction:column;gap:4px">
+          <span class="faint ctl-label">Currently on</span>
+          <select id="p-from" class="control">
+            <option value="">Nothing yet — new workload</option>
+            {ACTIVE_PROVIDERS.map((k) => <option value={k}>{PROVIDERS[k].short}</option>)}
+          </select>
+        </label>
+
+        <div style="flex:1 1 210px;min-width:190px;display:flex;flex-direction:column;gap:2px">
+          <span class="faint ctl-label">
+            Egress / month — <strong id="p-egress-label" style="color:var(--accent)">1 TB</strong>
+          </span>
+          <input id="p-egress" type="range" min="0" max="8" step="1" value="3"
+                 aria-label="Monthly egress to internet" style="width:100%" />
+        </div>
+
+        <div style="flex:1 1 210px;min-width:190px;display:flex;flex-direction:column;gap:2px">
+          <span class="faint ctl-label">
+            Data at rest — <strong id="p-dataset-label" style="color:var(--accent)">5 TB</strong>
+          </span>
+          <input id="p-dataset" type="range" min="0" max="7" step="1" value="4"
+                 aria-label="Dataset size to migrate" style="width:100%" />
+          <span class="faint" style="font-size:11px">What you would have to carry with you.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap" style="padding-top:26px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Where should this run?</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:80ch">
+      Two questions decide a placement, and pricing pages answer neither: what will
+      this actually cost per month once bandwidth is priced in, and what will it cost
+      to change my mind later. The second one is the bill nobody budgets for.
+    </p>
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
+      <span id="p-count">{candidates.length}</span> options ·
+      {ACTIVE_PROVIDERS.length} providers · prices collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div class="card" id="p-verdict" style="margin:0 0 18px;padding:15px 17px;background:var(--bg-soft)">
+      <div style="font-size:13px" class="muted">
+        Cheapest at this shape and egress volume is
+        <strong style="color:var(--fg)">{PROVIDERS[best.r.provider].short} {best.r.display_name}</strong>
+        at <strong style="color:var(--fg)">{usd(best.eff)}/mo</strong>.
+        Leaving it later with {gbLabel(DEFAULTS.dataset)} of data would cost
+        <strong style="color:var(--fg)">{usd(best.exit)}</strong>.
+      </div>
+    </div>
+
+    <div class="table-scroll">
+      <table class="rc-table" id="p-grid">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th class="col-optional">Instance</th>
+            <th class="right col-optional">Bundled egress</th>
+            <th class="right">Effective $/mo</th>
+            <th class="right">Cost to leave</th>
+            <th class="right col-optional">Months of spend</th>
+            <th class="right">Payback</th>
+          </tr>
+        </thead>
+        <tbody id="p-body">
+          {candidates.map(({ r, eff, exit }) => (
+            <tr class={eff === best.eff ? 'is-cheapest' : ''}>
+              <td data-label="Provider"><strong>{PROVIDERS[r.provider].short}</strong></td>
+              <td class="num col-optional" data-label="Instance">{r.display_name}</td>
+              <td class="right num faint col-optional" data-label="Bundled egress">
+                {gbLabel(r.included_egress_gb)}
+              </td>
+              <td class="right num" data-label="Effective $/mo" style="font-weight:700">
+                {usd(eff)}
+                {eff === best.eff && <span class="chip chip-win" style="margin-left:6px">cheapest</span>}
+              </td>
+              <td class="right num" data-label="Cost to leave"
+                  style={exit > 0 ? 'color:var(--warn)' : 'color:var(--win);font-weight:600'}>
+                {exit > 0 ? usd(exit) : 'free'}
+              </td>
+              <td class="right num faint col-optional" data-label="Months of spend">
+                {(exit / eff).toFixed(1)}
+              </td>
+              <td class="right num faint" data-label="Payback">—</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <details class="explainer">
+      <summary>What these columns mean, and what they leave out</summary>
+      <div class="explainer-body">
+        <dl>
+          <dt>Effective $/mo</dt>
+          <dd>
+            Instance price plus your egress, after the plan's bundled allowance and
+            any account-level free tier. The number your card gets charged, for these
+            two line items only.
+          </dd>
+
+          <dt>Cost to leave</dt>
+          <dd>
+            One-off egress to carry your data out to somewhere else. Bundled
+            allowance is monthly and your ordinary traffic consumes it first, so only
+            the spare capacity absorbs a migration — which is why a provider bundling
+            tens of terabytes can cost nothing to exit while a hyperscaler charges
+            full freight.
+          </dd>
+
+          <dt>Months of spend</dt>
+          <dd>
+            Cost to leave, divided by the monthly bill. A plain measure of how stuck
+            you are: under 1 is a rounding error, above 3 means changing your mind
+            costs a quarter of a year's hosting.
+          </dd>
+
+          <dt>Payback</dt>
+          <dd>
+            If you set “currently on”, how long the move takes to repay the exit toll
+            out of the monthly saving. Blank where the row is not cheaper than where
+            you already are — moving to it costs money twice.
+          </dd>
+        </dl>
+
+        <p class="faint" style="margin:12px 0 0">
+          <strong style="color:var(--fg-muted)">What this does not model.</strong>
+          Compute and internet egress only. It ignores managed databases, load
+          balancers, storage, support plans and inter-AZ traffic — and it ignores
+          engineering time, downtime, rewriting against a different provider's APIs,
+          and the risk of the whole thing going wrong, which for most real migrations
+          dwarf the egress bill. Treat a short payback as permission to investigate,
+          never as a decision.
+        </p>
+      </div>
+    </details>
+
+    <ProviderSignup only={ACTIVE_PROVIDERS} heading="Signing up with one of these" />
+  </div>
+
+  <script is:inline set:html={`window.__RCP__=${JSON.stringify(payload)}`}></script>
+  <script src="/placement.js" is:inline></script>
+</Base>

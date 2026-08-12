@@ -450,3 +450,26 @@ table.rc-table tr.is-cheapest td:first-child { background: var(--win-soft); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ------------------------------------------------------- placement page -- */
+/* Shared by the filter bars; previously repeated inline on every label. */
+.ctl-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* The row you are already on. Marked, but never styled as a winner — being
+   where you are is not an achievement. */
+table.rc-table tr.is-current td { background: var(--accent-soft); }
+table.rc-table tr.is-current:hover td { background: var(--accent-soft); }
+table.rc-table tr.is-current td:first-child { background: var(--accent-soft); }
+
+@media (max-width: 640px) {
+  table.rc-table tr.is-current {
+    background: var(--accent-soft);
+    border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+  }
+  table.rc-table tr.is-current td,
+  table.rc-table tr.is-current td:first-child { background: transparent; }
+}

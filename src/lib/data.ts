@@ -111,6 +111,37 @@ export function effectiveMonthly(row: ComputeRow, egressGb: number) {
   };
 }
 
+/**
+ * One-off cost to move `datasetGb` out of a provider — the toll on leaving.
+ *
+ * A plan's bundled allowance is monthly and is consumed by ordinary traffic
+ * first, so only what is left over absorbs the migration. That interaction is
+ * the whole point: a provider bundling 20 TB has near-zero exit cost for a
+ * modest dataset, while one bundling 100 GB charges full freight to leave.
+ */
+export function exitCost(row: ComputeRow, datasetGb: number, monthlyEgressGb = 0) {
+  const spare = Math.max(0, (row.included_egress_gb ?? 0) - monthlyEgressGb);
+  const billable = Math.max(0, datasetGb - spare);
+  return egressCost(egressSchedule(row.provider, row.region), billable);
+}
+
+/**
+ * Months until a migration pays for itself. `null` when the move never pays —
+ * either because the destination is not cheaper, or the saving is zero.
+ */
+export function paybackMonths(
+  from: ComputeRow,
+  to: ComputeRow,
+  datasetGb: number,
+  monthlyEgressGb: number,
+) {
+  const saving =
+    effectiveMonthly(from, monthlyEgressGb).total - effectiveMonthly(to, monthlyEgressGb).total;
+  if (saving <= 0) return null;
+  const toll = exitCost(from, datasetGb, monthlyEgressGb);
+  return Math.round((toll / saving) * 10) / 10;
+}
+
 export const usd = (n: number) =>
   n >= 1000
     ? `$${n.toLocaleString('en-US', { maximumFractionDigits: 0 })}`
