@@ -119,18 +119,18 @@ const description =
             <tbody data-group-body={g.id}>
               {g.rows.map(({ e, costs, headline }) => (
                 <tr class={costs[di] === g.cheapest ? 'is-cheapest' : ''}>
-                  <td>
+                  <td data-label="Provider">
                     <strong>{PROVIDERS[e.provider].short}</strong>
                     {e.confidence !== 'high' && !e.source_verified_at && (
                       <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
                     )}
                   </td>
-                  <td class="right num col-optional">
+                  <td class="right num col-optional" data-label="First paid GB">
                     {headline === 0
                       ? <span style="color:var(--win);font-weight:700">free</span>
                       : `$${headline.toFixed(5).replace(/0+$/, '').replace(/\.$/, '')}`}
                   </td>
-                  <td class="right num faint">
+                  <td class="right num faint" data-label="Free / bundled">
                     {e.bundled_with_compute
                       ? 'per plan'
                       : e.free_gb_per_month
@@ -141,17 +141,18 @@ const description =
                     <td
                       class={`right num vol-col${VOLUMES[i] === DEFAULT_VOLUME ? ' col-active' : ''}`}
                       data-vol={VOLUMES[i]}
+                      data-label={`${gbLabel(VOLUMES[i])}/mo`}
                       style={c === 0 ? 'color:var(--win);font-weight:600' : ''}
                     >
                       {c === 0 ? 'free' : usd(c)}
                     </td>
                   ))}
-                  <td class="col-optional faint" style="font-size:12px">
+                  <td class="col-optional faint" data-label="Verified" style="font-size:12px">
                     {e.confidence === 'high'
                       ? <span title="Collected from the provider's own API">live API</span>
                       : e.source_verified_at ?? '—'}
                   </td>
-                  <td>
+                  <td data-label="Source">
                     <a href={e.source_url} rel="nofollow noopener" target="_blank"
                        class="faint" style="font-size:12px">source ↗</a>
                   </td>

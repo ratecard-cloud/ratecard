@@ -119,30 +119,30 @@ const description =
         <tbody id="grid-body">
           {initial.map(({ r, e }) => (
             <tr class={e.total === cheapest ? 'is-cheapest' : ''}>
-              <td><strong>{PROVIDERS[r.provider].short}</strong></td>
-              <td class="num">{r.display_name}</td>
-              <td>
+              <td data-label="Provider"><strong>{PROVIDERS[r.provider].short}</strong></td>
+              <td class="num" data-label="Instance">{r.display_name}</td>
+              <td data-label="CPU">
                 <span class={`chip chip-${r.vcpu_type}`}>
                   {r.vcpu_type === 'shared' ? 'shared' : 'dedicated'}
                 </span>
                 <span class="faint" style="font-size:11.5px"> {r.vcpu_unit}s</span>
               </td>
-              <td class="col-optional">
+              <td class="col-optional" data-label="Arch">
                 {r.arch === 'arm64'
                   ? <span class="chip chip-arm">ARM</span>
                   : <span class="faint" style="font-size:12px">x86</span>}
               </td>
-              <td class="right num faint col-optional">{gbLabel(r.included_egress_gb)}</td>
-              <td class="right num muted col-optional">${r.price_hourly_usd.toFixed(4)}</td>
-              <td class="right num muted">{usd(e.base)}</td>
-              <td class="right num" style={e.egress > 0 ? 'color:var(--warn)' : 'color:var(--fg-faint)'}>
+              <td class="right num faint col-optional" data-label="Bundled egress">{gbLabel(r.included_egress_gb)}</td>
+              <td class="right num muted col-optional" data-label="$/hr">${r.price_hourly_usd.toFixed(4)}</td>
+              <td class="right num muted" data-label="$/mo">{usd(e.base)}</td>
+              <td class="right num" data-label="+ egress" style={e.egress > 0 ? 'color:var(--warn)' : 'color:var(--fg-faint)'}>
                 {e.egress > 0 ? usd(e.egress) : '—'}
               </td>
-              <td class="right num" style="font-weight:700">
+              <td class="right num" data-label="Effective $/mo" style="font-weight:700">
                 {usd(e.total)}
                 {e.total === cheapest && <span class="chip chip-win" style="margin-left:6px">cheapest</span>}
               </td>
-              <td>
+              <td data-label="Source">
                 <a href={r.source_url} rel="nofollow noopener" target="_blank"
                    class="faint" style="font-size:12px">source ↗</a>
               </td>

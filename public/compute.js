@@ -154,21 +154,21 @@
       var p = D.providers[r.provider] || { short: r.provider };
       html +=
         '<tr class="' + (best ? 'is-cheapest' : '') + '">' +
-        '<td><strong>' + esc(p.short) + '</strong></td>' +
-        '<td class="num">' + esc(r.display_name) + '</td>' +
-        '<td><span class="chip chip-' + r.vcpu_type + '">' + r.vcpu_type + '</span>' +
+        '<td data-label="Provider"><strong>' + esc(p.short) + '</strong></td>' +
+        '<td class="num" data-label="Instance">' + esc(r.display_name) + '</td>' +
+        '<td data-label="CPU"><span class="chip chip-' + r.vcpu_type + '">' + r.vcpu_type + '</span>' +
         '<span class="faint" style="font-size:11.5px"> ' + r.vcpu_unit + 's</span></td>' +
-        '<td class="col-optional">' + (r.arch === 'arm64'
+        '<td class="col-optional" data-label="Arch">' + (r.arch === 'arm64'
           ? '<span class="chip chip-arm">ARM</span>'
           : '<span class="faint" style="font-size:12px">x86</span>') + '</td>' +
-        '<td class="right num faint col-optional">' + gbLabel(r.included_egress_gb) + '</td>' +
-        '<td class="right num muted col-optional">$' + r.price_hourly_usd.toFixed(4) + '</td>' +
-        '<td class="right num muted">' + usd(r.price_monthly_usd) + '</td>' +
-        '<td class="right num" style="color:' + (d.eg > 0 ? 'var(--warn)' : 'var(--fg-faint)') + '">' +
+        '<td class="right num faint col-optional" data-label="Bundled egress">' + gbLabel(r.included_egress_gb) + '</td>' +
+        '<td class="right num muted col-optional" data-label="$/hr">$' + r.price_hourly_usd.toFixed(4) + '</td>' +
+        '<td class="right num muted" data-label="$/mo">' + usd(r.price_monthly_usd) + '</td>' +
+        '<td class="right num" data-label="+ egress" style="color:' + (d.eg > 0 ? 'var(--warn)' : 'var(--fg-faint)') + '">' +
         (d.eg > 0 ? usd(d.eg) : '—') + '</td>' +
-        '<td class="right num" style="font-weight:700">' + usd(d.total) +
+        '<td class="right num" data-label="Effective $/mo" style="font-weight:700">' + usd(d.total) +
         (best ? '<span class="chip chip-win" style="margin-left:6px">cheapest</span>' : '') + '</td>' +
-        '<td><a href="' + esc(r.source_url) + '" rel="nofollow noopener" target="_blank" ' +
+        '<td data-label="Source"><a href="' + esc(r.source_url) + '" rel="nofollow noopener" target="_blank" ' +
         'class="faint" style="font-size:12px">source ↗</a></td>' +
         '</tr>';
     }

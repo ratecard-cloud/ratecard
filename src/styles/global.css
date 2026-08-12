@@ -81,6 +81,15 @@ a:hover { text-decoration: underline; }
 .wrap { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
 .wrap-narrow { max-width: 760px; margin: 0 auto; padding: 0 20px; }
 
+/* Long-form pages sit in the same .wrap as everything else so the left gutter
+   and the header line up page to page; .prose only caps the measure, it does
+   not re-centre. A 1240px line length would be unreadable. */
+.prose {
+  max-width: 74ch;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
 /* Tailwind's preflight zeroes margins and strips list markers. Prose pages
    (methodology especially) rely on them, so restore sane defaults. Anything
    with an inline margin still wins, since inline styles beat this. */
@@ -332,20 +341,99 @@ table.rc-table tr.is-cheapest td:first-child { background: var(--win-soft); }
 }
 
 @media (max-width: 640px) {
-  table.rc-table { font-size: 12.5px; }
-  table.rc-table td, table.rc-table th { padding: 7px 9px; }
   .hide-sm { display: none; }
-
-  /* Long SKU names would otherwise push the price columns off a phone screen. */
-  table.rc-table td:nth-child(2) {
-    max-width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
   .wrap, .wrap-narrow { padding: 0 14px; }
   header .wrap { gap: 12px !important; }
   header nav { gap: 12px !important; font-size: 13px; }
+
+  /* ------------------------------------------------- tables become cards -- */
+  /* A ten-column price table cannot be scanned on a phone, and horizontal
+     scrolling hides the column that matters. Each row becomes a card with the
+     header text moved into a per-cell label via data-label. */
+  .table-scroll {
+    overflow: visible;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  table.rc-table,
+  table.rc-table tbody,
+  table.rc-table tr,
+  table.rc-table td {
+    display: block;
+    width: auto;
+  }
+  table.rc-table thead { display: none; }
+
+  table.rc-table tr {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--bg);
+    margin: 0 0 10px;
+    padding: 11px 13px;
+  }
+  table.rc-table tr:hover td { background: transparent; }
+  table.rc-table tr.is-cheapest {
+    background: var(--win-soft);
+    border-color: color-mix(in srgb, var(--win) 40%, transparent);
+  }
+  table.rc-table tr.is-cheapest td,
+  table.rc-table tr.is-cheapest td:first-child { background: transparent; }
+
+  table.rc-table td {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 3px 0;
+    border: none;
+    white-space: normal;
+    text-align: right;
+    font-size: 13px;
+  }
+  table.rc-table td::before {
+    content: attr(data-label);
+    color: var(--fg-faint);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: left;
+    flex: 0 0 auto;
+  }
+
+  /* First cell is the card title, not a label/value pair. */
+  table.rc-table td:first-child {
+    position: static;
+    background: transparent;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 15px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    margin-bottom: 6px;
+    max-width: none;
+    overflow: visible;
+  }
+  table.rc-table td:first-child::before { display: none; }
+
+  /* Cards have vertical room, so columns dropped for width come back. */
+  table.rc-table .col-optional { display: flex; }
+
+  /* Column emphasis is meaningless once there are no columns. */
+  table.rc-table td.col-active { background: transparent; box-shadow: none; }
+
+  /* Spacer cells (e.g. the trailing "compare" link) have no label to show. */
+  table.rc-table td:empty { display: none; }
+
+  /* The headline number should not be just another row in the stack. */
+  table.rc-table td[data-label='Effective $/mo'] {
+    font-size: 15.5px;
+    margin-top: 5px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

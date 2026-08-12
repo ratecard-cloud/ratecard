@@ -127,19 +127,21 @@ const description =
         <tbody>
           {WORKLOADS.filter((w) => w.best).map((w) => (
             <tr class="row-link">
-              <td>
+              <td data-label="Workload">
                 <a href={w.href} style="color:inherit;text-decoration:none">
                   <strong>{w.label}</strong>
                 </a>
               </td>
-              <td class="num muted">{w.vcpu} vCPU / {w.ram} GB</td>
-              <td class="num muted">{gbLabel(w.gb)}</td>
-              <td>
+              <td class="num muted" data-label="Shape">{w.vcpu} vCPU / {w.ram} GB</td>
+              <td class="num muted" data-label="Egress">{gbLabel(w.gb)}</td>
+              <td data-label="Cheapest">
                 <strong>{PROVIDERS[w.best.r.provider].short}</strong>
                 <span class="faint num" style="font-size:12px"> {w.best.r.display_name}</span>
               </td>
-              <td class="right num" style="font-weight:700">{usd(w.best.e.total)}</td>
-              <td class="right">
+              <td class="right num" data-label="Effective $/mo" style="font-weight:700">{usd(w.best.e.total)}</td>
+              {/* Empty data-label: in card mode this is a bare action link,
+                  not a labelled field. */}
+              <td class="right" data-label="">
                 <a href={w.href} style="font-size:12px;white-space:nowrap"
                    aria-label={`Compare ${w.label} on the compute page`}>compare →</a>
               </td>

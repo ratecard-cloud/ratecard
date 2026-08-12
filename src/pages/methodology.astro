@@ -8,8 +8,9 @@ const description =
   'deliberately excludes, and where the numbers can be wrong.';
 ---
 
-<Base title={title} description={description} wide={false}>
-  <div class="wrap-narrow" style="padding-top:38px;font-size:15px;line-height:1.65">
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:38px">
+    <div class="prose">
     <h1 style="font-size:27px;letter-spacing:-0.02em;margin:0 0 6px">Methodology</h1>
     <p class="faint" style="margin:0 0 30px;font-size:13px">
       Data last collected {freshness(MANIFEST.generated_at)} ·
@@ -105,9 +106,9 @@ const description =
             }[p.collector] ?? p.collector;
             return (
               <tr>
-                <td><a href={p.url} rel="nofollow noopener" target="_blank">{p.short}</a></td>
-                <td class="muted" style="font-size:12.5px">{method}</td>
-                <td>
+                <td data-label="Provider"><a href={p.url} rel="nofollow noopener" target="_blank">{p.short}</a></td>
+                <td class="muted" data-label="Method" style="font-size:12.5px">{method}</td>
+                <td data-label="Status">
                   {st?.state === 'ok'
                     ? <span class="chip chip-win">{st.records} live</span>
                     : <span class="chip chip-unverified">pending</span>}
@@ -201,5 +202,6 @@ const description =
       the dataset and the collectors are public, so corrections are a diff rather
       than a support ticket.
     </p>
+    </div>
   </div>
 </Base>
