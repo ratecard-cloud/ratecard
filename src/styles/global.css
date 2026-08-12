@@ -473,3 +473,39 @@ table.rc-table tr.is-current td:first-child { background: var(--accent-soft); }
   table.rc-table tr.is-current td,
   table.rc-table tr.is-current td:first-child { background: transparent; }
 }
+
+/* --------------------------------------------------------------- pinning -- */
+.pin-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+.pin-wrap input {
+  accent-color: var(--accent);
+  cursor: pointer;
+  margin: 0;
+  /* Unobtrusive until used: this is a power feature, not the main affordance. */
+  opacity: 0.35;
+  transition: opacity 0.12s ease;
+}
+.pin-wrap:hover input,
+.pin-wrap input:checked,
+.pin-wrap input:focus-visible { opacity: 1; }
+
+/* Pinned rows keep their own colouring (cheapest, current) and gain a rail,
+   so pinning never hides why a row was already highlighted. */
+table.rc-table tr.is-pinned td:first-child {
+  box-shadow: inset 3px 0 var(--accent);
+}
+/* Marks the last pinned row, separating the group from the rest. */
+table.rc-table tr.pin-last td { border-bottom: 2px solid var(--border-strong); }
+
+@media (max-width: 640px) {
+  table.rc-table tr.is-pinned {
+    border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    box-shadow: inset 3px 0 var(--accent);
+  }
+  table.rc-table tr.is-pinned td:first-child { box-shadow: none; }
+  table.rc-table tr.pin-last td { border-bottom: none; }
+}

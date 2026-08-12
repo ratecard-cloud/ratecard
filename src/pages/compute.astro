@@ -84,6 +84,10 @@ const description =
           </span>
         </div>
 
+        <button id="f-pins-clear" class="control" hidden
+                style="cursor:pointer;font-size:13px">
+          Clear <span id="f-pins-count">0</span> pinned
+        </button>
         <button id="f-reset" class="control" style="cursor:pointer">Reset</button>
       </div>
     </div>
@@ -120,7 +124,13 @@ const description =
         <tbody id="grid-body">
           {initial.map(({ r, e }) => (
             <tr class={e.total === cheapest ? 'is-cheapest' : ''}>
-              <td data-label="Provider"><strong>{PROVIDERS[r.provider].short}</strong></td>
+              <td data-label="Provider">
+                <label class="pin-wrap">
+                  <input type="checkbox" class="pin" data-key={`${r.provider}:${r.sku}`}
+                         aria-label={`Pin ${PROVIDERS[r.provider].short} ${r.display_name} to the top`} />
+                  <strong>{PROVIDERS[r.provider].short}</strong>
+                </label>
+              </td>
               <td class="num" data-label="Instance">{r.display_name}</td>
               <td data-label="CPU">
                 <span class={`chip chip-${r.vcpu_type}`}>

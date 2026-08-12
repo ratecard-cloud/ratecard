@@ -17,12 +17,19 @@
     egress: document.getElementById('f-egress'),
     egressLabel: document.getElementById('egress-label'),
     reset: document.getElementById('f-reset'),
+    pinsClear: document.getElementById('f-pins-clear'),
+    pinsCount: document.getElementById('f-pins-count'),
     body: document.getElementById('grid-body'),
     count: document.getElementById('row-count'),
     table: document.getElementById('grid'),
   };
 
   var sort = { key: 'total', dir: 1 };
+  /* Pinned rows float to the top of whatever the current filter produces, so a
+     handful of candidates can be read side by side instead of scrolling a long
+     list. Keyed by provider:sku so a pin survives re-sorting and re-filtering. */
+  var pins = [];
+  var pinKey = function (r) { return r.provider + ':' + r.sku; };
 
   /* ------------------------------------------------------------ helpers */
   function gbLabel(gb) {
@@ -79,6 +86,7 @@
       sort.key = q.get('sort');
       sort.dir = q.get('dir') === 'desc' ? -1 : 1;
     }
+    if (q.get('pin')) pins = q.get('pin').split(',').filter(Boolean);
   }
 
   function writeURL() {
@@ -92,6 +100,7 @@
       q.set('sort', sort.key);
       q.set('dir', sort.dir === -1 ? 'desc' : 'asc');
     }
+    if (pins.length) q.set('pin', pins.join(','));
     history.replaceState(null, '', location.pathname + '?' + q.toString());
   }
 
@@ -132,7 +141,13 @@
       if (typeof av === 'string') return dir * av.localeCompare(bv);
       return dir * (av - bv);
     });
-    return out;
+
+    if (!pins.length) return out;
+    var top = [], rest = [];
+    for (var n = 0; n < out.length; n++) {
+      (pins.indexOf(pinKey(out[n].r)) >= 0 ? top : rest).push(out[n]);
+    }
+    return top.concat(rest);
   }
 
   function esc(s) {
@@ -152,9 +167,19 @@
       var d = data[i], r = d.r;
       var best = d.total === min;
       var p = D.providers[r.provider] || { short: r.provider };
+      var key = pinKey(r);
+      var pinned = pins.indexOf(key) >= 0;
+      // Rule off the last pinned row so the group reads as a group.
+      var lastPinned = pinned && (i + 1 === data.length || pins.indexOf(pinKey(data[i + 1].r)) < 0);
+
       html +=
-        '<tr class="' + (best ? 'is-cheapest' : '') + '">' +
-        '<td data-label="Provider"><strong>' + esc(p.short) + '</strong></td>' +
+        '<tr class="' + (best ? 'is-cheapest ' : '') + (pinned ? 'is-pinned ' : '') +
+        (lastPinned ? 'pin-last' : '') + '">' +
+        '<td data-label="Provider"><label class="pin-wrap">' +
+        '<input type="checkbox" class="pin" data-key="' + esc(key) + '"' +
+        (pinned ? ' checked' : '') +
+        ' aria-label="Pin ' + esc(p.short) + ' ' + esc(r.display_name) + ' to the top">' +
+        '<strong>' + esc(p.short) + '</strong></label></td>' +
         '<td class="num" data-label="Instance">' + esc(r.display_name) + '</td>' +
         '<td data-label="CPU"><span class="chip chip-' + r.vcpu_type + '">' + r.vcpu_type + '</span>' +
         '<span class="faint" style="font-size:11.5px"> ' + r.vcpu_unit + 's</span></td>' +
@@ -201,6 +226,10 @@
           : 'none',
       );
     }
+    if (el.pinsClear && el.pinsCount) {
+      el.pinsCount.textContent = String(pins.length);
+      el.pinsClear.hidden = pins.length === 0;
+    }
     writeURL();
   }
 
@@ -210,12 +239,27 @@
   });
   el.egress.addEventListener('input', function () { render(true); });
 
+  el.body.addEventListener('change', function (ev) {
+    var box = ev.target;
+    if (!box || !box.classList || !box.classList.contains('pin')) return;
+    var key = box.dataset.key;
+    var at = pins.indexOf(key);
+    if (box.checked && at < 0) pins.push(key);
+    else if (!box.checked && at >= 0) pins.splice(at, 1);
+    render();
+  });
+
+  if (el.pinsClear) {
+    el.pinsClear.addEventListener('click', function () { pins = []; render(); });
+  }
+
   el.reset.addEventListener('click', function () {
     el.region.value = 'us-east';
     el.shape.value = '4/16';
     el.cpu.value = '';
     el.arch.value = '';
     el.egress.value = '3';
+    pins = [];
     sort = { key: 'total', dir: 1 };
     render();
   });
