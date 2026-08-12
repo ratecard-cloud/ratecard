@@ -37,7 +37,7 @@ jobs:
         env:
           HETZNER_API_TOKEN: ${{ secrets.HETZNER_API_TOKEN }}
           DO_API_TOKEN: ${{ secrets.DO_API_TOKEN }}
-          GCP_API_KEY: ${{ secrets.GCP_API_KEY }}
+          GCP_API_KEY: ${{ secrets.GCP_API_TOKEN }}
         run: npm run data
 
       # Guard against a provider returning an empty-but-valid response and
