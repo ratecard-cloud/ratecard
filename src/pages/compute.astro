@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import {
   COMPUTE, EGRESS, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS,
-  effectiveMonthly, usd, gbLabel, MANIFEST, freshness,
+  effectiveMonthly, usd, gbLabel, MANIFEST, freshness, providerList,
 } from '../lib/data';
 
 const DEFAULT_REGION = 'us-east';
@@ -28,8 +28,8 @@ const payload = {
 
 const title = 'Cloud compute pricing compared — RateCard';
 const description =
-  'Side-by-side on-demand VM pricing across AWS, Azure, OCI, Linode and Vultr, ' +
-  'including the cost of egress. List prices, sourced and dated. No login.';
+  `Side-by-side on-demand VM pricing across ${providerList()}, including the ` +
+  'cost of egress. List prices, sourced and dated. No login.';
 ---
 
 <Base title={title} description={description}>

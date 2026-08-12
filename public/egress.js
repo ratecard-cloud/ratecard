@@ -1,16 +1,17 @@
 /**
- * Egress table island. The table is fully server-rendered; this only re-sorts
- * and re-highlights when a volume preset is chosen, so the page works without
- * JS and the selection survives a reload via the URL.
+ * Egress table island. Both tables are fully server-rendered; this only
+ * re-sorts and re-highlights when a volume preset is chosen, so the page works
+ * without JS and the selection survives a reload via the URL.
+ *
+ * Compute and object-storage providers are sorted independently — they are
+ * never ranked against each other, because they are not substitutes.
  */
 (function () {
   var D = window.__RCE__;
-  if (!D) return;
+  if (!D || !D.groups) return;
 
-  var body = document.getElementById('egress-body');
-  var table = document.getElementById('egress-grid');
   var buttons = [].slice.call(document.querySelectorAll('.preset[data-vol]'));
-  if (!body || !table || !buttons.length) return;
+  if (!buttons.length) return;
 
   var active = 1024;
 
@@ -33,13 +34,14 @@
     });
   }
 
-  function render() {
-    var idx = D.volumes.indexOf(active);
-    if (idx < 0) idx = D.volumes.indexOf(1024);
+  function renderGroup(group, idx) {
+    var body = document.querySelector('[data-group-body="' + group.id + '"]');
+    if (!body) return;
 
-    var rows = D.rows.slice().sort(function (a, b) {
+    var rows = group.rows.slice().sort(function (a, b) {
       return a.costs[idx] - b.costs[idx];
     });
+    // Cheapest is per group; a storage service does not "win" the compute table.
     var min = rows.reduce(function (m, r) {
       return Math.min(m, r.costs[idx]);
     }, Infinity);
@@ -86,9 +88,19 @@
         '</tr>';
     }
     body.innerHTML = html;
+  }
 
-    // Header highlight has to move too, or the sorted column is ambiguous.
-    var ths = table.querySelectorAll('thead th.vol-col');
+  function render() {
+    var idx = D.volumes.indexOf(active);
+    if (idx < 0) idx = D.volumes.indexOf(1024);
+
+    D.groups.forEach(function (g) {
+      renderGroup(g, idx);
+    });
+
+    // Header highlight has to move in every table, or the sorted column is
+    // ambiguous in whichever one was not updated.
+    var ths = document.querySelectorAll('.egress-grid thead th.vol-col');
     for (var h = 0; h < ths.length; h++) {
       ths[h].classList.toggle('col-active', +ths[h].dataset.vol === active);
     }

@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import {
   COMPUTE, PROVIDERS, ACTIVE_PROVIDERS, MANIFEST,
-  effectiveMonthly, egressSchedule, usd, gbLabel, freshness,
+  effectiveMonthly, egressSchedule, usd, gbLabel, freshness, providerList,
 } from '../lib/data';
 
 /** Cheapest at a given shape and egress volume, for the headline table. */
@@ -43,8 +43,8 @@ const spread = COMPUTE
 const maxHeavy = Math.max(...spread.map((s) => s.heavy));
 const title = 'RateCard — cloud list prices, with egress included';
 const description =
-  'Side-by-side list pricing for cloud compute and bandwidth across AWS, Azure, ' +
-  'OCI, Linode and Vultr. Every price sourced and dated. No login, no sales pitch.';
+  `Side-by-side list pricing for cloud compute and bandwidth across ${providerList()}. ` +
+  'Every price sourced and dated. No login, no sales pitch.';
 ---
 
 <Base title={title} description={description}>

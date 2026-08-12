@@ -1,46 +1,74 @@
 ---
 import Base from '../layouts/Base.astro';
 import {
-  EGRESS, PROVIDERS, REGIONS, egressCost, usd, gbLabel, MANIFEST, freshness,
+  EGRESS, PROVIDERS, REGIONS, egressCost, usd, gbLabel, MANIFEST, freshness, providerList,
 } from '../lib/data';
 
 const VOLUMES = [100, 1024, 10240, 51200, 102400];
 const DEFAULT_VOLUME = 1024;
 const region = 'us-east';
 
-const rows = EGRESS
+const di = VOLUMES.indexOf(DEFAULT_VOLUME);
+
+const all = EGRESS
   .filter((e) => e.region === region)
   .map((e) => ({
     e,
     costs: VOLUMES.map((v) => egressCost(e, v)),
     headline: e.tiers[0].usd_per_gb,
   }))
-  .sort(
-    (a, b) =>
-      a.costs[VOLUMES.indexOf(DEFAULT_VOLUME)] - b.costs[VOLUMES.indexOf(DEFAULT_VOLUME)],
-  );
+  .sort((a, b) => a.costs[di] - b.costs[di]);
 
-const cheapest = Math.min(...rows.map((r) => r.costs[VOLUMES.indexOf(DEFAULT_VOLUME)]));
+/**
+ * R2 and B2 sell no compute. Ranking them in the same list as AWS or Hetzner
+ * puts "free" at the top of a table a reader is using to pick somewhere to run
+ * a server — which is true about the bytes and wrong about the decision.
+ */
+const GROUPS = [
+  {
+    id: 'compute',
+    heading: 'Egress from a compute provider',
+    blurb:
+      'What it costs to send data out of a VM you are already paying for. These ' +
+      'are the numbers that matter when choosing where to run a server.',
+    rows: all.filter((r) => PROVIDERS[r.e.provider].kind === 'compute'),
+  },
+  {
+    id: 'object-storage',
+    heading: 'Egress from object storage',
+    blurb:
+      'Storage-only services. Cheap or free egress here is real, but it is not ' +
+      'an alternative to a compute provider — you cannot run a server on them. ' +
+      'They are the right comparison for serving files, not for hosting an app.',
+    rows: all.filter((r) => PROVIDERS[r.e.provider].kind === 'object-storage'),
+  },
+].map((g) => ({
+  ...g,
+  cheapest: g.rows.length ? Math.min(...g.rows.map((r) => r.costs[di])) : null,
+}));
 
 const payload = {
   volumes: VOLUMES,
-  rows: rows.map(({ e, costs, headline }) => ({
-    provider: e.provider,
-    short: PROVIDERS[e.provider].short,
-    costs,
-    headline,
-    bundled: e.bundled_with_compute,
-    free: e.free_gb_per_month,
-    verified: e.source_verified_at,
-    confidence: e.confidence,
-    source_url: e.source_url,
+  groups: GROUPS.map((g) => ({
+    id: g.id,
+    rows: g.rows.map(({ e, costs, headline }) => ({
+      provider: e.provider,
+      short: PROVIDERS[e.provider].short,
+      costs,
+      headline,
+      bundled: e.bundled_with_compute,
+      free: e.free_gb_per_month,
+      verified: e.source_verified_at,
+      confidence: e.confidence,
+      source_url: e.source_url,
+    })),
   })),
 };
 
 const title = 'Cloud egress pricing compared — the bandwidth tax — RateCard';
 const description =
-  'What each cloud charges to send data to the internet: AWS, Azure, OCI, ' +
-  'Linode, Vultr, Hetzner, Cloudflare R2 and Backblaze B2, per GB and at volume.';
+  `What each cloud charges to send data to the internet, per GB and at volume: ` +
+  `${providerList(Object.keys(PROVIDERS))}. Sourced and dated.`;
 ---
 
 <Base title={title} description={description}>
@@ -67,68 +95,73 @@ const description =
       ))}
     </div>
 
-    <div class="table-scroll">
-      <table class="rc-table" id="egress-grid">
-        <thead>
-          <tr>
-            <th>Provider</th>
-            <th class="right col-optional">First paid GB</th>
-            <th class="right">Free / bundled</th>
-            {VOLUMES.map((v) => (
-              <th class={`right vol-col${v === DEFAULT_VOLUME ? ' col-active' : ''}`} data-vol={v}>
-                {gbLabel(v)}/mo
-              </th>
-            ))}
-            <th class="col-optional">Verified</th>
-            <th>Source</th>
-          </tr>
-        </thead>
-        <tbody id="egress-body">
-          {rows.map(({ e, costs, headline }) => (
-            <tr class={costs[VOLUMES.indexOf(DEFAULT_VOLUME)] === cheapest ? 'is-cheapest' : ''}>
-              <td>
-                <strong>{PROVIDERS[e.provider].short}</strong>
-                {e.confidence !== 'high' && !e.source_verified_at && (
-                  <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
-                )}
-              </td>
-              <td class="right num col-optional">
-                {headline === 0
-                  ? <span style="color:var(--win);font-weight:700">free</span>
-                  : `$${headline.toFixed(5).replace(/0+$/, '').replace(/\.$/, '')}`}
-              </td>
-              <td class="right num faint">
-                {e.bundled_with_compute
-                  ? 'per plan'
-                  : e.free_gb_per_month
-                    ? gbLabel(e.free_gb_per_month)
-                    : '—'}
-              </td>
-              {costs.map((c, i) => (
-                <td
-                  class={`right num vol-col${VOLUMES[i] === DEFAULT_VOLUME ? ' col-active' : ''}`}
-                  data-vol={VOLUMES[i]}
-                  style={c === 0 ? 'color:var(--win);font-weight:600' : ''}
-                >
-                  {c === 0 ? 'free' : usd(c)}
-                </td>
+    {GROUPS.filter((g) => g.rows.length).map((g) => (
+      <section style="margin-bottom:30px">
+        <h2 style="font-size:16px;letter-spacing:-0.01em;margin:0 0 3px">{g.heading}</h2>
+        <p class="faint" style="font-size:12.5px;margin:0 0 10px;max-width:80ch">{g.blurb}</p>
+
+        <div class="table-scroll">
+          <table class="rc-table egress-grid" data-group={g.id}>
+            <thead>
+              <tr>
+                <th>Provider</th>
+                <th class="right col-optional">First paid GB</th>
+                <th class="right">Free / bundled</th>
+                {VOLUMES.map((v) => (
+                  <th class={`right vol-col${v === DEFAULT_VOLUME ? ' col-active' : ''}`} data-vol={v}>
+                    {gbLabel(v)}/mo
+                  </th>
+                ))}
+                <th class="col-optional">Verified</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody data-group-body={g.id}>
+              {g.rows.map(({ e, costs, headline }) => (
+                <tr class={costs[di] === g.cheapest ? 'is-cheapest' : ''}>
+                  <td>
+                    <strong>{PROVIDERS[e.provider].short}</strong>
+                    {e.confidence !== 'high' && !e.source_verified_at && (
+                      <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
+                    )}
+                  </td>
+                  <td class="right num col-optional">
+                    {headline === 0
+                      ? <span style="color:var(--win);font-weight:700">free</span>
+                      : `$${headline.toFixed(5).replace(/0+$/, '').replace(/\.$/, '')}`}
+                  </td>
+                  <td class="right num faint">
+                    {e.bundled_with_compute
+                      ? 'per plan'
+                      : e.free_gb_per_month
+                        ? gbLabel(e.free_gb_per_month)
+                        : '—'}
+                  </td>
+                  {costs.map((c, i) => (
+                    <td
+                      class={`right num vol-col${VOLUMES[i] === DEFAULT_VOLUME ? ' col-active' : ''}`}
+                      data-vol={VOLUMES[i]}
+                      style={c === 0 ? 'color:var(--win);font-weight:600' : ''}
+                    >
+                      {c === 0 ? 'free' : usd(c)}
+                    </td>
+                  ))}
+                  <td class="col-optional faint" style="font-size:12px">
+                    {e.confidence === 'high'
+                      ? <span title="Collected from the provider's own API">live API</span>
+                      : e.source_verified_at ?? '—'}
+                  </td>
+                  <td>
+                    <a href={e.source_url} rel="nofollow noopener" target="_blank"
+                       class="faint" style="font-size:12px">source ↗</a>
+                  </td>
+                </tr>
               ))}
-              <td class="col-optional faint" style="font-size:12px">
-                {e.confidence === 'high'
-                  ? <span title="Collected from the provider's own API">live API</span>
-                  : e.source_verified_at
-                    ? e.source_verified_at
-                    : '—'}
-              </td>
-              <td>
-                <a href={e.source_url} rel="nofollow noopener" target="_blank"
-                   class="faint" style="font-size:12px">source ↗</a>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))}
 
     <p class="faint" style="font-size:12.5px;margin:14px 0 0;max-width:82ch">
       Volume columns price a standalone bill with no bundled allowance applied. For
@@ -141,7 +174,7 @@ const description =
 
     <h2 style="font-size:18px;margin:38px 0 10px;letter-spacing:-0.01em">Notes and caveats</h2>
     <div style="display:flex;flex-direction:column;gap:12px">
-      {rows.filter(({ e }) => e.notes.length).map(({ e }) => (
+      {all.filter(({ e }) => e.notes.length).map(({ e }) => (
         <div class="card" style="padding:13px 15px">
           <strong style="font-size:13.5px">{PROVIDERS[e.provider].short}</strong>
           <ul class="muted" style="margin:6px 0 0;padding-left:18px;font-size:13px">

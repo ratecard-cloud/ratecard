@@ -9,6 +9,7 @@
   },
   "scripts": {
     "data": "node pipeline/run.mjs",
+    "og": "python3 pipeline/og-image.py",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview"

@@ -3,90 +3,130 @@
     "name": "Amazon Web Services",
     "short": "AWS",
     "tier": 1,
+    "kind": "compute",
     "url": "https://aws.amazon.com/ec2/pricing/on-demand/",
     "affiliate": null,
     "collector": "api",
-    "regions": { "us-east": "us-east-1", "eu-central": "eu-central-1" }
+    "regions": {
+      "us-east": "us-east-1",
+      "eu-central": "eu-central-1"
+    }
   },
   "azure": {
     "name": "Microsoft Azure",
     "short": "Azure",
     "tier": 1,
+    "kind": "compute",
     "url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
     "affiliate": null,
     "collector": "api",
-    "regions": { "us-east": "eastus", "eu-central": "westeurope" }
+    "regions": {
+      "us-east": "eastus",
+      "eu-central": "westeurope"
+    }
   },
   "gcp": {
     "name": "Google Cloud",
     "short": "GCP",
     "tier": 1,
+    "kind": "compute",
     "url": "https://cloud.google.com/compute/vm-instance-pricing",
     "affiliate": null,
     "collector": "api-key",
-    "regions": { "us-east": "us-east4", "eu-central": "europe-west3" }
+    "regions": {
+      "us-east": "us-east4",
+      "eu-central": "europe-west3"
+    }
   },
   "oci": {
     "name": "Oracle Cloud Infrastructure",
     "short": "OCI",
     "tier": 1,
+    "kind": "compute",
     "url": "https://www.oracle.com/cloud/price-list/",
     "affiliate": null,
     "collector": "api",
-    "regions": { "us-east": "us-ashburn-1", "eu-central": "eu-frankfurt-1" }
+    "regions": {
+      "us-east": "us-ashburn-1",
+      "eu-central": "eu-frankfurt-1"
+    }
   },
   "hetzner": {
     "name": "Hetzner Cloud",
     "short": "Hetzner",
     "tier": 2,
+    "kind": "compute",
     "url": "https://www.hetzner.com/cloud/",
     "affiliate": null,
     "collector": "api-token",
-    "regions": { "us-east": "ash", "eu-central": "nbg1" }
+    "regions": {
+      "us-east": "ash",
+      "eu-central": "nbg1"
+    }
   },
   "digitalocean": {
     "name": "DigitalOcean",
     "short": "DO",
     "tier": 2,
+    "kind": "compute",
     "url": "https://www.digitalocean.com/pricing/droplets",
     "affiliate": null,
     "collector": "api-token",
-    "regions": { "us-east": "nyc1", "eu-central": "fra1" }
+    "regions": {
+      "us-east": "nyc1",
+      "eu-central": "fra1"
+    }
   },
   "linode": {
     "name": "Akamai Cloud (Linode)",
     "short": "Linode",
     "tier": 2,
+    "kind": "compute",
     "url": "https://www.linode.com/pricing/",
     "affiliate": null,
     "collector": "api",
-    "regions": { "us-east": "us-east", "eu-central": "eu-central" }
+    "regions": {
+      "us-east": "us-east",
+      "eu-central": "eu-central"
+    }
   },
   "vultr": {
     "name": "Vultr",
     "short": "Vultr",
     "tier": 2,
+    "kind": "compute",
     "url": "https://www.vultr.com/pricing/",
     "affiliate": null,
     "collector": "api",
-    "regions": { "us-east": "ewr", "eu-central": "fra" }
+    "regions": {
+      "us-east": "ewr",
+      "eu-central": "fra"
+    }
   },
   "cloudflare": {
     "name": "Cloudflare R2",
     "short": "R2",
     "tier": 2,
+    "kind": "object-storage",
     "url": "https://developers.cloudflare.com/r2/pricing/",
     "affiliate": null,
     "collector": "curated",
-    "regions": { "us-east": "auto", "eu-central": "auto" }
+    "regions": {
+      "us-east": "auto",
+      "eu-central": "auto"
+    }
   },
   "backblaze": {
     "name": "Backblaze B2",
     "short": "B2",
     "tier": 2,
+    "kind": "object-storage",
     "url": "https://www.backblaze.com/cloud-storage/pricing",
     "affiliate": null,
     "collector": "curated",
-    "regions": { "us-east": "us-west-004", "eu-central": "eu-central-003" }
+    "regions": {
+      "us-east": "us-west-004",
+      "eu-central": "eu-central-003"
+    }
   }
 }

@@ -42,7 +42,14 @@ export interface EgressRow {
 }
 
 export interface Provider {
-  name: string; short: string; tier: number; url: string;
+  name: string; short: string; tier: number;
+  /**
+   * `object-storage` providers sell no VMs. Their egress is real and cheap, but
+   * it is not a substitute for a compute provider's egress, so the two are never
+   * ranked against each other in one list.
+   */
+  kind: 'compute' | 'object-storage';
+  url: string;
   affiliate: string | null; collector: string;
   regions: Record<string, string>;
 }
@@ -111,6 +118,16 @@ export const usd = (n: number) =>
 
 export const gbLabel = (gb: number) =>
   gb === 0 ? '0' : gb >= 1024 ? `${+(gb / 1024).toFixed(gb % 1024 ? 1 : 0)} TB` : `${gb} GB`;
+
+/**
+ * "AWS, Azure, GCP and Vultr" — derived from the data so meta descriptions
+ * cannot drift out of date as providers are added or lose their credentials.
+ */
+export function providerList(keys: string[] = ACTIVE_PROVIDERS) {
+  const names = keys.map((k) => PROVIDERS[k].short);
+  if (names.length <= 1) return names[0] ?? '';
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}
 
 export function freshness(iso: string) {
   const days = Math.floor((Date.now() - new Date(iso).getTime()) / 86_400_000);
