@@ -354,8 +354,23 @@ table.rc-table tr.is-cheapest td:first-child { background: var(--win-soft); }
 @media (max-width: 640px) {
   .hide-sm { display: none; }
   .wrap, .wrap-narrow { padding: 0 14px; }
-  header .wrap { gap: 12px !important; }
-  header nav { gap: 12px !important; font-size: 13px; }
+
+  /* Five nav items no longer fit at 375px. Flex children default to
+     min-width:auto, so the nav refused to shrink and pushed the header wider
+     than the viewport, clipping the last link. Let it scroll instead of
+     dropping items — every page stays reachable. */
+  header .wrap { gap: 10px !important; }
+  header nav {
+    gap: 13px !important;
+    font-size: 13px;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  header nav::-webkit-scrollbar { display: none; }
+  header nav a { white-space: nowrap; }
+  header > .wrap > a:first-child { flex-shrink: 0; }
 
   /* ------------------------------------------------- tables become cards -- */
   /* A ten-column price table cannot be scanned on a phone, and horizontal

@@ -1,0 +1,14 @@
+# Parsed by Workers static assets; not served itself.
+
+/api/*
+  # Unmetered public data — usable from a browser without a proxy.
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  # Rebuilt daily. An hour of freshness is plenty, and stale-while-revalidate
+  # means a consumer never blocks on our origin.
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  X-Content-Type-Options: nosniff
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

@@ -4,7 +4,8 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://ratecard.cloud',
-  integrations: [sitemap()],
+  // JSON endpoints are for programs, not search results.
+  integrations: [sitemap({ filter: (page) => !page.includes('/api/') })],
   vite: { plugins: [tailwind()] },
   build: { inlineStylesheets: 'auto' },
   compressHTML: true,

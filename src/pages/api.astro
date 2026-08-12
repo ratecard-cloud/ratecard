@@ -1,0 +1,140 @@
+---
+import Base from '../layouts/Base.astro';
+import { COMPUTE, EGRESS, PROVIDERS, REGIONS, MANIFEST, freshness } from '../lib/data';
+
+const BASE = 'https://ratecard.cloud/api/v1';
+const endpoints = [
+  ['compute.json', COMPUTE.length, 'VM list prices at matched vCPU/RAM'],
+  ['egress.json', EGRESS.length, 'Outbound pricing, tiered, with allowances'],
+  ['providers.json', Object.keys(PROVIDERS).length, 'Providers, kinds, region mappings'],
+  ['regions.json', Object.keys(REGIONS).length, 'Canonical regions and provider codes'],
+  ['index.json', null, 'Discovery document listing all of the above'],
+] as const;
+
+const title = 'API — free cloud pricing data — RateCard';
+const description =
+  'Free, unmetered JSON API for normalised cloud compute and egress pricing ' +
+  'across 8 providers. No key, no rate limit, CC BY 4.0.';
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:38px">
+    <div class="prose">
+      <h1 style="font-size:27px;letter-spacing:-0.02em;margin:0 0 6px">API</h1>
+      <p class="faint" style="margin:0 0 24px;font-size:13px">
+        Rebuilt daily · data collected {freshness(MANIFEST.generated_at)}
+      </p>
+
+      <p class="muted">
+        Everything behind this site is available as JSON. No key, no account, no rate
+        limit, no metering — these are static files on a CDN, so calling them costs us
+        nothing and costs you nothing. Use them for whatever you like, commercially
+        included, provided you credit the source.
+      </p>
+
+      <h2 style="font-size:19px;margin:28px 0 8px">Endpoints</h2>
+      <div class="table-scroll" style="margin:0 0 14px">
+        <table class="rc-table">
+          <thead>
+            <tr><th>Endpoint</th><th class="right">Records</th><th>Contains</th></tr>
+          </thead>
+          <tbody>
+            {endpoints.map(([name, count, what]) => (
+              <tr>
+                <td data-label="Endpoint">
+                  <a class="num" style="font-size:12.5px" href={`${BASE}/${name}`}>/api/v1/{name}</a>
+                </td>
+                <td class="right num faint" data-label="Records">{count ?? '—'}</td>
+                <td class="muted" data-label="Contains" style="font-size:12.5px">{what}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <pre class="card num" style="font-size:12.5px;overflow-x:auto;padding:13px;background:var(--bg-soft)">curl https://ratecard.cloud/api/v1/compute.json</pre>
+
+      <h2 style="font-size:19px;margin:28px 0 8px">Response shape</h2>
+      <p class="muted">
+        Records are wrapped rather than returned as a bare array, so that attribution
+        and the collection timestamp travel with the data. Anything caching a response
+        can tell how old it is without asking.
+      </p>
+      <pre class="card num" style="font-size:12px;overflow-x:auto;padding:13px;background:var(--bg-soft)">{`{
+  "resource": "compute",
+  "version": "v1",
+  "generated_at": "${MANIFEST.generated_at}",
+  "count": ${COMPUTE.length},
+  "license": "CC-BY-4.0",
+  "attribution": "Pricing data from RateCard (https://ratecard.cloud), CC BY 4.0.",
+  "records": [ ... ]
+}`}</pre>
+
+      <h2 style="font-size:19px;margin:28px 0 8px">Reading the records</h2>
+      <p class="muted">
+        Three things trip people up, and all three are in the data rather than hidden
+        in prose:
+      </p>
+      <ul class="muted">
+        <li>
+          <code>vcpu_type</code> and <code>vcpu_unit</code> — a shared vCPU is a slice
+          of a core, and an x86 vCPU is one hyperthread while an ARM vCPU is a whole
+          physical core. Two records with <code>vcpu: 4</code> are not necessarily
+          comparable, which is why neither field is optional.
+        </li>
+        <li>
+          <code>included_egress_gb</code> — bundled monthly transfer, consumed before
+          any paid tier. It varies from 0 on the hyperscalers to tens of terabytes on
+          value providers, and differs between regions of the same provider.
+        </li>
+        <li>
+          <code>confidence</code>, <code>collected_at</code> and
+          {' '}<code>source_verified_at</code> — an automated fetch and a human check
+          are different claims. <code>high</code> means it came from a provider API;
+          a null <code>source_verified_at</code> means nobody has eyeballed it against
+          the source page.
+        </li>
+      </ul>
+      <p class="muted">
+        Egress tiers are cumulative and measured <em>after</em>
+        {' '}<code>free_gb_per_month</code> is used up; a null <code>up_to_gb</code>
+        marks the unbounded final tier. See <a href="/methodology">methodology</a> for
+        what the numbers include and exclude.
+      </p>
+
+      <h2 style="font-size:19px;margin:28px 0 8px">Stability</h2>
+      <p class="muted">
+        Within a version, fields get added — never removed, renamed, or quietly
+        repurposed. A breaking change ships as <code>/api/v2/</code> and
+        {' '}<code>v1</code> keeps working. Rebuilt daily;
+        {' '}<code>Cache-Control</code> is one hour with a day of
+        stale-while-revalidate, so you will never block on our origin.
+      </p>
+      <p class="muted">
+        <code>Access-Control-Allow-Origin: *</code>, so you can call this straight from
+        a browser without proxying it.
+      </p>
+
+      <h2 style="font-size:19px;margin:28px 0 8px">Attribution</h2>
+      <p class="muted">The data is CC BY 4.0. Credit it visibly, with a working link:</p>
+      <pre class="card num" style="font-size:12.5px;overflow-x:auto;padding:13px;background:var(--bg-soft)">Pricing data from RateCard (https://ratecard.cloud), CC BY 4.0.</pre>
+      <p class="muted">
+        If you change the numbers, say so — stale or altered prices credited to us
+        damage the only thing that makes this dataset worth using.
+      </p>
+
+      <h2 style="font-size:19px;margin:28px 0 8px">Caveats worth repeating</h2>
+      <p class="muted">
+        Public <strong style="color:var(--fg)">list prices only</strong>. No
+        committed-use discounts, no spot, no negotiated rates, no tax, no support
+        plans. These are collected in good faith and will sometimes be stale or
+        wrong — every record carries a <code>source_url</code> so you can check.
+        Nothing here is a quote or an offer.
+      </p>
+      <p class="muted">
+        Built something with it? <a href="https://github.com/ratecard-cloud/ratecard/issues">Open an issue</a> —
+        knowing what people use this for is how it gets better.
+      </p>
+    </div>
+  </div>
+</Base>
