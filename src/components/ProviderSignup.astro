@@ -1,0 +1,50 @@
+---
+import { PROVIDERS } from '../lib/data';
+
+/**
+ * The only place affiliate links are allowed to appear.
+ *
+ * Routing every affiliate link through one component means the "aff" marker and
+ * rel="sponsored" cannot be forgotten on some future surface — there is no way
+ * to render one of these links unmarked.
+ *
+ * Deliberately NOT used inside the price tables. Those are the reason anyone
+ * trusts this site, and they stay free of commercial links; this block sits
+ * below them, for readers who have already decided.
+ */
+interface Props {
+  /** Restrict to providers actually shown on this page. */
+  only?: string[];
+  heading?: string;
+}
+const { only, heading = 'Signing up' } = Astro.props;
+
+const keys = (only ?? Object.keys(PROVIDERS)).filter((k) => PROVIDERS[k]?.affiliate);
+---
+
+{keys.length > 0 && (
+  <section style="margin:34px 0 0">
+    <h2 style="font-size:16px;letter-spacing:-0.01em;margin:0 0 3px">{heading}</h2>
+    <p class="faint" style="font-size:12.5px;margin:0 0 10px;max-width:80ch">
+      Some providers pay a referral fee if you sign up through these links, at no
+      cost to you. They are marked <span class="chip chip-aff">aff</span> and they
+      buy nothing: every ranking on this site is computed from price data alone, and
+      which providers offer a programme has no bearing on the tables above.
+      <a href="/methodology#independence">How this is kept honest</a>.
+    </p>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+      {keys.map((k) => (
+        <a
+          class="control"
+          style="text-decoration:none;padding:7px 12px;font-size:13px;display:inline-flex;align-items:center;gap:7px"
+          href={PROVIDERS[k].affiliate}
+          rel="sponsored nofollow noopener"
+          target="_blank"
+        >
+          <strong>{PROVIDERS[k].short}</strong>
+          <span class="chip chip-aff">aff</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

@@ -152,10 +152,37 @@ const description =
 
     <h2 id="independence" style="font-size:19px;margin:32px 0 8px">Independence</h2>
     <p class="muted">
-      No provider pays for placement here, and no ranking is for sale. Where
-      affiliate links exist they are marked as such, they never affect ordering,
-      and every ranking on this site is computed from the price data alone.
+      No provider pays for placement here, and no ranking is for sale. Every
+      ordering on this site is computed from the price data alone.
     </p>
+    <p class="muted">
+      <strong style="color:var(--fg)">Affiliate links.</strong> Some providers pay a
+      referral fee when someone signs up through a link. Where that applies, four
+      rules hold, and they are structural rather than promises:
+    </p>
+    <ul class="muted">
+      <li>
+        Affiliate links never appear inside the price tables. They live in a
+        separate “Signing up” block below them, so the comparison itself carries
+        no commercial links.
+      </li>
+      <li>
+        The <em>source</em> link on every row is never an affiliate link. It points
+        at the provider's own pricing page, untracked — a link labelled “source”
+        that quietly earned money would make the sourcing worthless. The build
+        fails if a referral URL is ever set to match a source URL.
+      </li>
+      <li>
+        Every affiliate link is marked <span class="chip chip-aff">aff</span> and
+        carries <code>rel="sponsored"</code>. They are all rendered through a single
+        component, so an unmarked one cannot be added by accident.
+      </li>
+      <li>
+        Whether a provider runs a referral programme has no bearing on whether it
+        is listed, how it is described, or where it ranks. Hyperscalers with no
+        programme are indexed identically.
+      </li>
+    </ul>
     <p class="muted">
       <strong style="color:var(--fg)">Hosting disclosure.</strong>
       Two companies in these tables are part of how this site runs, so both are

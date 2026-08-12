@@ -80,6 +80,39 @@ export function validateEgress(records) {
   return { errors, warnings: [] };
 }
 
+/**
+ * Affiliate links are the one place where money could quietly bend the site,
+ * so the registry is checked rather than trusted.
+ */
+export function validateProviders() {
+  const errors = [];
+  const warnings = [];
+
+  for (const [key, p] of Object.entries(PROVIDERS)) {
+    if (!['compute', 'object-storage'].includes(p.kind)) {
+      errors.push(`${key}: bad kind "${p.kind}"`);
+    }
+    if (p.affiliate == null) continue;
+
+    if (typeof p.affiliate !== 'string' || !/^https:\/\//.test(p.affiliate)) {
+      errors.push(`${key}: affiliate link must be an https URL, got ${JSON.stringify(p.affiliate)}`);
+    }
+    // A referral link pointing at our own pricing source would mean the
+    // "source" links had quietly become monetised.
+    if (p.affiliate === p.url) {
+      errors.push(`${key}: affiliate URL is identical to the source URL — source links must stay untracked`);
+    }
+  }
+
+  const withAff = Object.keys(PROVIDERS).filter((k) => PROVIDERS[k].affiliate);
+  if (withAff.length) {
+    warnings.push(
+      `affiliate links active for: ${withAff.join(', ')} — confirm /methodology#independence still describes this accurately`,
+    );
+  }
+  return { errors, warnings };
+}
+
 /** Cross-dataset check: every compute provider needs an egress schedule. */
 export function validateCoverage(compute, egress) {
   const errors = [];

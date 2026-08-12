@@ -2,7 +2,9 @@
 import { writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { ROOT, saveNormalized } from './lib.mjs';
-import { validateCompute, validateEgress, validateCoverage } from './validate.mjs';
+import {
+  validateCompute, validateEgress, validateCoverage, validateProviders,
+} from './validate.mjs';
 
 import aws from './collectors/aws.mjs';
 import azure from './collectors/azure.mjs';
@@ -56,6 +58,7 @@ async function main() {
 
   // --------------------------------------------------------------- validate
   const checks = [
+    ['providers', validateProviders()],
     ['compute', validateCompute(compute)],
     ['egress', validateEgress(egress)],
     ['coverage', validateCoverage(compute, egress)],

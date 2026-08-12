@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import ProviderSignup from '../components/ProviderSignup.astro';
 import {
   EGRESS, PROVIDERS, REGIONS, egressCost, usd, gbLabel, MANIFEST, freshness, providerList,
 } from '../lib/data';
@@ -184,6 +185,8 @@ const description =
         </div>
       ))}
     </div>
+
+    <ProviderSignup heading="Signing up with one of these" />
   </div>
 
   <script is:inline set:html={`window.__RCE__=${JSON.stringify(payload)}`}></script>
