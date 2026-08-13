@@ -2892,8 +2892,8 @@
        "net": "0.0160000000"
       },
       "price_monthly": {
-       "gross": "8.9900000000000000",
-       "net": "8.9900000000"
+       "gross": "9.9900000000000000",
+       "net": "9.9900000000"
       },
       "included_traffic": 21990232555520,
       "price_per_tb_traffic": {
@@ -2908,8 +2908,8 @@
        "net": "0.0160000000"
       },
       "price_monthly": {
-       "gross": "8.9900000000000000",
-       "net": "8.9900000000"
+       "gross": "9.9900000000000000",
+       "net": "9.9900000000"
       },
       "included_traffic": 21990232555520,
       "price_per_tb_traffic": {
@@ -2924,8 +2924,8 @@
        "net": "0.0160000000"
       },
       "price_monthly": {
-       "gross": "8.9900000000000000",
-       "net": "8.9900000000"
+       "gross": "9.9900000000000000",
+       "net": "9.9900000000"
       },
       "included_traffic": 21990232555520,
       "price_per_tb_traffic": {
@@ -3026,7 +3026,7 @@
      {
       "id": 1,
       "name": "fsn1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
@@ -5373,8 +5373,8 @@
         "gross": "0.0160000000000000"
        },
        "price_monthly": {
-        "net": "8.9900000000",
-        "gross": "8.9900000000000000"
+        "net": "9.9900000000",
+        "gross": "9.9900000000000000"
        },
        "included_traffic": 21990232555520,
        "price_per_tb_traffic": {
@@ -5389,8 +5389,8 @@
         "gross": "0.0160000000000000"
        },
        "price_monthly": {
-        "net": "8.9900000000",
-        "gross": "8.9900000000000000"
+        "net": "9.9900000000",
+        "gross": "9.9900000000000000"
        },
        "included_traffic": 21990232555520,
        "price_per_tb_traffic": {
@@ -5405,8 +5405,8 @@
         "gross": "0.0160000000000000"
        },
        "price_monthly": {
-        "net": "8.9900000000",
-        "gross": "8.9900000000000000"
+        "net": "9.9900000000",
+        "gross": "9.9900000000000000"
        },
        "included_traffic": 21990232555520,
        "price_per_tb_traffic": {
