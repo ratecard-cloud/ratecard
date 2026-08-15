@@ -2939,14 +2939,14 @@
      {
       "id": 1,
       "name": "fsn1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
      {
       "id": 2,
       "name": "nbg1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
@@ -3026,14 +3026,14 @@
      {
       "id": 1,
       "name": "fsn1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
      {
       "id": 2,
       "name": "nbg1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
@@ -3127,8 +3127,8 @@
      {
       "id": 3,
       "name": "hel1",
-      "available": false,
-      "recommended": false,
+      "available": true,
+      "recommended": true,
       "deprecation": null
      }
     ]

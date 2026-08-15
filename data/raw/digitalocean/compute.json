@@ -632,6 +632,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -662,6 +663,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -830,6 +832,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -860,6 +863,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -925,6 +929,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1049,6 +1054,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1079,6 +1085,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1109,6 +1116,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1169,6 +1177,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1299,6 +1308,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1487,6 +1497,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1517,6 +1528,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1612,6 +1624,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1642,6 +1655,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1672,6 +1686,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1822,6 +1837,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1886,6 +1902,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1916,6 +1933,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1946,6 +1964,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2006,6 +2025,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2101,6 +2121,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2221,6 +2242,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2251,6 +2273,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2311,6 +2334,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2341,6 +2365,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2371,6 +2396,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2521,6 +2547,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2551,6 +2578,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2581,6 +2609,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2611,6 +2640,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2671,6 +2701,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2731,6 +2762,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2851,6 +2883,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2881,6 +2914,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2941,6 +2975,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2971,6 +3006,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3001,6 +3037,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3183,6 +3220,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3213,6 +3251,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3243,6 +3282,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3273,6 +3313,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3333,6 +3374,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3393,6 +3435,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3573,6 +3616,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3603,6 +3647,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3663,6 +3708,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3693,6 +3739,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3723,6 +3770,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3935,6 +3983,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3965,6 +4014,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4055,6 +4105,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4145,6 +4196,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4175,6 +4227,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4205,6 +4258,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4351,6 +4405,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4381,6 +4436,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4470,6 +4526,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4558,11 +4615,14 @@
    "price_monthly": 1810,
    "price_hourly": 2.69345,
    "regions": [
+    "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -4743,6 +4803,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4803,6 +4864,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4833,6 +4895,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5036,11 +5099,14 @@
    "price_monthly": 2608,
    "price_hourly": 3.88095,
    "regions": [
+    "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized 1.5x SSD",
@@ -5154,6 +5220,45 @@
    ]
   },
   {
+   "slug": "gpu-mi350x1-288gb-spot",
+   "memory": 262144,
+   "vcpus": 24,
+   "disk": 720,
+   "transfer": 15,
+   "price_monthly": 2976,
+   "price_hourly": 4,
+   "regions": [
+    "ric1"
+   ],
+   "available": true,
+   "description": "AMD MI350X - 1X Spot",
+   "networking_throughput": 10000,
+   "gpu_info": {
+    "count": 1,
+    "vram": {
+     "amount": 288,
+     "unit": "gib"
+    },
+    "model": "amd_mi350x"
+   },
+   "disk_info": [
+    {
+     "type": "local",
+     "size": {
+      "amount": 720,
+      "unit": "gib"
+     }
+    },
+    {
+     "type": "scratch",
+     "size": {
+      "amount": 5120,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "so-48vcpu-384gb-intel",
    "memory": 393216,
    "vcpus": 48,
@@ -5190,7 +5295,6 @@
    "price_monthly": 3281.04,
    "price_hourly": 4.41,
    "regions": [
-    "ams3",
     "nyc2",
     "tor1"
    ],
@@ -5263,52 +5367,13 @@
    ]
   },
   {
-   "slug": "gpu-mi350x1-288gb-spot",
-   "memory": 262144,
-   "vcpus": 24,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 5208,
-   "price_hourly": 7,
-   "regions": [
-    "ric1"
-   ],
-   "available": true,
-   "description": "AMD MI350X - 1X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 288,
-     "unit": "gib"
-    },
-    "model": "amd_mi350x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
    "slug": "gpu-mi355x1-288gb-spot",
    "memory": 262144,
    "vcpus": 24,
    "disk": 720,
    "transfer": 15,
-   "price_monthly": 5952,
-   "price_hourly": 8,
+   "price_monthly": 3348,
+   "price_hourly": 4.5,
    "regions": [
     "mem1"
    ],
@@ -5348,7 +5413,9 @@
    "transfer": 15,
    "price_monthly": 8325.36,
    "price_hourly": 11.19,
-   "regions": [],
+   "regions": [
+    "mkc1"
+   ],
    "available": true,
    "description": "NVIDIA B300 LC - 1X Spot",
    "networking_throughput": 10000,
@@ -5491,6 +5558,43 @@
    ]
   },
   {
+   "slug": "gpu-mi350x8-2304gb-spot",
+   "memory": 2097152,
+   "vcpus": 192,
+   "disk": 2046,
+   "transfer": 60,
+   "price_monthly": 23808,
+   "price_hourly": 32,
+   "regions": [],
+   "available": true,
+   "description": "AMD MI350X - 8X Spot",
+   "networking_throughput": 10000,
+   "gpu_info": {
+    "count": 8,
+    "vram": {
+     "amount": 2304,
+     "unit": "gib"
+    },
+    "model": "amd_mi350x"
+   },
+   "disk_info": [
+    {
+     "type": "local",
+     "size": {
+      "amount": 2046,
+      "unit": "gib"
+     }
+    },
+    {
+     "type": "scratch",
+     "size": {
+      "amount": 40960,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "gpu-h100x8-640gb",
    "memory": 1966080,
    "vcpus": 160,
@@ -5565,52 +5669,13 @@
    ]
   },
   {
-   "slug": "gpu-mi350x8-2304gb-spot",
-   "memory": 2097152,
-   "vcpus": 192,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 41664,
-   "price_hourly": 56,
-   "regions": [
-    "ric1"
-   ],
-   "available": true,
-   "description": "AMD MI350X - 8X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 2304,
-     "unit": "gib"
-    },
-    "model": "amd_mi350x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
    "slug": "gpu-mi355x8-2304gb-spot",
    "memory": 2097152,
    "vcpus": 192,
    "disk": 2046,
    "transfer": 60,
-   "price_monthly": 47616,
-   "price_hourly": 64,
+   "price_monthly": 26784,
+   "price_hourly": 36,
    "regions": [
     "mem1"
    ],
@@ -5650,7 +5715,9 @@
    "transfer": 60,
    "price_monthly": 66602.88,
    "price_hourly": 89.52,
-   "regions": [],
+   "regions": [
+    "mkc1"
+   ],
    "available": true,
    "description": "NVIDIA B300 LC - 8X Spot",
    "networking_throughput": 10000,

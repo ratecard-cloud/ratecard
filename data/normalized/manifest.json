@@ -1,48 +1,48 @@
 {
- "generated_at": "2026-08-14T06:46:59.080Z",
- "duration_ms": 32145,
- "compute_records": 320,
+ "generated_at": "2026-08-15T05:45:26.429Z",
+ "duration_ms": 29398,
+ "compute_records": 344,
  "egress_records": 20,
  "providers": {
   "aws": {
    "state": "ok",
    "records": 64,
-   "ms": 12650
+   "ms": 12516
   },
   "azure": {
    "state": "ok",
    "records": 22,
-   "ms": 6280
+   "ms": 2070
   },
   "gcp": {
    "state": "ok",
    "records": 16,
-   "ms": 7161
+   "ms": 8909
   },
   "oci": {
    "state": "ok",
    "records": 16,
-   "ms": 1565
+   "ms": 1382
   },
   "hetzner": {
    "state": "ok",
    "records": 26,
-   "ms": 568
+   "ms": 861
   },
   "digitalocean": {
    "state": "ok",
-   "records": 81,
-   "ms": 890
+   "records": 105,
+   "ms": 530
   },
   "linode": {
    "state": "ok",
    "records": 48,
-   "ms": 142
+   "ms": 154
   },
   "vultr": {
    "state": "ok",
    "records": 47,
-   "ms": 566
+   "ms": 867
   }
  }
 }
