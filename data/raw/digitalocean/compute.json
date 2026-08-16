@@ -86,7 +86,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -123,7 +122,8 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -158,7 +158,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -224,7 +225,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -261,7 +261,8 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -296,7 +297,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -362,7 +364,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -399,7 +400,8 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -434,7 +436,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -500,7 +503,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -537,7 +539,8 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -572,7 +575,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -603,7 +607,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -703,7 +706,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -769,7 +773,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -806,7 +809,8 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -903,7 +907,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1025,7 +1030,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -1217,7 +1221,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1404,7 +1409,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -1441,7 +1445,8 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1568,7 +1573,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1873,7 +1879,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -2065,7 +2070,8 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -4621,8 +4627,7 @@
     "lon1",
     "nyc1",
     "sfo2",
-    "sfo3",
-    "sgp1"
+    "sfo3"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -5105,8 +5110,7 @@
     "lon1",
     "nyc1",
     "sfo2",
-    "sfo3",
-    "sgp1"
+    "sfo3"
    ],
    "available": true,
    "description": "Storage-Optimized 1.5x SSD",
@@ -5295,6 +5299,7 @@
    "price_monthly": 3281.04,
    "price_hourly": 4.41,
    "regions": [
+    "ams3",
     "nyc2",
     "tor1"
    ],
@@ -5602,7 +5607,10 @@
    "transfer": 60,
    "price_monthly": 26248.32,
    "price_hourly": 35.28,
-   "regions": [],
+   "regions": [
+    "nyc2",
+    "tor1"
+   ],
    "available": true,
    "description": "H100 GPU - 8X",
    "networking_throughput": 10000,
