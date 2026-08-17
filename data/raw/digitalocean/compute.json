@@ -88,7 +88,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -122,8 +123,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -158,8 +158,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -227,7 +226,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -261,8 +261,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -297,8 +296,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -366,7 +364,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -400,8 +399,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -436,8 +434,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -505,7 +502,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -539,8 +537,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -575,8 +572,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -609,7 +605,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -706,8 +703,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -775,7 +771,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -809,8 +806,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -907,8 +903,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1032,7 +1027,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1221,8 +1217,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1411,7 +1406,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1445,8 +1441,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1573,8 +1568,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1881,7 +1875,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -2070,8 +2065,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -3562,6 +3556,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4621,13 +4616,13 @@
    "price_monthly": 1810,
    "price_hourly": 2.69345,
    "regions": [
-    "ams3",
     "blr1",
     "fra1",
     "lon1",
     "nyc1",
     "sfo2",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -5110,7 +5105,8 @@
     "lon1",
     "nyc1",
     "sfo2",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized 1.5x SSD",
@@ -5647,7 +5643,9 @@
    "transfer": 60,
    "price_monthly": 26605.44,
    "price_hourly": 35.76,
-   "regions": [],
+   "regions": [
+    "atl1"
+   ],
    "available": true,
    "description": "Nvidia H200 - 8X",
    "networking_throughput": 10000,

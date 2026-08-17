@@ -1081,7 +1081,7 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
-    "ewr",
+    "ord",
     "sea",
     "lhr",
     "sjc",
@@ -1126,7 +1126,6 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
-    "ewr",
     "sea",
     "lhr",
     "sjc",
@@ -1547,6 +1546,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4632,6 +4632,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -5046,7 +5047,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "hnl",
@@ -5094,7 +5094,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "hnl",
@@ -5163,6 +5162,7 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
+    "ewr",
     "ord",
     "atl",
     "fra",
@@ -5197,7 +5197,8 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
-    "ewr"
+    "ewr",
+    "lhr"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -5225,6 +5226,7 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
+    "ewr",
     "ord",
     "atl",
     "sjc",
@@ -5257,7 +5259,9 @@
    "hourly_cost_preemptible": 0.144,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [],
+   "locations": [
+    "lhr"
+   ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -5336,7 +5340,7 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
-    "atl",
+    "ord",
     "sjc",
     "sgp",
     "blr"
@@ -5366,7 +5370,9 @@
    "hourly_cost_preemptible": 0.575,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [],
+   "locations": [
+    "lhr"
+   ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -5547,8 +5553,12 @@
    "invoice_type": "hourly",
    "type": "vdm",
    "locations": [
+    "ewr",
+    "lhr",
+    "syd",
     "nrt",
-    "sgp"
+    "sgp",
+    "blr"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -6712,6 +6722,7 @@
    "locations": [
     "ord",
     "sea",
+    "atl",
     "ams"
    ],
    "cpu_vendor": "AMD",
@@ -6741,6 +6752,7 @@
    "locations": [
     "ord",
     "sea",
+    "atl",
     "ams"
    ],
    "cpu_vendor": "AMD",

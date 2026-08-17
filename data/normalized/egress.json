@@ -24,7 +24,7 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -57,7 +57,7 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -94,7 +94,7 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -131,7 +131,7 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -152,7 +152,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -174,7 +174,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -196,7 +196,7 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -218,7 +218,7 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -240,7 +240,7 @@
   ],
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -262,7 +262,7 @@
   ],
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -292,7 +292,7 @@
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -324,7 +324,7 @@
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -347,7 +347,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -369,7 +369,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -391,7 +391,7 @@
   ],
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -413,7 +413,7 @@
   ],
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -435,7 +435,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -457,7 +457,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -479,7 +479,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -500,7 +500,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-16T05:47:42.727Z",
+  "collected_at": "2026-08-17T05:54:02.658Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
