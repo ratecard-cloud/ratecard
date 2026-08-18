@@ -133,6 +133,31 @@ component SKUs and marked `medium` confidence with the arithmetic shown.
   anchor. A fix would pin baselines to an N-day-old commit instead of
   yesterday's — the history is all in git already.
 
+## Price history
+
+Git holds every daily snapshot, but consumers cannot query git — CI checkouts
+are shallow and the site build never walks commits. So history is materialized
+into committed files under `data/history/` and appended to incrementally each
+run through `npm run history` (same commit as the price refresh, so they can
+never drift):
+
+- `/api/v1/history.json` — per-SKU price as run-length segments: a new segment
+  only when the price changed, so years of flat prices stay small
+- `/api/v1/changes.json` — daily changelog: `price_changed`, `sku_added`,
+  `sku_removed`, `allowance_changed`, `egress_changed`
+- [`/changes`](https://ratecard.cloud/changes) — the human version, with charts
+- [`/changes.xml`](https://ratecard.cloud/changes.xml) — RSS, one item per day
+
+Same-day reruns are safe: events for a date are always recomputed against the
+last snapshot from *before* that date, so a morning/midday double run cannot
+double-report, and an intraday flap that reverts collapses to nothing.
+`node pipeline/history.mjs --backfill` rebuilds everything from git (needs a
+full clone; used once to seed).
+
+There is deliberately no hosted email/webhook service — see the
+[API docs](https://ratecard.cloud/api) for RSS, ETag polling, and GitHub-watch
+equivalents that need no accounts on either side.
+
 ## Coverage protection
 
 The pipeline compares every provider/region against the previously committed

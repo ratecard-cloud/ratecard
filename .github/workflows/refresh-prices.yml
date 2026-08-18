@@ -40,6 +40,12 @@ jobs:
           GCP_API_KEY: ${{ secrets.GCP_API_TOKEN }}
         run: npm run data
 
+      # Fold today's snapshot into data/history/ BEFORE committing, so the same
+      # commit carries prices and their history. Incremental append: no git
+      # walking, which matters because this checkout is shallow.
+      - name: Materialize price history
+        run: npm run history
+
       # Guard against a provider returning an empty-but-valid response and
       # silently wiping the dataset.
       - name: Sanity-check the diff

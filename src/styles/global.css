@@ -173,6 +173,7 @@ table.rc-table tr.is-cheapest:hover td { background: var(--win-soft); filter: br
 .chip-dedicated { background: var(--bg-inset); color: var(--fg-muted); border-color: var(--border); }
 .chip-arm { background: var(--accent-soft); color: var(--accent); border-color: color-mix(in srgb, var(--accent) 25%, transparent); }
 .chip-win { background: var(--win-soft); color: var(--win); border-color: color-mix(in srgb, var(--win) 30%, transparent); }
+.chip-warn-strong { background: var(--warn); color: #fff; border-color: var(--warn); }
 .chip-unverified { background: var(--warn-soft); color: var(--warn); border-color: color-mix(in srgb, var(--warn) 25%, transparent); }
 /* Affiliate marker. Deliberately plain rather than eye-catching: it is a
    disclosure, not a badge of quality. */

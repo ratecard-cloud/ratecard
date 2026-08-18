@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { COMPUTE, EGRESS, PROVIDERS, REGIONS, MANIFEST } from '../../../lib/data';
+import { SERIES, CHANGES } from '../../../lib/history';
 import { API_VERSION, json } from '../../../lib/api';
 
 const BASE = 'https://ratecard.cloud/api/v1';
@@ -23,6 +24,10 @@ export const GET: APIRoute = () =>
         description: 'Providers indexed, their kind and region mappings.' },
       { resource: 'regions', url: `${BASE}/regions.json`, count: Object.keys(REGIONS).length,
         description: 'Canonical regions and provider-specific codes.' },
+      { resource: 'history', url: `${BASE}/history.json`, count: Object.keys(SERIES).length,
+        description: 'Per-SKU price history as run-length segments.' },
+      { resource: 'changes', url: `${BASE}/changes.json`, count: CHANGES.length,
+        description: 'Daily changelog of price and coverage changes. RSS at /changes.xml.' },
     ],
     notes: {
       updates: 'Rebuilt daily. generated_at is when collectors last ran.',

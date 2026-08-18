@@ -1,0 +1,107 @@
+---
+import Base from '../layouts/Base.astro';
+import { PROVIDERS, MANIFEST, usd, gbLabel, freshness } from '../lib/data';
+import { CHANGES, SERIES, changesByDate } from '../lib/history';
+
+const grouped = changesByDate();
+const priceChanges = CHANGES.filter((c) => c.type === 'price_changed').length;
+const firstDay = CHANGES.length ? CHANGES[CHANGES.length - 1].date : null;
+
+const short = (p: string) => PROVIDERS[p]?.short ?? p;
+
+const LABEL: Record<string, string> = {
+  price_changed: 'price', sku_added: 'added', sku_removed: 'removed',
+  allowance_changed: 'allowance', egress_changed: 'egress',
+  egress_added: 'egress', egress_removed: 'egress',
+};
+const CHIP: Record<string, string> = {
+  price_changed: 'chip-warn-strong', sku_added: 'chip-win', sku_removed: 'chip-unverified',
+  allowance_changed: 'chip-arm', egress_changed: 'chip-arm',
+  egress_added: 'chip-win', egress_removed: 'chip-unverified',
+};
+
+function describe(c: any): string {
+  switch (c.type) {
+    case 'price_changed':
+      return `${short(c.provider)} ${c.sku} (${c.region}): ${usd(c.monthly_old)} → ${usd(c.monthly_new)}/mo`;
+    case 'sku_added':
+      return `${short(c.provider)} ${c.sku} (${c.region}) appeared at ${usd(c.monthly)}/mo`;
+    case 'sku_removed':
+      return `${short(c.provider)} ${c.sku} (${c.region}) no longer offered — was ${usd(c.monthly)}/mo`;
+    case 'allowance_changed':
+      return `${short(c.provider)} ${c.sku} (${c.region}): bundled egress ${gbLabel(c.included_gb_old)} → ${gbLabel(c.included_gb_new)}`;
+    case 'egress_changed':
+      return `${short(c.provider)} (${c.region}): egress schedule changed`;
+    case 'egress_added':
+      return `${short(c.provider)} (${c.region}): egress schedule added`;
+    case 'egress_removed':
+      return `${short(c.provider)} (${c.region}): egress schedule removed`;
+    default:
+      return `${short(c.provider)} (${c.region}): ${c.type}`;
+  }
+}
+
+const title = 'Price changes — cloud pricing changelog — RateCard';
+const description =
+  `Every price and coverage change across ${Object.keys(PROVIDERS).length} cloud ` +
+  `providers since ${firstDay}, derived daily by diffing published datasets. ` +
+  `${priceChanges} price change(s) so far. RSS available.`;
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:36px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Changes</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:78ch">
+      What moved, day by day, since {firstDay}. Cloud list prices barely move —
+      that is this site's founding observation — so when one does, it is news.
+      Coverage events are included too: a SKU disappearing is sometimes retirement
+      and sometimes capacity (DigitalOcean's region lists reflect live capacity).
+    </p>
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
+      {CHANGES.length} events · {priceChanges} price change(s) ·
+      <a href="/changes.xml">RSS</a> ·
+      <a href="/api/v1/changes.json" class="num" style="font-size:12px">changes.json</a> ·
+      collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <section class="card" style="margin:0 0 26px;padding:16px 18px">
+      <h2 style="font-size:15px;margin:0 0 3px">Price over time</h2>
+      <p class="faint" style="font-size:12.5px;margin:0 0 10px">
+        Pick a SKU. Most lines are flat — which is exactly the point.
+      </p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px">
+        <select id="h-provider" class="control" aria-label="Provider" disabled></select>
+        <select id="h-sku" class="control" aria-label="SKU" disabled
+                style="min-width:220px"></select>
+      </div>
+      <div id="h-chart" style="min-height:140px"></div>
+    </section>
+
+    {grouped.map(([date, events]) => (
+      <section style="margin:0 0 18px">
+        <h2 class="num" style="font-size:14px;letter-spacing:0.02em;margin:0 0 8px;color:var(--fg-muted)">
+          {date}
+        </h2>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:5px">
+          {events.map((c) => (
+            <li style="font-size:13.5px;display:flex;gap:9px;align-items:baseline">
+              <span class={`chip ${CHIP[c.type] ?? 'chip-dedicated'}`} style="flex-shrink:0">
+                {LABEL[c.type] ?? c.type}
+              </span>
+              <span class={c.type === 'price_changed' ? '' : 'muted'}>{describe(c)}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p class="faint" style="font-size:12.5px;margin:26px 0 0;max-width:80ch">
+      Derived by diffing consecutive published datasets, one comparison per day —
+      an intraday flap that reverts before the next snapshot never appears here.
+      The first day of history seeds silently, so day one shows no events.
+      Series data for every SKU: <a href="/api/v1/history.json" class="num" style="font-size:12px">history.json</a>.
+    </p>
+  </div>
+
+  <script src="/history-chart.js" is:inline></script>
+</Base>

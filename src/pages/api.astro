@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { COMPUTE, EGRESS, PROVIDERS, REGIONS, MANIFEST, freshness } from '../lib/data';
+import { SERIES, CHANGES } from '../lib/history';
 
 const BASE = 'https://ratecard.cloud/api/v1';
 const endpoints = [
@@ -8,6 +9,8 @@ const endpoints = [
   ['egress.json', EGRESS.length, 'Outbound pricing, tiered, with allowances'],
   ['providers.json', Object.keys(PROVIDERS).length, 'Providers, kinds, region mappings'],
   ['regions.json', Object.keys(REGIONS).length, 'Canonical regions and provider codes'],
+  ['history.json', Object.keys(SERIES).length, 'Per-SKU price history, run-length encoded'],
+  ['changes.json', CHANGES.length, 'Daily changelog of price and coverage changes'],
   ['index.json', null, 'Discovery document listing all of the above'],
 ] as const;
 
@@ -119,6 +122,35 @@ const description =
         custom <code>X-</code> header to a browser request will fail the preflight;
         there is nothing to authenticate against anyway.
       </p>
+
+      <h2 style="font-size:19px;margin:28px 0 8px">Watching for changes</h2>
+      <p class="muted">
+        There is no hosted email or webhook service — this is a static site with
+        no accounts, and running one would mean holding your address. The
+        equivalents that need no infrastructure on either side:
+      </p>
+      <ul class="muted">
+        <li>
+          <strong style="color:var(--fg)">RSS</strong> —
+          {' '}<a href="/changes.xml" class="num" style="font-size:12.5px">/changes.xml</a>, one item
+          per day with every event. Feed readers, Slack RSS apps and Zapier all
+          consume it, and Zapier-style tools will happily turn it into email or a
+          webhook on your side.
+        </li>
+        <li>
+          <strong style="color:var(--fg)">Poll the JSON</strong> — fetch
+          {' '}<code>/api/v1/changes.json</code> daily and compare
+          {' '}<code>generated_at</code>, or send <code>If-None-Match</code> with the
+          last <code>ETag</code> and act only on 200.
+        </li>
+        <li>
+          <strong style="color:var(--fg)">GitHub</strong> — every refresh is a
+          commit, so the repo's
+          {' '}<a href="https://github.com/ratecard-cloud/ratecard/commits/main.atom">commit feed</a>
+          {' '}is itself a change stream, and Watch → Custom → Pushes gets you email
+          from GitHub rather than from us.
+        </li>
+      </ul>
 
       <h2 style="font-size:19px;margin:28px 0 8px">Attribution</h2>
       <p class="muted">The data is CC BY 4.0. Credit it visibly, with a working link:</p>

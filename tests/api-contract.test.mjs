@@ -33,7 +33,7 @@ test('api v1: discovery document lists every endpoint', { skip: !built }, async 
   const idx = JSON.parse(await readFile('dist/api/v1/index.json', 'utf8'));
   assert.equal(idx.version, 'v1');
   const resources = idx.endpoints.map((e) => e.resource).sort();
-  assert.deepEqual(resources, ['compute', 'egress', 'providers', 'regions']);
+  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'providers', 'regions']);
   for (const e of idx.endpoints) {
     const path = 'dist' + new URL(e.url).pathname;
     assert.ok(existsSync(path), `${e.url} advertised but ${path} not built`);
@@ -72,5 +72,40 @@ test('api v1: providers endpoint never leaks affiliate URLs', { skip: !built }, 
   const body = JSON.parse(await readFile('dist/api/v1/providers.json', 'utf8'));
   for (const r of body.records) {
     assert.ok(!('affiliate' in r), `${r.key}: affiliate must stay out of the public data`);
+  }
+});
+
+const V1_HISTORY_RECORD = ['provider', 'region', 'sku', 'first_seen', 'last_seen', 'segments'];
+const V1_CHANGE_EVENT = ['date', 'type', 'provider', 'region'];
+
+test('api v1: history contract holds', { skip: !built }, async () => {
+  const body = JSON.parse(await readFile('dist/api/v1/history.json', 'utf8'));
+  for (const k of V1_ENVELOPE) assert.ok(k in body, `envelope lost "${k}"`);
+  assert.equal(body.count, body.records.length);
+  for (const k of V1_HISTORY_RECORD) {
+    assert.ok(k in body.records[0], `history record lost "${k}" — v1 must not remove fields`);
+  }
+  for (const r of body.records) {
+    assert.ok(r.segments.length >= 1, `${r.sku}: at least one segment`);
+    for (let i = 1; i < r.segments.length; i++) {
+      assert.ok(r.segments[i].since > r.segments[i - 1].since, `${r.sku}: segments ascend by date`);
+      assert.ok(
+        r.segments[i].monthly !== r.segments[i - 1].monthly ||
+          r.segments[i].hourly !== r.segments[i - 1].hourly,
+        `${r.sku}: consecutive segments must differ — run-length means no flat splits`,
+      );
+    }
+  }
+});
+
+test('api v1: changes contract holds and is newest-first', { skip: !built }, async () => {
+  const body = JSON.parse(await readFile('dist/api/v1/changes.json', 'utf8'));
+  for (const k of V1_ENVELOPE) assert.ok(k in body, `envelope lost "${k}"`);
+  assert.equal(body.count, body.records.length);
+  for (const k of V1_CHANGE_EVENT) {
+    assert.ok(k in body.records[0], `change event lost "${k}"`);
+  }
+  for (let i = 1; i < body.records.length; i++) {
+    assert.ok(body.records[i - 1].date >= body.records[i].date, 'newest first');
   }
 });

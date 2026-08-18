@@ -77,9 +77,10 @@ const beaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
           ))}
         </nav>
         <div style="margin-left:auto;display:flex;align-items:center;gap:14px">
-          <span class="faint hide-sm" style="font-size:12px">
-            Updated {freshness(MANIFEST.generated_at)}
-          </span>
+          <a class="faint hide-sm" href="/changes"
+             style="font-size:12px;text-decoration:none;color:var(--fg-faint)">
+            Updated {freshness(MANIFEST.generated_at)} →
+          </a>
           <button id="theme-toggle" class="control" aria-label="Toggle colour theme"
                   style="padding:5px 9px;line-height:1;cursor:pointer">
             <span aria-hidden="true">◐</span>
