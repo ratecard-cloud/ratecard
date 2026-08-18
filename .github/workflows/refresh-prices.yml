@@ -44,6 +44,11 @@ jobs:
       # silently wiping the dataset.
       - name: Sanity-check the diff
         run: |
+          # Last-resort backstop only. The real protection is the pipeline's
+          # per-provider/per-region regression check against the previously
+          # committed dataset, which fails the run before anything is written.
+          # This floor survives the one case that check cannot cover: the
+          # baseline file itself being missing or unreadable in the checkout.
           COUNT=$(node -p "require('./data/normalized/compute.json').length")
           echo "compute records: $COUNT"
           if [ "$COUNT" -lt 100 ]; then

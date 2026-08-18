@@ -1,4 +1,6 @@
-import { PROVIDERS } from './lib.mjs';
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+import { PROVIDERS, ROOT } from './lib.mjs';
 
 /**
  * Sanity gates that run before anything is written. The failure mode this site
@@ -124,4 +126,109 @@ export function validateCoverage(compute, egress) {
     }
   }
   return { errors: [...new Set(errors)], warnings: [] };
+}
+
+/* ---------------------------------------------------------------------------
+ * Coverage regression: compare what we are about to publish against what we
+ * last published.
+ *
+ * A collector that throws or skips is caught and the run continues — right for
+ * local dev, dangerous in CI: an expired token silently publishes a dataset
+ * with that provider gone, and the global record-count floor cannot see it
+ * (four providers can vanish and still clear it). The previously committed
+ * normalized files are the baseline, so the check maintains itself.
+ * ------------------------------------------------------------------------- */
+
+/** Records per provider/region, e.g. {"hetzner/us-east": 13}. */
+function coverageMap(records) {
+  const m = new Map();
+  for (const r of records) {
+    const k = `${r.provider}/${r.region}`;
+    m.set(k, (m.get(k) ?? 0) + 1);
+  }
+  return m;
+}
+
+async function loadPrevious(category) {
+  try {
+    return JSON.parse(
+      await readFile(resolve(ROOT, `data/normalized/${category}.json`), 'utf8'),
+    );
+  } catch {
+    return null; // first run, or file unreadable — nothing to compare against
+  }
+}
+
+/**
+ * Fails closed: coverage that existed in the last published dataset must not
+ * vanish or shrink sharply without an explicit override.
+ *
+ *   - previously present, now zero            -> error
+ *   - shrunk by more than DROP_ERROR (30%)    -> error
+ *   - shrunk at all                           -> warning
+ *   - grown or new                            -> fine
+ *
+ * Intentional removals: ALLOW_COVERAGE_DROP="hetzner,gcp" or "all".
+ */
+export async function validatePreviousCoverage(compute, egress, statuses = {}) {
+  const errors = [];
+  const warnings = [];
+  const DROP_ERROR = 0.3;
+
+  const allowed = new Set(
+    (process.env.ALLOW_COVERAGE_DROP ?? '')
+      .split(',')
+      .map((s) => s.trim().toLowerCase())
+      .filter(Boolean),
+  );
+  const isAllowed = (provider) => allowed.has('all') || allowed.has(provider);
+
+  for (const [category, current] of [
+    ['compute', compute],
+    ['egress', egress],
+  ]) {
+    const previous = await loadPrevious(category);
+    if (!previous) {
+      warnings.push(`${category}: no previous dataset to compare against — coverage check skipped`);
+      continue;
+    }
+
+    const prev = coverageMap(previous);
+    const cur = coverageMap(current);
+
+    for (const [key, oldCount] of prev) {
+      const provider = key.split('/')[0];
+      const newCount = cur.get(key) ?? 0;
+      if (newCount >= oldCount) continue;
+
+      // Collector status makes the error actionable: "skipped: token not set"
+      // points at the fix, a bare count does not.
+      const st = statuses[provider];
+      const why = st && st.state !== 'ok' ? ` (collector ${st.state}: ${st.reason ?? st.error ?? ''})` : '';
+
+      if (newCount === 0) {
+        if (isAllowed(provider)) {
+          warnings.push(`${category} ${key}: coverage removed (${oldCount} -> 0), allowed by override${why}`);
+        } else {
+          errors.push(
+            `${category} ${key}: previously published ${oldCount} records, now ZERO${why} — ` +
+              `refusing to publish. Set ALLOW_COVERAGE_DROP=${provider} if intentional.`,
+          );
+        }
+      } else if ((oldCount - newCount) / oldCount > DROP_ERROR) {
+        if (isAllowed(provider)) {
+          warnings.push(`${category} ${key}: ${oldCount} -> ${newCount}, allowed by override`);
+        } else {
+          errors.push(
+            `${category} ${key}: dropped ${oldCount} -> ${newCount} ` +
+              `(-${Math.round(100 * (oldCount - newCount) / oldCount)}%)${why} — ` +
+              `over the ${DROP_ERROR * 100}% threshold. Set ALLOW_COVERAGE_DROP=${provider} if intentional.`,
+          );
+        }
+      } else {
+        warnings.push(`${category} ${key}: ${oldCount} -> ${newCount} — small shrink, publishing anyway`);
+      }
+    }
+  }
+  return { errors, warnings };
 }

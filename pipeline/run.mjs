@@ -4,6 +4,7 @@ import { resolve } from 'node:path';
 import { ROOT, saveNormalized } from './lib.mjs';
 import {
   validateCompute, validateEgress, validateCoverage, validateProviders,
+  validatePreviousCoverage,
 } from './validate.mjs';
 
 import aws from './collectors/aws.mjs';
@@ -63,6 +64,11 @@ async function main() {
     ['egress', validateEgress(egress)],
     ['coverage', validateCoverage(compute, egress)],
   ];
+  // Single-collector debug runs are partial by design; comparing them against
+  // the full published dataset would always fail.
+  if (!only.length) {
+    checks.push(['regression', await validatePreviousCoverage(compute, egress, status)]);
+  }
   let fatal = 0;
   for (const [label, { errors, warnings }] of checks) {
     for (const w of warnings) console.log(`${c.y}  warn [${label}]${c.x} ${w}`);

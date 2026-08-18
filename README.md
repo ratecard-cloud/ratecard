@@ -122,11 +122,25 @@ component SKUs and marked `medium` confidence with the arithmetic shown.
 
 ## Known gaps
 
-- **Hetzner, DigitalOcean, GCP** need credentials before they appear
 - **OCI Ampere (ARM)** part numbers aren't discoverable via the API — manual lookup needed
-- **`source_verified_at` is `null` everywhere** — no human has eyeballed the curated
-  egress numbers against their source pages yet. Those rows show an `unverified` badge.
 - Two regions only (`us-east`, `eu-central`)
+
+## Coverage protection
+
+The pipeline compares every provider/region against the previously committed
+dataset and **fails closed**: coverage that vanishes (an expired token, a
+broken collector) or shrinks by more than 30% aborts the run before anything
+is written, with the collector's own status in the error message. Small
+shrinks — providers do retire SKUs — pass with a warning.
+
+Removing a provider on purpose:
+
+```bash
+ALLOW_COVERAGE_DROP=hetzner npm run data   # or ALLOW_COVERAGE_DROP=all
+```
+
+Single-collector debug runs (`npm run data -- vultr`) skip the check, since
+they are partial by design — and they never write output anyway.
 
 ## Licensing
 
