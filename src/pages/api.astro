@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { COMPUTE, EGRESS, PROVIDERS, REGIONS, MANIFEST, freshness } from '../lib/data';
+import { COMPUTE, EGRESS, STORAGE, PROVIDERS, REGIONS, MANIFEST, freshness } from '../lib/data';
 import { SERIES, CHANGES } from '../lib/history';
 
 const BASE = 'https://ratecard.cloud/api/v1';
@@ -9,6 +9,7 @@ const endpoints = [
   ['egress.json', EGRESS.length, 'Outbound pricing, tiered, with allowances'],
   ['providers.json', Object.keys(PROVIDERS).length, 'Providers, kinds, region mappings'],
   ['regions.json', Object.keys(REGIONS).length, 'Canonical regions and provider codes'],
+  ['storage.json', STORAGE.length, 'Block storage, one product per provider, $/GB-month'],
   ['history.json', Object.keys(SERIES).length, 'Per-SKU price history, run-length encoded'],
   ['changes.json', CHANGES.length, 'Daily changelog of price and coverage changes'],
   ['index.json', null, 'Discovery document listing all of the above'],

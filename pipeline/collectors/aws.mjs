@@ -67,6 +67,15 @@ async function* rows(region) {
   }
 }
 
+/**
+ * gp3 pricing harvested as a side-channel of the compute pass: the Storage rows
+ * live in the same regional CSVs, and streaming ~300 MB x 4 a second time for
+ * one number per region would double the CI bill. The storage collector reads
+ * this after compute has run; in single-collector debug runs where AWS compute
+ * did not run, it stays empty and the storage collector notes the skip.
+ */
+export const awsStorageHarvest = {};
+
 export default async function collect() {
   const regions = PROVIDERS.aws.regions;
   const out = [];
@@ -76,6 +85,18 @@ export default async function collect() {
     const found = {};
     for await (const r of rows(code)) {
       if (r.TermType !== 'OnDemand') continue;
+
+      // Side-channel: one gp3 row per region, harvested in passing.
+      if (
+        r['Product Family'] === 'Storage' &&
+        r['Volume API Name'] === 'gp3' &&
+        r.Unit === 'GB-Mo'
+      ) {
+        const price = parseFloat(r.PricePerUnit);
+        if (price > 0) awsStorageHarvest[canonical] = { code, price };
+        continue;
+      }
+
       if (r['Product Family'] !== 'Compute Instance') continue;
       if (r.Tenancy !== 'Shared') continue;
       if (r['Operating System'] !== 'Linux') continue;

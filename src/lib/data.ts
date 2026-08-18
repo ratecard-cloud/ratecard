@@ -4,6 +4,7 @@ import egress from '../../data/normalized/egress.json';
 import manifest from '../../data/normalized/manifest.json';
 import providers from '../../data/providers.json';
 import regions from '../../data/regions.json';
+import storage from '../../data/normalized/storage.json';
 
 export interface ComputeRow {
   provider: string;
@@ -42,6 +43,26 @@ export interface EgressRow {
   notes: string[];
 }
 
+export interface StorageRow {
+  provider: string;
+  region: string;
+  region_code: string | null;
+  sku: string;
+  display_name: string;
+  kind: 'block';
+  usd_per_gb_month: number;
+  min_size_gb: number | null;
+  max_size_gb: number | null;
+  baseline_iops: number | null;
+  baseline_throughput_mbps: number | null;
+  currency: string;
+  source_url: string;
+  collected_at: string;
+  source_verified_at: string | null;
+  confidence: 'high' | 'medium' | 'low';
+  notes: string[];
+}
+
 export interface Provider {
   name: string; short: string; tier: number;
   /**
@@ -57,6 +78,7 @@ export interface Provider {
 
 export const COMPUTE = compute as ComputeRow[];
 export const EGRESS = egress as EgressRow[];
+export const STORAGE = storage as StorageRow[];
 export const MANIFEST = manifest as {
   generated_at: string;
   compute_records: number;

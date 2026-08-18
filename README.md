@@ -64,6 +64,13 @@ next to the normalized output so the schema can change without re-fetching.
 | DigitalOcean | `/v2/sizes` | `DO_API_TOKEN` |
 | R2 / B2 | curated from docs | — |
 
+Block storage (`data/normalized/storage.json`) follows the same pattern: six
+of eight providers collect live (AWS gp3 rides the compute CSV stream; Azure
+Premium SSD v2, GCP pd-balanced, OCI Block Volume, Hetzner Volumes, Linode
+Volumes via their APIs); DigitalOcean and Vultr are curated with dated
+human verification. One general-purpose product per provider — classic Azure
+managed disks price by size tier, not per GB, and are deliberately excluded.
+
 Five providers collect with **zero credentials**. The other three are skipped with
 a clear message rather than falling back to guessed numbers.
 

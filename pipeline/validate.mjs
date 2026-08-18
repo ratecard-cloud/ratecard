@@ -118,6 +118,25 @@ export function validateProviders() {
   return { errors, warnings };
 }
 
+export function validateStorage(records) {
+  const errors = [];
+  const seen = new Set();
+  for (const r of records) {
+    const id = `storage ${r.provider}/${r.region}/${r.sku}`;
+    if (seen.has(id)) errors.push(`${id}: duplicate`);
+    seen.add(id);
+    if (!PROVIDERS[r.provider]) errors.push(`${id}: unknown provider`);
+    if (!REGIONS.includes(r.region)) errors.push(`${id}: unknown region`);
+    if (!/^https:\/\//.test(r.source_url ?? '')) errors.push(`${id}: missing source_url`);
+    // Absurdity guard: general-purpose block storage lands between about
+    // $0.02 and $0.30/GB-month; outside that is a unit bug, not a price.
+    if (!(r.usd_per_gb_month >= 0.005 && r.usd_per_gb_month <= 0.5)) {
+      errors.push(`${id}: $${r.usd_per_gb_month}/GB-month looks wrong`);
+    }
+  }
+  return { errors, warnings: [] };
+}
+
 /** Cross-dataset check: every compute provider needs an egress schedule. */
 export function validateCoverage(compute, egress) {
   const errors = [];
@@ -173,7 +192,7 @@ async function loadPrevious(category) {
  *
  * Intentional removals: ALLOW_COVERAGE_DROP="hetzner,gcp" or "all".
  */
-export async function validatePreviousCoverage(compute, egress, statuses = {}) {
+export async function validatePreviousCoverage(compute, egress, statuses = {}, storage = undefined) {
   const errors = [];
   const warnings = [];
   // Default drop threshold; a provider can widen it via coverage_tolerance in
@@ -201,10 +220,12 @@ export async function validatePreviousCoverage(compute, egress, statuses = {}) {
   );
   const isAllowed = (provider) => allowed.has('all') || allowed.has(provider);
 
-  for (const [category, current] of [
+  const categories = [
     ['compute', compute],
     ['egress', egress],
-  ]) {
+  ];
+  if (Array.isArray(storage)) categories.push(['storage', storage]);
+  for (const [category, current] of categories) {
     const previous = await loadPrevious(category);
     if (!previous) {
       warnings.push(`${category}: no previous dataset to compare against — coverage check skipped`);

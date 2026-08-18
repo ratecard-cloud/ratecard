@@ -1,0 +1,144 @@
+---
+import Base from '../layouts/Base.astro';
+import ProviderSignup from '../components/ProviderSignup.astro';
+import { STORAGE, PROVIDERS, REGIONS, ACTIVE_PROVIDERS, MANIFEST, freshness } from '../lib/data';
+
+/**
+ * One product per provider, so the table is providers x regions. Comparing a
+ * provider's five volume classes against another's three is a different
+ * feature; this answers "what does a plain SSD volume cost".
+ */
+const regionKeys = Object.keys(REGIONS).filter((k) => STORAGE.some((r) => r.region === k));
+
+const byProvider = new Map<string, typeof STORAGE>();
+for (const r of STORAGE) {
+  if (!byProvider.has(r.provider)) byProvider.set(r.provider, []);
+  byProvider.get(r.provider)!.push(r);
+}
+const rows = [...byProvider.entries()]
+  .map(([provider, recs]) => ({
+    provider,
+    rec: recs[0],
+    perRegion: Object.fromEntries(recs.map((r) => [r.region, r])),
+    minPrice: Math.min(...recs.map((r) => r.usd_per_gb_month)),
+  }))
+  .sort((a, b) => a.minPrice - b.minPrice);
+
+const cheapest = rows.length ? rows[0].minPrice : null;
+// Trim trailing zeros but never below two decimals: "$0.10", not "$0.1".
+const perGb = (n: number) => {
+  const t = n.toFixed(4).replace(/0+$/, '');
+  const [i, d = ''] = t.split('.');
+  return `$${i}.${d.padEnd(2, '0')}`;
+};
+
+const missing = ACTIVE_PROVIDERS.filter(
+  (p) => PROVIDERS[p].kind === 'compute' && !byProvider.has(p),
+);
+
+const title = 'Cloud block storage pricing compared — RateCard';
+const description =
+  'General-purpose block storage across cloud providers, normalised to USD per ' +
+  'GB-month: EBS gp3, Azure Premium SSD v2, OCI Block Volume and more. List ' +
+  'prices, sourced and dated.';
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:36px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Block storage</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:78ch">
+      One general-purpose volume product per provider, normalised to
+      <strong style="color:var(--fg)">$/GB per month</strong>. The trap in this
+      category is performance accounting: gp3 and Premium SSD v2 bundle a
+      3000 IOPS / 125 MB/s baseline and are directly comparable; others scale
+      performance with volume size, which the notes spell out. Classic Azure
+      managed disks price by fixed size tier and are deliberately absent.
+    </p>
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
+      {STORAGE.length} prices ·
+      <a href="/api/v1/storage.json" class="num" style="font-size:12px">storage.json</a> ·
+      collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th class="col-optional">Product</th>
+            {regionKeys.map((k) => <th class="right">{REGIONS[k].label}</th>)}
+            <th class="right col-optional">Size range</th>
+            <th class="col-optional">Verified</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(({ provider, rec, perRegion, minPrice }) => (
+            <tr class={minPrice === cheapest ? 'is-cheapest' : ''}>
+              <td data-label="Provider">
+                <strong>{PROVIDERS[provider].short}</strong>
+                {minPrice === cheapest && <span class="chip chip-win" style="margin-left:6px">cheapest</span>}
+              </td>
+              <td class="col-optional muted" data-label="Product" style="font-size:12.5px">
+                {rec.display_name}
+              </td>
+              {regionKeys.map((k) => {
+                const r = perRegion[k];
+                return (
+                  <td class="right num" data-label={`${REGIONS[k].label} $/GB`}>
+                    {r ? perGb(r.usd_per_gb_month) : <span class="faint">—</span>}
+                  </td>
+                );
+              })}
+              <td class="right num faint col-optional" data-label="Size range" style="font-size:12px">
+                {rec.min_size_gb ?? '?'}–{rec.max_size_gb ? `${rec.max_size_gb >= 1024 ? `${rec.max_size_gb / 1024} TB` : `${rec.max_size_gb} GB`}` : '∞'}
+              </td>
+              <td class="col-optional faint" data-label="Verified" style="font-size:12px">
+                {rec.confidence === 'high'
+                  ? <span title="Collected from the provider's own API">live API</span>
+                  : rec.source_verified_at ?? '—'}
+              </td>
+              <td data-label="Source">
+                <a href={rec.source_url} rel="nofollow noopener" target="_blank"
+                   class="faint" style="font-size:12px">source ↗</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    {missing.length > 0 && (
+      <p class="faint" style="font-size:12.5px;margin:12px 0 0">
+        Not yet collected: {missing.map((p) => PROVIDERS[p].short).join(', ')} — these
+        need credentials the local pipeline run lacked and appear after the next
+        scheduled refresh.
+      </p>
+    )}
+
+    <h2 style="font-size:18px;margin:34px 0 10px;letter-spacing:-0.01em">Performance notes</h2>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      {rows.filter(({ rec }) => rec.notes.length).map(({ provider, rec }) => (
+        <div class="card" style="padding:13px 15px">
+          <strong style="font-size:13.5px">{PROVIDERS[provider].short} — {rec.display_name}</strong>
+          <ul class="muted" style="margin:6px 0 0;padding-left:18px;font-size:13px">
+            {rec.notes.map((n) => <li>{n}</li>)}
+          </ul>
+          {rec.baseline_iops && (
+            <p class="faint" style="font-size:12px;margin:6px 0 0">
+              Baseline: {rec.baseline_iops} IOPS, {rec.baseline_throughput_mbps} MB/s included.
+            </p>
+          )}
+        </div>
+      ))}
+    </div>
+
+    <p class="faint" style="font-size:12.5px;margin:22px 0 0;max-width:80ch">
+      Boot volumes for the instances on the <a href="/compute">compute page</a> are
+      billed at these rates on most providers — a 100 GB root disk adds
+      $4–10/month that instance price tables never mention.
+    </p>
+
+    <ProviderSignup only={ACTIVE_PROVIDERS} heading="Signing up" />
+  </div>
+</Base>

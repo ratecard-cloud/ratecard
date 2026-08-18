@@ -131,6 +131,34 @@ export function computeRecord(o) {
   };
 }
 
+export function storageRecord(o) {
+  const required = ['provider', 'region', 'sku', 'usd_per_gb_month', 'source_url', 'confidence'];
+  for (const k of required) {
+    if (o[k] === undefined || o[k] === null) {
+      throw new Error(`storage record missing "${k}": ${JSON.stringify(o).slice(0, 200)}`);
+    }
+  }
+  return {
+    provider: o.provider,
+    region: o.region,
+    region_code: o.region_code ?? null,
+    sku: o.sku,
+    display_name: o.display_name ?? o.sku,
+    kind: 'block',
+    usd_per_gb_month: round(o.usd_per_gb_month, 6),
+    min_size_gb: o.min_size_gb ?? null,
+    max_size_gb: o.max_size_gb ?? null,
+    baseline_iops: o.baseline_iops ?? null,
+    baseline_throughput_mbps: o.baseline_throughput_mbps ?? null,
+    currency: 'USD',
+    source_url: o.source_url,
+    collected_at: o.collected_at ?? new Date().toISOString(),
+    source_verified_at: o.source_verified_at ?? null,
+    confidence: o.confidence,
+    notes: o.notes ?? [],
+  };
+}
+
 /** Cost of `gb` outbound under a tiered schedule, after the free allowance. */
 export function egressCost(schedule, gb) {
   if (!schedule) return null;

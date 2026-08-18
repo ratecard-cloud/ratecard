@@ -1,0 +1,39 @@
+{
+  "_comment": [
+    "Block storage for providers with no machine-readable price endpoint.",
+    "Everything else is collected live (pipeline/collectors/storage.mjs).",
+    "Prices are flat across the regions these providers serve."
+  ],
+  "digitalocean": {
+    "sku": "do-volume",
+    "display_name": "Volumes Block Storage",
+    "usd_per_gb_month": 0.10,
+    "min_size_gb": 1,
+    "max_size_gb": 16384,
+    "baseline_iops": null,
+    "baseline_throughput_mbps": null,
+    "source_url": "https://docs.digitalocean.com/products/volumes/details/pricing/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "\"$0.10 per GiB per month and range from 1 GiB to 16384 GiB\" — DO docs, read 2026-08-18.",
+      "Charges accrue hourly. Performance is not contractual; no published IOPS baseline."
+    ]
+  },
+  "vultr": {
+    "sku": "vultr-block-nvme",
+    "display_name": "Block Storage (NVMe)",
+    "usd_per_gb_month": 0.10,
+    "min_size_gb": 10,
+    "max_size_gb": 10240,
+    "baseline_iops": null,
+    "baseline_throughput_mbps": null,
+    "source_url": "https://www.vultr.com/products/block-storage/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "NVMe tier: \"$1 per 10 GB\", 10 GB minimum, up to 10 TB — read off the pricing widget 2026-08-18.",
+      "An HDD tier exists at $0.025/GB (40 GB minimum, up to 40 TB); the NVMe tier is the general-purpose comparable and is what is indexed."
+    ]
+  }
+}

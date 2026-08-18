@@ -33,7 +33,7 @@ test('api v1: discovery document lists every endpoint', { skip: !built }, async 
   const idx = JSON.parse(await readFile('dist/api/v1/index.json', 'utf8'));
   assert.equal(idx.version, 'v1');
   const resources = idx.endpoints.map((e) => e.resource).sort();
-  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'providers', 'regions']);
+  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'providers', 'regions', 'storage']);
   for (const e of idx.endpoints) {
     const path = 'dist' + new URL(e.url).pathname;
     assert.ok(existsSync(path), `${e.url} advertised but ${path} not built`);
@@ -107,5 +107,25 @@ test('api v1: changes contract holds and is newest-first', { skip: !built }, asy
   }
   for (let i = 1; i < body.records.length; i++) {
     assert.ok(body.records[i - 1].date >= body.records[i].date, 'newest first');
+  }
+});
+
+const V1_STORAGE_RECORD = [
+  'provider', 'region', 'sku', 'display_name', 'kind', 'usd_per_gb_month',
+  'min_size_gb', 'max_size_gb', 'baseline_iops', 'baseline_throughput_mbps',
+  'currency', 'source_url', 'collected_at', 'source_verified_at', 'confidence', 'notes',
+];
+
+test('api v1: storage contract holds', { skip: !built }, async () => {
+  const body = JSON.parse(await readFile('dist/api/v1/storage.json', 'utf8'));
+  for (const k of V1_ENVELOPE) assert.ok(k in body, `envelope lost "${k}"`);
+  assert.equal(body.count, body.records.length);
+  for (const k of V1_STORAGE_RECORD) {
+    assert.ok(k in body.records[0], `storage record lost "${k}" — v1 must not remove fields`);
+  }
+  for (const r of body.records) {
+    assert.equal(r.kind, 'block');
+    assert.ok(r.usd_per_gb_month > 0.005 && r.usd_per_gb_month < 0.5,
+      `${r.provider}/${r.sku}: $${r.usd_per_gb_month}/GB-month outside sanity band`);
   }
 });

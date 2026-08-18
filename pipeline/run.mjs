@@ -3,8 +3,8 @@ import { writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { ROOT, saveNormalized } from './lib.mjs';
 import {
-  validateCompute, validateEgress, validateCoverage, validateProviders,
-  validatePreviousCoverage,
+  validateCompute, validateEgress, validateStorage, validateCoverage,
+  validateProviders, validatePreviousCoverage,
 } from './validate.mjs';
 
 import aws from './collectors/aws.mjs';
@@ -16,6 +16,7 @@ import digitalocean from './collectors/digitalocean.mjs';
 import linode from './collectors/linode.mjs';
 import vultr from './collectors/vultr.mjs';
 import egressCollector from './collectors/egress.mjs';
+import storageCollector from './collectors/storage.mjs';
 
 const COMPUTE = { aws, azure, gcp, oci, hetzner, digitalocean, linode, vultr };
 
@@ -57,17 +58,34 @@ async function main() {
     console.log(`${c.r}✗ egress failed${c.x} ${err.message}`);
   }
 
+  let storage = [];
+  try {
+    const res = await storageCollector();
+    storage = res.records;
+    const skips = Object.entries(res.statuses).filter(([, v]) => v.state !== 'ok');
+    console.log(
+      `${c.g}✓ ${'storage'.padEnd(13)}${c.x} ${String(storage.length).padStart(3)} volumes` +
+        (skips.length ? ` ${c.d}(${skips.map(([k, v]) => `${k}: ${v.state}`).join(', ')})${c.x}` : ''),
+    );
+    for (const [k, v] of skips) {
+      if (v.state === 'failed') console.log(`${c.r}  storage/${k} failed${c.x} ${v.error}`);
+    }
+  } catch (err) {
+    console.log(`${c.r}✗ storage failed${c.x} ${err.message}`);
+  }
+
   // --------------------------------------------------------------- validate
   const checks = [
     ['providers', validateProviders()],
     ['compute', validateCompute(compute)],
     ['egress', validateEgress(egress)],
+    ['storage', validateStorage(storage)],
     ['coverage', validateCoverage(compute, egress)],
   ];
   // Single-collector debug runs are partial by design; comparing them against
   // the full published dataset would always fail.
   if (!only.length) {
-    checks.push(['regression', await validatePreviousCoverage(compute, egress, status)]);
+    checks.push(['regression', await validatePreviousCoverage(compute, egress, status, storage)]);
   }
   let fatal = 0;
   for (const [label, { errors, warnings }] of checks) {
@@ -83,6 +101,7 @@ async function main() {
   if (!only.length) {
     await saveNormalized('compute', compute);
     await saveNormalized('egress', egress);
+    await saveNormalized('storage', storage);
     await writeFile(
       resolve(ROOT, 'data/normalized/manifest.json'),
       JSON.stringify(
@@ -91,6 +110,7 @@ async function main() {
           duration_ms: Date.now() - started,
           compute_records: compute.length,
           egress_records: egress.length,
+          storage_records: storage.length,
           providers: status,
         },
         null,
