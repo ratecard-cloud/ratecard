@@ -124,14 +124,30 @@ component SKUs and marked `medium` confidence with the arithmetic shown.
 
 - **OCI Ampere (ARM)** part numbers aren't discoverable via the API — manual lookup needed
 - Two regions only (`us-east`, `eu-central`)
+- **The coverage check can be ratcheted down.** Its baseline is always the
+  previous run, so a sequence of just-under-threshold drops — say 25% a day
+  for a strict provider — would walk coverage toward zero over several days
+  without ever erroring. Each step still logs a warning and a total loss is
+  always fatal, so slipping through takes a slow, sustained decline rather
+  than ordinary breakage; but nothing today compares against a longer-term
+  anchor. A fix would pin baselines to an N-day-old commit instead of
+  yesterday's — the history is all in git already.
 
 ## Coverage protection
 
 The pipeline compares every provider/region against the previously committed
 dataset and **fails closed**: coverage that vanishes (an expired token, a
-broken collector) or shrinks by more than 30% aborts the run before anything
+broken collector) or shrinks past a threshold aborts the run before anything
 is written, with the collector's own status in the error message. Small
 shrinks — providers do retire SKUs — pass with a warning.
+
+The threshold is 30% by default; a provider can widen it with
+`coverage_tolerance` in `providers.json`. DigitalOcean carries `0.5` because
+its `sizes.regions` array reflects live capacity, not pricing — on the check's
+first CI run, `fra1` shed 24 of 63 qualifying sizes in seven hours, which is
+normal weather for DO. Vanishing to zero stays fatal for every provider,
+tolerance or not. (See Known gaps for the ratchet limitation this
+previous-run baseline implies.)
 
 Removing a provider on purpose:
 
