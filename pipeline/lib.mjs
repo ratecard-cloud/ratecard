@@ -34,12 +34,14 @@ export async function getJSON(url, { headers = {}, timeout = 60_000 } = {}) {
  * Lets us re-derive when the normalizer changes without re-hitting provider APIs.
  */
 export async function saveRaw(provider, category, payload) {
+  if (process.env.RC_NO_WRITE) return; // tests replay collectors; nothing may touch disk
   const path = resolve(ROOT, `data/raw/${provider}/${category}.json`);
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, JSON.stringify(payload, null, 1) + '\n');
 }
 
 export async function saveNormalized(category, records) {
+  if (process.env.RC_NO_WRITE) return records.length;
   // Stable sort so git diffs show real price changes, not row reshuffling.
   records.sort(
     (a, b) =>

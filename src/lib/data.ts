@@ -1,3 +1,4 @@
+import * as model from './model.mjs';
 import compute from '../../data/normalized/compute.json';
 import egress from '../../data/normalized/egress.json';
 import manifest from '../../data/normalized/manifest.json';
@@ -80,103 +81,45 @@ export function egressSchedule(provider: string, region: string) {
   return EGRESS.find((e) => e.provider === provider && e.region === region);
 }
 
-/** Cost of `gb` outbound under a tiered schedule, after the free allowance. */
+/**
+ * The maths lives in model.mjs, pure and unit-tested; these wrappers bind it
+ * to the dataset so callers keep the original signatures.
+ */
 export function egressCost(sched: EgressRow | undefined, gb: number): number {
-  if (!sched) return 0;
-  let remaining = Math.max(0, gb - (sched.free_gb_per_month ?? 0));
-  let cost = 0;
-  let floor = 0;
-  for (const tier of sched.tiers) {
-    if (remaining <= 0) break;
-    const span = tier.up_to_gb == null ? Infinity : tier.up_to_gb - floor;
-    const used = Math.min(remaining, span);
-    cost += used * tier.usd_per_gb;
-    remaining -= used;
-    floor = tier.up_to_gb ?? floor;
-  }
-  return Math.round(cost * 100) / 100;
+  return model.egressCost(sched, gb);
 }
 
-/**
- * The site's headline number. Bundled per-plan allowance is consumed first,
- * then the provider's account-level free tier, then the paid tiers.
- */
 export function effectiveMonthly(row: ComputeRow, egressGb: number) {
-  const billable = Math.max(0, egressGb - (row.included_egress_gb ?? 0));
-  const egressUsd = egressCost(egressSchedule(row.provider, row.region), billable);
-  return {
-    base: row.price_monthly_usd,
-    egress: egressUsd,
-    total: Math.round((row.price_monthly_usd + egressUsd) * 100) / 100,
-  };
+  return model.effectiveMonthly(row, egressSchedule(row.provider, row.region), egressGb);
 }
 
-/**
- * One-off cost to move `datasetGb` out of a provider — the toll on leaving.
- *
- * A plan's bundled allowance is monthly and is consumed by ordinary traffic
- * first, so only what is left over absorbs the migration. That interaction is
- * the whole point: a provider bundling 20 TB has near-zero exit cost for a
- * modest dataset, while one bundling 100 GB charges full freight to leave.
- */
 export function exitCost(row: ComputeRow, datasetGb: number, monthlyEgressGb = 0) {
-  const spare = Math.max(0, (row.included_egress_gb ?? 0) - monthlyEgressGb);
-  const billable = Math.max(0, datasetGb - spare);
-  return egressCost(egressSchedule(row.provider, row.region), billable);
+  return model.exitCost(row, egressSchedule(row.provider, row.region), datasetGb, monthlyEgressGb);
 }
 
-/**
- * Months until a migration pays for itself. `null` when the move never pays —
- * either because the destination is not cheaper, or the saving is zero.
- */
 export function paybackMonths(
   from: ComputeRow,
   to: ComputeRow,
   datasetGb: number,
   monthlyEgressGb: number,
 ) {
-  const saving =
-    effectiveMonthly(from, monthlyEgressGb).total - effectiveMonthly(to, monthlyEgressGb).total;
-  if (saving <= 0) return null;
-  const toll = exitCost(from, datasetGb, monthlyEgressGb);
-  return Math.round((toll / saving) * 10) / 10;
+  return model.paybackMonths(
+    from, egressSchedule(from.provider, from.region),
+    to, egressSchedule(to.provider, to.region),
+    datasetGb, monthlyEgressGb,
+  );
 }
 
-/**
- * The egress volume at which the cheaper of two options changes hands, or null
- * if one is cheaper at every volume.
- *
- * This is the only genuinely interesting thing to say about a provider pair.
- * "AWS costs $119, Hetzner costs $101" is a fact anyone can look up; "AWS is
- * cheaper until you send 500 GB a month, after which it never is again" is the
- * answer to the question people actually have.
- */
 export function crossover(a: ComputeRow, b: ComputeRow) {
-  const diff = (gb: number) =>
-    effectiveMonthly(a, gb).total - effectiveMonthly(b, gb).total;
-
-  const start = Math.sign(diff(0));
-  if (start === 0) return null;
-
-  const scan = [0, 50, 100, 250, 500, 1024, 2048, 5120, 10240, 20480, 51200, 102400];
-  let lo = 0;
-  let hi: number | null = null;
-  for (const gb of scan) {
-    const s = Math.sign(diff(gb));
-    if (s !== start && s !== 0) { hi = gb; break; }
-    lo = gb;
-  }
-  if (hi === null) return null;
-
-  // Narrow to a usable figure rather than reporting the whole bracket.
-  for (let i = 0; i < 40; i++) {
-    const mid = (lo + hi) / 2;
-    if (Math.sign(diff(mid)) === start) lo = mid; else hi = mid;
-  }
+  const c = model.crossover(
+    a, egressSchedule(a.provider, a.region),
+    b, egressSchedule(b.provider, b.region),
+  );
+  if (!c) return null;
   return {
-    gb: Math.round(hi),
-    cheaperBelow: start < 0 ? a : b,
-    cheaperAbove: start < 0 ? b : a,
+    gb: c.gb,
+    cheaperBelow: c.cheaperBelow === 'a' ? a : b,
+    cheaperAbove: c.cheaperAbove === 'a' ? a : b,
   };
 }
 

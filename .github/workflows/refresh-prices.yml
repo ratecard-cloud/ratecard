@@ -59,6 +59,13 @@ jobs:
       - name: Build site
         run: npm run build
 
+      # After the build so the API contract tests run against real dist/ output.
+      - name: Lint, typecheck, test
+        run: |
+          npm run lint
+          npm run typecheck
+          npm test
+
       - name: Commit price changes
         run: |
           git config user.name  "ratecard-bot"
