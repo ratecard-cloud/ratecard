@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ProviderSignup from '../components/ProviderSignup.astro';
 import {
-  COMPUTE, EGRESS, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS,
+  COMPUTE, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS,
   effectiveMonthly, usd, gbLabel, MANIFEST, freshness, providerList,
 } from '../lib/data';
 
@@ -19,13 +19,16 @@ const initial = COMPUTE
 
 const cheapest = initial[0]?.e.total;
 
-const payload = {
-  compute: COMPUTE,
-  egress: EGRESS,
-  providers: Object.fromEntries(
-    Object.entries(PROVIDERS).map(([k, v]) => [k, { short: v.short, name: v.name, url: v.url }]),
-  ),
-};
+/**
+ * Only the provider display map is inlined. The 218 KB dataset used to be
+ * embedded here — and again on /placement — which was 86% of this page. The
+ * island now fetches it from /api/v1, so it is downloaded once, cached at the
+ * CDN, and shared between pages. The table above is server-rendered, so there
+ * is no loading state to look at while that happens.
+ */
+const providerMap = Object.fromEntries(
+  Object.entries(PROVIDERS).map(([k, v]) => [k, { short: v.short, name: v.name }]),
+);
 
 const title = 'Cloud compute pricing compared — RateCard';
 const description =
@@ -99,6 +102,11 @@ const description =
       On-demand Linux VMs at matched vCPU/RAM. <strong style="color:var(--fg)">Effective $/mo</strong>
       adds the cost of your egress to the instance price — the number that decides
       real-world cheapest, and the one provider pricing pages never show you.
+    </p>
+    <p class="muted" style="margin:0 0 6px;max-width:78ch;font-size:13.5px">
+      Comparing two providers in particular? The
+      <a href="/compare">head-to-head pages</a> show where each one stops being the
+      cheaper option as bandwidth grows.
     </p>
     <p class="faint" style="margin:0 0 18px;font-size:13px">
       <span id="row-count">{initial.length}</span> instances ·
@@ -209,6 +217,7 @@ const description =
     <ProviderSignup only={ACTIVE_PROVIDERS} heading="Signing up with one of these" />
   </div>
 
-  <script is:inline set:html={`window.__RC__=${JSON.stringify(payload)}`}></script>
+  <script is:inline set:html={`window.__RCP_META__=${JSON.stringify({ providers: providerMap })}`}></script>
+  <script src="/data-loader.js" is:inline></script>
   <script src="/compute.js" is:inline></script>
 </Base>

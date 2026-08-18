@@ -4,8 +4,7 @@
  * the URL so a recommendation can be linked to someone else.
  */
 (function () {
-  var D = window.__RCP__;
-  if (!D) return;
+  var D = null;
 
   var EGRESS_STEPS = [0, 100, 500, 1024, 5120, 10240, 20480, 51200, 102400];
   var DATA_STEPS = [0, 100, 500, 1024, 5120, 10240, 51200, 102400];
@@ -242,5 +241,9 @@
   el.dataset.addEventListener('input', render);
 
   readURL();
-  render();
+
+  window.RCData.boot(
+    [el.region, el.shape, el.from, el.egress, el.dataset],
+    function (data) { D = data; render(); },
+  );
 })();

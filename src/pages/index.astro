@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import {
   COMPUTE, PROVIDERS, ACTIVE_PROVIDERS, MANIFEST,
-  effectiveMonthly, egressSchedule, usd, gbLabel, freshness, providerList,
+  effectiveMonthly, egressSchedule, crossover, usd, gbLabel, freshness, providerList,
 } from '../lib/data';
 
 /** Cheapest at a given shape and egress volume, for the headline table. */
@@ -41,6 +41,35 @@ const spread = COMPUTE
   .sort((a, b) => a.heavy - b.heavy);
 
 const maxHeavy = Math.max(...spread.map((s) => s.heavy));
+
+/**
+ * Pairs whose winner actually changes with bandwidth. These are the strongest
+ * entry points into the comparison pages, and linking them from here is what
+ * gives those pages internal link equity — the sitemap alone does not.
+ */
+const pickAt = (p: string, vcpu: number, ram: number) =>
+  COMPUTE
+    .filter((r) => r.provider === p && r.region === 'us-east' && r.vcpu === vcpu && r.ram_gb === ram)
+    .sort((x, y) => x.price_monthly_usd - y.price_monthly_usd)[0];
+
+const computeKeys = [...new Set(COMPUTE.map((r) => r.provider))]
+  .filter((k) => PROVIDERS[k]?.kind === 'compute')
+  .sort();
+
+const flips = [];
+for (let i = 0; i < computeKeys.length; i++) {
+  for (let j = i + 1; j < computeKeys.length; j++) {
+    const a = computeKeys[i], b = computeKeys[j];
+    const ra = pickAt(a, 4, 16), rb = pickAt(b, 4, 16);
+    if (!ra || !rb) continue;
+    const c = crossover(ra, rb);
+    if (c) flips.push({ a, b, gb: c.gb, href: `/compare/${a}-vs-${b}` });
+  }
+}
+flips.sort((x, y) => x.gb - y.gb);
+const featured = flips.slice(0, 6);
+const flipTotal = flips.length;
+const pairTotal = (computeKeys.length * (computeKeys.length - 1)) / 2;
 const title = 'RateCard — cloud list prices, with egress included';
 const description =
   `Side-by-side list pricing for cloud compute and bandwidth across ${providerList()}. ` +
@@ -156,6 +185,34 @@ const description =
     <p class="faint" style="font-size:12.5px;margin:12px 0 0">
       US East, on-demand Linux, list prices. “Cheapest” means lowest effective monthly
       cost at that egress volume — not fastest, not most reliable, and not a recommendation.
+    </p>
+  </div>
+
+  <!-- ------------------------------------------------------- head to head -->
+  <div class="wrap" style="margin-bottom:52px">
+    <h2 style="font-size:21px;letter-spacing:-0.02em;margin:0 0 4px">
+      Who is cheaper depends on how much you send
+    </h2>
+    <p class="muted" style="margin:0 0 14px;max-width:74ch;font-size:14.5px">
+      In {flipTotal} of the provider pairings here, the cheaper option changes as
+      bandwidth grows. These flip soonest — at 4 vCPU / 16 GB in US East.
+    </p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px">
+      {featured.map((f) => (
+        <a class="card" href={f.href} style="padding:12px 14px">
+          <div style="display:flex;align-items:center;gap:7px;font-size:14px">
+            <strong>{PROVIDERS[f.a].short}</strong>
+            <span class="faint">vs</span>
+            <strong>{PROVIDERS[f.b].short}</strong>
+          </div>
+          <div style="font-size:12px;margin-top:3px;color:var(--accent)">
+            winner changes at {gbLabel(f.gb)}
+          </div>
+        </a>
+      ))}
+    </div>
+    <p class="faint" style="font-size:12.5px;margin:12px 0 0">
+      <a href="/compare">All {pairTotal} head-to-head comparisons →</a>
     </p>
   </div>
 

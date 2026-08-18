@@ -4,8 +4,8 @@
  * State lives in the URL so any view can be linked or bookmarked.
  */
 (function () {
-  var D = window.__RC__;
-  if (!D) return;
+  // Populated by the shared loader; every read of D happens after boot().
+  var D = null;
 
   var STEPS = [0, 100, 500, 1024, 5120, 10240, 20480, 51200, 102400];
 
@@ -280,5 +280,10 @@
   });
 
   readURL();
-  render();
+
+  // Table is already server-rendered and correct; this only adds interactivity.
+  window.RCData.boot(
+    [el.region, el.shape, el.cpu, el.arch, el.egress, el.reset],
+    function (data) { D = data; render(); },
+  );
 })();

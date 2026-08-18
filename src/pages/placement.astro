@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ProviderSignup from '../components/ProviderSignup.astro';
 import {
-  COMPUTE, EGRESS, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS, MANIFEST,
+  COMPUTE, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS, MANIFEST,
   effectiveMonthly, exitCost, paybackMonths, usd, gbLabel, freshness,
 } from '../lib/data';
 
@@ -20,13 +20,10 @@ const candidates = COMPUTE
 
 const best = candidates[0];
 
-const payload = {
-  compute: COMPUTE,
-  egress: EGRESS,
-  providers: Object.fromEntries(
-    Object.entries(PROVIDERS).map(([k, v]) => [k, { short: v.short, name: v.name }]),
-  ),
-};
+// See compute.astro — the dataset is fetched, not inlined.
+const providerMap = Object.fromEntries(
+  Object.entries(PROVIDERS).map(([k, v]) => [k, { short: v.short, name: v.name }]),
+);
 
 const title = 'Where should this run? — cloud placement and exit cost — RateCard';
 const description =
@@ -195,6 +192,7 @@ const description =
     <ProviderSignup only={ACTIVE_PROVIDERS} heading="Signing up with one of these" />
   </div>
 
-  <script is:inline set:html={`window.__RCP__=${JSON.stringify(payload)}`}></script>
+  <script is:inline set:html={`window.__RCP_META__=${JSON.stringify({ providers: providerMap })}`}></script>
+  <script src="/data-loader.js" is:inline></script>
   <script src="/placement.js" is:inline></script>
 </Base>
