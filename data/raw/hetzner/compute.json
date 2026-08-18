@@ -1184,7 +1184,7 @@
       "id": 3,
       "name": "hel1",
       "available": false,
-      "recommended": false,
+      "recommended": true,
       "deprecation": null
      }
     ]
@@ -2105,7 +2105,7 @@
      {
       "id": 4,
       "name": "ash",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
