@@ -1,0 +1,39 @@
+{
+  "_comment": [
+    "Public IPv4 for providers where the answer is 'included' — a claim that",
+    "needs evidence precisely because $0 is the easiest number to get wrong.",
+    "Chargers (AWS, Azure, GCP, Hetzner, Vultr) are collected live."
+  ],
+  "oci": {
+    "usd_per_month": 0,
+    "included_with_instance": true,
+    "source_url": "https://www.oracle.com/cloud/price-list/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "No public-IPv4 line item exists anywhere on OCI's price list (checked 2026-08-18), and the public-IP docs have no billing section. $0 here is evidence of absence, stated as such.",
+      "Reserved and ephemeral public IPs both uncharged."
+    ]
+  },
+  "digitalocean": {
+    "usd_per_month": 0,
+    "included_with_instance": true,
+    "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "\"All reserved IPs are free when assigned to a Droplet\" — DO docs, read 2026-08-18.",
+      "A reserved IP left UNASSIGNED bills ~$7.00/month ($0.01/hour), citing IPv4 scarcity."
+    ]
+  },
+  "linode": {
+    "usd_per_month": 0,
+    "included_with_instance": true,
+    "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "Every Linode has \"a single public IPv4 address\" included; additional addresses require technical justification rather than payment — techdocs, read 2026-08-18."
+    ]
+  }
+}

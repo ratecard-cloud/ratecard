@@ -137,6 +137,24 @@ export function validateStorage(records) {
   return { errors, warnings: [] };
 }
 
+export function validateIpv4(records) {
+  const errors = [];
+  const seen = new Set();
+  for (const r of records) {
+    const id = `ipv4 ${r.provider}/${r.region}`;
+    if (seen.has(id)) errors.push(`${id}: duplicate`);
+    seen.add(id);
+    if (!PROVIDERS[r.provider]) errors.push(`${id}: unknown provider`);
+    if (!REGIONS.includes(r.region)) errors.push(`${id}: unknown region`);
+    if (!/^https:\/\//.test(r.source_url ?? '')) errors.push(`${id}: missing source_url`);
+    // $0 is a legitimate answer here; above $10/month is a unit bug.
+    if (!(r.usd_per_month >= 0 && r.usd_per_month <= 10)) {
+      errors.push(`${id}: $${r.usd_per_month}/month looks wrong`);
+    }
+  }
+  return { errors, warnings: [] };
+}
+
 /** Cross-dataset check: every compute provider needs an egress schedule. */
 export function validateCoverage(compute, egress) {
   const errors = [];
@@ -192,7 +210,7 @@ async function loadPrevious(category) {
  *
  * Intentional removals: ALLOW_COVERAGE_DROP="hetzner,gcp" or "all".
  */
-export async function validatePreviousCoverage(compute, egress, statuses = {}, storage = undefined) {
+export async function validatePreviousCoverage(compute, egress, statuses = {}, extra = {}) {
   const errors = [];
   const warnings = [];
   // Default drop threshold; a provider can widen it via coverage_tolerance in
@@ -224,7 +242,11 @@ export async function validatePreviousCoverage(compute, egress, statuses = {}, s
     ['compute', compute],
     ['egress', egress],
   ];
-  if (Array.isArray(storage)) categories.push(['storage', storage]);
+  // Additional datasets opt in by being passed; absent ones are not judged,
+  // which keeps older callers and tests on their original contract.
+  for (const [name, arr] of Object.entries(extra)) {
+    if (Array.isArray(arr)) categories.push([name, arr]);
+  }
   for (const [category, current] of categories) {
     const previous = await loadPrevious(category);
     if (!previous) {

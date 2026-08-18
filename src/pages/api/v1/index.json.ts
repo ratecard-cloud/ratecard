@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { COMPUTE, EGRESS, STORAGE, PROVIDERS, REGIONS, MANIFEST } from '../../../lib/data';
+import { COMPUTE, EGRESS, STORAGE, IPV4, PROVIDERS, REGIONS, MANIFEST } from '../../../lib/data';
 import { SERIES, CHANGES } from '../../../lib/history';
 import { API_VERSION, json } from '../../../lib/api';
 
@@ -26,6 +26,8 @@ export const GET: APIRoute = () =>
         description: 'Canonical regions and provider-specific codes.' },
       { resource: 'storage', url: `${BASE}/storage.json`, count: STORAGE.length,
         description: 'Block storage: one general-purpose volume per provider, $/GB-month.' },
+      { resource: 'ipv4', url: `${BASE}/ipv4.json`, count: IPV4.length,
+        description: 'Monthly cost of one public IPv4 on a running instance.' },
       { resource: 'history', url: `${BASE}/history.json`, count: Object.keys(SERIES).length,
         description: 'Per-SKU price history as run-length segments.' },
       { resource: 'changes', url: `${BASE}/changes.json`, count: CHANGES.length,

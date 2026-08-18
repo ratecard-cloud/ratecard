@@ -1,0 +1,126 @@
+---
+import Base from '../layouts/Base.astro';
+import ProviderSignup from '../components/ProviderSignup.astro';
+import { IPV4, PROVIDERS, REGIONS, ACTIVE_PROVIDERS, MANIFEST, usd, freshness } from '../lib/data';
+
+/**
+ * IPv4 pricing is uniform across regions for every provider today, so the
+ * table is one row per provider — but it is derived from per-region records,
+ * and a region column appears automatically if that ever stops being true.
+ */
+const byProvider = new Map<string, typeof IPV4>();
+for (const r of IPV4) {
+  if (!byProvider.has(r.provider)) byProvider.set(r.provider, []);
+  byProvider.get(r.provider)!.push(r);
+}
+const rows = [...byProvider.entries()]
+  .map(([provider, recs]) => ({
+    provider,
+    rec: recs[0],
+    uniform: new Set(recs.map((r) => r.usd_per_month)).size === 1,
+    price: recs[0].usd_per_month,
+  }))
+  .sort((a, b) => a.price - b.price);
+
+const chargers = rows.filter((r) => r.price > 0);
+const yearly = (m: number) => `$${(m * 12).toFixed(m * 12 >= 10 ? 0 : 2)}`;
+
+const missing = ACTIVE_PROVIDERS.filter(
+  (p) => PROVIDERS[p].kind === 'compute' && !byProvider.has(p),
+);
+
+const title = 'Public IPv4 pricing compared — the address tax — RateCard';
+const description =
+  'What one public IPv4 address costs per month on each cloud: AWS and Azure ' +
+  'charge ~$44/year, Hetzner $7, value providers still include it. Sourced and dated.';
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:36px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Public IPv4</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:78ch">
+      The cost of one public IPv4 on a running instance. This was free everywhere
+      until AWS started charging in 2024; now the hyperscalers bill roughly
+      <strong style="color:var(--fg)">$44 a year per address</strong> while the
+      value providers still bundle it. A fleet of fifty instances pays
+      {usd((chargers[chargers.length - 1]?.price ?? 3.65) * 50)}/month for numbers
+      alone on the dearest provider here — and $0 on four others.
+    </p>
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
+      {IPV4.length} prices ·
+      <a href="/api/v1/ipv4.json" class="num" style="font-size:12px">ipv4.json</a> ·
+      collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th class="right">$/month</th>
+            <th class="right col-optional">$/year</th>
+            <th class="col-optional">How it is billed</th>
+            <th class="col-optional">Verified</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(({ provider, rec, price, uniform }) => (
+            <tr class={price === 0 ? 'is-cheapest' : ''}>
+              <td data-label="Provider"><strong>{PROVIDERS[provider].short}</strong></td>
+              <td class="right num" data-label="$/month"
+                  style={price === 0 ? 'color:var(--win);font-weight:700' : 'font-weight:600'}>
+                {price === 0 ? 'included' : usd(price)}
+              </td>
+              <td class="right num faint col-optional" data-label="$/year">
+                {price === 0 ? '—' : yearly(price)}
+              </td>
+              <td class="col-optional muted" data-label="How" style="font-size:12.5px">
+                {rec.usd_per_hour
+                  ? `$${rec.usd_per_hour}/hour${uniform ? '' : ' (varies by region)'}`
+                  : rec.included_with_instance
+                    ? 'bundled with the instance'
+                    : 'monthly'}
+              </td>
+              <td class="col-optional faint" data-label="Verified" style="font-size:12px">
+                {rec.confidence === 'high'
+                  ? <span title="Collected or derived from the provider's own API">live API</span>
+                  : rec.source_verified_at ?? '—'}
+              </td>
+              <td data-label="Source">
+                <a href={rec.source_url} rel="nofollow noopener" target="_blank"
+                   class="faint" style="font-size:12px">source ↗</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    {missing.length > 0 && (
+      <p class="faint" style="font-size:12.5px;margin:12px 0 0">
+        Not yet collected: {missing.map((p) => PROVIDERS[p].short).join(', ')} —
+        appears after the next scheduled refresh.
+      </p>
+    )}
+
+    <h2 style="font-size:18px;margin:34px 0 10px;letter-spacing:-0.01em">The fine print that matters</h2>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      {rows.filter(({ rec }) => rec.notes.length).map(({ provider, rec }) => (
+        <div class="card" style="padding:13px 15px">
+          <strong style="font-size:13.5px">{PROVIDERS[provider].short}</strong>
+          <ul class="muted" style="margin:6px 0 0;padding-left:18px;font-size:13px">
+            {rec.notes.map((n) => <li>{n}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <p class="faint" style="font-size:12.5px;margin:22px 0 0;max-width:80ch">
+      A $0 here means bundled with no listed price — each one cites its evidence,
+      because “included” is the easiest claim to get wrong. IPv6 is free everywhere.
+    </p>
+
+    <ProviderSignup only={ACTIVE_PROVIDERS} heading="Signing up" />
+  </div>
+</Base>

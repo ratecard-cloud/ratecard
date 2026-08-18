@@ -3,8 +3,8 @@ import { writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { ROOT, saveNormalized } from './lib.mjs';
 import {
-  validateCompute, validateEgress, validateStorage, validateCoverage,
-  validateProviders, validatePreviousCoverage,
+  validateCompute, validateEgress, validateStorage, validateIpv4,
+  validateCoverage, validateProviders, validatePreviousCoverage,
 } from './validate.mjs';
 
 import aws from './collectors/aws.mjs';
@@ -17,6 +17,7 @@ import linode from './collectors/linode.mjs';
 import vultr from './collectors/vultr.mjs';
 import egressCollector from './collectors/egress.mjs';
 import storageCollector from './collectors/storage.mjs';
+import ipv4Collector from './collectors/ipv4.mjs';
 
 const COMPUTE = { aws, azure, gcp, oci, hetzner, digitalocean, linode, vultr };
 
@@ -74,18 +75,35 @@ async function main() {
     console.log(`${c.r}✗ storage failed${c.x} ${err.message}`);
   }
 
+  let ipv4 = [];
+  try {
+    const res = await ipv4Collector();
+    ipv4 = res.records;
+    const skips = Object.entries(res.statuses).filter(([, v]) => v.state !== 'ok');
+    console.log(
+      `${c.g}✓ ${'ipv4'.padEnd(13)}${c.x} ${String(ipv4.length).padStart(3)} addresses` +
+        (skips.length ? ` ${c.d}(${skips.map(([k, v]) => `${k}: ${v.state}`).join(', ')})${c.x}` : ''),
+    );
+    for (const [k, v] of skips) {
+      if (v.state === 'failed') console.log(`${c.r}  ipv4/${k} failed${c.x} ${v.error}`);
+    }
+  } catch (err) {
+    console.log(`${c.r}✗ ipv4 failed${c.x} ${err.message}`);
+  }
+
   // --------------------------------------------------------------- validate
   const checks = [
     ['providers', validateProviders()],
     ['compute', validateCompute(compute)],
     ['egress', validateEgress(egress)],
     ['storage', validateStorage(storage)],
+    ['ipv4', validateIpv4(ipv4)],
     ['coverage', validateCoverage(compute, egress)],
   ];
   // Single-collector debug runs are partial by design; comparing them against
   // the full published dataset would always fail.
   if (!only.length) {
-    checks.push(['regression', await validatePreviousCoverage(compute, egress, status, storage)]);
+    checks.push(['regression', await validatePreviousCoverage(compute, egress, status, { storage, ipv4 })]);
   }
   let fatal = 0;
   for (const [label, { errors, warnings }] of checks) {
@@ -102,6 +120,7 @@ async function main() {
     await saveNormalized('compute', compute);
     await saveNormalized('egress', egress);
     await saveNormalized('storage', storage);
+    await saveNormalized('ipv4', ipv4);
     await writeFile(
       resolve(ROOT, 'data/normalized/manifest.json'),
       JSON.stringify(
@@ -111,6 +130,7 @@ async function main() {
           compute_records: compute.length,
           egress_records: egress.length,
           storage_records: storage.length,
+          ipv4_records: ipv4.length,
           providers: status,
         },
         null,

@@ -33,7 +33,7 @@ test('api v1: discovery document lists every endpoint', { skip: !built }, async 
   const idx = JSON.parse(await readFile('dist/api/v1/index.json', 'utf8'));
   assert.equal(idx.version, 'v1');
   const resources = idx.endpoints.map((e) => e.resource).sort();
-  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'providers', 'regions', 'storage']);
+  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'ipv4', 'providers', 'regions', 'storage']);
   for (const e of idx.endpoints) {
     const path = 'dist' + new URL(e.url).pathname;
     assert.ok(existsSync(path), `${e.url} advertised but ${path} not built`);
@@ -127,5 +127,20 @@ test('api v1: storage contract holds', { skip: !built }, async () => {
     assert.equal(r.kind, 'block');
     assert.ok(r.usd_per_gb_month > 0.005 && r.usd_per_gb_month < 0.5,
       `${r.provider}/${r.sku}: $${r.usd_per_gb_month}/GB-month outside sanity band`);
+  }
+});
+
+test('api v1: ipv4 contract holds', { skip: !built }, async () => {
+  const body = JSON.parse(await readFile('dist/api/v1/ipv4.json', 'utf8'));
+  for (const k of V1_ENVELOPE) assert.ok(k in body, `envelope lost "${k}"`);
+  assert.equal(body.count, body.records.length);
+  const FIELDS = ['provider', 'region', 'sku', 'usd_per_month', 'usd_per_hour',
+    'included_with_instance', 'source_url', 'confidence', 'notes'];
+  for (const k of FIELDS) assert.ok(k in body.records[0], `ipv4 record lost "${k}"`);
+  for (const r of body.records) {
+    assert.ok(r.usd_per_month >= 0 && r.usd_per_month <= 10, `${r.provider}: $${r.usd_per_month}/mo out of band`);
+    if (r.usd_per_month === 0) {
+      assert.ok(r.notes.length > 0, `${r.provider}: a $0 claim must cite its evidence`);
+    }
   }
 });

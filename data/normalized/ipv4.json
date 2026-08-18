@@ -1,0 +1,446 @@
+[
+ {
+  "provider": "aws",
+  "region": "ap-southeast",
+  "region_code": "ap-southeast-1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 (in use)",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/vpc/pricing/",
+  "collected_at": "2026-08-18T13:39:54.089Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Charged since February 2024, idle or in use. Applies to every public IPv4 including the instance default."
+  ]
+ },
+ {
+  "provider": "aws",
+  "region": "eu-central",
+  "region_code": "eu-central-1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 (in use)",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/vpc/pricing/",
+  "collected_at": "2026-08-18T13:39:53.843Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Charged since February 2024, idle or in use. Applies to every public IPv4 including the instance default."
+  ]
+ },
+ {
+  "provider": "aws",
+  "region": "us-east",
+  "region_code": "us-east-1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 (in use)",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/vpc/pricing/",
+  "collected_at": "2026-08-18T13:39:53.674Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Charged since February 2024, idle or in use. Applies to every public IPv4 including the instance default."
+  ]
+ },
+ {
+  "provider": "aws",
+  "region": "us-west",
+  "region_code": "us-west-2",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 (in use)",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/vpc/pricing/",
+  "collected_at": "2026-08-18T13:39:53.954Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Charged since February 2024, idle or in use. Applies to every public IPv4 including the instance default."
+  ]
+ },
+ {
+  "provider": "azure",
+  "region": "ap-southeast",
+  "region_code": "southeastasia",
+  "sku": "public-ipv4",
+  "display_name": "Standard static public IP",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
+  "collected_at": "2026-08-18T13:39:54.679Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Standard SKU static, the default for new deployments. Basic SKU is retired."
+  ]
+ },
+ {
+  "provider": "azure",
+  "region": "eu-central",
+  "region_code": "westeurope",
+  "sku": "public-ipv4",
+  "display_name": "Standard static public IP",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
+  "collected_at": "2026-08-18T13:39:54.496Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Standard SKU static, the default for new deployments. Basic SKU is retired."
+  ]
+ },
+ {
+  "provider": "azure",
+  "region": "us-east",
+  "region_code": "eastus",
+  "sku": "public-ipv4",
+  "display_name": "Standard static public IP",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
+  "collected_at": "2026-08-18T13:39:54.346Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Standard SKU static, the default for new deployments. Basic SKU is retired."
+  ]
+ },
+ {
+  "provider": "azure",
+  "region": "us-west",
+  "region_code": "westus2",
+  "sku": "public-ipv4",
+  "display_name": "Standard static public IP",
+  "usd_per_month": 3.65,
+  "usd_per_hour": 0.005,
+  "included_with_instance": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
+  "collected_at": "2026-08-18T13:39:54.585Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Standard SKU static, the default for new deployments. Basic SKU is retired."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "region": "ap-southeast",
+  "region_code": "sgp1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "\"All reserved IPs are free when assigned to a Droplet\" — DO docs, read 2026-08-18.",
+   "A reserved IP left UNASSIGNED bills ~$7.00/month ($0.01/hour), citing IPv4 scarcity."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "region_code": "fra1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "\"All reserved IPs are free when assigned to a Droplet\" — DO docs, read 2026-08-18.",
+   "A reserved IP left UNASSIGNED bills ~$7.00/month ($0.01/hour), citing IPv4 scarcity."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "region": "us-east",
+  "region_code": "nyc1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "\"All reserved IPs are free when assigned to a Droplet\" — DO docs, read 2026-08-18.",
+   "A reserved IP left UNASSIGNED bills ~$7.00/month ($0.01/hour), citing IPv4 scarcity."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "region": "us-west",
+  "region_code": "sfo3",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "\"All reserved IPs are free when assigned to a Droplet\" — DO docs, read 2026-08-18.",
+   "A reserved IP left UNASSIGNED bills ~$7.00/month ($0.01/hour), citing IPv4 scarcity."
+  ]
+ },
+ {
+  "provider": "linode",
+  "region": "ap-southeast",
+  "region_code": "ap-south",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Every Linode has \"a single public IPv4 address\" included; additional addresses require technical justification rather than payment — techdocs, read 2026-08-18."
+  ]
+ },
+ {
+  "provider": "linode",
+  "region": "eu-central",
+  "region_code": "eu-central",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Every Linode has \"a single public IPv4 address\" included; additional addresses require technical justification rather than payment — techdocs, read 2026-08-18."
+  ]
+ },
+ {
+  "provider": "linode",
+  "region": "us-east",
+  "region_code": "us-east",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Every Linode has \"a single public IPv4 address\" included; additional addresses require technical justification rather than payment — techdocs, read 2026-08-18."
+  ]
+ },
+ {
+  "provider": "linode",
+  "region": "us-west",
+  "region_code": "us-west",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Every Linode has \"a single public IPv4 address\" included; additional addresses require technical justification rather than payment — techdocs, read 2026-08-18."
+  ]
+ },
+ {
+  "provider": "oci",
+  "region": "ap-southeast",
+  "region_code": "ap-singapore-1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "No public-IPv4 line item exists anywhere on OCI's price list (checked 2026-08-18), and the public-IP docs have no billing section. $0 here is evidence of absence, stated as such.",
+   "Reserved and ephemeral public IPs both uncharged."
+  ]
+ },
+ {
+  "provider": "oci",
+  "region": "eu-central",
+  "region_code": "eu-frankfurt-1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "No public-IPv4 line item exists anywhere on OCI's price list (checked 2026-08-18), and the public-IP docs have no billing section. $0 here is evidence of absence, stated as such.",
+   "Reserved and ephemeral public IPs both uncharged."
+  ]
+ },
+ {
+  "provider": "oci",
+  "region": "us-east",
+  "region_code": "us-ashburn-1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "No public-IPv4 line item exists anywhere on OCI's price list (checked 2026-08-18), and the public-IP docs have no billing section. $0 here is evidence of absence, stated as such.",
+   "Reserved and ephemeral public IPs both uncharged."
+  ]
+ },
+ {
+  "provider": "oci",
+  "region": "us-west",
+  "region_code": "us-phoenix-1",
+  "sku": "public-ipv4",
+  "display_name": "Public IPv4 address",
+  "usd_per_month": 0,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "No public-IPv4 line item exists anywhere on OCI's price list (checked 2026-08-18), and the public-IP docs have no billing section. $0 here is evidence of absence, stated as such.",
+   "Reserved and ephemeral public IPs both uncharged."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "region_code": "sgp",
+  "sku": "public-ipv4",
+  "display_name": "IPv4 (vs IPv6-only plan)",
+  "usd_per_month": 1,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
+   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "region": "eu-central",
+  "region_code": "fra",
+  "sku": "public-ipv4",
+  "display_name": "IPv4 (vs IPv6-only plan)",
+  "usd_per_month": 1,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:39:55.338Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
+   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "region": "us-east",
+  "region_code": "ewr",
+  "sku": "public-ipv4",
+  "display_name": "IPv4 (vs IPv6-only plan)",
+  "usd_per_month": 1,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:39:55.338Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
+   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "region": "us-west",
+  "region_code": "lax",
+  "sku": "public-ipv4",
+  "display_name": "IPv4 (vs IPv6-only plan)",
+  "usd_per_month": 1,
+  "usd_per_hour": null,
+  "included_with_instance": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:39:55.339Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
+   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+  ]
+ }
+]

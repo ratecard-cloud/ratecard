@@ -5,6 +5,7 @@ import manifest from '../../data/normalized/manifest.json';
 import providers from '../../data/providers.json';
 import regions from '../../data/regions.json';
 import storage from '../../data/normalized/storage.json';
+import ipv4 from '../../data/normalized/ipv4.json';
 
 export interface ComputeRow {
   provider: string;
@@ -63,6 +64,23 @@ export interface StorageRow {
   notes: string[];
 }
 
+export interface Ipv4Row {
+  provider: string;
+  region: string;
+  region_code: string | null;
+  sku: 'public-ipv4';
+  display_name: string;
+  usd_per_month: number;
+  usd_per_hour: number | null;
+  included_with_instance: boolean;
+  currency: string;
+  source_url: string;
+  collected_at: string;
+  source_verified_at: string | null;
+  confidence: 'high' | 'medium' | 'low';
+  notes: string[];
+}
+
 export interface Provider {
   name: string; short: string; tier: number;
   /**
@@ -79,6 +97,7 @@ export interface Provider {
 export const COMPUTE = compute as ComputeRow[];
 export const EGRESS = egress as EgressRow[];
 export const STORAGE = storage as StorageRow[];
+export const IPV4 = ipv4 as Ipv4Row[];
 export const MANIFEST = manifest as {
   generated_at: string;
   compute_records: number;
