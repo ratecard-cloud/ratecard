@@ -13,6 +13,20 @@ const nav = [
   ['/methodology', 'Methodology'],
 ];
 const here = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+/**
+ * Cloudflare Web Analytics beacon. The token is public — it ships in the HTML —
+ * so it lives in a build variable rather than a secret, and the tag is simply
+ * omitted when unset so local builds stay clean.
+ *
+ * Auto-injection is documented for proxied origins and for Pages projects;
+ * this site is Workers static assets and did not get injected. Installing the
+ * snippet explicitly removes the dependency on edge behaviour entirely.
+ *
+ * IMPORTANT: with this installed, set the dashboard to "Enable with JS Snippet
+ * installation". If automatic injection is also on, every pageview counts twice.
+ */
+const beaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
 ---
 
 <!doctype html>
@@ -97,6 +111,15 @@ const here = Astro.url.pathname.replace(/\/$/, '') || '/';
         </p>
       </div>
     </footer>
+
+    {beaconToken && (
+      <script
+        is:inline
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={`{"token": "${beaconToken}"}`}
+      ></script>
+    )}
 
     <script is:inline>
       document.getElementById('theme-toggle')?.addEventListener('click', () => {
