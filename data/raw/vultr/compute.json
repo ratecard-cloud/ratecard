@@ -114,7 +114,6 @@
     "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "bom",
     "jnb",
@@ -130,14 +129,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 7.5,
-     "hourly_cost": 0.01,
-     "monthly_cost_preemptible": 7.5,
-     "hourly_cost_preemptible": 0.01
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -636,6 +628,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1426,7 +1419,6 @@
     "dfw",
     "sea",
     "lax",
-    "atl",
     "ams",
     "lhr",
     "fra",
@@ -5552,7 +5544,6 @@
    "invoice_type": "hourly",
    "type": "vdm",
    "locations": [
-    "ewr",
     "syd",
     "nrt",
     "sgp",
@@ -6779,8 +6770,7 @@
    "type": "vx1",
    "locations": [
     "ord",
-    "sea",
-    "atl"
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6808,8 +6798,7 @@
    "type": "vx1",
    "locations": [
     "ord",
-    "sea",
-    "atl"
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
