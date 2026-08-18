@@ -1,0 +1,1592 @@
+[
+ {
+  "provider": "aws",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.09,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.040Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Singapore-sourced inter-region transfer costs 4.5x the US/EU rate."
+  ]
+ },
+ {
+  "provider": "aws",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.09,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.041Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Singapore-sourced inter-region transfer costs 4.5x the US/EU rate."
+  ]
+ },
+ {
+  "provider": "aws",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.09,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.041Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Singapore-sourced inter-region transfer costs 4.5x the US/EU rate."
+  ]
+ },
+ {
+  "provider": "aws",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.041Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.041Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.041Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.040Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.040Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.041Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.040Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.040Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "aws",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:49:13.040Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": []
+ },
+ {
+  "provider": "azure",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.460Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.460Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.460Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.230Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.230Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.230Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.146Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.146Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.146Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.352Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.352Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "azure",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
+  "collected_at": "2026-08-18T13:49:13.352Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Priced by source region only; the destination does not matter."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+   "VPC traffic is free only within a region."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.05,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.05,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.05,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.08,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.05,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.02,
+  "billed_as": "dedicated",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+   "Per GiB. No free tier applies to inter-region transfer.",
+   "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.001172,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+   "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+   "Traffic within the SAME network zone is free."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "linode",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.005,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.025,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.661Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.025,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.661Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.025,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.661Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "oci",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.0085,
+  "billed_as": "standard-egress",
+  "consumes_bundle": false,
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/networking/pricing/",
+  "collected_at": "2026-08-18T13:49:14.133Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Billed as ordinary outbound transfer, sharing the account-wide 10 TB/month free pool.",
+   "Rate shown is the post-free-pool rate for the source region."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "ap-southeast",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "ap-southeast",
+  "to_region": "us-east",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "ap-southeast",
+  "to_region": "us-west",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "eu-central",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "eu-central",
+  "to_region": "us-east",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "eu-central",
+  "to_region": "us-west",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "us-east",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "us-east",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "us-east",
+  "to_region": "us-west",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "us-west",
+  "to_region": "ap-southeast",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "us-west",
+  "to_region": "eu-central",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "from_region": "us-west",
+  "to_region": "us-east",
+  "usd_per_gb": 0.01,
+  "billed_as": "standard-egress",
+  "consumes_bundle": true,
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:49:14.662Z",
+  "source_verified_at": "2026-08-18",
+  "confidence": "medium",
+  "notes": [
+   "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+  ]
+ }
+]

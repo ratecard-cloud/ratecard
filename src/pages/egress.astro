@@ -82,7 +82,9 @@ const description =
       multiples rather than percentages.
     </p>
     <p class="faint" style="margin:0 0 18px;font-size:13px">
-      {REGIONS[region].label} shown · all regions in
+      Between regions of the same provider? See
+      {' '}<a href="/interregion">inter-region transfer</a>.
+      {' '}{REGIONS[region].label} shown · all regions in
       {' '}<a href="/api/v1/egress.json" class="num" style="font-size:12px">egress.json</a> and on
       {' '}<a href="/compute">compute</a> · collected {freshness(MANIFEST.generated_at)}
     </p>

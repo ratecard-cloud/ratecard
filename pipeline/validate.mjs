@@ -155,6 +155,28 @@ export function validateIpv4(records) {
   return { errors, warnings: [] };
 }
 
+export function validateInterRegion(records) {
+  const errors = [];
+  const seen = new Set();
+  for (const r of records) {
+    const id = `interregion ${r.provider}/${r.from_region}->${r.to_region}`;
+    if (seen.has(id)) errors.push(`${id}: duplicate`);
+    seen.add(id);
+    if (!PROVIDERS[r.provider]) errors.push(`${id}: unknown provider`);
+    if (!REGIONS.includes(r.from_region) || !REGIONS.includes(r.to_region)) {
+      errors.push(`${id}: unknown region`);
+    }
+    if (r.from_region === r.to_region) errors.push(`${id}: self-pair`);
+    if (!['dedicated', 'standard-egress'].includes(r.billed_as)) {
+      errors.push(`${id}: bad billed_as "${r.billed_as}"`);
+    }
+    if (!(r.usd_per_gb >= 0 && r.usd_per_gb <= 0.2)) {
+      errors.push(`${id}: $${r.usd_per_gb}/GB looks wrong`);
+    }
+  }
+  return { errors, warnings: [] };
+}
+
 /** Cross-dataset check: every compute provider needs an egress schedule. */
 export function validateCoverage(compute, egress) {
   const errors = [];
@@ -179,11 +201,12 @@ export function validateCoverage(compute, egress) {
  * normalized files are the baseline, so the check maintains itself.
  * ------------------------------------------------------------------------- */
 
-/** Records per provider/region, e.g. {"hetzner/us-east": 13}. */
+/** Records per provider/region, e.g. {"hetzner/us-east": 13}. Datasets keyed
+ * by pair (interregion) fall back to their source region. */
 function coverageMap(records) {
   const m = new Map();
   for (const r of records) {
-    const k = `${r.provider}/${r.region}`;
+    const k = `${r.provider}/${r.region ?? r.from_region}`;
     m.set(k, (m.get(k) ?? 0) + 1);
   }
   return m;

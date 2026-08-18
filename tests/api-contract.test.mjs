@@ -33,7 +33,7 @@ test('api v1: discovery document lists every endpoint', { skip: !built }, async 
   const idx = JSON.parse(await readFile('dist/api/v1/index.json', 'utf8'));
   assert.equal(idx.version, 'v1');
   const resources = idx.endpoints.map((e) => e.resource).sort();
-  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'ipv4', 'providers', 'regions', 'storage']);
+  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'interregion', 'ipv4', 'providers', 'regions', 'storage']);
   for (const e of idx.endpoints) {
     const path = 'dist' + new URL(e.url).pathname;
     assert.ok(existsSync(path), `${e.url} advertised but ${path} not built`);
@@ -143,4 +143,24 @@ test('api v1: ipv4 contract holds', { skip: !built }, async () => {
       assert.ok(r.notes.length > 0, `${r.provider}: a $0 claim must cite its evidence`);
     }
   }
+});
+
+test('api v1: interregion contract holds', { skip: !built }, async () => {
+  const body = JSON.parse(await readFile('dist/api/v1/interregion.json', 'utf8'));
+  for (const k of V1_ENVELOPE) assert.ok(k in body, `envelope lost "${k}"`);
+  assert.equal(body.count, body.records.length);
+  const FIELDS = ['provider', 'from_region', 'to_region', 'usd_per_gb', 'billed_as',
+    'consumes_bundle', 'source_url', 'confidence', 'notes'];
+  for (const k of FIELDS) assert.ok(k in body.records[0], `interregion record lost "${k}"`);
+  for (const r of body.records) {
+    assert.notEqual(r.from_region, r.to_region, `${r.provider}: self-pair`);
+    assert.ok(r.usd_per_gb >= 0 && r.usd_per_gb <= 0.2, `${r.provider} ${r.from_region}->${r.to_region}: out of band`);
+  }
+  // The asymmetry that motivated directed pairs must remain expressible:
+  // at least one provider must have from A->B priced differently to B->A.
+  const asym = body.records.some((r) =>
+    body.records.some((q) =>
+      q.provider === r.provider && q.from_region === r.to_region &&
+      q.to_region === r.from_region && q.usd_per_gb !== r.usd_per_gb));
+  assert.ok(asym, 'expected at least one asymmetric pair (e.g. AWS Singapore)');
 });

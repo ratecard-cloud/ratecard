@@ -6,6 +6,7 @@ import providers from '../../data/providers.json';
 import regions from '../../data/regions.json';
 import storage from '../../data/normalized/storage.json';
 import ipv4 from '../../data/normalized/ipv4.json';
+import interregion from '../../data/normalized/interregion.json';
 
 export interface ComputeRow {
   provider: string;
@@ -81,6 +82,21 @@ export interface Ipv4Row {
   notes: string[];
 }
 
+export interface InterRegionRow {
+  provider: string;
+  from_region: string;
+  to_region: string;
+  usd_per_gb: number;
+  billed_as: 'dedicated' | 'standard-egress';
+  consumes_bundle: boolean;
+  currency: string;
+  source_url: string;
+  collected_at: string;
+  source_verified_at: string | null;
+  confidence: 'high' | 'medium' | 'low';
+  notes: string[];
+}
+
 export interface Provider {
   name: string; short: string; tier: number;
   /**
@@ -98,6 +114,7 @@ export const COMPUTE = compute as ComputeRow[];
 export const EGRESS = egress as EgressRow[];
 export const STORAGE = storage as StorageRow[];
 export const IPV4 = ipv4 as Ipv4Row[];
+export const INTERREGION = interregion as InterRegionRow[];
 export const MANIFEST = manifest as {
   generated_at: string;
   compute_records: number;

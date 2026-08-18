@@ -1,0 +1,139 @@
+---
+import Base from '../layouts/Base.astro';
+import ProviderSignup from '../components/ProviderSignup.astro';
+import { INTERREGION, PROVIDERS, REGIONS, ACTIVE_PROVIDERS, MANIFEST, freshness } from '../lib/data';
+
+/**
+ * One row per provider; columns are the routes that tell the story, including
+ * the Singapore-outbound route whose asymmetry is the category's finding.
+ * All 96 directed pairs live in the API.
+ */
+const ROUTES: [string, string, string][] = [
+  ['us-east', 'us-west', 'US → US'],
+  ['us-east', 'eu-central', 'US → EU'],
+  ['us-east', 'ap-southeast', 'US → Asia'],
+  ['ap-southeast', 'us-east', 'Asia → US'],
+];
+
+const byProvider = new Map<string, typeof INTERREGION>();
+for (const r of INTERREGION) {
+  if (!byProvider.has(r.provider)) byProvider.set(r.provider, []);
+  byProvider.get(r.provider)!.push(r);
+}
+const rows = [...byProvider.entries()]
+  .map(([provider, recs]) => ({
+    provider,
+    rec: recs[0],
+    route: Object.fromEntries(
+      ROUTES.map(([f, t]) => [`${f}>${t}`, recs.find((r) => r.from_region === f && r.to_region === t)]),
+    ),
+    max: Math.max(...recs.map((r) => r.usd_per_gb)),
+  }))
+  .sort((a, b) => a.max - b.max);
+
+const perGb = (n: number) =>
+  n === 0 ? 'free' : `$${n.toFixed(6).replace(/0+$/, '').replace(/\.$/, '')}`;
+
+const missing = ACTIVE_PROVIDERS.filter(
+  (p) => PROVIDERS[p].kind === 'compute' && !byProvider.has(p),
+);
+
+const title = 'Inter-region transfer pricing compared — RateCard';
+const description =
+  'What moving data between two regions of the same cloud costs, per GB, as ' +
+  'directed routes: $0.02 out of US/EU on AWS and Azure but 4x that out of ' +
+  'Singapore. Value providers bill it as ordinary bundled bandwidth.';
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:36px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Inter-region transfer</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:80ch">
+      Moving data between two regions of the <em>same</em> provider — replication,
+      DR, multi-region reads. Two different worlds: hyperscalers publish dedicated
+      rates that are <strong style="color:var(--fg)">directionally asymmetric</strong>
+      (data enters Singapore at $0.02/GB and leaves at $0.08–0.09 on AWS and
+      Azure), while value providers have no such rate at all — cross-region
+      traffic just consumes the plan's ordinary bandwidth bundle.
+    </p>
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
+      {INTERREGION.length} directed pairs ·
+      <a href="/api/v1/interregion.json" class="num" style="font-size:12px">interregion.json</a> ·
+      collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            {ROUTES.map(([, , label]) => <th class="right">{label} $/GB</th>)}
+            <th class="col-optional">Billed as</th>
+            <th class="col-optional">Verified</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(({ provider, rec, route }) => (
+            <tr class={rec.billed_as === 'standard-egress' && rec.consumes_bundle ? 'is-cheapest' : ''}>
+              <td data-label="Provider"><strong>{PROVIDERS[provider].short}</strong></td>
+              {ROUTES.map(([f, t, label]) => {
+                const r = route[`${f}>${t}`];
+                return (
+                  <td class="right num" data-label={`${label} $/GB`}
+                      style={r && r.usd_per_gb >= 0.05 ? 'color:var(--warn);font-weight:600' : ''}>
+                    {r ? perGb(r.usd_per_gb) : <span class="faint">—</span>}
+                  </td>
+                );
+              })}
+              <td class="col-optional muted" data-label="Billed as" style="font-size:12.5px">
+                {rec.billed_as === 'dedicated'
+                  ? 'dedicated rate'
+                  : rec.consumes_bundle
+                    ? 'bundle first, then overage'
+                    : 'standard egress'}
+              </td>
+              <td class="col-optional faint" data-label="Verified" style="font-size:12px">
+                {rec.confidence === 'high'
+                  ? <span title="Collected from the provider's own API or price file">live API</span>
+                  : rec.source_verified_at ?? '—'}
+              </td>
+              <td data-label="Source">
+                <a href={rec.source_url} rel="nofollow noopener" target="_blank"
+                   class="faint" style="font-size:12px">source ↗</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    {missing.length > 0 && (
+      <p class="faint" style="font-size:12.5px;margin:12px 0 0">
+        Not yet collected: {missing.map((p) => PROVIDERS[p].short).join(', ')}.
+      </p>
+    )}
+
+    <p class="muted" style="font-size:13px;margin:16px 0 0;max-width:80ch">
+      Rows highlighted green consume the plan's bundled transfer before any charge —
+      for a Hetzner or DigitalOcean fleet, cross-region replication is often
+      effectively free. All {INTERREGION.length} directed pairs, including the
+      {REGIONS.length} regions not shown as columns, are in the
+      <a href="/api/v1/interregion.json" class="num" style="font-size:12px">API</a>.
+    </p>
+
+    <h2 style="font-size:18px;margin:34px 0 10px;letter-spacing:-0.01em">Notes</h2>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      {rows.filter(({ rec }) => rec.notes.length).map(({ provider, rec }) => (
+        <div class="card" style="padding:13px 15px">
+          <strong style="font-size:13.5px">{PROVIDERS[provider].short}</strong>
+          <ul class="muted" style="margin:6px 0 0;padding-left:18px;font-size:13px">
+            {rec.notes.map((n) => <li>{n}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <ProviderSignup only={ACTIVE_PROVIDERS} heading="Signing up" />
+  </div>
+</Base>

@@ -32,6 +32,13 @@ function splitCSV(line) {
   return out;
 }
 
+/**
+ * Inter-region rows harvested during the same stream — the data-transfer CSV
+ * carries them alongside the internet-egress rows, and the interregion
+ * collector reads this after egress has run.
+ */
+export const awsInterRegionHarvest = [];
+
 async function awsSchedules() {
   const cached = resolve(ROOT, 'data/cache/aws-datatransfer.csv');
   const input = existsSync(cached)
@@ -53,6 +60,16 @@ async function awsSchedules() {
     for (let i = 0; i < header.length; i++) r[header[i]] = f[i];
 
     if (r.TermType !== 'OnDemand') continue;
+
+    if (r['Transfer Type'] === 'InterRegion Outbound' && r.Unit === 'GB') {
+      const from = Object.keys(AWS_FROM).find((k) => AWS_FROM[k] === r['From Location']);
+      const to = Object.keys(AWS_FROM).find((k) => AWS_FROM[k] === r['To Location']);
+      if (from && to && from !== to) {
+        awsInterRegionHarvest.push({ from, to, usd_per_gb: parseFloat(r.PricePerUnit) });
+      }
+      continue;
+    }
+
     if (r['Transfer Type'] !== 'AWS Outbound') continue;
     if (r['To Location'] !== 'External') continue;
     if (r.Unit !== 'GB') continue;

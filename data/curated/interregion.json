@@ -1,0 +1,74 @@
+{
+  "_comment": [
+    "Inter-region transfer where no per-pair API exists. AWS and Azure are",
+    "collected live; OCI is derived live from its egress parts.",
+    "GCP is the published VM-to-VM matrix, mapped to our regions by continent.",
+    "Value providers have NO dedicated inter-region rate: cross-region traffic",
+    "over public IPs simply counts as ordinary outgoing bandwidth against the",
+    "plan bundle, then bills at the standard overage rate."
+  ],
+  "gcp": {
+    "billed_as": "dedicated",
+    "unit_note": "Prices are per GiB, not GB — GCP's convention, ~7% denser than it looks.",
+    "matrix": {
+      "NA":   { "NA": 0.02, "EU": 0.05, "Asia": 0.08 },
+      "EU":   { "NA": 0.05, "EU": 0.02, "Asia": 0.08 },
+      "Asia": { "NA": 0.08, "EU": 0.08, "Asia": 0.08 }
+    },
+    "continent_of": { "us-east": "NA", "us-west": "NA", "eu-central": "EU", "ap-southeast": "Asia" },
+    "source_url": "https://cloud.google.com/vpc/network-pricing",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "Published VM-to-VM inter-region matrix, priced by source and destination continent; re-read 2026-08-18.",
+      "Per GiB. No free tier applies to inter-region transfer."
+    ]
+  },
+  "hetzner": {
+    "billed_as": "standard-egress",
+    "usd_per_gb": 0.00117188,
+    "consumes_bundle": true,
+    "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "Hetzner's FAQ names it exactly: outgoing traffic includes \"Other Hetzner Cloud servers with different network zones (eu-central, us-east, us-west, ap-southeast) via their public IPs\".",
+      "Consumes the plan's bundled allowance first; the rate here is the overage ($1.20/TiB), mirrored daily by the live egress collector.",
+      "Traffic within the SAME network zone is free."
+    ]
+  },
+  "digitalocean": {
+    "billed_as": "standard-egress",
+    "usd_per_gb": 0.01,
+    "consumes_bundle": true,
+    "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "Cross-region Droplet traffic travels the public network and counts against the pooled transfer allowance, then bills at the standard $0.01/GiB overage.",
+      "VPC traffic is free only within a region."
+    ]
+  },
+  "linode": {
+    "billed_as": "standard-egress",
+    "usd_per_gb": 0.005,
+    "consumes_bundle": true,
+    "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "Inter-data-centre traffic over public addresses counts against the pooled transfer allowance, then bills at $0.005/GB."
+    ]
+  },
+  "vultr": {
+    "billed_as": "standard-egress",
+    "usd_per_gb": 0.01,
+    "consumes_bundle": true,
+    "source_url": "https://www.vultr.com/pricing/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "All public-interface traffic counts against the per-instance bandwidth quota, then bills at $0.01/GB. No dedicated inter-region rate exists."
+    ]
+  }
+}

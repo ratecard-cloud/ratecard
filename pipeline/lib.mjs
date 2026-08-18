@@ -47,13 +47,16 @@ export async function saveRaw(provider, category, payload) {
 export async function saveNormalized(category, records) {
   if (process.env.RC_NO_WRITE) return records.length;
   // Stable sort so git diffs show real price changes, not row reshuffling.
+  // Numeric fields compare numerically — a string key would put 16 before 2
+  // and reshuffle every committed dataset once. Pair-keyed datasets
+  // (interregion) have from/to instead of region/sku.
   records.sort(
     (a, b) =>
       a.provider.localeCompare(b.provider) ||
-      a.region.localeCompare(b.region) ||
+      (a.region ?? a.from_region).localeCompare(b.region ?? b.from_region) ||
       (a.vcpu ?? 0) - (b.vcpu ?? 0) ||
       (a.ram_gb ?? 0) - (b.ram_gb ?? 0) ||
-      String(a.sku).localeCompare(String(b.sku)),
+      String(a.sku ?? a.to_region ?? '').localeCompare(String(b.sku ?? b.to_region ?? '')),
   );
   const path = resolve(ROOT, `data/normalized/${category}.json`);
   await mkdir(dirname(path), { recursive: true });
