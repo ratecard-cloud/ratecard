@@ -69,6 +69,7 @@
     "short": "DO",
     "tier": 2,
     "kind": "compute",
+    "coverage_tolerance": 0.5,
     "url": "https://www.digitalocean.com/pricing/droplets",
     "affiliate": null,
     "collector": "api-token",

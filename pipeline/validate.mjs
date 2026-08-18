@@ -94,6 +94,10 @@ export function validateProviders() {
     if (!['compute', 'object-storage'].includes(p.kind)) {
       errors.push(`${key}: bad kind "${p.kind}"`);
     }
+    if (p.coverage_tolerance != null &&
+        !(typeof p.coverage_tolerance === 'number' && p.coverage_tolerance > 0 && p.coverage_tolerance < 1)) {
+      errors.push(`${key}: coverage_tolerance must be a fraction in (0, 1), got ${JSON.stringify(p.coverage_tolerance)}`);
+    }
     if (p.affiliate == null) continue;
 
     if (typeof p.affiliate !== 'string' || !/^https:\/\//.test(p.affiliate)) {
@@ -173,7 +177,22 @@ async function loadPrevious(category) {
 export async function validatePreviousCoverage(compute, egress, statuses = {}) {
   const errors = [];
   const warnings = [];
+  // Default drop threshold; a provider can widen it via coverage_tolerance in
+  // providers.json. DigitalOcean carries 0.5 because its sizes.regions array
+  // reflects LIVE CAPACITY, not pricing — fra1 shed 24 of 63 qualifying sizes
+  // in seven hours the first day this check ran in CI, and that churn is
+  // normal for DO. Vanishing to zero stays fatal for everyone regardless.
+  //
+  // Known limitation: the baseline is always the previous run, so repeated
+  // just-under-threshold drops could ratchet coverage down over many days
+  // without ever erroring. Every drop still warns, and a broken collector
+  // manifests as zero (always fatal), so the ratchet needs a slow, sustained,
+  // sub-threshold decline to slip through.
   const DROP_ERROR = 0.3;
+  const dropThreshold = (provider) => {
+    const t = PROVIDERS[provider]?.coverage_tolerance;
+    return typeof t === 'number' && t > 0 && t < 1 ? t : DROP_ERROR;
+  };
 
   const allowed = new Set(
     (process.env.ALLOW_COVERAGE_DROP ?? '')
@@ -215,14 +234,14 @@ export async function validatePreviousCoverage(compute, egress, statuses = {}) {
               `refusing to publish. Set ALLOW_COVERAGE_DROP=${provider} if intentional.`,
           );
         }
-      } else if ((oldCount - newCount) / oldCount > DROP_ERROR) {
+      } else if ((oldCount - newCount) / oldCount > dropThreshold(provider)) {
         if (isAllowed(provider)) {
           warnings.push(`${category} ${key}: ${oldCount} -> ${newCount}, allowed by override`);
         } else {
           errors.push(
             `${category} ${key}: dropped ${oldCount} -> ${newCount} ` +
               `(-${Math.round(100 * (oldCount - newCount) / oldCount)}%)${why} — ` +
-              `over the ${DROP_ERROR * 100}% threshold. Set ALLOW_COVERAGE_DROP=${provider} if intentional.`,
+              `over the ${dropThreshold(provider) * 100}% threshold. Set ALLOW_COVERAGE_DROP=${provider} if intentional.`,
           );
         }
       } else {

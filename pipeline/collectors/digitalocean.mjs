@@ -45,6 +45,10 @@ export default async function collect() {
           notes: [
             `Includes ${s.transfer} TB outbound transfer per month.`,
             'Transfer allowance is pooled across all Droplets on the account.',
+            // DO computes hourly as monthly/672 (28-day month), so hourly*730
+            // overshoots monthly by ~9%. The word "cap" also tells the
+            // validator this gap is explained, silencing ~30 warnings a run.
+            'Monthly price is a billing cap: hourly billing stops accruing at 672 hours.',
           ],
         }),
       );
