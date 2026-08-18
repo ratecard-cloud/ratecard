@@ -1,0 +1,179 @@
+---
+import Base from '../layouts/Base.astro';
+import ProviderSignup from '../components/ProviderSignup.astro';
+import { OBJECTSTORAGE, EGRESS, PROVIDERS, MANIFEST, usd, gbLabel, freshness } from '../lib/data';
+
+/**
+ * The category where storage price is only half the decision: R2's $0.015/GB
+ * pairs with zero egress, B2's $0.007 with 3x-stored free egress, while S3's
+ * $0.023 pairs with $0.09/GB internet egress. The egress column makes that
+ * pairing visible instead of leaving it on another page.
+ */
+const byProvider = new Map<string, typeof OBJECTSTORAGE>();
+for (const r of OBJECTSTORAGE) {
+  if (!byProvider.has(r.provider)) byProvider.set(r.provider, []);
+  byProvider.get(r.provider)!.push(r);
+}
+
+function egressSummary(provider: string): string {
+  const e = EGRESS.find((x) => x.provider === provider && x.region === 'us-east')
+    ?? EGRESS.find((x) => x.provider === provider);
+  if (!e) return '—';
+  const first = e.tiers[0].usd_per_gb;
+  if (first === 0) return 'free';
+  if (e.bundled_with_compute) return `$${first}/GB past bundle`;
+  if (e.free_gb_per_month) return `$${first}/GB past ${gbLabel(e.free_gb_per_month)}`;
+  return `$${first}/GB`;
+}
+
+const rows = [...byProvider.entries()]
+  .map(([provider, recs]) => ({
+    provider,
+    rec: recs.find((r) => r.region === 'us-east') ?? recs[0],
+    egress: egressSummary(provider),
+  }))
+  .sort((a, b) => a.rec.usd_per_gb_month - b.rec.usd_per_gb_month);
+
+const perGb = byProvider.size ? rows.filter((r) => r.rec.model === 'per-gb') : [];
+const subs = rows.filter((r) => r.rec.model === 'subscription');
+const cheapest = perGb.length ? perGb[0].rec.usd_per_gb_month : null;
+
+const fmtGb = (n: number) => `$${n.toFixed(5).replace(/0+$/, '').replace(/\.$/, '')}`;
+const perM = (n: number | null) =>
+  n == null ? '—' : n === 0 ? 'free' : `$${n.toFixed(2).replace(/\.00$/, '')}`;
+
+const title = 'Object storage pricing compared — S3, R2, B2 and more — RateCard';
+const description =
+  'Standard-tier object storage across ten services, with the request pricing ' +
+  'and egress pairing that decide the real bill: S3, Blob, GCS, OCI, R2 (zero ' +
+  'egress), B2 ($6.95/TB), Spaces and more. Sourced and dated.';
+---
+
+<Base title={title} description={description}>
+  <div class="wrap" style="padding-top:36px">
+    <h1 style="font-size:26px;letter-spacing:-0.02em;margin:0 0 6px">Object storage</h1>
+    <p class="muted" style="margin:0 0 6px;max-width:80ch">
+      Standard/hot tier, S3-compatible where that means anything. Storage price is
+      half this decision — <strong style="color:var(--fg)">the egress column is the
+      other half</strong>: R2's $0.015/GB pairs with zero egress, B2's $0.007 with
+      free egress to 3× what you store, while the hyperscalers' storage pairs with
+      $0.08–0.12/GB to serve anything out.
+    </p>
+    <p class="faint" style="margin:0 0 18px;font-size:13px">
+      {OBJECTSTORAGE.length} prices ·
+      <a href="/api/v1/objectstorage.json" class="num" style="font-size:12px">objectstorage.json</a> ·
+      collected {freshness(MANIFEST.generated_at)}
+    </p>
+
+    <h2 style="font-size:16px;letter-spacing:-0.01em;margin:0 0 3px">Pay per GB</h2>
+    <p class="faint" style="font-size:12.5px;margin:0 0 10px">
+      No base fee — the bill is what you store. US East shown; regional variation is in the API.
+    </p>
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th class="col-optional">Product</th>
+            <th class="right">$/GB/mo</th>
+            <th class="right col-optional">Writes $/M</th>
+            <th class="right col-optional">Reads $/M</th>
+            <th class="right">Egress</th>
+            <th class="col-optional">Verified</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {perGb.map(({ provider, rec, egress }) => (
+            <tr class={rec.usd_per_gb_month === cheapest ? 'is-cheapest' : ''}>
+              <td data-label="Provider">
+                <strong>{PROVIDERS[provider].short}</strong>
+                {rec.confidence !== 'high' && !rec.source_verified_at && (
+                  <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
+                )}
+              </td>
+              <td class="col-optional muted" data-label="Product" style="font-size:12.5px">{rec.display_name}</td>
+              <td class="right num" data-label="$/GB/mo" style="font-weight:600">{fmtGb(rec.usd_per_gb_month)}</td>
+              <td class="right num faint col-optional" data-label="Writes $/M">{perM(rec.usd_per_million_writes)}</td>
+              <td class="right num faint col-optional" data-label="Reads $/M">{perM(rec.usd_per_million_reads)}</td>
+              <td class="right num" data-label="Egress"
+                  style={egress === 'free' ? 'color:var(--win);font-weight:700' : ''}>{egress}</td>
+              <td class="col-optional faint" data-label="Verified" style="font-size:12px">
+                {rec.confidence === 'high'
+                  ? <span title="Collected from the provider's own API or price file">live API</span>
+                  : rec.source_verified_at ?? '—'}
+              </td>
+              <td data-label="Source">
+                <a href={rec.source_url} rel="nofollow noopener" target="_blank"
+                   class="faint" style="font-size:12px">source ↗</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="font-size:16px;letter-spacing:-0.01em;margin:26px 0 3px">Subscription</h2>
+    <p class="faint" style="font-size:12.5px;margin:0 0 10px">
+      A base fee buys an included allowance; the $/GB is what you pay past it.
+    </p>
+    <div class="table-scroll">
+      <table class="rc-table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th class="right">Base $/mo</th>
+            <th class="right">Included</th>
+            <th class="right">Overage $/GB</th>
+            <th class="right">Egress</th>
+            <th class="col-optional">Verified</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          {subs.map(({ provider, rec, egress }) => (
+            <tr>
+              <td data-label="Provider">
+                <strong>{PROVIDERS[provider].short}</strong>
+                {rec.confidence !== 'high' && !rec.source_verified_at && (
+                  <span class="chip chip-unverified" style="margin-left:6px">unverified</span>
+                )}
+              </td>
+              <td class="right num" data-label="Base $/mo">{usd(rec.base_usd_per_month)}</td>
+              <td class="right num" data-label="Included">{gbLabel(rec.included_storage_gb)}</td>
+              <td class="right num" data-label="Overage $/GB">{fmtGb(rec.usd_per_gb_month)}</td>
+              <td class="right num" data-label="Egress">{egress}</td>
+              <td class="col-optional faint" data-label="Verified" style="font-size:12px">
+                {rec.source_verified_at ?? '—'}
+              </td>
+              <td data-label="Source">
+                <a href={rec.source_url} rel="nofollow noopener" target="_blank"
+                   class="faint" style="font-size:12px">source ↗</a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="faint" style="font-size:12.5px;margin:14px 0 0;max-width:82ch">
+      Hetzner Object Storage exists (EU-only) but its prices render client-side and
+      could not be verified — it is omitted rather than guessed. Serving files to the
+      internet? The <a href="/egress">egress page</a> prices the full picture.
+    </p>
+
+    <h2 style="font-size:18px;margin:34px 0 10px;letter-spacing:-0.01em">Notes</h2>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      {rows.filter(({ rec }) => rec.notes.length).map(({ provider, rec }) => (
+        <div class="card" style="padding:13px 15px">
+          <strong style="font-size:13.5px">{PROVIDERS[provider].short} — {rec.display_name}</strong>
+          <ul class="muted" style="margin:6px 0 0;padding-left:18px;font-size:13px">
+            {rec.notes.map((n) => <li>{n}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <ProviderSignup heading="Signing up" />
+  </div>
+</Base>

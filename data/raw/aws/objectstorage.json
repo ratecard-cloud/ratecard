@@ -1,0 +1,22 @@
+{
+ "us-east": {
+  "firstTier": 0.023,
+  "put": 5,
+  "get": 0.39999999999999997
+ },
+ "eu-central": {
+  "firstTier": 0.0245,
+  "put": 5.4,
+  "get": 0.43
+ },
+ "us-west": {
+  "firstTier": 0.023,
+  "put": 5,
+  "get": 0.39999999999999997
+ },
+ "ap-southeast": {
+  "firstTier": 0.025,
+  "put": 5,
+  "get": 0.39999999999999997
+ }
+}

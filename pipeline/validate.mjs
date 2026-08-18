@@ -177,6 +177,27 @@ export function validateInterRegion(records) {
   return { errors, warnings: [] };
 }
 
+export function validateObjectStorage(records) {
+  const errors = [];
+  const seen = new Set();
+  for (const r of records) {
+    const id = `objectstorage ${r.provider}/${r.region}`;
+    if (seen.has(id)) errors.push(`${id}: duplicate`);
+    seen.add(id);
+    if (!PROVIDERS[r.provider]) errors.push(`${id}: unknown provider`);
+    if (!REGIONS.includes(r.region)) errors.push(`${id}: unknown region`);
+    if (!['per-gb', 'subscription'].includes(r.model)) errors.push(`${id}: bad model`);
+    if (!/^https:\/\//.test(r.source_url ?? '')) errors.push(`${id}: missing source_url`);
+    if (!(r.usd_per_gb_month >= 0.001 && r.usd_per_gb_month <= 0.1)) {
+      errors.push(`${id}: $${r.usd_per_gb_month}/GB-month looks wrong`);
+    }
+    if (r.model === 'subscription' && !(r.base_usd_per_month > 0 && r.included_storage_gb > 0)) {
+      errors.push(`${id}: subscription model needs base fee and included storage`);
+    }
+  }
+  return { errors, warnings: [] };
+}
+
 /** Cross-dataset check: every compute provider needs an egress schedule. */
 export function validateCoverage(compute, egress) {
   const errors = [];

@@ -1,0 +1,103 @@
+{
+  "_comment": [
+    "Object storage where no machine-readable source exists. AWS, Azure, GCP",
+    "and OCI are collected live. Hetzner Object Storage is DELIBERATELY ABSENT:",
+    "it exists (EU-only: nbg1/fsn1/hel1) but its prices render client-side and",
+    "could not be verified — omitted rather than guessed.",
+    "Two models coexist: per-gb (pay for what you store) and subscription",
+    "(base fee with included storage, then overage)."
+  ],
+  "cloudflare": {
+    "sku": "r2-standard",
+    "display_name": "R2 Standard",
+    "model": "per-gb",
+    "usd_per_gb_month": 0.015,
+    "base_usd_per_month": 0,
+    "included_storage_gb": 0,
+    "free_storage_gb": 10,
+    "usd_per_million_writes": 4.50,
+    "usd_per_million_reads": 0.36,
+    "source_url": "https://developers.cloudflare.com/r2/pricing/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "Zero egress on every storage class — the pairing that makes R2 the structural outlier.",
+      "Free tier: 10 GB-month storage, 1M Class A and 10M Class B operations per month.",
+      "Class A = writes/lists, Class B = reads. Infrequent Access tier is $0.01/GB with retrieval fees."
+    ]
+  },
+  "backblaze": {
+    "sku": "b2-standard",
+    "display_name": "B2 Cloud Storage",
+    "model": "per-gb",
+    "usd_per_gb_month": 0.00695,
+    "base_usd_per_month": 0,
+    "included_storage_gb": 0,
+    "free_storage_gb": 10,
+    "usd_per_million_writes": 0,
+    "usd_per_million_reads": 0,
+    "source_url": "https://www.backblaze.com/cloud-storage/pricing",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "\"$6.95 / TB / mo\" read off the pricing page 2026-08-18 — note this is HIGHER than the $6/TB widely cited; Backblaze has repriced.",
+      "Transactions are free (\"Free transactions\" on the pricing page); egress free to 3x average stored bytes, then $0.01/GB.",
+      "First 10 GB always free."
+    ]
+  },
+  "digitalocean": {
+    "sku": "spaces",
+    "display_name": "Spaces (Standard)",
+    "model": "subscription",
+    "usd_per_gb_month": 0.02,
+    "base_usd_per_month": 5.00,
+    "included_storage_gb": 250,
+    "free_storage_gb": 0,
+    "usd_per_million_writes": null,
+    "usd_per_million_reads": null,
+    "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "\"$5.00 per month… includes 250 GiB of storage… additional storage costs $0.02 per GiB per month\" — DO docs, read 2026-08-18.",
+      "Subscription also bundles 1 TiB/month outbound transfer shared across buckets; overage $0.01/GiB.",
+      "No per-request charges."
+    ]
+  },
+  "linode": {
+    "sku": "linode-objects",
+    "display_name": "Object Storage",
+    "model": "subscription",
+    "usd_per_gb_month": 0.02,
+    "base_usd_per_month": 5.00,
+    "included_storage_gb": 250,
+    "free_storage_gb": 0,
+    "usd_per_million_writes": null,
+    "usd_per_million_reads": null,
+    "source_url": "https://www.linode.com/products/object-storage/",
+    "source_verified_at": null,
+    "confidence": "low",
+    "notes": [
+      "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18. These are the long-published flat-rate figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+      "No per-request charges."
+    ]
+  },
+  "vultr": {
+    "sku": "vultr-objects-standard",
+    "display_name": "Object Storage (Standard)",
+    "model": "per-gb",
+    "usd_per_gb_month": 0.018,
+    "base_usd_per_month": 0,
+    "included_storage_gb": 0,
+    "free_storage_gb": 0,
+    "usd_per_million_writes": null,
+    "usd_per_million_reads": null,
+    "source_url": "https://www.vultr.com/products/object-storage/",
+    "source_verified_at": "2026-08-18",
+    "confidence": "medium",
+    "notes": [
+      "Standard tier \"$18 / TB / month\", read off the product page 2026-08-18. Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
+      "Transfer beyond the initial allotment bills separately."
+    ]
+  }
+}

@@ -33,7 +33,7 @@ test('api v1: discovery document lists every endpoint', { skip: !built }, async 
   const idx = JSON.parse(await readFile('dist/api/v1/index.json', 'utf8'));
   assert.equal(idx.version, 'v1');
   const resources = idx.endpoints.map((e) => e.resource).sort();
-  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'interregion', 'ipv4', 'providers', 'regions', 'storage']);
+  assert.deepEqual(resources, ['changes', 'compute', 'egress', 'history', 'interregion', 'ipv4', 'objectstorage', 'providers', 'regions', 'storage']);
   for (const e of idx.endpoints) {
     const path = 'dist' + new URL(e.url).pathname;
     assert.ok(existsSync(path), `${e.url} advertised but ${path} not built`);
@@ -163,4 +163,23 @@ test('api v1: interregion contract holds', { skip: !built }, async () => {
       q.provider === r.provider && q.from_region === r.to_region &&
       q.to_region === r.from_region && q.usd_per_gb !== r.usd_per_gb));
   assert.ok(asym, 'expected at least one asymmetric pair (e.g. AWS Singapore)');
+});
+
+test('api v1: objectstorage contract holds', { skip: !built }, async () => {
+  const body = JSON.parse(await readFile('dist/api/v1/objectstorage.json', 'utf8'));
+  for (const k of V1_ENVELOPE) assert.ok(k in body, `envelope lost "${k}"`);
+  assert.equal(body.count, body.records.length);
+  const FIELDS = ['provider', 'region', 'sku', 'model', 'usd_per_gb_month',
+    'base_usd_per_month', 'included_storage_gb', 'free_storage_gb',
+    'usd_per_million_writes', 'usd_per_million_reads', 'source_url', 'confidence', 'notes'];
+  for (const k of FIELDS) assert.ok(k in body.records[0], `objectstorage record lost "${k}"`);
+  for (const r of body.records) {
+    assert.ok(['per-gb', 'subscription'].includes(r.model), `${r.provider}: model`);
+    assert.ok(r.usd_per_gb_month > 0.001 && r.usd_per_gb_month < 0.1,
+      `${r.provider}: $${r.usd_per_gb_month}/GB out of band`);
+    if (r.model === 'subscription') {
+      assert.ok(r.base_usd_per_month > 0 && r.included_storage_gb > 0,
+        `${r.provider}: subscription needs base + included`);
+    }
+  }
 });

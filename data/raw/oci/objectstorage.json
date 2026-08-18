@@ -1,0 +1,30 @@
+{
+ "B91628": [
+  {
+   "model": "PAY_AS_YOU_GO",
+   "value": 0,
+   "rangeMin": 0,
+   "rangeMax": 10
+  },
+  {
+   "model": "PAY_AS_YOU_GO",
+   "value": 0.0255,
+   "rangeMin": 10,
+   "rangeMax": 999999999
+  }
+ ],
+ "B91627": [
+  {
+   "model": "PAY_AS_YOU_GO",
+   "value": 0,
+   "rangeMin": 0,
+   "rangeMax": 5
+  },
+  {
+   "model": "PAY_AS_YOU_GO",
+   "value": 0.0034,
+   "rangeMin": 5,
+   "rangeMax": 999999999
+  }
+ ]
+}
