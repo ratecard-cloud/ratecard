@@ -1714,5 +1714,1721 @@
     ]
    }
   ]
+ },
+ "us-west": {
+  "partNumber": "B88327",
+  "displayName": "Outbound Data Transfer - Originating in North America, Europe, and UK",
+  "metricName": "Gigabyte Outbound Data Transfer Per Month",
+  "serviceCategory": "Networking - Virtual Cloud Networks",
+  "currencyCodeLocalizations": [
+   {
+    "currencyCode": "AED",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0312205,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ARS",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 12.7253942,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "AUD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.01275,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "BHD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.00323,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "BRL",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.04450345,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "BSD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0085,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CAD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0111401,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CHF",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0069054,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CLP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 7.7207625,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CNY",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.057987,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "COP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 32.453,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CRC",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 4.2507735,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CZK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.195228,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "DKK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.057222,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "EGP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.4257888,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "EUR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.007905,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "GBP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.00678895,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "HKD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.06587415,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "HRK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.06423875,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "HUF",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 2.80956195,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "IDR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 148.20685,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ILS",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0273751,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "INR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.80752125,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ISK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 1.078803,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "JPY",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 1.3175,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "KRW",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 12.2856382,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "KWD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.002465,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "MAD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.082195,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "MXN",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1535474,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "MYR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.03790745,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "NOK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0807058,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "NZD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0145367,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PEN",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0315078,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PHP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.48144,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PKR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 2.2163342,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PLN",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.03271565,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "QAR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0309468,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "RON",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0391442,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "RSD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.89753795,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "RUB",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.90525,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "SAR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0318784,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "SEK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.08199865,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "SGD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.01174615,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "THB",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.29758245,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "TRY",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.3719583,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "TTD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.05763,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "TWD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.2652085,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "USD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0085,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "VND",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 224.1875,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ZAR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1442331,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   }
+  ]
+ },
+ "ap-southeast": {
+  "partNumber": "B93455",
+  "displayName": "Outbound Data Transfer - Originating in APAC, Japan, and South America",
+  "metricName": "Gigabyte Outbound Data Transfer Per Month",
+  "serviceCategory": "Networking - Virtual Cloud Networks",
+  "currencyCodeLocalizations": [
+   {
+    "currencyCode": "AED",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.091825,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ARS",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 37.42763,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "AUD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0375,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "BHD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0095,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "BRL",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1308925,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "BSD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.025,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CAD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.032765,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CHF",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.02031,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CLP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 22.708125,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CNY",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.17055,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "COP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 95.45,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CRC",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 12.502275,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "CZK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.5742,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "DKK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1683,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "EGP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 1.25232,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "EUR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.02325,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "GBP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0199675,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "HKD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1937475,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "HRK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1889375,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "HUF",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 8.2634175,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "IDR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 435.9025,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ILS",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.080515,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "INR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 2.3750625,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ISK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 3.17295,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "JPY",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 3.875,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "KRW",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 36.13423,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "KWD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.00725,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "MAD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.24175,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "MXN",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.45161,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "MYR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1114925,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "NOK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.23737,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "NZD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.042755,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PEN",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.09267,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PHP",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 1.416,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PKR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 6.51863,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "PLN",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0962225,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "QAR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.09102,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "RON",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.11513,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "RSD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 2.6398175,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "RUB",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 2.6625,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "SAR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.09376,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "SEK",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.2411725,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "SGD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.0345475,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "THB",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.8752425,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "TRY",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 1.093995,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "TTD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.1695,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "TWD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.780025,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "USD",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.025,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "VND",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 659.375,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   },
+   {
+    "currencyCode": "ZAR",
+    "prices": [
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0,
+      "rangeMin": 0,
+      "rangeMax": 10240
+     },
+     {
+      "model": "PAY_AS_YOU_GO",
+      "value": 0.424215,
+      "rangeMin": 10240,
+      "rangeMax": 999999999999999
+     }
+    ]
+   }
+  ]
  }
 }

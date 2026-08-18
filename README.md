@@ -123,7 +123,7 @@ component SKUs and marked `medium` confidence with the arithmetic shown.
 ## Known gaps
 
 - **OCI Ampere (ARM)** part numbers aren't discoverable via the API — manual lookup needed
-- Two regions only (`us-east`, `eu-central`)
+- Four regions (`us-east`, `eu-central`, `us-west`, `ap-southeast`); egress and compare pages still present US East by default
 - **The coverage check can be ratcheted down.** Its baseline is always the
   previous run, so a sequence of just-under-threshold drops — say 25% a day
   for a strict provider — would walk coverage toward zero over several days

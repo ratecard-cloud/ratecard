@@ -9,6 +9,10 @@ export const PROVIDERS = JSON.parse(
   await readFile(resolve(ROOT, 'data/providers.json'), 'utf8'),
 );
 
+export const REGIONS = Object.keys(
+  JSON.parse(await readFile(resolve(ROOT, 'data/regions.json'), 'utf8')),
+);
+
 /** Fetch JSON with a timeout and an honest UA. Throws on non-2xx. */
 export async function getJSON(url, { headers = {}, timeout = 60_000 } = {}) {
   const ctrl = new AbortController();

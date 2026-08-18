@@ -514,5 +514,489 @@
    "phys": "AWS Graviton3 Processor",
    "family": "c7g"
   }
+ },
+ "us-west": {
+  "m7a.2xlarge": {
+   "it": "m7a.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.46368,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "m7a"
+  },
+  "t4g.medium": {
+   "it": "t4g.medium",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.0336,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "t3.xlarge": {
+   "it": "t3.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.1664,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "m7i.2xlarge": {
+   "it": "m7i.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.4032,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  },
+  "m7g.2xlarge": {
+   "it": "m7g.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.3264,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "m7i.4xlarge": {
+   "it": "m7i.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 64,
+   "price": 0.8064,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  },
+  "c7i.4xlarge": {
+   "it": "c7i.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 32,
+   "price": 0.714,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  },
+  "m7i.large": {
+   "it": "m7i.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.1008,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  },
+  "c7i.2xlarge": {
+   "it": "c7i.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 16,
+   "price": 0.357,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  },
+  "t3.medium": {
+   "it": "t3.medium",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.0416,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "t3.2xlarge": {
+   "it": "t3.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.3328,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "c7a.xlarge": {
+   "it": "c7a.xlarge",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "price": 0.20528,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "c7g.large": {
+   "it": "c7g.large",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.0725,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "m7g.4xlarge": {
+   "it": "m7g.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 64,
+   "price": 0.6528,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "c7i.large": {
+   "it": "c7i.large",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.08925,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  },
+  "t4g.xlarge": {
+   "it": "t4g.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.1344,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "t4g.2xlarge": {
+   "it": "t4g.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.2688,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "m7a.large": {
+   "it": "m7a.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.11592,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "m7a"
+  },
+  "c7a.large": {
+   "it": "c7a.large",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.10264,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "c7i.xlarge": {
+   "it": "c7i.xlarge",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "price": 0.1785,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  },
+  "t3.large": {
+   "it": "t3.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.0832,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "c7g.xlarge": {
+   "it": "c7g.xlarge",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "price": 0.145,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "m7a.4xlarge": {
+   "it": "m7a.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 64,
+   "price": 0.92736,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "m7a"
+  },
+  "c7g.4xlarge": {
+   "it": "c7g.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 32,
+   "price": 0.58,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "m7g.large": {
+   "it": "m7g.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.0816,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "c7a.4xlarge": {
+   "it": "c7a.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 32,
+   "price": 0.82112,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "c7g.2xlarge": {
+   "it": "c7g.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 16,
+   "price": 0.29,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "c7a.2xlarge": {
+   "it": "c7a.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 16,
+   "price": 0.41056,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "m7g.xlarge": {
+   "it": "m7g.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.1632,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "m7a.xlarge": {
+   "it": "m7a.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.23184,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "m7a"
+  },
+  "t4g.large": {
+   "it": "t4g.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.0672,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "m7i.xlarge": {
+   "it": "m7i.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.2016,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  }
+ },
+ "ap-southeast": {
+  "m7g.xlarge": {
+   "it": "m7g.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.204,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "c7a.xlarge": {
+   "it": "c7a.xlarge",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "price": 0.23668,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "c7i.2xlarge": {
+   "it": "c7i.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 16,
+   "price": 0.4116,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  },
+  "t3.xlarge": {
+   "it": "t3.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.2112,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "c7g.2xlarge": {
+   "it": "c7g.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 16,
+   "price": 0.3332,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "c7g.4xlarge": {
+   "it": "c7g.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 32,
+   "price": 0.6664,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "m7i.2xlarge": {
+   "it": "m7i.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.504,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  },
+  "m7i.xlarge": {
+   "it": "m7i.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.252,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  },
+  "c7a.4xlarge": {
+   "it": "c7a.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 32,
+   "price": 0.94672,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "c7g.large": {
+   "it": "c7g.large",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.0833,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "c7a.2xlarge": {
+   "it": "c7a.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 16,
+   "price": 0.47336,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "m7i.4xlarge": {
+   "it": "m7i.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 64,
+   "price": 1.008,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  },
+  "c7i.4xlarge": {
+   "it": "c7i.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 32,
+   "price": 0.8232,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  },
+  "m7g.2xlarge": {
+   "it": "m7g.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.408,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "m7i.large": {
+   "it": "m7i.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.126,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "m7i"
+  },
+  "m7g.large": {
+   "it": "m7g.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.102,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "t3.2xlarge": {
+   "it": "t3.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.4224,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "c7a.large": {
+   "it": "c7a.large",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.11834,
+   "phys": "AMD EPYC 9R14 Processor",
+   "family": "c7a"
+  },
+  "t4g.medium": {
+   "it": "t4g.medium",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.0424,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "t4g.2xlarge": {
+   "it": "t4g.2xlarge",
+   "vcpu": 8,
+   "ram_gb": 32,
+   "price": 0.3392,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "t3.medium": {
+   "it": "t3.medium",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.0528,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "c7i.large": {
+   "it": "c7i.large",
+   "vcpu": 2,
+   "ram_gb": 4,
+   "price": 0.1029,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  },
+  "t3.large": {
+   "it": "t3.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.1056,
+   "phys": "Intel Skylake E5 2686 v5",
+   "family": "t3"
+  },
+  "c7g.xlarge": {
+   "it": "c7g.xlarge",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "price": 0.1666,
+   "phys": "AWS Graviton3 Processor",
+   "family": "c7g"
+  },
+  "t4g.large": {
+   "it": "t4g.large",
+   "vcpu": 2,
+   "ram_gb": 8,
+   "price": 0.0848,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "m7g.4xlarge": {
+   "it": "m7g.4xlarge",
+   "vcpu": 16,
+   "ram_gb": 64,
+   "price": 0.816,
+   "phys": "AWS Graviton3 Processor",
+   "family": "m7g"
+  },
+  "t4g.xlarge": {
+   "it": "t4g.xlarge",
+   "vcpu": 4,
+   "ram_gb": 16,
+   "price": 0.1696,
+   "phys": "AWS Graviton2 Processor",
+   "family": "t4g"
+  },
+  "c7i.xlarge": {
+   "it": "c7i.xlarge",
+   "vcpu": 4,
+   "ram_gb": 8,
+   "price": 0.2058,
+   "phys": "Intel Xeon Scalable (Sapphire Rapids)",
+   "family": "c7i"
+  }
  }
 }

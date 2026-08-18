@@ -51,7 +51,15 @@ async function expectMatchesCommitted(providerKey, collectorPath) {
     .map(strip)
     .sort(byKey);
   assert.ok(committed.length > 0, `no committed ${providerKey} records to compare against`);
-  assert.deepEqual(got, committed, `${providerKey}: transform output diverged from committed normalized data`);
+  // Superset semantics: every committed record must be reproduced exactly, but
+  // the replay may carry MORE (a region added in providers.json exists in the
+  // replay before the next CI refresh lands it in the committed data).
+  const gotByKey = new Map(got.map((r) => [`${r.region}/${r.sku}`, r]));
+  for (const want of committed) {
+    const have = gotByKey.get(`${want.region}/${want.sku}`);
+    assert.ok(have, `${providerKey} ${want.region}/${want.sku}: committed record missing from replay`);
+    assert.deepEqual(have, want, `${providerKey} ${want.region}/${want.sku}: transform diverged`);
+  }
   return got;
 }
 

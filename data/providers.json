@@ -9,7 +9,9 @@
     "collector": "api",
     "regions": {
       "us-east": "us-east-1",
-      "eu-central": "eu-central-1"
+      "eu-central": "eu-central-1",
+      "us-west": "us-west-2",
+      "ap-southeast": "ap-southeast-1"
     }
   },
   "azure": {
@@ -22,7 +24,9 @@
     "collector": "api",
     "regions": {
       "us-east": "eastus",
-      "eu-central": "westeurope"
+      "eu-central": "westeurope",
+      "us-west": "westus2",
+      "ap-southeast": "southeastasia"
     }
   },
   "gcp": {
@@ -35,7 +39,9 @@
     "collector": "api-key",
     "regions": {
       "us-east": "us-east4",
-      "eu-central": "europe-west3"
+      "eu-central": "europe-west3",
+      "us-west": "us-west1",
+      "ap-southeast": "asia-southeast1"
     }
   },
   "oci": {
@@ -48,7 +54,9 @@
     "collector": "api",
     "regions": {
       "us-east": "us-ashburn-1",
-      "eu-central": "eu-frankfurt-1"
+      "eu-central": "eu-frankfurt-1",
+      "us-west": "us-phoenix-1",
+      "ap-southeast": "ap-singapore-1"
     }
   },
   "hetzner": {
@@ -61,7 +69,9 @@
     "collector": "api-token",
     "regions": {
       "us-east": "ash",
-      "eu-central": "nbg1"
+      "eu-central": "nbg1",
+      "us-west": "hil",
+      "ap-southeast": "sin"
     }
   },
   "digitalocean": {
@@ -75,7 +85,9 @@
     "collector": "api-token",
     "regions": {
       "us-east": "nyc1",
-      "eu-central": "fra1"
+      "eu-central": "fra1",
+      "us-west": "sfo3",
+      "ap-southeast": "sgp1"
     }
   },
   "linode": {
@@ -88,7 +100,9 @@
     "collector": "api",
     "regions": {
       "us-east": "us-east",
-      "eu-central": "eu-central"
+      "eu-central": "eu-central",
+      "us-west": "us-west",
+      "ap-southeast": "ap-south"
     }
   },
   "vultr": {
@@ -101,7 +115,9 @@
     "collector": "api",
     "regions": {
       "us-east": "ewr",
-      "eu-central": "fra"
+      "eu-central": "fra",
+      "us-west": "lax",
+      "ap-southeast": "sgp"
     }
   },
   "cloudflare": {
@@ -114,7 +130,9 @@
     "collector": "curated",
     "regions": {
       "us-east": "auto",
-      "eu-central": "auto"
+      "eu-central": "auto",
+      "us-west": "auto",
+      "ap-southeast": "auto"
     }
   },
   "backblaze": {
@@ -127,7 +145,8 @@
     "collector": "curated",
     "regions": {
       "us-east": "us-west-004",
-      "eu-central": "eu-central-003"
+      "eu-central": "eu-central-003",
+      "us-west": "us-west-004"
     }
   }
 }

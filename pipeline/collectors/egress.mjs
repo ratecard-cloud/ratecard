@@ -10,7 +10,12 @@ import { ROOT, getJSON, saveRaw, PROVIDERS, round } from '../lib.mjs';
 const AWS_DT_URL =
   'https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AWSDataTransfer/current/index.csv';
 
-const AWS_FROM = { 'us-east': 'US East (N. Virginia)', 'eu-central': 'EU (Frankfurt)' };
+const AWS_FROM = {
+  'us-east': 'US East (N. Virginia)',
+  'eu-central': 'EU (Frankfurt)',
+  'us-west': 'US West (Oregon)',
+  'ap-southeast': 'Asia Pacific (Singapore)',
+};
 
 function splitCSV(line) {
   const out = []; let cur = ''; let inQ = false;
@@ -149,7 +154,13 @@ async function azureSchedules() {
  *   B93455  APAC, Japan, South America
  *   B93456  Middle East and Africa
  */
-const OCI_PART = { 'us-east': 'B88327', 'eu-central': 'B88327' };
+// NA/EU/UK share one part; APAC has its own at ~3x the rate ($0.025 vs $0.0085).
+const OCI_PART = {
+  'us-east': 'B88327',
+  'eu-central': 'B88327',
+  'us-west': 'B88327',
+  'ap-southeast': 'B93455',
+};
 const OCI_API = 'https://apexapps.oracle.com/pls/apex/cetools/api/v1/products/';
 
 async function ociSchedules() {
@@ -185,7 +196,9 @@ async function ociSchedules() {
       notes: [
         `First ${free / 1024} TB/month outbound is free account-wide, not per instance.`,
         'This single allowance is why OCI wins most egress-heavy comparisons.',
-        'Rates differ by originating region; these are the North America / Europe / UK figures.',
+        canonical === 'ap-southeast'
+          ? 'APAC-originating rate — roughly 3x the North America / Europe rate.'
+          : 'Rates differ by originating region; these are the North America / Europe / UK figures.',
       ],
     };
   }

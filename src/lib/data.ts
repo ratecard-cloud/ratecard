@@ -65,6 +65,15 @@ export const MANIFEST = manifest as {
 export const PROVIDERS = providers as unknown as Record<string, Provider>;
 export const REGIONS = regions as Record<string, { label: string; blurb: string; default: boolean }>;
 
+/**
+ * Regions the UI offers = regions present in the data. regions.json can run
+ * ahead of a data refresh (it does, briefly, whenever a region is added), and
+ * a dropdown entry with zero rows behind it is worse than no entry.
+ */
+export const ACTIVE_REGIONS = Object.fromEntries(
+  Object.entries(REGIONS).filter(([k]) => COMPUTE.some((r) => r.region === k)),
+);
+
 /** Providers that actually have data right now, in display order. */
 export const ACTIVE_PROVIDERS = [...new Set(COMPUTE.map((r) => r.provider))].sort(
   (a, b) => PROVIDERS[a].tier - PROVIDERS[b].tier || a.localeCompare(b),

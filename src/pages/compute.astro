@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ProviderSignup from '../components/ProviderSignup.astro';
 import {
-  COMPUTE, PROVIDERS, REGIONS, SHAPES, ACTIVE_PROVIDERS,
+  COMPUTE, PROVIDERS, REGIONS, ACTIVE_REGIONS, SHAPES, ACTIVE_PROVIDERS,
   effectiveMonthly, usd, gbLabel, MANIFEST, freshness, providerList,
 } from '../lib/data';
 
@@ -43,7 +43,7 @@ const description =
         <label style="display:flex;flex-direction:column;gap:4px">
           <span class="faint" style="font-size:11px;text-transform:uppercase;letter-spacing:.05em">Region</span>
           <select id="f-region" class="control">
-            {Object.entries(REGIONS).map(([k, v]) => (
+            {Object.entries(ACTIVE_REGIONS).map(([k, v]) => (
               <option value={k} selected={k === DEFAULT_REGION}>{v.label}</option>
             ))}
           </select>

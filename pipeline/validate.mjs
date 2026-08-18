@@ -1,13 +1,12 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { PROVIDERS, ROOT } from './lib.mjs';
+import { PROVIDERS, REGIONS, ROOT } from './lib.mjs';
 
 /**
  * Sanity gates that run before anything is written. The failure mode this site
  * cannot survive is publishing a wrong number confidently, so a bad record fails
  * the build rather than shipping with a warning nobody reads.
  */
-const REGIONS = ['us-east', 'eu-central'];
 
 export function validateCompute(records) {
   const errors = [];

@@ -1,12 +1,22 @@
 {
   "us-east": {
     "label": "US East",
-    "blurb": "Northern Virginia / New Jersey / Ashburn — the default cheapest US region for most providers.",
+    "blurb": "Northern Virginia / New Jersey / Ashburn \u2014 the default cheapest US region for most providers.",
     "default": true
   },
   "eu-central": {
     "label": "EU Central",
-    "blurb": "Frankfurt / Nuremberg / Amsterdam — the default EU region for most providers.",
+    "blurb": "Frankfurt / Nuremberg / Amsterdam \u2014 the default EU region for most providers.",
+    "default": false
+  },
+  "us-west": {
+    "label": "US West",
+    "blurb": "Oregon / California / Hillsboro \u2014 second US region for most providers.",
+    "default": false
+  },
+  "ap-southeast": {
+    "label": "Asia Pacific",
+    "blurb": "Singapore \u2014 the common APAC anchor region. Egress here is priced differently, sometimes sharply so.",
     "default": false
   }
 }
