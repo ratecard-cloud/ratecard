@@ -1,0 +1,71 @@
+{
+ "type": "ipv4",
+ "prices": [
+  {
+   "location": "fsn1",
+   "price_hourly": {
+    "net": "0.0010000000",
+    "gross": "0.0010000000000000"
+   },
+   "price_monthly": {
+    "net": "0.6000000000",
+    "gross": "0.6000000000000000"
+   }
+  },
+  {
+   "location": "nbg1",
+   "price_hourly": {
+    "net": "0.0010000000",
+    "gross": "0.0010000000000000"
+   },
+   "price_monthly": {
+    "net": "0.6000000000",
+    "gross": "0.6000000000000000"
+   }
+  },
+  {
+   "location": "hel1",
+   "price_hourly": {
+    "net": "0.0010000000",
+    "gross": "0.0010000000000000"
+   },
+   "price_monthly": {
+    "net": "0.6000000000",
+    "gross": "0.6000000000000000"
+   }
+  },
+  {
+   "location": "ash",
+   "price_hourly": {
+    "net": "0.0010000000",
+    "gross": "0.0010000000000000"
+   },
+   "price_monthly": {
+    "net": "0.6000000000",
+    "gross": "0.6000000000000000"
+   }
+  },
+  {
+   "location": "hil",
+   "price_hourly": {
+    "net": "0.0010000000",
+    "gross": "0.0010000000000000"
+   },
+   "price_monthly": {
+    "net": "0.6000000000",
+    "gross": "0.6000000000000000"
+   }
+  },
+  {
+   "location": "sin",
+   "price_hourly": {
+    "net": "0.0010000000",
+    "gross": "0.0010000000000000"
+   },
+   "price_monthly": {
+    "net": "0.6000000000",
+    "gross": "0.6000000000000000"
+   }
+  }
+ ]
+}

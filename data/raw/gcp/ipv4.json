@@ -1,0 +1,59 @@
+[
+ {
+  "name": "services/6F81-5844-456A/skus/C054-7F72-A02E",
+  "skuId": "C054-7F72-A02E",
+  "description": "External IP Charge on a Standard VM",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Network",
+   "resourceGroup": "IpAddress",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "global"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "h",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 0
+       }
+      },
+      {
+       "startUsageAmount": 744,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 5000000
+       }
+      }
+     ],
+     "usageUnitDescription": "hour",
+     "baseUnit": "s",
+     "baseUnitDescription": "second",
+     "baseUnitConversionFactor": 3600
+    },
+    "aggregationInfo": {
+     "aggregationLevel": "ACCOUNT",
+     "aggregationInterval": "MONTHLY",
+     "aggregationCount": 1
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "GLOBAL",
+   "regions": []
+  }
+ }
+]
