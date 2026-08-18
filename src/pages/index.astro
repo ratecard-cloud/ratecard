@@ -4,6 +4,7 @@ import {
   COMPUTE, PROVIDERS, ACTIVE_PROVIDERS, MANIFEST,
   effectiveMonthly, crossover, usd, gbLabel, freshness, providerList,
 } from '../lib/data';
+import { CHANGES, SERIES } from '../lib/history';
 
 /** Cheapest at a given shape and egress volume, for the headline table. */
 function cheapestAt(vcpu: number, ram: number, gb: number) {
@@ -70,6 +71,21 @@ flips.sort((x, y) => x.gb - y.gb);
 const featured = flips.slice(0, 6);
 const flipTotal = flips.length;
 const pairTotal = (computeKeys.length * (computeKeys.length - 1)) / 2;
+
+/**
+ * Latest genuine price movements. Rare by nature — which is the point: on a
+ * site whose thesis is that list prices are levels, not volatility, an actual
+ * change is news, and showing how few there are IS the evidence.
+ */
+const priceMoves = CHANGES.filter((c) => c.type === 'price_changed').slice(0, 5);
+const watchingSince = Object.values(SERIES).reduce(
+  (min, s) => (s.first_seen < min ? s.first_seen : min),
+  '9999-12-31',
+);
+const watchedDays = Math.max(
+  1,
+  Math.round((Date.now() - new Date(watchingSince).getTime()) / 86_400_000),
+);
 const title = 'RateCard — cloud list prices, with egress included';
 const description =
   `Side-by-side list pricing for cloud compute and bandwidth across ${providerList()}. ` +
@@ -215,6 +231,47 @@ const description =
       <a href="/compare">All {pairTotal} head-to-head comparisons →</a>
     </p>
   </div>
+
+  {priceMoves.length > 0 && (
+    <!-- ------------------------------------------------------ price moves -->
+    <div class="wrap" style="margin-bottom:52px">
+      <h2 style="font-size:21px;letter-spacing:-0.02em;margin:0 0 4px">
+        When a price actually moves
+      </h2>
+      <p class="muted" style="margin:0 0 14px;max-width:74ch;font-size:14.5px">
+        {priceMoves.length === 1 ? 'One list-price change' : `${priceMoves.length} list-price changes`} in
+        {' '}{watchedDays} days of watching {COMPUTE.length} SKUs daily. List prices are
+        levels, not volatility — so when one moves, it is worth knowing.
+      </p>
+      <div style="display:flex;flex-direction:column;gap:8px;max-width:640px">
+        {priceMoves.map((c: any) => {
+          const up = c.monthly_new > c.monthly_old;
+          const pct = Math.abs(((c.monthly_new - c.monthly_old) / c.monthly_old) * 100);
+          return (
+            <div class="card" style="padding:12px 15px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap">
+              <span class="num faint" style="font-size:12px;flex-shrink:0">{c.date}</span>
+              <span style="font-size:13.5px">
+                <strong>{PROVIDERS[c.provider]?.short ?? c.provider}</strong>
+                <span class="num"> {c.sku}</span>
+                <span class="faint"> · {c.region}</span>
+              </span>
+              <span class="num" style="font-size:13.5px;margin-left:auto">
+                <span class="muted">{usd(c.monthly_old)}</span>
+                <span class="faint"> → </span>
+                <strong>{usd(c.monthly_new)}</strong>
+                <span style={`font-size:12px;margin-left:7px;color:${up ? 'var(--warn)' : 'var(--win)'}`}>
+                  {up ? '▲' : '▼'} {pct.toFixed(1)}%
+                </span>
+              </span>
+            </div>
+          );
+        })}
+      </div>
+      <p class="faint" style="font-size:12.5px;margin:12px 0 0">
+        <a href="/changes">Full changelog — including coverage changes →</a>
+      </p>
+    </div>
+  )}
 
   <!-- --------------------------------------------------------- providers -->
   <div class="wrap" style="margin-bottom:20px">
