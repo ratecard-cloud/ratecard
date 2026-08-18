@@ -4,6 +4,14 @@ on:
   schedule:
     - cron: '17 5 * * *' # daily, off the hour to avoid provider API rush
   workflow_dispatch:
+    inputs:
+      allow_coverage_drop:
+        description: >-
+          Providers whose coverage may drop past threshold this run
+          (comma-separated, or "all"). Use deliberately: overriding
+          repeated drops is the ratchet the README warns about.
+        required: false
+        default: ''
 
 # The commit this job makes IS the public changelog, so it needs write access.
 permissions:
@@ -38,6 +46,7 @@ jobs:
           HETZNER_API_TOKEN: ${{ secrets.HETZNER_API_TOKEN }}
           DO_API_TOKEN: ${{ secrets.DO_API_TOKEN }}
           GCP_API_KEY: ${{ secrets.GCP_API_TOKEN }}
+          ALLOW_COVERAGE_DROP: ${{ inputs.allow_coverage_drop }}
         run: npm run data
 
       # Fold today's snapshot into data/history/ BEFORE committing, so the same
