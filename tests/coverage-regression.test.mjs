@@ -26,8 +26,12 @@ test('unchanged coverage is silent', async () => {
 });
 
 test('DigitalOcean capacity churn passes under its widened tolerance', async () => {
-  // The real incident: 63 -> 39 in eu-central, a 38% drop.
-  const r = await validatePreviousCoverage(shrink(compute, 'digitalocean', 'eu-central', 39), egress);
+  // The real incident was 63 -> 39 (-38%). Counts must be RATIOS of whatever
+  // the workspace dataset currently holds: in CI, `npm run data` rewrites the
+  // baseline before tests run, so absolute counts go stale within one run —
+  // which is exactly how the first version of this test failed in CI.
+  const keep = Math.round(count('digitalocean', 'eu-central') * 0.62); // ~38% drop
+  const r = await validatePreviousCoverage(shrink(compute, 'digitalocean', 'eu-central', keep), egress);
   assert.deepEqual(errsFor(r, 'digitalocean'), [], '38% is inside DO tolerance (0.5)');
   assert.ok(r.warnings.some((w) => w.includes('digitalocean/eu-central')), 'still warned');
 });
@@ -39,7 +43,8 @@ test('the same drop percentage stays fatal for a strict provider', async () => {
 });
 
 test('tolerance widens the threshold, it does not remove it', async () => {
-  const r = await validatePreviousCoverage(shrink(compute, 'digitalocean', 'eu-central', 25), egress);
+  const keep = Math.round(count('digitalocean', 'eu-central') * 0.4); // ~60% drop
+  const r = await validatePreviousCoverage(shrink(compute, 'digitalocean', 'eu-central', keep), egress);
   assert.ok(errsFor(r, 'digitalocean').length > 0, '-60% exceeds even 0.5');
 });
 
