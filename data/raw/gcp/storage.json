@@ -1,0 +1,1943 @@
+[
+ {
+  "name": "services/6F81-5844-456A/skus/0824-EC08-36D2",
+  "skuId": "0824-EC08-36D2",
+  "description": "Balanced PD Capacity in Mexico",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 109000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/104E-81CB-48E3",
+  "skuId": "104E-81CB-48E3",
+  "description": "Balanced PD Capacity in Johannesburg",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "africa-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 109788000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "africa-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/16D2-FC49-A127",
+  "skuId": "16D2-FC49-A127",
+  "description": "Balanced PD Capacity in Singapore",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2355-97B9-3C07",
+  "skuId": "2355-97B9-3C07",
+  "description": "Balanced PD Capacity in Dammam",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 160000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/2458-CD97-92B1",
+  "skuId": "2458-CD97-92B1",
+  "description": "Balanced PD Capacity in Osaka",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 130000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/256B-1E8B-9398",
+  "skuId": "256B-1E8B-9398",
+  "description": "Balanced PD Capacity in Melbourne",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 135000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/3A7C-54DD-2577",
+  "skuId": "3A7C-54DD-2577",
+  "description": "Balanced PD Capacity in Toronto",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4581-3E00-63BC",
+  "skuId": "4581-3E00-63BC",
+  "description": "Balanced PD Capacity in Stockholm",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-north2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 100000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-north2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/45C5-3E36-ED09",
+  "skuId": "45C5-3E36-ED09",
+  "description": "Balanced PD Capacity in Dallas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/4701-2C6F-375F",
+  "skuId": "4701-2C6F-375F",
+  "description": "Balanced PD Capacity in Las Vegas",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/50A9-247F-E03E",
+  "skuId": "50A9-247F-E03E",
+  "description": "Balanced PD Capacity in Turin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west12"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west12"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5666-EFB4-5C79",
+  "skuId": "5666-EFB4-5C79",
+  "description": "Balanced PD Capacity in Seoul",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 130000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5785-6130-358E",
+  "skuId": "5785-6130-358E",
+  "description": "Balanced PD Capacity in Montreal",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "northamerica-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "northamerica-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/57E4-D2C6-90C1",
+  "skuId": "57E4-D2C6-90C1",
+  "description": "Balanced PD Capacity in Bangkok",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 105000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5CFD-16B2-4F41",
+  "skuId": "5CFD-16B2-4F41",
+  "description": "Balanced PD Capacity in Netherlands",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/5D09-05FD-782D",
+  "skuId": "5D09-05FD-782D",
+  "description": "Balanced PD Capacity in Milan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 116000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6250-56B4-000E",
+  "skuId": "6250-56B4-000E",
+  "description": "Balanced PD Capacity in Israel",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/66F2-6BE3-1229",
+  "skuId": "66F2-6BE3-1229",
+  "description": "Balanced PD Capacity in Madrid",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-southwest1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-southwest1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6AE1-525F-8B80",
+  "skuId": "6AE1-525F-8B80",
+  "description": "Balanced PD Capacity",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-central1",
+   "us-central2",
+   "us-east1",
+   "us-west1",
+   "asia-east1",
+   "europe-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 100000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "MULTI_REGIONAL",
+   "regions": [
+    "asia-east1",
+    "europe-west1",
+    "us-central1",
+    "us-east1",
+    "us-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6CB7-B05F-97AD",
+  "skuId": "6CB7-B05F-97AD",
+  "description": "Balanced PD Capacity in Hong Kong",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-east2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-east2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6D8C-DF09-314D",
+  "skuId": "6D8C-DF09-314D",
+  "description": "Balanced PD Capacity in Japan",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-northeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 130000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-northeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/6F9F-D10A-6613",
+  "skuId": "6F9F-D10A-6613",
+  "description": "Balanced PD Capacity in Sao Paulo",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-east1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 150000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-east1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/770A-0C4F-CBB1",
+  "skuId": "770A-0C4F-CBB1",
+  "description": "Balanced PD Capacity in Doha",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "me-central1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 121500000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "me-central1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7CD6-D519-82F7",
+  "skuId": "7CD6-D519-82F7",
+  "description": "Balanced PD Capacity in Jakarta",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 130000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7D52-6D58-14FF",
+  "skuId": "7D52-6D58-14FF",
+  "description": "Balanced PD Capacity in Virginia",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/7F37-4B04-C4BF",
+  "skuId": "7F37-4B04-C4BF",
+  "description": "Balanced PD Capacity in Warsaw",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-central2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 130000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-central2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/8CC1-0077-DE99",
+  "skuId": "8CC1-0077-DE99",
+  "description": "Balanced PD Capacity in Santiago",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "southamerica-west1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 143000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "southamerica-west1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/9759-0570-C17A",
+  "skuId": "9759-0570-C17A",
+  "description": "Balanced PD Capacity in Phoenix",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west8"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 100000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west8"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/ABEC-4750-B9EF",
+  "skuId": "ABEC-4750-B9EF",
+  "description": "Balanced PD Capacity in Finland",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-north1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 110000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-north1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B046-9075-75BA",
+  "skuId": "B046-9075-75BA",
+  "description": "Balanced PD Capacity in Sydney",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "australia-southeast1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 135000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "australia-southeast1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B1B5-0BAA-CB31",
+  "skuId": "B1B5-0BAA-CB31",
+  "description": "Balanced PD Capacity in Frankfurt",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B517-A933-69E7",
+  "skuId": "B517-A933-69E7",
+  "description": "Balanced PD Capacity in Kuala Lumpur",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-southeast4"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 105000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-southeast4"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/B5F4-F738-1AA4",
+  "skuId": "B5F4-F738-1AA4",
+  "description": "Balanced PD Capacity in Columbus",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east5"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 100000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east5"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C24C-88D9-75ED",
+  "skuId": "C24C-88D9-75ED",
+  "description": "Balanced PD Capacity in Mumbai",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south1"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south1"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C5EF-0CEF-175D",
+  "skuId": "C5EF-0CEF-175D",
+  "description": "Balanced PD Capacity in Salt Lake City",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west3"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west3"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C6EF-9E23-4A16",
+  "skuId": "C6EF-9E23-4A16",
+  "description": "Balanced PD Capacity in Alabama",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-east7"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 100000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-east7"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/C99E-D411-4C3C",
+  "skuId": "C99E-D411-4C3C",
+  "description": "Balanced PD Capacity in Berlin",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west10"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 154000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west10"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/CAF4-ADE9-58BA",
+  "skuId": "CAF4-ADE9-58BA",
+  "description": "Balanced PD Capacity in Zurich",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west6"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 130000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west6"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/D09D-F329-003F",
+  "skuId": "D09D-F329-003F",
+  "description": "Balanced PD Capacity in Paris",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west9"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 116000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west9"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/D7FE-969C-E339",
+  "skuId": "D7FE-969C-E339",
+  "description": "Balanced PD Capacity in London",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "europe-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "europe-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/DF86-0465-7120",
+  "skuId": "DF86-0465-7120",
+  "description": "Balanced PD Capacity in Los Angeles",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "us-west2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "us-west2"
+   ]
+  }
+ },
+ {
+  "name": "services/6F81-5844-456A/skus/E709-23E2-DCD9",
+  "skuId": "E709-23E2-DCD9",
+  "description": "Balanced PD Capacity in Delhi",
+  "category": {
+   "serviceDisplayName": "Compute Engine",
+   "resourceFamily": "Storage",
+   "resourceGroup": "SSD",
+   "usageType": "OnDemand"
+  },
+  "serviceRegions": [
+   "asia-south2"
+  ],
+  "pricingInfo": [
+   {
+    "summary": "",
+    "pricingExpression": {
+     "usageUnit": "GiBy.mo",
+     "displayQuantity": 1,
+     "tieredRates": [
+      {
+       "startUsageAmount": 0,
+       "unitPrice": {
+        "currencyCode": "USD",
+        "units": "0",
+        "nanos": 120000000
+       }
+      }
+     ],
+     "usageUnitDescription": "gibibyte month",
+     "baseUnit": "By.s",
+     "baseUnitDescription": "byte second",
+     "baseUnitConversionFactor": 2875910101401600
+    },
+    "currencyConversionRate": 1,
+    "effectiveTime": "2026-08-18T07:00:00Z"
+   }
+  ],
+  "serviceProviderName": "Google",
+  "geoTaxonomy": {
+   "type": "REGIONAL",
+   "regions": [
+    "asia-south2"
+   ]
+  }
+ }
+]
