@@ -1,6 +1,39 @@
 [
  {
   "provider": "aws",
+  "region": "ap-southeast",
+  "free_gb_per_month": 100,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": 10240,
+    "usd_per_gb": 0.12
+   },
+   {
+    "up_to_gb": 51200,
+    "usd_per_gb": 0.085
+   },
+   {
+    "up_to_gb": 153600,
+    "usd_per_gb": 0.082
+   },
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.08
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "First 100 GB/month outbound is free account-wide across all services and regions.",
+   "Inter-AZ and inter-region transfer are billed separately and are not included here."
+  ]
+ },
+ {
+  "provider": "aws",
   "region": "eu-central",
   "free_gb_per_month": 100,
   "bundled_with_compute": false,
@@ -24,7 +57,7 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -57,7 +90,40 @@
   ],
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "First 100 GB/month outbound is free account-wide across all services and regions.",
+   "Inter-AZ and inter-region transfer are billed separately and are not included here."
+  ]
+ },
+ {
+  "provider": "aws",
+  "region": "us-west",
+  "free_gb_per_month": 100,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": 10240,
+    "usd_per_gb": 0.09
+   },
+   {
+    "up_to_gb": 51200,
+    "usd_per_gb": 0.085
+   },
+   {
+    "up_to_gb": 153600,
+    "usd_per_gb": 0.07
+   },
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.05
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -67,6 +133,43 @@
  },
  {
   "provider": "azure",
+  "region": "ap-southeast",
+  "free_gb_per_month": 100,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": 10235,
+    "usd_per_gb": 0.12
+   },
+   {
+    "up_to_gb": 51195,
+    "usd_per_gb": 0.085
+   },
+   {
+    "up_to_gb": 153595,
+    "usd_per_gb": 0.082
+   },
+   {
+    "up_to_gb": 511995,
+    "usd_per_gb": 0.08
+   },
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.08
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Default Microsoft Global Network routing. Opting into \"Routing Preference: Internet\" is cheaper.",
+   "First 100 GB/month free account-wide."
+  ]
+ },
+ {
+  "provider": "azure",
   "region": "eu-central",
   "free_gb_per_month": 100,
   "bundled_with_compute": false,
@@ -94,7 +197,7 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -131,7 +234,44 @@
   ],
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Default Microsoft Global Network routing. Opting into \"Routing Preference: Internet\" is cheaper.",
+   "First 100 GB/month free account-wide."
+  ]
+ },
+ {
+  "provider": "azure",
+  "region": "us-west",
+  "free_gb_per_month": 100,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": 10235,
+    "usd_per_gb": 0.087
+   },
+   {
+    "up_to_gb": 51195,
+    "usd_per_gb": 0.083
+   },
+   {
+    "up_to_gb": 153595,
+    "usd_per_gb": 0.07
+   },
+   {
+    "up_to_gb": 511995,
+    "usd_per_gb": 0.05
+   },
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.05
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -152,7 +292,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -174,7 +314,29 @@
   ],
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Free egress up to 3x average monthly stored bytes, then $0.01/GB.",
+   "That allowance scales with storage, so it cannot be modelled as a flat free tier — the columns here assume no allowance and therefore OVERSTATE cost for most workloads.",
+   "Free entirely via many CDN and compute partners, including Cloudflare."
+  ]
+ },
+ {
+  "provider": "backblaze",
+  "region": "us-west",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.01
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.backblaze.com/cloud-storage/pricing",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -185,6 +347,28 @@
  },
  {
   "provider": "cloudflare",
+  "region": "ap-southeast",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://developers.cloudflare.com/r2/pricing/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "R2 charges zero egress on every storage class — unlimited, not an allowance. The structural outlier.",
+   "Storage and Class A/B operations are still billed, and Infrequent Access adds a $0.01/GB retrieval fee.",
+   "Object storage only; there is no Cloudflare VM for this to attach to."
+  ]
+ },
+ {
+  "provider": "cloudflare",
   "region": "eu-central",
   "free_gb_per_month": 0,
   "bundled_with_compute": false,
@@ -196,7 +380,7 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -218,13 +402,57 @@
   ],
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
    "R2 charges zero egress on every storage class — unlimited, not an allowance. The structural outlier.",
    "Storage and Class A/B operations are still billed, and Infrequent Access adds a $0.01/GB retrieval fee.",
    "Object storage only; there is no Cloudflare VM for this to attach to."
+  ]
+ },
+ {
+  "provider": "cloudflare",
+  "region": "us-west",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://developers.cloudflare.com/r2/pricing/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "R2 charges zero egress on every storage class — unlimited, not an allowance. The structural outlier.",
+   "Storage and Class A/B operations are still billed, and Infrequent Access adds a $0.01/GB retrieval fee.",
+   "Object storage only; there is no Cloudflare VM for this to attach to."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "region": "ap-southeast",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.01
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Droplet overage is $0.01 per GiB; inbound is free.",
+   "Allowances pool cumulatively across all Droplets at the team level, so a single-instance comparison understates the allowance a real account gets.",
+   "App Platform overage is $0.02/GiB and Spaces $0.01/GiB — neither is indexed here."
   ]
  },
  {
@@ -240,7 +468,7 @@
   ],
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -262,13 +490,67 @@
   ],
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
    "Droplet overage is $0.01 per GiB; inbound is free.",
    "Allowances pool cumulatively across all Droplets at the team level, so a single-instance comparison understates the allowance a real account gets.",
    "App Platform overage is $0.02/GiB and Spaces $0.01/GiB — neither is indexed here."
+  ]
+ },
+ {
+  "provider": "digitalocean",
+  "region": "us-west",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.01
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Droplet overage is $0.01 per GiB; inbound is free.",
+   "Allowances pool cumulatively across all Droplets at the team level, so a single-instance comparison understates the allowance a real account gets.",
+   "App Platform overage is $0.02/GiB and Spaces $0.01/GiB — neither is indexed here."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "ap-southeast",
+  "free_gb_per_month": 1,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": 1023,
+    "usd_per_gb": 0.12
+   },
+   {
+    "up_to_gb": 10239,
+    "usd_per_gb": 0.11
+   },
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.085
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Premium network tier (the default). Standard tier is cheaper but routes over the public internet sooner.",
+   "Only the first 1 GiB/month is free — GCP's larger always-free allowances do not apply to Premium Tier egress.",
+   "Priced by DESTINATION continent, not source region; these figures assume traffic stays on the same continent as the instance.",
+   "GCP bills per GiB where most providers bill per GB, so these rates are ~7% higher than they look against a GB-priced competitor.",
+   "Destination Asia (excl. Korea): top tier $0.085/GiB, same-continent assumption as elsewhere."
   ]
  },
  {
@@ -292,7 +574,7 @@
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -324,7 +606,38 @@
   ],
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Premium network tier (the default). Standard tier is cheaper but routes over the public internet sooner.",
+   "Only the first 1 GiB/month is free — GCP's larger always-free allowances do not apply to Premium Tier egress.",
+   "Priced by DESTINATION continent, not source region; these figures assume traffic stays on the same continent as the instance.",
+   "GCP bills per GiB where most providers bill per GB, so these rates are ~7% higher than they look against a GB-priced competitor."
+  ]
+ },
+ {
+  "provider": "gcp",
+  "region": "us-west",
+  "free_gb_per_month": 1,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": 1023,
+    "usd_per_gb": 0.12
+   },
+   {
+    "up_to_gb": 10239,
+    "usd_per_gb": 0.11
+   },
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.08
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://cloud.google.com/vpc/network-pricing",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -336,6 +649,28 @@
  },
  {
   "provider": "hetzner",
+  "region": "ap-southeast",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.00810547
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.hetzner.com/cloud/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Overage is USD 8.30 per TiB, billed in 100 MB blocks.",
+   "Only outgoing traffic is billed; inbound and internal traffic are free.",
+   "The bundled allowance is per plan and per location — see the compute table."
+  ]
+ },
+ {
+  "provider": "hetzner",
   "region": "eu-central",
   "free_gb_per_month": 0,
   "bundled_with_compute": true,
@@ -347,7 +682,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -369,7 +704,29 @@
   ],
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Overage is USD 1.20 per TiB, billed in 100 MB blocks.",
+   "Only outgoing traffic is billed; inbound and internal traffic are free.",
+   "The bundled allowance is per plan and per location — see the compute table."
+  ]
+ },
+ {
+  "provider": "hetzner",
+  "region": "us-west",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.00117188
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.hetzner.com/cloud/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -380,6 +737,28 @@
  },
  {
   "provider": "linode",
+  "region": "ap-southeast",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.005
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Overage is $0.005/GB ($5/TB) in all core data centres, including both regions indexed here.",
+   "A few regions cost more — Jakarta $0.015/GB, Sao Paulo $0.007/GB.",
+   "Allowances pool across all Linodes on the account."
+  ]
+ },
+ {
+  "provider": "linode",
   "region": "eu-central",
   "free_gb_per_month": 0,
   "bundled_with_compute": true,
@@ -391,7 +770,7 @@
   ],
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -413,13 +792,57 @@
   ],
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
    "Overage is $0.005/GB ($5/TB) in all core data centres, including both regions indexed here.",
    "A few regions cost more — Jakarta $0.015/GB, Sao Paulo $0.007/GB.",
    "Allowances pool across all Linodes on the account."
+  ]
+ },
+ {
+  "provider": "linode",
+  "region": "us-west",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.005
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Overage is $0.005/GB ($5/TB) in all core data centres, including both regions indexed here.",
+   "A few regions cost more — Jakarta $0.015/GB, Sao Paulo $0.007/GB.",
+   "Allowances pool across all Linodes on the account."
+  ]
+ },
+ {
+  "provider": "oci",
+  "region": "ap-southeast",
+  "free_gb_per_month": 10240,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.025
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "First 10 TB/month outbound is free account-wide, not per instance.",
+   "This single allowance is why OCI wins most egress-heavy comparisons.",
+   "APAC-originating rate — roughly 3x the North America / Europe rate."
   ]
  },
  {
@@ -435,7 +858,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -457,13 +880,56 @@
   ],
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "First 10 TB/month outbound is free account-wide, not per instance.",
    "This single allowance is why OCI wins most egress-heavy comparisons.",
    "Rates differ by originating region; these are the North America / Europe / UK figures."
+  ]
+ },
+ {
+  "provider": "oci",
+  "region": "us-west",
+  "free_gb_per_month": 10240,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.0085
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.oracle.com/cloud/price-list/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "First 10 TB/month outbound is free account-wide, not per instance.",
+   "This single allowance is why OCI wins most egress-heavy comparisons.",
+   "Rates differ by originating region; these are the North America / Europe / UK figures."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.01
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Vultr: \"We charge $0.01 per GB for bandwidth used in excess of your quota.\"",
+   "Allowance is per instance and does not pool across the account."
   ]
  },
  {
@@ -479,7 +945,7 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [
@@ -500,7 +966,28 @@
   ],
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-18T12:53:09.059Z",
+  "collected_at": "2026-08-18T13:09:03.000Z",
+  "source_verified_at": "2026-08-11",
+  "confidence": "medium",
+  "notes": [
+   "Vultr: \"We charge $0.01 per GB for bandwidth used in excess of your quota.\"",
+   "Allowance is per instance and does not pool across the account."
+  ]
+ },
+ {
+  "provider": "vultr",
+  "region": "us-west",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": true,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.01
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.vultr.com/pricing/",
+  "collected_at": "2026-08-18T13:09:03.000Z",
   "source_verified_at": "2026-08-11",
   "confidence": "medium",
   "notes": [

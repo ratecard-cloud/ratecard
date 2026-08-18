@@ -2866,8 +2866,8 @@
      {
       "id": 3,
       "name": "hel1",
-      "available": false,
-      "recommended": false,
+      "available": true,
+      "recommended": true,
       "deprecation": null
      }
     ]
@@ -2953,8 +2953,8 @@
      {
       "id": 3,
       "name": "hel1",
-      "available": false,
-      "recommended": false,
+      "available": true,
+      "recommended": true,
       "deprecation": null
      }
     ]
@@ -3040,8 +3040,8 @@
      {
       "id": 3,
       "name": "hel1",
-      "available": false,
-      "recommended": false,
+      "available": true,
+      "recommended": true,
       "deprecation": null
      }
     ]
@@ -3127,8 +3127,8 @@
      {
       "id": 3,
       "name": "hel1",
-      "available": false,
-      "recommended": false,
+      "available": true,
+      "recommended": true,
       "deprecation": null
      }
     ]
