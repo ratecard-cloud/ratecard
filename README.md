@@ -181,6 +181,15 @@ normal weather for DO. Vanishing to zero stays fatal for every provider,
 tolerance or not. (See Known gaps for the ratchet limitation this
 previous-run baseline implies.)
 
+A drop that lands at (or within 10% of) a count already published in the last
+14 days passes with a warning instead of failing: a flapping provider
+alternates between two accepted states, and returning to one of them is not a
+regression. The rolling record lives in `data/history/coverage.json`, appended
+by each successful run. This exists because DO's `fra1` oscillated
+39 → 18 → 39 → 18 across four days in Aug 2026, re-failing every down-day
+against the previous up-day. A count nothing in the window resembles still
+fails closed.
+
 Removing a provider on purpose:
 
 ```bash

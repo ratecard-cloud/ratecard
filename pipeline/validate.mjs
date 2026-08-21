@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { PROVIDERS, REGIONS, ROOT } from './lib.mjs';
 
@@ -244,6 +244,60 @@ async function loadPrevious(category) {
 }
 
 /**
+ * Rolling record of recently PUBLISHED coverage counts, keyed
+ * "<category> <provider>/<region>". Exists because DigitalOcean's fra1
+ * oscillated 39 -> 18 -> 39 -> 18 across four days in Aug 2026: each down-day
+ * re-failed against the previous day's up-state, demanding a manual override
+ * for a state that had already been reviewed and accepted. Returning to a
+ * previously published state is not a regression.
+ */
+const COVERAGE_HISTORY = 'data/history/coverage.json';
+const COVERAGE_WINDOW_DAYS = 14;
+
+async function loadCoverageHistory() {
+  try {
+    return JSON.parse(await readFile(resolve(ROOT, COVERAGE_HISTORY), 'utf8'));
+  } catch {
+    return {};
+  }
+}
+
+const inWindow = (date, now) =>
+  new Date(`${date}T00:00:00Z`).getTime() >= now - COVERAGE_WINDOW_DAYS * 86_400_000;
+
+/** Lowest count published for this key inside the window, or null. */
+function windowFloor(entries, now = Date.now()) {
+  let min = null;
+  for (const e of entries ?? []) {
+    if (!inWindow(e.date, now) || !(e.count > 0)) continue;
+    if (min === null || e.count < min) min = e.count;
+  }
+  return min;
+}
+
+/**
+ * Append today's per-key counts to the rolling coverage record and prune
+ * entries older than the window. Called by run.mjs in the write phase only,
+ * after validation has passed — so every recorded state is an accepted one.
+ */
+export async function recordCoverage(datasets, date = new Date().toISOString().slice(0, 10)) {
+  const hist = await loadCoverageHistory();
+  const now = Date.now();
+  for (const [category, records] of Object.entries(datasets)) {
+    if (!Array.isArray(records)) continue;
+    for (const [key, count] of coverageMap(records)) {
+      const k = `${category} ${key}`;
+      const entries = (hist[k] ?? []).filter((e) => e.date !== date && inWindow(e.date, now));
+      entries.push({ date, count });
+      entries.sort((a, b) => (a.date < b.date ? -1 : 1));
+      hist[k] = entries;
+    }
+  }
+  await writeFile(resolve(ROOT, COVERAGE_HISTORY), `${JSON.stringify(hist, null, 2)}\n`);
+  return hist;
+}
+
+/**
  * Fails closed: coverage that existed in the last published dataset must not
  * vanish or shrink sharply without an explicit override.
  *
@@ -252,11 +306,19 @@ async function loadPrevious(category) {
  *   - shrunk at all                           -> warning
  *   - grown or new                            -> fine
  *
+ * One escape hatch besides the env override: an over-threshold drop that lands
+ * at (or near) a count already published within the last COVERAGE_WINDOW_DAYS
+ * passes with a warning. A flapping provider alternates between two accepted
+ * states; a broken collector produces a count nothing in the window resembles.
+ *
  * Intentional removals: ALLOW_COVERAGE_DROP="hetzner,gcp" or "all".
+ * opts.baselines injects the rolling coverage record for tests ({} = none);
+ * omitted, it is read from data/history/coverage.json.
  */
-export async function validatePreviousCoverage(compute, egress, statuses = {}, extra = {}) {
+export async function validatePreviousCoverage(compute, egress, statuses = {}, extra = {}, opts = {}) {
   const errors = [];
   const warnings = [];
+  const baselines = opts.baselines ?? await loadCoverageHistory();
   // Default drop threshold; a provider can widen it via coverage_tolerance in
   // providers.json. DigitalOcean carries 0.5 because its sizes.regions array
   // reflects LIVE CAPACITY, not pricing — fra1 shed 24 of 63 qualifying sizes
@@ -267,7 +329,9 @@ export async function validatePreviousCoverage(compute, egress, statuses = {}, e
   // just-under-threshold drops could ratchet coverage down over many days
   // without ever erroring. Every drop still warns, and a broken collector
   // manifests as zero (always fatal), so the ratchet needs a slow, sustained,
-  // sub-threshold decline to slip through.
+  // sub-threshold decline to slip through. The rolling window below adds a
+  // second ratchet path — an accepted low state keeps re-passing for
+  // COVERAGE_WINDOW_DAYS — but only between states a human already saw.
   const DROP_ERROR = 0.3;
   const dropThreshold = (provider) => {
     const t = PROVIDERS[provider]?.coverage_tolerance;
@@ -321,8 +385,17 @@ export async function validatePreviousCoverage(compute, egress, statuses = {}, e
           );
         }
       } else if ((oldCount - newCount) / oldCount > dropThreshold(provider)) {
+        // 0.9: the flap should land on a known state, but providers that churn
+        // counts by ones and twos shouldn't fail for landing one row short.
+        const floor = windowFloor(baselines[`${category} ${key}`]);
         if (isAllowed(provider)) {
           warnings.push(`${category} ${key}: ${oldCount} -> ${newCount}, allowed by override`);
+        } else if (floor !== null && newCount >= Math.floor(floor * 0.9)) {
+          warnings.push(
+            `${category} ${key}: ${oldCount} -> ${newCount} — over the threshold vs the last run, ` +
+              `but coverage this low (${floor}) was already published within the last ` +
+              `${COVERAGE_WINDOW_DAYS} days. Treating as a provider flap; publishing.`,
+          );
         } else {
           errors.push(
             `${category} ${key}: dropped ${oldCount} -> ${newCount} ` +

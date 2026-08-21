@@ -5,6 +5,7 @@ import { ROOT, saveNormalized } from './lib.mjs';
 import {
   validateCompute, validateEgress, validateStorage, validateIpv4,
   validateInterRegion, validateObjectStorage, validateCoverage, validateProviders, validatePreviousCoverage,
+  recordCoverage,
 } from './validate.mjs';
 
 import aws from './collectors/aws.mjs';
@@ -159,6 +160,9 @@ async function main() {
     await saveNormalized('ipv4', ipv4);
     await saveNormalized('interregion', interregion);
     await saveNormalized('objectstorage', objectstorage);
+    // Record today's accepted per-key counts so a future flap back to this
+    // state passes the regression check without a manual override.
+    await recordCoverage({ compute, egress, storage, ipv4, interregion, objectstorage });
     await writeFile(
       resolve(ROOT, 'data/normalized/manifest.json'),
       JSON.stringify(

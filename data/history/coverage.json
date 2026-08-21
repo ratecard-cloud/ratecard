@@ -1,0 +1,3814 @@
+{
+  "compute aws/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 28
+    },
+    {
+      "date": "2026-08-19",
+      "count": 28
+    },
+    {
+      "date": "2026-08-20",
+      "count": 28
+    }
+  ],
+  "compute aws/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 32
+    },
+    {
+      "date": "2026-08-12",
+      "count": 32
+    },
+    {
+      "date": "2026-08-13",
+      "count": 32
+    },
+    {
+      "date": "2026-08-14",
+      "count": 32
+    },
+    {
+      "date": "2026-08-15",
+      "count": 32
+    },
+    {
+      "date": "2026-08-16",
+      "count": 32
+    },
+    {
+      "date": "2026-08-17",
+      "count": 32
+    },
+    {
+      "date": "2026-08-18",
+      "count": 32
+    },
+    {
+      "date": "2026-08-19",
+      "count": 32
+    },
+    {
+      "date": "2026-08-20",
+      "count": 32
+    }
+  ],
+  "compute aws/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 32
+    },
+    {
+      "date": "2026-08-12",
+      "count": 32
+    },
+    {
+      "date": "2026-08-13",
+      "count": 32
+    },
+    {
+      "date": "2026-08-14",
+      "count": 32
+    },
+    {
+      "date": "2026-08-15",
+      "count": 32
+    },
+    {
+      "date": "2026-08-16",
+      "count": 32
+    },
+    {
+      "date": "2026-08-17",
+      "count": 32
+    },
+    {
+      "date": "2026-08-18",
+      "count": 32
+    },
+    {
+      "date": "2026-08-19",
+      "count": 32
+    },
+    {
+      "date": "2026-08-20",
+      "count": 32
+    }
+  ],
+  "compute aws/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 32
+    },
+    {
+      "date": "2026-08-19",
+      "count": 32
+    },
+    {
+      "date": "2026-08-20",
+      "count": 32
+    }
+  ],
+  "compute azure/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 11
+    },
+    {
+      "date": "2026-08-19",
+      "count": 11
+    },
+    {
+      "date": "2026-08-20",
+      "count": 11
+    }
+  ],
+  "compute azure/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 11
+    },
+    {
+      "date": "2026-08-12",
+      "count": 11
+    },
+    {
+      "date": "2026-08-13",
+      "count": 11
+    },
+    {
+      "date": "2026-08-14",
+      "count": 11
+    },
+    {
+      "date": "2026-08-15",
+      "count": 11
+    },
+    {
+      "date": "2026-08-16",
+      "count": 11
+    },
+    {
+      "date": "2026-08-17",
+      "count": 11
+    },
+    {
+      "date": "2026-08-18",
+      "count": 11
+    },
+    {
+      "date": "2026-08-19",
+      "count": 11
+    },
+    {
+      "date": "2026-08-20",
+      "count": 11
+    }
+  ],
+  "compute azure/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 11
+    },
+    {
+      "date": "2026-08-12",
+      "count": 11
+    },
+    {
+      "date": "2026-08-13",
+      "count": 11
+    },
+    {
+      "date": "2026-08-14",
+      "count": 11
+    },
+    {
+      "date": "2026-08-15",
+      "count": 11
+    },
+    {
+      "date": "2026-08-16",
+      "count": 11
+    },
+    {
+      "date": "2026-08-17",
+      "count": 11
+    },
+    {
+      "date": "2026-08-18",
+      "count": 11
+    },
+    {
+      "date": "2026-08-19",
+      "count": 11
+    },
+    {
+      "date": "2026-08-20",
+      "count": 11
+    }
+  ],
+  "compute azure/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 11
+    },
+    {
+      "date": "2026-08-19",
+      "count": 11
+    },
+    {
+      "date": "2026-08-20",
+      "count": 11
+    }
+  ],
+  "compute digitalocean/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 42
+    },
+    {
+      "date": "2026-08-19",
+      "count": 42
+    },
+    {
+      "date": "2026-08-20",
+      "count": 42
+    }
+  ],
+  "compute digitalocean/eu-central": [
+    {
+      "date": "2026-08-12",
+      "count": 42
+    },
+    {
+      "date": "2026-08-13",
+      "count": 42
+    },
+    {
+      "date": "2026-08-14",
+      "count": 39
+    },
+    {
+      "date": "2026-08-15",
+      "count": 63
+    },
+    {
+      "date": "2026-08-16",
+      "count": 63
+    },
+    {
+      "date": "2026-08-17",
+      "count": 63
+    },
+    {
+      "date": "2026-08-18",
+      "count": 18
+    },
+    {
+      "date": "2026-08-19",
+      "count": 39
+    },
+    {
+      "date": "2026-08-20",
+      "count": 39
+    }
+  ],
+  "compute digitalocean/us-east": [
+    {
+      "date": "2026-08-12",
+      "count": 63
+    },
+    {
+      "date": "2026-08-13",
+      "count": 63
+    },
+    {
+      "date": "2026-08-14",
+      "count": 42
+    },
+    {
+      "date": "2026-08-15",
+      "count": 42
+    },
+    {
+      "date": "2026-08-16",
+      "count": 42
+    },
+    {
+      "date": "2026-08-17",
+      "count": 42
+    },
+    {
+      "date": "2026-08-18",
+      "count": 42
+    },
+    {
+      "date": "2026-08-19",
+      "count": 42
+    },
+    {
+      "date": "2026-08-20",
+      "count": 42
+    }
+  ],
+  "compute digitalocean/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 63
+    },
+    {
+      "date": "2026-08-19",
+      "count": 63
+    },
+    {
+      "date": "2026-08-20",
+      "count": 63
+    }
+  ],
+  "compute gcp/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 12
+    },
+    {
+      "date": "2026-08-19",
+      "count": 12
+    },
+    {
+      "date": "2026-08-20",
+      "count": 12
+    }
+  ],
+  "compute gcp/eu-central": [
+    {
+      "date": "2026-08-12",
+      "count": 8
+    },
+    {
+      "date": "2026-08-13",
+      "count": 8
+    },
+    {
+      "date": "2026-08-14",
+      "count": 8
+    },
+    {
+      "date": "2026-08-15",
+      "count": 8
+    },
+    {
+      "date": "2026-08-16",
+      "count": 8
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-18",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 8
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    }
+  ],
+  "compute gcp/us-east": [
+    {
+      "date": "2026-08-12",
+      "count": 8
+    },
+    {
+      "date": "2026-08-13",
+      "count": 8
+    },
+    {
+      "date": "2026-08-14",
+      "count": 8
+    },
+    {
+      "date": "2026-08-15",
+      "count": 8
+    },
+    {
+      "date": "2026-08-16",
+      "count": 8
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-18",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 8
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    }
+  ],
+  "compute gcp/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 12
+    },
+    {
+      "date": "2026-08-19",
+      "count": 12
+    },
+    {
+      "date": "2026-08-20",
+      "count": 12
+    }
+  ],
+  "compute hetzner/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 11
+    },
+    {
+      "date": "2026-08-19",
+      "count": 11
+    },
+    {
+      "date": "2026-08-20",
+      "count": 11
+    }
+  ],
+  "compute hetzner/eu-central": [
+    {
+      "date": "2026-08-12",
+      "count": 19
+    },
+    {
+      "date": "2026-08-13",
+      "count": 19
+    },
+    {
+      "date": "2026-08-14",
+      "count": 19
+    },
+    {
+      "date": "2026-08-15",
+      "count": 19
+    },
+    {
+      "date": "2026-08-16",
+      "count": 19
+    },
+    {
+      "date": "2026-08-17",
+      "count": 19
+    },
+    {
+      "date": "2026-08-18",
+      "count": 19
+    },
+    {
+      "date": "2026-08-19",
+      "count": 19
+    },
+    {
+      "date": "2026-08-20",
+      "count": 19
+    }
+  ],
+  "compute hetzner/us-east": [
+    {
+      "date": "2026-08-12",
+      "count": 7
+    },
+    {
+      "date": "2026-08-13",
+      "count": 7
+    },
+    {
+      "date": "2026-08-14",
+      "count": 7
+    },
+    {
+      "date": "2026-08-15",
+      "count": 7
+    },
+    {
+      "date": "2026-08-16",
+      "count": 7
+    },
+    {
+      "date": "2026-08-17",
+      "count": 7
+    },
+    {
+      "date": "2026-08-18",
+      "count": 7
+    },
+    {
+      "date": "2026-08-19",
+      "count": 7
+    },
+    {
+      "date": "2026-08-20",
+      "count": 7
+    }
+  ],
+  "compute hetzner/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 7
+    },
+    {
+      "date": "2026-08-19",
+      "count": 7
+    },
+    {
+      "date": "2026-08-20",
+      "count": 7
+    }
+  ],
+  "compute linode/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 24
+    },
+    {
+      "date": "2026-08-19",
+      "count": 24
+    },
+    {
+      "date": "2026-08-20",
+      "count": 24
+    }
+  ],
+  "compute linode/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 24
+    },
+    {
+      "date": "2026-08-12",
+      "count": 24
+    },
+    {
+      "date": "2026-08-13",
+      "count": 24
+    },
+    {
+      "date": "2026-08-14",
+      "count": 24
+    },
+    {
+      "date": "2026-08-15",
+      "count": 24
+    },
+    {
+      "date": "2026-08-16",
+      "count": 24
+    },
+    {
+      "date": "2026-08-17",
+      "count": 24
+    },
+    {
+      "date": "2026-08-18",
+      "count": 24
+    },
+    {
+      "date": "2026-08-19",
+      "count": 24
+    },
+    {
+      "date": "2026-08-20",
+      "count": 24
+    }
+  ],
+  "compute linode/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 24
+    },
+    {
+      "date": "2026-08-12",
+      "count": 24
+    },
+    {
+      "date": "2026-08-13",
+      "count": 24
+    },
+    {
+      "date": "2026-08-14",
+      "count": 24
+    },
+    {
+      "date": "2026-08-15",
+      "count": 24
+    },
+    {
+      "date": "2026-08-16",
+      "count": 24
+    },
+    {
+      "date": "2026-08-17",
+      "count": 24
+    },
+    {
+      "date": "2026-08-18",
+      "count": 24
+    },
+    {
+      "date": "2026-08-19",
+      "count": 24
+    },
+    {
+      "date": "2026-08-20",
+      "count": 24
+    }
+  ],
+  "compute linode/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 24
+    },
+    {
+      "date": "2026-08-19",
+      "count": 24
+    },
+    {
+      "date": "2026-08-20",
+      "count": 24
+    }
+  ],
+  "compute oci/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 8
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    }
+  ],
+  "compute oci/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 8
+    },
+    {
+      "date": "2026-08-12",
+      "count": 8
+    },
+    {
+      "date": "2026-08-13",
+      "count": 8
+    },
+    {
+      "date": "2026-08-14",
+      "count": 8
+    },
+    {
+      "date": "2026-08-15",
+      "count": 8
+    },
+    {
+      "date": "2026-08-16",
+      "count": 8
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-18",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 8
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    }
+  ],
+  "compute oci/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 8
+    },
+    {
+      "date": "2026-08-12",
+      "count": 8
+    },
+    {
+      "date": "2026-08-13",
+      "count": 8
+    },
+    {
+      "date": "2026-08-14",
+      "count": 8
+    },
+    {
+      "date": "2026-08-15",
+      "count": 8
+    },
+    {
+      "date": "2026-08-16",
+      "count": 8
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-18",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 8
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    }
+  ],
+  "compute oci/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 8
+    },
+    {
+      "date": "2026-08-20",
+      "count": 8
+    }
+  ],
+  "compute vultr/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 25
+    },
+    {
+      "date": "2026-08-19",
+      "count": 25
+    },
+    {
+      "date": "2026-08-20",
+      "count": 25
+    }
+  ],
+  "compute vultr/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 23
+    },
+    {
+      "date": "2026-08-12",
+      "count": 23
+    },
+    {
+      "date": "2026-08-13",
+      "count": 23
+    },
+    {
+      "date": "2026-08-14",
+      "count": 23
+    },
+    {
+      "date": "2026-08-15",
+      "count": 23
+    },
+    {
+      "date": "2026-08-16",
+      "count": 23
+    },
+    {
+      "date": "2026-08-17",
+      "count": 23
+    },
+    {
+      "date": "2026-08-18",
+      "count": 23
+    },
+    {
+      "date": "2026-08-19",
+      "count": 23
+    },
+    {
+      "date": "2026-08-20",
+      "count": 23
+    }
+  ],
+  "compute vultr/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 24
+    },
+    {
+      "date": "2026-08-12",
+      "count": 24
+    },
+    {
+      "date": "2026-08-13",
+      "count": 24
+    },
+    {
+      "date": "2026-08-14",
+      "count": 24
+    },
+    {
+      "date": "2026-08-15",
+      "count": 24
+    },
+    {
+      "date": "2026-08-16",
+      "count": 24
+    },
+    {
+      "date": "2026-08-17",
+      "count": 24
+    },
+    {
+      "date": "2026-08-18",
+      "count": 25
+    },
+    {
+      "date": "2026-08-19",
+      "count": 25
+    },
+    {
+      "date": "2026-08-20",
+      "count": 25
+    }
+  ],
+  "compute vultr/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 25
+    },
+    {
+      "date": "2026-08-19",
+      "count": 25
+    },
+    {
+      "date": "2026-08-20",
+      "count": 25
+    }
+  ],
+  "egress aws/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress aws/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress aws/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress aws/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress azure/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress azure/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress azure/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress azure/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress backblaze/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress backblaze/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress backblaze/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress cloudflare/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress cloudflare/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress cloudflare/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress cloudflare/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress digitalocean/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress digitalocean/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress digitalocean/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress digitalocean/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress gcp/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress gcp/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress gcp/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress gcp/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress hetzner/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress hetzner/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress hetzner/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress hetzner/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress linode/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress linode/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress linode/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress linode/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress oci/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress oci/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress oci/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress oci/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress vultr/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress vultr/eu-central": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress vultr/us-east": [
+    {
+      "date": "2026-08-11",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-13",
+      "count": 1
+    },
+    {
+      "date": "2026-08-14",
+      "count": 1
+    },
+    {
+      "date": "2026-08-15",
+      "count": 1
+    },
+    {
+      "date": "2026-08-16",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 1
+    },
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "egress vultr/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage aws/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage aws/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage aws/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage aws/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage azure/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage azure/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage azure/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage azure/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage digitalocean/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage digitalocean/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage digitalocean/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage digitalocean/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage gcp/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage gcp/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage gcp/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage gcp/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage hetzner/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage hetzner/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage hetzner/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage hetzner/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage linode/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage linode/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage linode/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage linode/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage oci/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage oci/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage oci/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage oci/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage vultr/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage vultr/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage vultr/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "storage vultr/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 aws/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 aws/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 aws/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 aws/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 azure/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 azure/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 azure/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 azure/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 digitalocean/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 digitalocean/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 digitalocean/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 digitalocean/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 gcp/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 gcp/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 gcp/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 gcp/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 hetzner/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 hetzner/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 hetzner/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 hetzner/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 linode/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 linode/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 linode/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 linode/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 oci/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 oci/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 oci/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 oci/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 vultr/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 vultr/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 vultr/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "ipv4 vultr/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "interregion aws/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion aws/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion aws/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion aws/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion azure/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion azure/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion azure/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion azure/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion digitalocean/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion digitalocean/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion digitalocean/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion digitalocean/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion gcp/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion gcp/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion gcp/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion gcp/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion hetzner/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion hetzner/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion hetzner/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion hetzner/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion linode/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion linode/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion linode/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion linode/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion oci/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion oci/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion oci/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion oci/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion vultr/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion vultr/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion vultr/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "interregion vultr/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 3
+    },
+    {
+      "date": "2026-08-19",
+      "count": 3
+    },
+    {
+      "date": "2026-08-20",
+      "count": 3
+    }
+  ],
+  "objectstorage aws/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage aws/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage aws/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage aws/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage azure/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage azure/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage azure/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage azure/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage backblaze/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage backblaze/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage backblaze/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage cloudflare/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage cloudflare/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage cloudflare/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage cloudflare/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage digitalocean/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage digitalocean/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage digitalocean/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage digitalocean/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage gcp/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage gcp/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage gcp/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage gcp/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage linode/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage linode/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage linode/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage linode/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage oci/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage oci/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage oci/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage oci/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage vultr/ap-southeast": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage vultr/eu-central": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage vultr/us-east": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "objectstorage vultr/us-west": [
+    {
+      "date": "2026-08-18",
+      "count": 1
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ]
+}
