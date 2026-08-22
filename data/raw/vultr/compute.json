@@ -552,7 +552,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -603,7 +602,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -941,6 +939,7 @@
     "atl",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -993,6 +992,7 @@
     "atl",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -1038,10 +1038,8 @@
    "type": "vhf",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "lax",
-    "atl",
     "ams",
     "lhr",
     "sjc",
@@ -1087,7 +1085,6 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
-    "ord",
     "sea",
     "lhr",
     "sjc",
@@ -1142,6 +1139,7 @@
     "waw",
     "mad",
     "icn",
+    "sgp",
     "sto",
     "mex",
     "bom",
@@ -1190,6 +1188,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2188,6 +2187,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2252,6 +2252,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -4167,6 +4168,7 @@
    "type": "voc",
    "locations": [
     "ewr",
+    "dfw",
     "lax",
     "ams",
     "lhr",
@@ -4372,6 +4374,7 @@
    "type": "voc",
    "locations": [
     "ewr",
+    "dfw",
     "lax",
     "ams",
     "lhr",
@@ -4633,6 +4636,7 @@
    "locations": [
     "ewr",
     "ord",
+    "dfw",
     "sea",
     "lax",
     "ams",
@@ -4787,6 +4791,7 @@
    "type": "voc",
    "locations": [
     "ewr",
+    "dfw",
     "lax",
     "ams",
     "lhr",
@@ -4887,6 +4892,7 @@
    "locations": [
     "ewr",
     "ord",
+    "dfw",
     "sea",
     "lax",
     "ams",
@@ -4938,6 +4944,7 @@
    "locations": [
     "ewr",
     "ord",
+    "dfw",
     "sea",
     "lax",
     "ams",
@@ -4989,6 +4996,7 @@
    "locations": [
     "ewr",
     "ord",
+    "dfw",
     "sea",
     "lax",
     "ams",
@@ -5037,6 +5045,7 @@
    "type": "voc",
    "locations": [
     "ewr",
+    "dfw",
     "lax",
     "ams",
     "lhr",
@@ -5083,6 +5092,7 @@
    "type": "vcg",
    "locations": [
     "ewr",
+    "ord",
     "atl",
     "sjc",
     "sgp",
@@ -5115,6 +5125,7 @@
    "type": "vcg",
    "locations": [
     "ewr",
+    "ord",
     "atl",
     "sjc",
     "nrt",
@@ -5147,7 +5158,8 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
-    "ewr"
+    "ewr",
+    "blr"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -5175,7 +5187,7 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
-    "ewr",
+    "ord",
     "atl",
     "sjc",
     "nrt",
@@ -5207,7 +5219,9 @@
    "hourly_cost_preemptible": 0.144,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [],
+   "locations": [
+    "blr"
+   ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -5259,7 +5273,9 @@
    "hourly_cost_preemptible": 0.432,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [],
+   "locations": [
+    "blr"
+   ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -5494,8 +5510,9 @@
    "invoice_type": "hourly",
    "type": "vdm",
    "locations": [
-    "nrt",
-    "sgp"
+    "syd",
+    "sgp",
+    "blr"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -6660,7 +6677,8 @@
     "ord",
     "sea",
     "atl",
-    "ams"
+    "ams",
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6690,7 +6708,8 @@
     "ord",
     "sea",
     "atl",
-    "ams"
+    "ams",
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6718,8 +6737,7 @@
    "type": "vx1",
    "locations": [
     "ord",
-    "sea",
-    "atl"
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6747,8 +6765,7 @@
    "type": "vx1",
    "locations": [
     "ord",
-    "sea",
-    "atl"
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
