@@ -281,14 +281,27 @@ export default async function collect() {
   const now = new Date().toISOString();
   const out = [];
 
-  const live = {
-    aws: await awsSchedules(),
-    azure: await azureSchedules(),
-    oci: await ociSchedules(),
+  // One provider's endpoint failing must not zero the other eight (or the
+  // curated entries, which need no network at all): on 2026-08-23 a single
+  // Azure 429 emptied the entire dataset and tripped 71 regression errors.
+  // The failed provider still publishes nothing, so the regression check
+  // blocks the run for THAT provider — fail-closed is preserved, scoped.
+  const live = {};
+  const parts = {
+    aws: awsSchedules,
+    azure: azureSchedules,
+    oci: ociSchedules,
+    // Only supersedes the curated entry when a token is available.
+    hetzner: hetznerSchedules,
   };
-  // Only supersedes the curated entry when a token is available.
-  const hetzner = await hetznerSchedules();
-  if (hetzner) live.hetzner = hetzner;
+  for (const [provider, fn] of Object.entries(parts)) {
+    try {
+      const sched = await fn();
+      if (sched) live[provider] = sched;
+    } catch (err) {
+      console.log(`  egress ${provider} part failed: ${err.message} — continuing without it`);
+    }
+  }
 
   for (const [provider, byRegion] of Object.entries(live)) {
     for (const [region, sched] of Object.entries(byRegion)) {

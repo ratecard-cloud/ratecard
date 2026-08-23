@@ -14,22 +14,41 @@ export const REGIONS = Object.keys(
 );
 
 /** Fetch JSON with a timeout and an honest UA. Throws on non-2xx. */
-export async function getJSON(url, { headers = {}, timeout = 60_000 } = {}) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), timeout);
-  try {
-    const res = await fetch(url, {
-      signal: ctrl.signal,
-      headers: {
-        'user-agent': 'RateCard/0.1 (+https://ratecard.cloud; pricing index bot)',
-        accept: 'application/json',
-        ...headers,
-      },
-    });
-    if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
-    return await res.json();
-  } finally {
-    clearTimeout(t);
+// Azure's Retail API rate-limits bursts (it 429'd the 2026-08-23 cron and took
+// the whole egress dataset with it); transient 5xx happens everywhere. Retried
+// with exponential backoff, honouring Retry-After. Timeouts are NOT retried —
+// each attempt already waits up to `timeout`, and a host that slow will not
+// recover inside this run.
+const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
+
+export async function getJSON(url, { headers = {}, timeout = 60_000, retries = 3, backoffMs = 1500 } = {}) {
+  for (let attempt = 0; ; attempt++) {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), timeout);
+    let res = null;
+    let err = null;
+    try {
+      res = await fetch(url, {
+        signal: ctrl.signal,
+        headers: {
+          'user-agent': 'RateCard/0.1 (+https://ratecard.cloud; pricing index bot)',
+          accept: 'application/json',
+          ...headers,
+        },
+      });
+      if (res.ok) return await res.json();
+    } catch (e) {
+      err = e;
+    } finally {
+      clearTimeout(t);
+    }
+    const retryable = res ? RETRYABLE_STATUS.has(res.status) : err?.name !== 'AbortError';
+    if (!retryable || attempt >= retries) {
+      throw err ?? new Error(`${res.status} ${res.statusText} for ${url}`);
+    }
+    const retryAfter = (Number(res?.headers.get('retry-after')) || 0) * 1000;
+    const wait = Math.min(Math.max(retryAfter, backoffMs * 2 ** attempt), 30_000);
+    await new Promise((r) => setTimeout(r, wait));
   }
 }
 
