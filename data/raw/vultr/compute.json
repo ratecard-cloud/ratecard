@@ -984,9 +984,9 @@
    "locations": [
     "ewr",
     "ord",
-    "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "sjc",
@@ -1093,7 +1093,6 @@
     "waw",
     "mad",
     "icn",
-    "mia",
     "sgp",
     "sto",
     "mex",
@@ -1137,6 +1136,7 @@
     "waw",
     "mad",
     "icn",
+    "sgp",
     "sto",
     "mex",
     "bom",
@@ -1185,6 +1185,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -5219,7 +5220,6 @@
    "type": "vcg",
    "locations": [
     "ewr",
-    "syd",
     "blr"
    ],
    "cpu_vendor": "Intel",
@@ -5277,7 +5277,6 @@
    "type": "vcg",
    "locations": [
     "ewr",
-    "syd",
     "blr"
    ],
    "cpu_vendor": "Intel",
@@ -5306,7 +5305,6 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
-    "sjc",
     "sgp",
     "blr"
    ],
@@ -5413,7 +5411,9 @@
    "hourly_cost_preemptible": 1.884,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [],
+   "locations": [
+    "blr"
+   ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
