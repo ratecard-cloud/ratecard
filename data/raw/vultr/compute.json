@@ -935,9 +935,9 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
-    "fra",
     "sjc",
     "syd",
     "yto",
@@ -983,7 +983,6 @@
    "type": "vhf",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "lax",
     "ams",
@@ -1033,7 +1032,6 @@
    "type": "vhf",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "lax",
     "ams",
@@ -1081,9 +1079,7 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
-    "ord",
     "sea",
-    "ams",
     "lhr",
     "sjc",
     "syd",
@@ -1421,6 +1417,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1482,6 +1479,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1503,6 +1501,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -2178,7 +2177,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2243,7 +2241,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -3213,7 +3210,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -3330,7 +3326,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -3624,7 +3619,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -3691,7 +3685,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -4269,7 +4262,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4647,7 +4639,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4903,7 +4894,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4955,7 +4945,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -5006,7 +4995,6 @@
     "fra",
     "sjc",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -5190,6 +5178,7 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
+    "ewr",
     "ord",
     "atl",
     "sjc",
@@ -5282,7 +5271,7 @@
    "invoice_type": "hourly",
    "type": "vcg",
    "locations": [
-    "syd"
+    "blr"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -5519,9 +5508,9 @@
    "invoice_type": "hourly",
    "type": "vdm",
    "locations": [
+    "lhr",
     "syd",
-    "sgp",
-    "blr"
+    "sgp"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -6682,8 +6671,10 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
     "sea",
+    "atl",
     "ams"
    ],
    "cpu_vendor": "AMD",
@@ -6711,8 +6702,10 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
     "sea",
+    "atl",
     "ams"
    ],
    "cpu_vendor": "AMD",
@@ -6740,8 +6733,10 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
-    "sea"
+    "sea",
+    "atl"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6768,8 +6763,10 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
-    "sea"
+    "sea",
+    "atl"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",

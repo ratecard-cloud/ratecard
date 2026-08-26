@@ -6381,5 +6381,13 @@
   "region": "eu-central",
   "sku": "vhf-4c-16gb",
   "monthly": 96
+ },
+ {
+  "date": "2026-08-26",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "eu-central",
+  "sku": "vhf-4c-16gb",
+  "monthly": 96
  }
 ]

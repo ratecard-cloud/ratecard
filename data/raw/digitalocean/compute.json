@@ -122,8 +122,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -158,8 +157,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -261,8 +259,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -297,8 +294,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -308,6 +304,33 @@
      "type": "local",
      "size": {
       "amount": 70,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-1gb-30gb",
+   "memory": 1024,
+   "vcpus": 1,
+   "disk": 30,
+   "transfer": 1,
+   "price_monthly": 17.84,
+   "price_hourly": 0.02398,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
       "unit": "gib"
      }
     }
@@ -343,6 +366,60 @@
      "type": "local",
      "size": {
       "amount": 60,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-1gb-50gb",
+   "memory": 1024,
+   "vcpus": 1,
+   "disk": 50,
+   "transfer": 1,
+   "price_monthly": 19.87,
+   "price_hourly": 0.02671,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-2gb-30gb",
+   "memory": 2048,
+   "vcpus": 1,
+   "disk": 30,
+   "transfer": 2,
+   "price_monthly": 20.84,
+   "price_hourly": 0.02801,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
       "unit": "gib"
      }
     }
@@ -400,8 +477,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -411,6 +487,87 @@
      "type": "local",
      "size": {
       "amount": 60,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-2gb-50gb",
+   "memory": 2048,
+   "vcpus": 1,
+   "disk": 50,
+   "transfer": 2,
+   "price_monthly": 22.88,
+   "price_hourly": 0.03075,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-1gb-80gb",
+   "memory": 1024,
+   "vcpus": 1,
+   "disk": 80,
+   "transfer": 1,
+   "price_monthly": 22.93,
+   "price_hourly": 0.03082,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-3gb-30gb",
+   "memory": 3072,
+   "vcpus": 1,
+   "disk": 30,
+   "transfer": 2,
+   "price_monthly": 23.85,
+   "price_hourly": 0.03206,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
       "unit": "gib"
      }
     }
@@ -436,8 +593,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -480,6 +636,60 @@
    "disk_info": [
     {
      "type": "local",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-3gb-50gb",
+   "memory": 3072,
+   "vcpus": 1,
+   "disk": 50,
+   "transfer": 2,
+   "price_monthly": 25.89,
+   "price_hourly": 0.0348,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-2gb-80gb",
+   "memory": 2048,
+   "vcpus": 1,
+   "disk": 80,
+   "transfer": 2,
+   "price_monthly": 25.94,
+   "price_hourly": 0.03487,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
      "size": {
       "amount": 80,
       "unit": "gib"
@@ -539,8 +749,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -548,6 +757,33 @@
    "disk_info": [
     {
      "type": "local",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-1vcpu-3gb-80gb",
+   "memory": 3072,
+   "vcpus": 1,
+   "disk": 80,
+   "transfer": 2,
+   "price_monthly": 28.95,
+   "price_hourly": 0.03891,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
      "size": {
       "amount": 80,
       "unit": "gib"
@@ -575,8 +811,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -586,6 +821,141 @@
      "type": "local",
      "size": {
       "amount": 120,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-2gb-30gb",
+   "memory": 2048,
+   "vcpus": 2,
+   "disk": 30,
+   "transfer": 3,
+   "price_monthly": 32.61,
+   "price_hourly": 0.04383,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-2gb-50gb",
+   "memory": 2048,
+   "vcpus": 2,
+   "disk": 50,
+   "transfer": 3,
+   "price_monthly": 34.65,
+   "price_hourly": 0.04657,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-2gb-80gb",
+   "memory": 2048,
+   "vcpus": 2,
+   "disk": 80,
+   "transfer": 3,
+   "price_monthly": 37.71,
+   "price_hourly": 0.05069,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-4gb-30gb",
+   "memory": 4096,
+   "vcpus": 2,
+   "disk": 30,
+   "transfer": 4,
+   "price_monthly": 38.63,
+   "price_hourly": 0.05192,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-4gb-50gb",
+   "memory": 4096,
+   "vcpus": 2,
+   "disk": 50,
+   "transfer": 4,
+   "price_monthly": 40.67,
+   "price_hourly": 0.05466,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
       "unit": "gib"
      }
     }
@@ -655,6 +1025,87 @@
    ]
   },
   {
+   "slug": "s5-2vcpu-4gb-80gb",
+   "memory": 4096,
+   "vcpus": 2,
+   "disk": 80,
+   "transfer": 4,
+   "price_monthly": 43.72,
+   "price_hourly": 0.05876,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-6gb-30gb",
+   "memory": 6144,
+   "vcpus": 2,
+   "disk": 30,
+   "transfer": 4,
+   "price_monthly": 44.64,
+   "price_hourly": 0.06,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-6gb-50gb",
+   "memory": 6144,
+   "vcpus": 2,
+   "disk": 50,
+   "transfer": 4,
+   "price_monthly": 46.68,
+   "price_hourly": 0.06274,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "c2-2vcpu-4gb",
    "memory": 4096,
    "vcpus": 2,
@@ -704,8 +1155,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -750,6 +1200,33 @@
      "type": "local",
      "size": {
       "amount": 160,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-2vcpu-6gb-80gb",
+   "memory": 6144,
+   "vcpus": 2,
+   "disk": 80,
+   "transfer": 4,
+   "price_monthly": 49.74,
+   "price_hourly": 0.06685,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -807,8 +1284,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -818,6 +1294,87 @@
      "type": "local",
      "size": {
       "amount": 160,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-4gb-30gb",
+   "memory": 4096,
+   "vcpus": 2,
+   "disk": 30,
+   "transfer": 4,
+   "price_monthly": 56.75,
+   "price_hourly": 0.07628,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-4gb-50gb",
+   "memory": 4096,
+   "vcpus": 2,
+   "disk": 50,
+   "transfer": 4,
+   "price_monthly": 58.79,
+   "price_hourly": 0.07902,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-4gb-80gb",
+   "memory": 4096,
+   "vcpus": 2,
+   "disk": 80,
+   "transfer": 4,
+   "price_monthly": 61.84,
+   "price_hourly": 0.08312,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -848,6 +1405,33 @@
      "type": "local",
      "size": {
       "amount": 125,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-4vcpu-4gb-30gb",
+   "memory": 4096,
+   "vcpus": 4,
+   "disk": 30,
+   "transfer": 4,
+   "price_monthly": 62.17,
+   "price_hourly": 0.08356,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
       "unit": "gib"
      }
     }
@@ -903,8 +1487,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -914,6 +1497,60 @@
      "type": "local",
      "size": {
       "amount": 240,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-4vcpu-4gb-50gb",
+   "memory": 4096,
+   "vcpus": 4,
+   "disk": 50,
+   "transfer": 4,
+   "price_monthly": 64.21,
+   "price_hourly": 0.0863,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-4vcpu-4gb-80gb",
+   "memory": 4096,
+   "vcpus": 4,
+   "disk": 80,
+   "transfer": 4,
+   "price_monthly": 67.27,
+   "price_hourly": 0.09042,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -950,6 +1587,114 @@
    ]
   },
   {
+   "slug": "g5-2vcpu-8gb-30gb",
+   "memory": 8192,
+   "vcpus": 2,
+   "disk": 30,
+   "transfer": 4,
+   "price_monthly": 68.77,
+   "price_hourly": 0.09243,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-8gb-50gb",
+   "memory": 8192,
+   "vcpus": 2,
+   "disk": 50,
+   "transfer": 4,
+   "price_monthly": 70.81,
+   "price_hourly": 0.09517,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-8gb-80gb",
+   "memory": 8192,
+   "vcpus": 2,
+   "disk": 80,
+   "transfer": 4,
+   "price_monthly": 73.87,
+   "price_hourly": 0.09929,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-4vcpu-8gb-30gb",
+   "memory": 8192,
+   "vcpus": 4,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 74.2,
+   "price_hourly": 0.09973,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "g-2vcpu-8gb-intel",
    "memory": 8192,
    "vcpus": 2,
@@ -978,6 +1723,33 @@
    ]
   },
   {
+   "slug": "s5-4vcpu-8gb-50gb",
+   "memory": 8192,
+   "vcpus": 4,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 76.24,
+   "price_hourly": 0.10247,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "gd-2vcpu-8gb-intel",
    "memory": 8192,
    "vcpus": 2,
@@ -1000,6 +1772,87 @@
      "type": "local",
      "size": {
       "amount": 60,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-4vcpu-8gb-80gb",
+   "memory": 8192,
+   "vcpus": 4,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 79.29,
+   "price_hourly": 0.10657,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-12gb-30gb",
+   "memory": 12288,
+   "vcpus": 2,
+   "disk": 30,
+   "transfer": 4,
+   "price_monthly": 80.8,
+   "price_hourly": 0.1086,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-12gb-50gb",
+   "memory": 12288,
+   "vcpus": 2,
+   "disk": 50,
+   "transfer": 4,
+   "price_monthly": 82.84,
+   "price_hourly": 0.11134,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
       "unit": "gib"
      }
     }
@@ -1099,6 +1952,87 @@
    ]
   },
   {
+   "slug": "g5-2vcpu-12gb-80gb",
+   "memory": 12288,
+   "vcpus": 2,
+   "disk": 80,
+   "transfer": 4,
+   "price_monthly": 85.9,
+   "price_hourly": 0.11546,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-4vcpu-12gb-30gb",
+   "memory": 12288,
+   "vcpus": 4,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 86.22,
+   "price_hourly": 0.11589,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-4vcpu-12gb-50gb",
+   "memory": 12288,
+   "vcpus": 4,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 88.26,
+   "price_hourly": 0.11863,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "g6_5-2vcpu-8gb",
    "memory": 8192,
    "vcpus": 2,
@@ -1129,6 +2063,60 @@
    ]
   },
   {
+   "slug": "s5-4vcpu-12gb-80gb",
+   "memory": 12288,
+   "vcpus": 4,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 91.32,
+   "price_hourly": 0.12274,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-6vcpu-6gb-30gb",
+   "memory": 6144,
+   "vcpus": 6,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 91.73,
+   "price_hourly": 0.12329,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "g5_5-2vcpu-8gb-intel",
    "memory": 8192,
    "vcpus": 2,
@@ -1151,6 +2139,60 @@
      "type": "local",
      "size": {
       "amount": 165,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-16gb-30gb",
+   "memory": 16384,
+   "vcpus": 2,
+   "disk": 30,
+   "transfer": 4,
+   "price_monthly": 92.83,
+   "price_hourly": 0.12477,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-6vcpu-6gb-50gb",
+   "memory": 6144,
+   "vcpus": 6,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 93.76,
+   "price_hourly": 0.12602,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
       "unit": "gib"
      }
     }
@@ -1187,6 +2229,33 @@
    ]
   },
   {
+   "slug": "g5-2vcpu-16gb-50gb",
+   "memory": 16384,
+   "vcpus": 2,
+   "disk": 50,
+   "transfer": 4,
+   "price_monthly": 94.87,
+   "price_hourly": 0.12751,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "s-4vcpu-16gb-320gb-intel",
    "memory": 16384,
    "vcpus": 4,
@@ -1206,8 +2275,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1252,6 +2320,60 @@
      "type": "local",
      "size": {
       "amount": 320,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-6vcpu-6gb-80gb",
+   "memory": 6144,
+   "vcpus": 6,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 96.82,
+   "price_hourly": 0.13013,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-2vcpu-16gb-80gb",
+   "memory": 16384,
+   "vcpus": 2,
+   "disk": 80,
+   "transfer": 4,
+   "price_monthly": 97.92,
+   "price_hourly": 0.13161,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 4000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -1344,6 +2466,33 @@
    ]
   },
   {
+   "slug": "s5-6vcpu-12gb-30gb",
+   "memory": 12288,
+   "vcpus": 6,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 109.77,
+   "price_hourly": 0.14754,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "m3-2vcpu-16gb-intel",
    "memory": 16384,
    "vcpus": 2,
@@ -1366,6 +2515,60 @@
      "type": "local",
      "size": {
       "amount": 150,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-8gb-30gb",
+   "memory": 8192,
+   "vcpus": 4,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 110.44,
+   "price_hourly": 0.14844,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-6vcpu-12gb-50gb",
+   "memory": 12288,
+   "vcpus": 6,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 111.8,
+   "price_hourly": 0.15027,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
       "unit": "gib"
      }
     }
@@ -1423,8 +2626,7 @@
     "ric1",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1434,6 +2636,114 @@
      "type": "local",
      "size": {
       "amount": 320,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-8gb-50gb",
+   "memory": 8192,
+   "vcpus": 4,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 112.48,
+   "price_hourly": 0.15118,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-6vcpu-12gb-80gb",
+   "memory": 12288,
+   "vcpus": 6,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 114.86,
+   "price_hourly": 0.15438,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-8gb-80gb",
+   "memory": 8192,
+   "vcpus": 4,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 115.53,
+   "price_hourly": 0.15528,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-8vcpu-8gb-30gb",
+   "memory": 8192,
+   "vcpus": 8,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 121.28,
+   "price_hourly": 0.16301,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
       "unit": "gib"
      }
     }
@@ -1462,6 +2772,33 @@
      "type": "local",
      "size": {
       "amount": 100,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-8vcpu-8gb-50gb",
+   "memory": 8192,
+   "vcpus": 8,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 123.32,
+   "price_hourly": 0.16575,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
       "unit": "gib"
      }
     }
@@ -1528,6 +2865,60 @@
    ]
   },
   {
+   "slug": "s5-8vcpu-8gb-80gb",
+   "memory": 8192,
+   "vcpus": 8,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 126.38,
+   "price_hourly": 0.16987,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-6vcpu-18gb-30gb",
+   "memory": 18432,
+   "vcpus": 6,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 127.81,
+   "price_hourly": 0.17179,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "s-8vcpu-16gb-480gb-intel",
    "memory": 16384,
    "vcpus": 8,
@@ -1547,8 +2938,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -1558,6 +2948,33 @@
      "type": "local",
      "size": {
       "amount": 480,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-6vcpu-18gb-50gb",
+   "memory": 18432,
+   "vcpus": 6,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 129.84,
+   "price_hourly": 0.17452,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
       "unit": "gib"
      }
     }
@@ -1652,6 +3069,60 @@
    ]
   },
   {
+   "slug": "s5-6vcpu-18gb-80gb",
+   "memory": 18432,
+   "vcpus": 6,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 132.9,
+   "price_hourly": 0.17863,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-16gb-30gb",
+   "memory": 16384,
+   "vcpus": 4,
+   "disk": 30,
+   "transfer": 5,
+   "price_monthly": 134.49,
+   "price_hourly": 0.18077,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "gd-4vcpu-16gb",
    "memory": 16384,
    "vcpus": 4,
@@ -1682,6 +3153,33 @@
    ]
   },
   {
+   "slug": "g5-4vcpu-16gb-50gb",
+   "memory": 16384,
+   "vcpus": 4,
+   "disk": 50,
+   "transfer": 5,
+   "price_monthly": 136.53,
+   "price_hourly": 0.18351,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "so1_5-2vcpu-16gb-intel",
    "memory": 16384,
    "vcpus": 2,
@@ -1704,6 +3202,114 @@
      "type": "local",
      "size": {
       "amount": 450,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-16gb-80gb",
+   "memory": 16384,
+   "vcpus": 4,
+   "disk": 80,
+   "transfer": 5,
+   "price_monthly": 139.59,
+   "price_hourly": 0.18762,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-8vcpu-16gb-30gb",
+   "memory": 16384,
+   "vcpus": 8,
+   "disk": 30,
+   "transfer": 6,
+   "price_monthly": 145.34,
+   "price_hourly": 0.19535,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-8vcpu-16gb-50gb",
+   "memory": 16384,
+   "vcpus": 8,
+   "disk": 50,
+   "transfer": 6,
+   "price_monthly": 147.37,
+   "price_hourly": 0.19808,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-8vcpu-16gb-80gb",
+   "memory": 16384,
+   "vcpus": 8,
+   "disk": 80,
+   "transfer": 6,
+   "price_monthly": 150.43,
+   "price_hourly": 0.20219,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -1766,6 +3372,60 @@
    ]
   },
   {
+   "slug": "g5-4vcpu-24gb-30gb",
+   "memory": 24576,
+   "vcpus": 4,
+   "disk": 30,
+   "transfer": 6,
+   "price_monthly": 158.54,
+   "price_hourly": 0.21309,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-24gb-50gb",
+   "memory": 24576,
+   "vcpus": 4,
+   "disk": 50,
+   "transfer": 6,
+   "price_monthly": 160.58,
+   "price_hourly": 0.21583,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "c5-4vcpu-8gb-intel",
    "memory": 8192,
    "vcpus": 4,
@@ -1818,6 +3478,33 @@
      "type": "local",
      "size": {
       "amount": 450,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-24gb-80gb",
+   "memory": 24576,
+   "vcpus": 4,
+   "disk": 80,
+   "transfer": 6,
+   "price_monthly": 163.64,
+   "price_hourly": 0.21995,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -1917,6 +3604,87 @@
    ]
   },
   {
+   "slug": "s5-8vcpu-24gb-30gb",
+   "memory": 24576,
+   "vcpus": 8,
+   "disk": 30,
+   "transfer": 7,
+   "price_monthly": 169.39,
+   "price_hourly": 0.22767,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-8vcpu-24gb-50gb",
+   "memory": 24576,
+   "vcpus": 8,
+   "disk": 50,
+   "transfer": 7,
+   "price_monthly": 171.43,
+   "price_hourly": 0.23042,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "s5-8vcpu-24gb-80gb",
+   "memory": 24576,
+   "vcpus": 8,
+   "disk": 80,
+   "transfer": 7,
+   "price_monthly": 174.48,
+   "price_hourly": 0.23452,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 Shared",
+   "networking_throughput": 2000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "g6_5-4vcpu-16gb",
    "memory": 16384,
    "vcpus": 4,
@@ -1947,6 +3715,33 @@
    ]
   },
   {
+   "slug": "g5-4vcpu-32gb-30gb",
+   "memory": 32768,
+   "vcpus": 4,
+   "disk": 30,
+   "transfer": 6,
+   "price_monthly": 182.6,
+   "price_hourly": 0.24543,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "g5_5-4vcpu-16gb-intel",
    "memory": 16384,
    "vcpus": 4,
@@ -1969,6 +3764,60 @@
      "type": "local",
      "size": {
       "amount": 330,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-32gb-50gb",
+   "memory": 32768,
+   "vcpus": 4,
+   "disk": 50,
+   "transfer": 6,
+   "price_monthly": 184.63,
+   "price_hourly": 0.24816,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-4vcpu-32gb-80gb",
+   "memory": 32768,
+   "vcpus": 4,
+   "disk": 80,
+   "transfer": 6,
+   "price_monthly": 187.69,
+   "price_hourly": 0.25227,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 8000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -2024,8 +3873,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic Intel",
@@ -2099,6 +3947,33 @@
    ]
   },
   {
+   "slug": "g5-8vcpu-16gb-30gb",
+   "memory": 16384,
+   "vcpus": 8,
+   "disk": 30,
+   "transfer": 6,
+   "price_monthly": 217.82,
+   "price_hourly": 0.29277,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "c-8-intel",
    "memory": 16384,
    "vcpus": 8,
@@ -2127,6 +4002,33 @@
    ]
   },
   {
+   "slug": "g5-8vcpu-16gb-50gb",
+   "memory": 16384,
+   "vcpus": 8,
+   "disk": 50,
+   "transfer": 6,
+   "price_monthly": 219.86,
+   "price_hourly": 0.29551,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "m3-4vcpu-32gb-intel",
    "memory": 32768,
    "vcpus": 4,
@@ -2149,6 +4051,33 @@
      "type": "local",
      "size": {
       "amount": 300,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-8vcpu-16gb-80gb",
+   "memory": 16384,
+   "vcpus": 8,
+   "disk": 80,
+   "transfer": 6,
+   "price_monthly": 222.92,
+   "price_hourly": 0.29962,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -2331,6 +4260,87 @@
    ]
   },
   {
+   "slug": "g5-8vcpu-32gb-30gb",
+   "memory": 32768,
+   "vcpus": 8,
+   "disk": 30,
+   "transfer": 6,
+   "price_monthly": 265.92,
+   "price_hourly": 0.35742,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-8vcpu-32gb-50gb",
+   "memory": 32768,
+   "vcpus": 8,
+   "disk": 50,
+   "transfer": 6,
+   "price_monthly": 267.96,
+   "price_hourly": 0.36016,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-8vcpu-32gb-80gb",
+   "memory": 32768,
+   "vcpus": 8,
+   "disk": 80,
+   "transfer": 6,
+   "price_monthly": 271.02,
+   "price_hourly": 0.36427,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "gd-8vcpu-32gb",
    "memory": 32768,
    "vcpus": 8,
@@ -2417,6 +4427,60 @@
    ]
   },
   {
+   "slug": "g5-8vcpu-48gb-30gb",
+   "memory": 49152,
+   "vcpus": 8,
+   "disk": 30,
+   "transfer": 7,
+   "price_monthly": 314.03,
+   "price_hourly": 0.42208,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-8vcpu-48gb-50gb",
+   "memory": 49152,
+   "vcpus": 8,
+   "disk": 50,
+   "transfer": 7,
+   "price_monthly": 316.07,
+   "price_hourly": 0.42483,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "gd-8vcpu-32gb-intel",
    "memory": 32768,
    "vcpus": 8,
@@ -2439,6 +4503,33 @@
      "type": "local",
      "size": {
       "amount": 240,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-8vcpu-48gb-80gb",
+   "memory": 49152,
+   "vcpus": 8,
+   "disk": 80,
+   "transfer": 7,
+   "price_monthly": 319.13,
+   "price_hourly": 0.42894,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -2593,6 +4684,60 @@
    ]
   },
   {
+   "slug": "g5-8vcpu-64gb-30gb",
+   "memory": 65536,
+   "vcpus": 8,
+   "disk": 30,
+   "transfer": 7,
+   "price_monthly": 362.13,
+   "price_hourly": 0.48673,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-8vcpu-64gb-50gb",
+   "memory": 65536,
+   "vcpus": 8,
+   "disk": 50,
+   "transfer": 7,
+   "price_monthly": 364.17,
+   "price_hourly": 0.48948,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "g5_5-8vcpu-32gb-intel",
    "memory": 32768,
    "vcpus": 8,
@@ -2615,6 +4760,33 @@
      "type": "local",
      "size": {
       "amount": 660,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-8vcpu-64gb-80gb",
+   "memory": 65536,
+   "vcpus": 8,
+   "disk": 80,
+   "transfer": 7,
+   "price_monthly": 367.23,
+   "price_hourly": 0.49359,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 16000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -2709,6 +4881,60 @@
    ]
   },
   {
+   "slug": "g5-16vcpu-32gb-30gb",
+   "memory": 32768,
+   "vcpus": 16,
+   "disk": 30,
+   "transfer": 7,
+   "price_monthly": 432.58,
+   "price_hourly": 0.58142,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-32gb-50gb",
+   "memory": 32768,
+   "vcpus": 16,
+   "disk": 50,
+   "transfer": 7,
+   "price_monthly": 434.62,
+   "price_hourly": 0.58417,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "c-16-intel",
    "memory": 32768,
    "vcpus": 16,
@@ -2731,6 +4957,33 @@
      "type": "local",
      "size": {
       "amount": 200,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-32gb-80gb",
+   "memory": 32768,
+   "vcpus": 16,
+   "disk": 80,
+   "transfer": 7,
+   "price_monthly": 437.68,
+   "price_hourly": 0.58828,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -2941,6 +5194,87 @@
    ]
   },
   {
+   "slug": "g5-16vcpu-64gb-30gb",
+   "memory": 65536,
+   "vcpus": 16,
+   "disk": 30,
+   "transfer": 7,
+   "price_monthly": 528.79,
+   "price_hourly": 0.71074,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-64gb-50gb",
+   "memory": 65536,
+   "vcpus": 16,
+   "disk": 50,
+   "transfer": 7,
+   "price_monthly": 530.83,
+   "price_hourly": 0.71348,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-64gb-80gb",
+   "memory": 65536,
+   "vcpus": 16,
+   "disk": 80,
+   "transfer": 7,
+   "price_monthly": 533.89,
+   "price_hourly": 0.71759,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "gd-16vcpu-64gb",
    "memory": 65536,
    "vcpus": 16,
@@ -3053,6 +5387,87 @@
      "type": "local",
      "size": {
       "amount": 240,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-96gb-30gb",
+   "memory": 98304,
+   "vcpus": 16,
+   "disk": 30,
+   "transfer": 8,
+   "price_monthly": 625,
+   "price_hourly": 0.84005,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-96gb-50gb",
+   "memory": 98304,
+   "vcpus": 16,
+   "disk": 50,
+   "transfer": 8,
+   "price_monthly": 627.04,
+   "price_hourly": 0.8428,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-96gb-80gb",
+   "memory": 98304,
+   "vcpus": 16,
+   "disk": 80,
+   "transfer": 8,
+   "price_monthly": 630.1,
+   "price_hourly": 0.84691,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -3205,6 +5620,60 @@
    ]
   },
   {
+   "slug": "g5-16vcpu-128gb-30gb",
+   "memory": 131072,
+   "vcpus": 16,
+   "disk": 30,
+   "transfer": 8,
+   "price_monthly": 721.21,
+   "price_hourly": 0.96937,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 30,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-128gb-50gb",
+   "memory": 131072,
+   "vcpus": 16,
+   "disk": 50,
+   "transfer": 8,
+   "price_monthly": 723.25,
+   "price_hourly": 0.97211,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 50,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
    "slug": "g6_5-16vcpu-64gb",
    "memory": 65536,
    "vcpus": 16,
@@ -3229,6 +5698,33 @@
      "type": "local",
      "size": {
       "amount": 1300,
+      "unit": "gib"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "g5-16vcpu-128gb-80gb",
+   "memory": 131072,
+   "vcpus": 16,
+   "disk": 80,
+   "transfer": 8,
+   "price_monthly": 726.31,
+   "price_hourly": 0.97622,
+   "regions": [
+    "atl1",
+    "mem1",
+    "mkc1",
+    "ric1"
+   ],
+   "available": true,
+   "description": "v5 General Purpose",
+   "networking_throughput": 24000,
+   "disk_info": [
+    {
+     "type": "boot",
+     "size": {
+      "amount": 80,
       "unit": "gib"
      }
     }
@@ -3291,2312 +5787,15 @@
      }
     }
    ]
-  },
-  {
-   "slug": "m-16vcpu-128gb-intel",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 400,
-   "transfer": 8,
-   "price_monthly": 792,
-   "price_hourly": 1.17857,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m3-16vcpu-128gb",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 1200,
-   "transfer": 8,
-   "price_monthly": 832,
-   "price_hourly": 1.2381,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized 3x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1200,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c-32-intel",
-   "memory": 65536,
-   "vcpus": 32,
-   "disk": 400,
-   "transfer": 9,
-   "price_monthly": 874,
-   "price_hourly": 1.3006,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m3-16vcpu-128gb-intel",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 1200,
-   "transfer": 8,
-   "price_monthly": 880,
-   "price_hourly": 1.30952,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized 3x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1200,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c2-32vcpu-64gb-intel",
-   "memory": 65536,
-   "vcpus": 32,
-   "disk": 800,
-   "transfer": 9,
-   "price_monthly": 978,
-   "price_hourly": 1.45536,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c5-32vcpu-64gb",
-   "memory": 65536,
-   "vcpus": 32,
-   "disk": 2000,
-   "transfer": 9,
-   "price_monthly": 992,
-   "price_hourly": 1.47619,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "CPU Intensive 5x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2000,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c-48",
-   "memory": 98304,
-   "vcpus": 48,
-   "disk": 600,
-   "transfer": 11,
-   "price_monthly": 1008,
-   "price_hourly": 1.5,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "CPU-Optimized",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m-24vcpu-192gb",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 600,
-   "transfer": 9,
-   "price_monthly": 1008,
-   "price_hourly": 1.5,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g-32vcpu-128gb",
-   "memory": 131072,
-   "vcpus": 32,
-   "disk": 400,
-   "transfer": 8,
-   "price_monthly": 1008,
-   "price_hourly": 1.5,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "General Purpose",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so-16vcpu-128gb-intel",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 2400,
-   "transfer": 8,
-   "price_monthly": 1048,
-   "price_hourly": 1.55952,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Storage-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so-16vcpu-128gb",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 2400,
-   "transfer": 8,
-   "price_monthly": 1048,
-   "price_hourly": 1.55952,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Storage-Optimized",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m6-16vcpu-128gb",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 2400,
-   "transfer": 8,
-   "price_monthly": 1048,
-   "price_hourly": 1.55952,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized 6x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gd-32vcpu-128gb",
-   "memory": 131072,
-   "vcpus": 32,
-   "disk": 800,
-   "transfer": 8,
-   "price_monthly": 1088,
-   "price_hourly": 1.61905,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "General Purpose 2x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so1_5-16vcpu-128gb-intel",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 3600,
-   "transfer": 8,
-   "price_monthly": 1112,
-   "price_hourly": 1.65476,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Storage-Optimized 1.5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c2-48vcpu-96gb",
-   "memory": 98304,
-   "vcpus": 48,
-   "disk": 1200,
-   "transfer": 11,
-   "price_monthly": 1128,
-   "price_hourly": 1.67857,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "CPU-Optimized 2x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1200,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-l40sx1-48gb",
-   "memory": 65536,
-   "vcpus": 8,
-   "disk": 500,
-   "transfer": 10,
-   "price_monthly": 1168.08,
-   "price_hourly": 1.57,
-   "regions": [
-    "tor1"
-   ],
-   "available": true,
-   "description": "L40S GPU Droplet - 1X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 48,
-     "unit": "gib"
-    },
-    "model": "nvidia_l40s"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 500,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-6000adax1-48gb",
-   "memory": 65536,
-   "vcpus": 8,
-   "disk": 500,
-   "transfer": 10,
-   "price_monthly": 1168.08,
-   "price_hourly": 1.57,
-   "regions": [
-    "tor1"
-   ],
-   "available": true,
-   "description": "RTX 6000 Ada GPU Droplet - 1X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 48,
-     "unit": "gib"
-    },
-    "model": "nvidia_rtx6000_ada"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 500,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m-24vcpu-192gb-intel",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 600,
-   "transfer": 9,
-   "price_monthly": 1188,
-   "price_hourly": 1.76786,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g-32vcpu-128gb-intel",
-   "memory": 131072,
-   "vcpus": 32,
-   "disk": 480,
-   "transfer": 8,
-   "price_monthly": 1210,
-   "price_hourly": 1.8006,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose — Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 480,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m3-24vcpu-192gb",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 1800,
-   "transfer": 9,
-   "price_monthly": 1248,
-   "price_hourly": 1.85714,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized 3x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g-40vcpu-160gb",
-   "memory": 163840,
-   "vcpus": 40,
-   "disk": 500,
-   "transfer": 9,
-   "price_monthly": 1260,
-   "price_hourly": 1.875,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "General Purpose",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 500,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gd-32vcpu-128gb-intel",
-   "memory": 131072,
-   "vcpus": 32,
-   "disk": 960,
-   "transfer": 8,
-   "price_monthly": 1268,
-   "price_hourly": 1.8869,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose — Premium Intel 2x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c5-32vcpu-64gb-intel",
-   "memory": 65536,
-   "vcpus": 32,
-   "disk": 2000,
-   "transfer": 9,
-   "price_monthly": 1290,
-   "price_hourly": 1.91964,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "CPU Optimized - Premium Intel 5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2000,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so1_5-16vcpu-128gb",
-   "memory": 131072,
-   "vcpus": 16,
-   "disk": 3600,
-   "transfer": 8,
-   "price_monthly": 1304,
-   "price_hourly": 1.94048,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Storage-Optimized 1.5x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c-48-intel",
-   "memory": 98304,
-   "vcpus": 48,
-   "disk": 600,
-   "transfer": 11,
-   "price_monthly": 1310,
-   "price_hourly": 1.9494,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m3-24vcpu-192gb-intel",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 1800,
-   "transfer": 9,
-   "price_monthly": 1320,
-   "price_hourly": 1.96429,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized 3x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m-32vcpu-256gb",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 800,
-   "transfer": 10,
-   "price_monthly": 1344,
-   "price_hourly": 2,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gd-40vcpu-160gb",
-   "memory": 163840,
-   "vcpus": 40,
-   "disk": 1000,
-   "transfer": 9,
-   "price_monthly": 1360,
-   "price_hourly": 2.02381,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "General Purpose 2x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1000,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g6_5-32vcpu-128gb",
-   "memory": 131072,
-   "vcpus": 32,
-   "disk": 2600,
-   "transfer": 8,
-   "price_monthly": 1448,
-   "price_hourly": 2.15476,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "General Purpose 6.5x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c2-48vcpu-96gb-intel",
-   "memory": 98304,
-   "vcpus": 48,
-   "disk": 1200,
-   "transfer": 11,
-   "price_monthly": 1466,
-   "price_hourly": 2.18155,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1200,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g5_5-32vcpu-128gb-intel",
-   "memory": 131072,
-   "vcpus": 32,
-   "disk": 2640,
-   "transfer": 8,
-   "price_monthly": 1469.2,
-   "price_hourly": 2.18631,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose - Premium Intel 5.5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2640,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c5-48vcpu-96gb",
-   "memory": 98304,
-   "vcpus": 48,
-   "disk": 3000,
-   "transfer": 11,
-   "price_monthly": 1488,
-   "price_hourly": 2.21429,
-   "regions": [
-    "blr1",
-    "lon1",
-    "sfo3"
-   ],
-   "available": true,
-   "description": "CPU Intensive 5x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3000,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so-24vcpu-192gb-intel",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 3600,
-   "transfer": 9,
-   "price_monthly": 1572,
-   "price_hourly": 2.33929,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Storage-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so-24vcpu-192gb",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 3600,
-   "transfer": 9,
-   "price_monthly": 1572,
-   "price_hourly": 2.33929,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Storage-Optimized",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m6-24vcpu-192gb",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 3600,
-   "transfer": 9,
-   "price_monthly": 1572,
-   "price_hourly": 2.33929,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized 6x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m-32vcpu-256gb-intel",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 800,
-   "transfer": 10,
-   "price_monthly": 1584,
-   "price_hourly": 2.35714,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c-60-intel",
-   "memory": 122880,
-   "vcpus": 60,
-   "disk": 750,
-   "transfer": 12,
-   "price_monthly": 1639,
-   "price_hourly": 2.43899,
-   "regions": [
-    "ams3",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 750,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m3-32vcpu-256gb",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 2400,
-   "transfer": 10,
-   "price_monthly": 1664,
-   "price_hourly": 2.47619,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized 3x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so1_5-24vcpu-192gb-intel",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 5400,
-   "transfer": 9,
-   "price_monthly": 1668,
-   "price_hourly": 2.48214,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Storage-Optimized 1.5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 5400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m3-32vcpu-256gb-intel",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 2400,
-   "transfer": 10,
-   "price_monthly": 1760,
-   "price_hourly": 2.61905,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized 3x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g6_5-40vcpu-160gb",
-   "memory": 163840,
-   "vcpus": 40,
-   "disk": 3250,
-   "transfer": 9,
-   "price_monthly": 1810,
-   "price_hourly": 2.69345,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3"
-   ],
-   "available": true,
-   "description": "General Purpose 6.5x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3250,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g-48vcpu-192gb-intel",
-   "memory": 196608,
-   "vcpus": 48,
-   "disk": 720,
-   "transfer": 9,
-   "price_monthly": 1814,
-   "price_hourly": 2.6994,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose — Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c2-60vcpu-120gb-intel",
-   "memory": 122880,
-   "vcpus": 60,
-   "disk": 1500,
-   "transfer": 12,
-   "price_monthly": 1834,
-   "price_hourly": 2.72917,
-   "regions": [
-    "ams3",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1500,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gd-48vcpu-192gb-intel",
-   "memory": 196608,
-   "vcpus": 48,
-   "disk": 1440,
-   "transfer": 11,
-   "price_monthly": 1901,
-   "price_hourly": 2.82887,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose — Premium Intel 2x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1440,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi300x1-192gb",
-   "memory": 245760,
-   "vcpus": 20,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 1926.96,
-   "price_hourly": 2.59,
-   "regions": [],
-   "available": true,
-   "description": "AMD MI300X - 1X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 192,
-     "unit": "gib"
-    },
-    "model": "amd_mi300x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c5-48vcpu-96gb-intel",
-   "memory": 98304,
-   "vcpus": 48,
-   "disk": 3000,
-   "transfer": 11,
-   "price_monthly": 1934,
-   "price_hourly": 2.87798,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "CPU Optimized - Premium Intel 5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3000,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so1_5-24vcpu-192gb",
-   "memory": 196608,
-   "vcpus": 24,
-   "disk": 5400,
-   "transfer": 9,
-   "price_monthly": 1956,
-   "price_hourly": 2.91071,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Storage-Optimized 1.5x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 5400,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so-32vcpu-256gb-intel",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 4800,
-   "transfer": 10,
-   "price_monthly": 2096,
-   "price_hourly": 3.11905,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Storage-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 4800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so-32vcpu-256gb",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 4800,
-   "transfer": 10,
-   "price_monthly": 2096,
-   "price_hourly": 3.11905,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Storage-Optimized",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 4800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m6-32vcpu-256gb",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 4800,
-   "transfer": 10,
-   "price_monthly": 2096,
-   "price_hourly": 3.11905,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3",
-    "sgp1"
-   ],
-   "available": true,
-   "description": "Memory-Optimized 6x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 4800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g5_5-48vcpu-192gb-intel",
-   "memory": 196608,
-   "vcpus": 48,
-   "disk": 3960,
-   "transfer": 9,
-   "price_monthly": 2202.8,
-   "price_hourly": 3.27798,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose - Premium Intel 5.5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so1_5-32vcpu-256gb-intel",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 7200,
-   "transfer": 10,
-   "price_monthly": 2224,
-   "price_hourly": 3.30952,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Storage-Optimized 1.5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 7200,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g-60vcpu-240gb-intel",
-   "memory": 245760,
-   "vcpus": 60,
-   "disk": 900,
-   "transfer": 10,
-   "price_monthly": 2269,
-   "price_hourly": 3.37649,
-   "regions": [
-    "ams3",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose — Premium Intel",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 900,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m-48vcpu-384gb-intel",
-   "memory": 393216,
-   "vcpus": 48,
-   "disk": 1200,
-   "transfer": 11,
-   "price_monthly": 2376,
-   "price_hourly": 3.53571,
-   "regions": [
-    "ams3",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1200,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gd-60vcpu-240gb-intel",
-   "memory": 245760,
-   "vcpus": 60,
-   "disk": 1800,
-   "transfer": 10,
-   "price_monthly": 2378,
-   "price_hourly": 3.53869,
-   "regions": [
-    "ams3",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose — Premium Intel 2x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 1800,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "c5-60vcpu-120gb-intel",
-   "memory": 122880,
-   "vcpus": 60,
-   "disk": 3750,
-   "transfer": 12,
-   "price_monthly": 2419,
-   "price_hourly": 3.5997,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "CPU Optimized - Premium Intel 5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3750,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so1_5-32vcpu-256gb",
-   "memory": 262144,
-   "vcpus": 32,
-   "disk": 7200,
-   "transfer": 10,
-   "price_monthly": 2608,
-   "price_hourly": 3.88095,
-   "regions": [
-    "blr1",
-    "fra1",
-    "lon1",
-    "nyc1",
-    "sfo2",
-    "sfo3"
-   ],
-   "available": true,
-   "description": "Storage-Optimized 1.5x SSD",
-   "networking_throughput": 2000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 7200,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "m3-48vcpu-384gb-intel",
-   "memory": 393216,
-   "vcpus": 48,
-   "disk": 3600,
-   "transfer": 11,
-   "price_monthly": 2640,
-   "price_hourly": 3.92857,
-   "regions": [
-    "ams3",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Memory-Optimized 3x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 3600,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "g5_5-60vcpu-240gb-intel",
-   "memory": 245760,
-   "vcpus": 60,
-   "disk": 4950,
-   "transfer": 10,
-   "price_monthly": 2755,
-   "price_hourly": 4.0997,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "General Purpose - Premium Intel 5.5x SSD",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 4950,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi325x1-256gb",
-   "memory": 163840,
-   "vcpus": 20,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 2827.2,
-   "price_hourly": 3.8,
-   "regions": [
-    "tor1"
-   ],
-   "available": true,
-   "description": "AMD MI325X - 1X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 256,
-     "unit": "gib"
-    },
-    "model": "amd_mi325x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi350x1-288gb-spot",
-   "memory": 262144,
-   "vcpus": 24,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 2976,
-   "price_hourly": 4,
-   "regions": [],
-   "available": true,
-   "description": "AMD MI350X - 1X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 288,
-     "unit": "gib"
-    },
-    "model": "amd_mi350x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "so-48vcpu-384gb-intel",
-   "memory": 393216,
-   "vcpus": 48,
-   "disk": 7000,
-   "transfer": 11,
-   "price_monthly": 3144,
-   "price_hourly": 4.67857,
-   "regions": [
-    "ams3",
-    "sfo2",
-    "sfo3",
-    "tor1"
-   ],
-   "available": true,
-   "description": "Premium Storage-Optimized",
-   "networking_throughput": 10000,
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 7000,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-h100x1-80gb",
-   "memory": 245760,
-   "vcpus": 20,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 3281.04,
-   "price_hourly": 4.41,
-   "regions": [
-    "ams3",
-    "nyc2",
-    "tor1"
-   ],
-   "available": true,
-   "description": "H100 GPU - 1X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 80,
-     "unit": "gib"
-    },
-    "model": "nvidia_h100"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-h200x1-141gb",
-   "memory": 245760,
-   "vcpus": 24,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 3325.68,
-   "price_hourly": 4.47,
-   "regions": [
-    "atl1",
-    "nyc2"
-   ],
-   "available": true,
-   "description": "Nvidia H200 - 1X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 141,
-     "unit": "gib"
-    },
-    "model": "nvidia_h200"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi355x1-288gb-spot",
-   "memory": 262144,
-   "vcpus": 24,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 3348,
-   "price_hourly": 4.5,
-   "regions": [
-    "mem1"
-   ],
-   "available": true,
-   "description": "AMD MI355X - 1X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 288,
-     "unit": "gib"
-    },
-    "model": "amd_mi355x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-b300x1-288gb-lc-spot",
-   "memory": 458752,
-   "vcpus": 28,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 8325.36,
-   "price_hourly": 11.19,
-   "regions": [
-    "mkc1"
-   ],
-   "available": true,
-   "description": "NVIDIA B300 LC - 1X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 288,
-     "unit": "gib"
-    },
-    "model": "nvidia_b300"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-b300x1-288gb-spot",
-   "memory": 458752,
-   "vcpus": 28,
-   "disk": 720,
-   "transfer": 15,
-   "price_monthly": 8325.36,
-   "price_hourly": 11.19,
-   "regions": [],
-   "available": true,
-   "description": "NVIDIA B300 - 1X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 1,
-    "vram": {
-     "amount": 288,
-     "unit": "gib"
-    },
-    "model": "nvidia_b300"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 720,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 5120,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi300x8-1536gb",
-   "memory": 1966080,
-   "vcpus": 160,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 15415.68,
-   "price_hourly": 20.72,
-   "regions": [],
-   "available": true,
-   "description": "AMD MI300X - 8X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 1536,
-     "unit": "gib"
-    },
-    "model": "amd_mi300x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi325x8-2048gb",
-   "memory": 1310720,
-   "vcpus": 160,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 22617.6,
-   "price_hourly": 30.4,
-   "regions": [],
-   "available": true,
-   "description": "AMD MI325X - 8X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 2048,
-     "unit": "gib"
-    },
-    "model": "amd_mi325x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi350x8-2304gb-spot",
-   "memory": 2097152,
-   "vcpus": 192,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 23808,
-   "price_hourly": 32,
-   "regions": [],
-   "available": true,
-   "description": "AMD MI350X - 8X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 2304,
-     "unit": "gib"
-    },
-    "model": "amd_mi350x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-h100x8-640gb",
-   "memory": 1966080,
-   "vcpus": 160,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 26248.32,
-   "price_hourly": 35.28,
-   "regions": [],
-   "available": true,
-   "description": "H100 GPU - 8X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 640,
-     "unit": "gib"
-    },
-    "model": "nvidia_h100"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-h200x8-1128gb",
-   "memory": 1966080,
-   "vcpus": 192,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 26605.44,
-   "price_hourly": 35.76,
-   "regions": [],
-   "available": true,
-   "description": "Nvidia H200 - 8X",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 1128,
-     "unit": "gib"
-    },
-    "model": "nvidia_h200"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-mi355x8-2304gb-spot",
-   "memory": 2097152,
-   "vcpus": 192,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 26784,
-   "price_hourly": 36,
-   "regions": [
-    "mem1"
-   ],
-   "available": true,
-   "description": "AMD MI355X - 8X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 2304,
-     "unit": "gib"
-    },
-    "model": "amd_mi355x"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-b300x8-2304gb-lc-spot",
-   "memory": 3670016,
-   "vcpus": 224,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 66602.88,
-   "price_hourly": 89.52,
-   "regions": [],
-   "available": true,
-   "description": "NVIDIA B300 LC - 8X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 2304,
-     "unit": "gib"
-    },
-    "model": "nvidia_b300"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
-  },
-  {
-   "slug": "gpu-b300x8-2304gb-spot",
-   "memory": 3670016,
-   "vcpus": 224,
-   "disk": 2046,
-   "transfer": 60,
-   "price_monthly": 66602.88,
-   "price_hourly": 89.52,
-   "regions": [],
-   "available": true,
-   "description": "NVIDIA B300 - 8X Spot",
-   "networking_throughput": 10000,
-   "gpu_info": {
-    "count": 8,
-    "vram": {
-     "amount": 2304,
-     "unit": "gib"
-    },
-    "model": "nvidia_b300"
-   },
-   "disk_info": [
-    {
-     "type": "local",
-     "size": {
-      "amount": 2046,
-      "unit": "gib"
-     }
-    },
-    {
-     "type": "scratch",
-     "size": {
-      "amount": 40960,
-      "unit": "gib"
-     }
-    }
-   ]
   }
  ],
- "links": {},
+ "links": {
+  "pages": {
+   "next": "https://api.digitalocean.com/v2/sizes?page=2&per_page=200",
+   "last": "https://api.digitalocean.com/v2/sizes?page=2&per_page=200"
+  }
+ },
  "meta": {
-  "total": 182
+  "total": 311
  }
 }

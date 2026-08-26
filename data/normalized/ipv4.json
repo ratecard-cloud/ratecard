@@ -10,7 +10,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-08-25T05:51:26.667Z",
+  "collected_at": "2026-08-26T05:53:58.441Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -28,7 +28,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-08-25T05:51:26.336Z",
+  "collected_at": "2026-08-26T05:53:57.917Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -46,7 +46,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-08-25T05:51:26.051Z",
+  "collected_at": "2026-08-26T05:53:57.430Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -64,7 +64,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-08-25T05:51:26.548Z",
+  "collected_at": "2026-08-26T05:53:58.160Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -82,7 +82,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-08-25T05:51:27.115Z",
+  "collected_at": "2026-08-26T05:53:58.797Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -100,7 +100,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-08-25T05:51:26.915Z",
+  "collected_at": "2026-08-26T05:53:58.652Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -118,7 +118,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-08-25T05:51:26.816Z",
+  "collected_at": "2026-08-26T05:53:58.580Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -136,7 +136,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-08-25T05:51:27.009Z",
+  "collected_at": "2026-08-26T05:53:58.723Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -154,7 +154,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -173,7 +173,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -192,7 +192,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -211,7 +211,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -230,7 +230,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-08-25T05:51:32.308Z",
+  "collected_at": "2026-08-26T05:54:03.906Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -248,7 +248,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-08-25T05:51:32.308Z",
+  "collected_at": "2026-08-26T05:54:03.906Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -266,7 +266,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-08-25T05:51:32.308Z",
+  "collected_at": "2026-08-26T05:54:03.906Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -284,7 +284,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-08-25T05:51:32.308Z",
+  "collected_at": "2026-08-26T05:54:03.906Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -302,7 +302,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-25T05:51:32.751Z",
+  "collected_at": "2026-08-26T05:54:04.362Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -320,7 +320,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-25T05:51:32.751Z",
+  "collected_at": "2026-08-26T05:54:04.362Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -338,7 +338,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-25T05:51:32.751Z",
+  "collected_at": "2026-08-26T05:54:04.362Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -356,7 +356,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-08-25T05:51:32.751Z",
+  "collected_at": "2026-08-26T05:54:04.362Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -374,7 +374,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -392,7 +392,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -410,7 +410,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -428,7 +428,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -446,7 +446,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -465,7 +465,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -484,7 +484,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -503,7 +503,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -522,7 +522,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -541,7 +541,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -560,7 +560,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -579,7 +579,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-08-25T05:51:33.427Z",
+  "collected_at": "2026-08-26T05:54:05.103Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
