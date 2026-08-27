@@ -6389,5 +6389,197 @@
   "region": "eu-central",
   "sku": "vhf-4c-16gb",
   "monthly": 96
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c-16",
+  "monthly": 336
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c-2",
+  "monthly": 42
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c-4",
+  "monthly": 84
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c-8",
+  "monthly": 168
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c2-16vcpu-32gb",
+  "monthly": 376
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c2-2vcpu-4gb",
+  "monthly": 47
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c2-4vcpu-8gb",
+  "monthly": 94
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c2-8vcpu-16gb",
+  "monthly": 188
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c5-16vcpu-32gb",
+  "monthly": 496
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c5-2vcpu-4gb",
+  "monthly": 62
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c5-4vcpu-8gb",
+  "monthly": 124
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "c5-8vcpu-16gb",
+  "monthly": 248
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g-16vcpu-64gb",
+  "monthly": 504
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g-2vcpu-8gb",
+  "monthly": 63
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g-4vcpu-16gb",
+  "monthly": 126
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g-8vcpu-32gb",
+  "monthly": 252
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g6_5-16vcpu-64gb",
+  "monthly": 724
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g6_5-2vcpu-8gb",
+  "monthly": 90.6
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g6_5-4vcpu-16gb",
+  "monthly": 181
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "g6_5-8vcpu-32gb",
+  "monthly": 362
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "gd-16vcpu-64gb",
+  "monthly": 544
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "gd-2vcpu-8gb",
+  "monthly": 68
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "gd-4vcpu-16gb",
+  "monthly": 136
+ },
+ {
+  "date": "2026-08-27",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "gd-8vcpu-32gb",
+  "monthly": 272
  }
 ]

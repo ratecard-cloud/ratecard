@@ -80,6 +80,7 @@
    "price_hourly": 0.01042,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -87,8 +88,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -118,7 +118,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo3",
     "sgp1",
@@ -152,7 +151,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -217,6 +215,7 @@
    "price_hourly": 0.02083,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -224,8 +223,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -255,7 +253,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo3",
     "sgp1",
@@ -289,7 +286,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -435,6 +431,7 @@
    "price_hourly": 0.03125,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -442,8 +439,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -473,7 +469,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo3",
     "sgp1",
@@ -588,7 +583,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -707,6 +701,7 @@
    "price_hourly": 0.04167,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -714,8 +709,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -745,7 +739,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo3",
     "sgp1",
@@ -806,7 +799,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -971,6 +963,7 @@
    "price_hourly": 0.0625,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -978,8 +971,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1004,7 +996,6 @@
    "price_hourly": 0.0625,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1115,7 +1106,6 @@
    "price_hourly": 0.06994,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1150,7 +1140,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -1242,6 +1231,7 @@
    "price_hourly": 0.08333,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -1249,8 +1239,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1280,7 +1269,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo3",
     "sgp1",
@@ -1390,7 +1378,6 @@
    "price_hourly": 0.09226,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1447,7 +1434,6 @@
    "price_hourly": 0.09375,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1482,7 +1468,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -1566,7 +1551,6 @@
    "price_hourly": 0.10119,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1868,6 +1852,7 @@
    "price_hourly": 0.125,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -1875,8 +1860,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1901,7 +1885,6 @@
    "price_hourly": 0.125,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1931,7 +1914,6 @@
    "price_hourly": 0.125,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2042,7 +2024,6 @@
    "price_hourly": 0.13482,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2208,7 +2189,6 @@
    "price_hourly": 0.13988,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2270,7 +2250,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -2417,7 +2396,6 @@
    "price_hourly": 0.15476,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2584,6 +2562,7 @@
    "price_hourly": 0.16667,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -2591,8 +2570,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -2622,7 +2600,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo3",
     "sgp1",
@@ -2814,7 +2791,6 @@
    "price_hourly": 0.18452,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2844,7 +2820,6 @@
    "price_hourly": 0.1875,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2933,7 +2908,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -3018,7 +2992,6 @@
    "price_hourly": 0.19494,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3048,7 +3021,6 @@
    "price_hourly": 0.19494,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3132,7 +3104,6 @@
    "price_hourly": 0.20238,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3463,7 +3434,6 @@
    "price_hourly": 0.24256,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3520,6 +3490,7 @@
    "price_hourly": 0.25,
    "regions": [
     "ams3",
+    "atl1",
     "blr1",
     "fra1",
     "lon1",
@@ -3527,8 +3498,7 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -3553,7 +3523,6 @@
    "price_hourly": 0.25,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3583,7 +3552,6 @@
    "price_hourly": 0.25,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3694,7 +3662,6 @@
    "price_hourly": 0.26935,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3833,7 +3800,6 @@
    "price_hourly": 0.27976,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3868,7 +3834,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -3926,7 +3891,6 @@
    "price_hourly": 0.30952,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4121,7 +4085,6 @@
    "price_hourly": 0.36905,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4151,7 +4114,6 @@
    "price_hourly": 0.375,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4209,7 +4171,6 @@
    "price_hourly": 0.38988,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4239,7 +4200,6 @@
    "price_hourly": 0.38988,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4350,7 +4310,6 @@
    "price_hourly": 0.40476,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4573,7 +4532,6 @@
    "price_hourly": 0.48512,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4603,7 +4561,6 @@
    "price_hourly": 0.5,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4633,7 +4590,6 @@
    "price_hourly": 0.5,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4663,7 +4619,6 @@
    "price_hourly": 0.53869,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4802,7 +4757,6 @@
    "price_hourly": 0.55952,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4860,7 +4814,6 @@
    "price_hourly": 0.61905,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5055,7 +5008,6 @@
    "price_hourly": 0.7381,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5085,7 +5037,6 @@
    "price_hourly": 0.75,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5143,7 +5094,6 @@
    "price_hourly": 0.77976,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5173,7 +5123,6 @@
    "price_hourly": 0.77976,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5284,7 +5233,6 @@
    "price_hourly": 0.80952,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5340,9 +5288,7 @@
    "transfer": 10,
    "price_monthly": 565.44,
    "price_hourly": 0.76,
-   "regions": [
-    "tor1"
-   ],
+   "regions": [],
    "available": true,
    "description": "RTX 4000 Ada GPU Droplet - 1X",
    "networking_throughput": 10000,
@@ -5539,7 +5485,6 @@
    "price_hourly": 0.97024,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5569,7 +5514,6 @@
    "price_hourly": 1,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5599,7 +5543,6 @@
    "price_hourly": 1,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5683,7 +5626,6 @@
    "price_hourly": 1.07738,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5768,7 +5710,6 @@
    "price_hourly": 1.11905,
    "regions": [
     "blr1",
-    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
