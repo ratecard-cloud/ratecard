@@ -33,7 +33,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 12.7253942,
+      "value": 12.8543936,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -186,7 +186,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 32.453,
+      "value": 29.2077,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -390,7 +390,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 0.80752125,
+      "value": 0.8121325,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -891,7 +891,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 12.7253942,
+      "value": 12.8543936,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -1044,7 +1044,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 32.453,
+      "value": 29.2077,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -1248,7 +1248,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 0.80752125,
+      "value": 0.8121325,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -1749,7 +1749,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 12.7253942,
+      "value": 12.8543936,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -1902,7 +1902,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 32.453,
+      "value": 29.2077,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -2106,7 +2106,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 0.80752125,
+      "value": 0.8121325,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -2607,7 +2607,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 37.42763,
+      "value": 37.80704,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -2760,7 +2760,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 95.45,
+      "value": 85.905,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }
@@ -2964,7 +2964,7 @@
      },
      {
       "model": "PAY_AS_YOU_GO",
-      "value": 2.3750625,
+      "value": 2.388625,
       "rangeMin": 10240,
       "rangeMax": 999999999999999
      }

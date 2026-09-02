@@ -20,7 +20,7 @@
      "prices": [
       {
        "model": "PAY_AS_YOU_GO",
-       "value": 37.42763
+       "value": 37.80704
       }
      ]
     },
@@ -101,7 +101,7 @@
      "prices": [
       {
        "model": "PAY_AS_YOU_GO",
-       "value": 95.45
+       "value": 85.905
       }
      ]
     },
@@ -209,7 +209,7 @@
      "prices": [
       {
        "model": "PAY_AS_YOU_GO",
-       "value": 2.3750625
+       "value": 2.388625
       }
      ]
     },
@@ -478,7 +478,7 @@
      "prices": [
       {
        "model": "PAY_AS_YOU_GO",
-       "value": 2.2456578
+       "value": 2.2684224
       }
      ]
     },
@@ -559,7 +559,7 @@
      "prices": [
       {
        "model": "PAY_AS_YOU_GO",
-       "value": 5.727
+       "value": 5.1543
       }
      ]
     },
@@ -667,7 +667,7 @@
      "prices": [
       {
        "model": "PAY_AS_YOU_GO",
-       "value": 0.14250375
+       "value": 0.1433175
       }
      ]
     },
