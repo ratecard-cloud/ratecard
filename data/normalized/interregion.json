@@ -8,7 +8,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -24,7 +24,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -40,7 +40,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -56,7 +56,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -70,7 +70,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -84,7 +84,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -98,7 +98,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -112,7 +112,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -126,7 +126,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -140,7 +140,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -154,7 +154,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -168,7 +168,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ec2/pricing/on-demand/",
-  "collected_at": "2026-09-02T09:43:23.725Z",
+  "collected_at": "2026-09-03T09:55:54.179Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": []
@@ -182,7 +182,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.218Z",
+  "collected_at": "2026-09-03T09:55:56.710Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -198,7 +198,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.218Z",
+  "collected_at": "2026-09-03T09:55:56.710Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -214,7 +214,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.218Z",
+  "collected_at": "2026-09-03T09:55:56.710Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -230,7 +230,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.066Z",
+  "collected_at": "2026-09-03T09:55:54.979Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -246,7 +246,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.066Z",
+  "collected_at": "2026-09-03T09:55:54.979Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -262,7 +262,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.066Z",
+  "collected_at": "2026-09-03T09:55:54.979Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -278,7 +278,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:24.970Z",
+  "collected_at": "2026-09-03T09:55:54.904Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -294,7 +294,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:24.970Z",
+  "collected_at": "2026-09-03T09:55:54.904Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -310,7 +310,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:24.970Z",
+  "collected_at": "2026-09-03T09:55:54.904Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -326,7 +326,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.134Z",
+  "collected_at": "2026-09-03T09:55:55.076Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -342,7 +342,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.134Z",
+  "collected_at": "2026-09-03T09:55:55.076Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -358,7 +358,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/bandwidth/",
-  "collected_at": "2026-09-02T09:43:25.134Z",
+  "collected_at": "2026-09-03T09:55:55.076Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -374,7 +374,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -391,7 +391,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -408,7 +408,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -425,7 +425,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -442,7 +442,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -459,7 +459,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -476,7 +476,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -493,7 +493,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -510,7 +510,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -527,7 +527,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -544,7 +544,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -561,7 +561,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/platform/billing/bandwidth/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -578,7 +578,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -596,7 +596,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -614,7 +614,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -632,7 +632,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -650,7 +650,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -668,7 +668,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -686,7 +686,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -704,7 +704,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -722,7 +722,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -740,7 +740,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -758,7 +758,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -776,7 +776,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -794,7 +794,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -812,7 +812,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -830,7 +830,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -848,7 +848,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -866,7 +866,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -884,7 +884,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -902,7 +902,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -920,7 +920,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -938,7 +938,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -956,7 +956,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -974,7 +974,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -992,7 +992,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://docs.hetzner.com/cloud/billing/faq/",
-  "collected_at": "2026-09-02T09:43:26.924Z",
+  "collected_at": "2026-09-03T09:55:57.868Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1010,7 +1010,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1026,7 +1026,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1042,7 +1042,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1058,7 +1058,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1074,7 +1074,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1090,7 +1090,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1106,7 +1106,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1122,7 +1122,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1138,7 +1138,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1154,7 +1154,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1170,7 +1170,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1186,7 +1186,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/network-transfer-usage-and-costs",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1202,7 +1202,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.923Z",
+  "collected_at": "2026-09-03T09:55:57.867Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1219,7 +1219,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.923Z",
+  "collected_at": "2026-09-03T09:55:57.867Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1236,7 +1236,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.923Z",
+  "collected_at": "2026-09-03T09:55:57.867Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1253,7 +1253,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1270,7 +1270,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1287,7 +1287,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1304,7 +1304,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1321,7 +1321,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1338,7 +1338,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1355,7 +1355,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1372,7 +1372,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1389,7 +1389,7 @@
   "consumes_bundle": false,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/networking/pricing/",
-  "collected_at": "2026-09-02T09:43:26.130Z",
+  "collected_at": "2026-09-03T09:55:57.370Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -1406,7 +1406,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1422,7 +1422,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1438,7 +1438,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1454,7 +1454,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1470,7 +1470,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1486,7 +1486,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1502,7 +1502,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1518,7 +1518,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1534,7 +1534,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1550,7 +1550,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1566,7 +1566,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -1582,7 +1582,7 @@
   "consumes_bundle": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-09-02T09:43:26.925Z",
+  "collected_at": "2026-09-03T09:55:57.869Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
