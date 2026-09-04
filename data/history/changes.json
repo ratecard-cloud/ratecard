@@ -7589,5 +7589,13 @@
   "region": "eu-central",
   "sku": "s-8vcpu-32gb-640gb-intel",
   "monthly": 192
+ },
+ {
+  "date": "2026-09-04",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-16gb",
+  "monthly": 96
  }
 ]

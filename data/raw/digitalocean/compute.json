@@ -123,6 +123,7 @@
     "ric1",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -158,6 +159,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -261,6 +263,7 @@
     "ric1",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -296,6 +299,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -480,6 +484,7 @@
     "ric1",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -596,6 +601,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -753,6 +759,7 @@
     "ric1",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -815,6 +822,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -1160,6 +1168,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -1290,6 +1299,7 @@
     "ric1",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -1493,6 +1503,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -2276,6 +2287,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -2304,6 +2316,8 @@
     "blr1",
     "fra1",
     "lon1",
+    "nyc1",
+    "nyc2",
     "sfo2",
     "sfo3",
     "sgp1",
@@ -2619,6 +2633,7 @@
     "ric1",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -2929,6 +2944,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
@@ -3853,6 +3869,7 @@
     "sfo2",
     "sfo3",
     "sgp1",
+    "syd1",
     "tor1"
    ],
    "available": true,
