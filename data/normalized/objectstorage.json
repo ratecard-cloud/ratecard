@@ -14,7 +14,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-09-04T09:45:40.297Z",
+  "collected_at": "2026-09-05T09:09:55.764Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -37,7 +37,7 @@
   "usd_per_million_reads": 0.43,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-09-04T09:45:39.974Z",
+  "collected_at": "2026-09-05T09:09:55.502Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -60,7 +60,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-09-04T09:45:39.835Z",
+  "collected_at": "2026-09-05T09:09:55.244Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -83,7 +83,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-09-04T09:45:40.193Z",
+  "collected_at": "2026-09-05T09:09:55.613Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -106,7 +106,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-09-04T09:46:24.218Z",
+  "collected_at": "2026-09-05T09:09:56.095Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -129,7 +129,7 @@
   "usd_per_million_reads": 0.43,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-09-04T09:46:18.717Z",
+  "collected_at": "2026-09-05T09:09:55.930Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -152,7 +152,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-09-04T09:46:18.582Z",
+  "collected_at": "2026-09-05T09:09:55.858Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -175,7 +175,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-09-04T09:46:19.874Z",
+  "collected_at": "2026-09-05T09:09:56.015Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -198,7 +198,7 @@
   "usd_per_million_reads": 0,
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -222,7 +222,7 @@
   "usd_per_million_reads": 0,
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -246,7 +246,7 @@
   "usd_per_million_reads": 0,
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -270,7 +270,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -294,7 +294,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -318,7 +318,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -342,7 +342,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -366,7 +366,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -390,7 +390,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -414,7 +414,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -438,7 +438,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -462,7 +462,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-09-04T09:46:24.378Z",
+  "collected_at": "2026-09-05T09:09:56.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -485,7 +485,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-09-04T09:46:24.378Z",
+  "collected_at": "2026-09-05T09:09:56.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -508,7 +508,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-09-04T09:46:24.378Z",
+  "collected_at": "2026-09-05T09:09:56.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -531,7 +531,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-09-04T09:46:24.378Z",
+  "collected_at": "2026-09-05T09:09:56.249Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -554,7 +554,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
@@ -577,7 +577,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
@@ -600,7 +600,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
@@ -623,7 +623,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
@@ -646,7 +646,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.322Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -669,7 +669,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.322Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -692,7 +692,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.322Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -715,7 +715,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.322Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -738,7 +738,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -761,7 +761,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -784,7 +784,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -807,7 +807,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-09-04T09:46:26.213Z",
+  "collected_at": "2026-09-05T09:09:57.323Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [

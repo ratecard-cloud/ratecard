@@ -2318,6 +2318,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "sfo2",
     "sfo3",
     "sgp1",
@@ -5305,7 +5306,9 @@
    "transfer": 10,
    "price_monthly": 565.44,
    "price_hourly": 0.76,
-   "regions": [],
+   "regions": [
+    "tor1"
+   ],
    "available": true,
    "description": "RTX 4000 Ada GPU Droplet - 1X",
    "networking_throughput": 10000,

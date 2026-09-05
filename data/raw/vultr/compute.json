@@ -552,6 +552,7 @@
     "bom",
     "jnb",
     "tlv",
+    "blr",
     "scl",
     "itm",
     "man"
@@ -602,6 +603,7 @@
     "bom",
     "jnb",
     "tlv",
+    "blr",
     "scl",
     "itm",
     "man"
@@ -973,6 +975,7 @@
    "type": "vhf",
    "locations": [
     "ewr",
+    "dfw",
     "sea",
     "lax",
     "ams",
@@ -1116,7 +1119,6 @@
    "type": "vhf",
    "locations": [
     "sea",
-    "ams",
     "lhr",
     "sjc",
     "syd",
@@ -1174,6 +1176,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -1535,6 +1538,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2367,6 +2371,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2431,6 +2436,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2495,6 +2501,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2571,6 +2578,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -2633,6 +2641,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -2683,6 +2692,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2824,6 +2834,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -2885,7 +2896,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -2947,7 +2957,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -2998,6 +3007,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -3074,6 +3084,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -3135,7 +3146,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -3238,6 +3248,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -3354,6 +3365,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -3430,6 +3442,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -3491,7 +3504,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -3542,6 +3554,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -3771,6 +3784,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -3931,6 +3945,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -3991,7 +4006,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -4105,6 +4119,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man"
    ],
@@ -4402,7 +4417,6 @@
     "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4417,14 +4431,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 750,
-     "hourly_cost": 1.027,
-     "monthly_cost_preemptible": 750,
-     "hourly_cost_preemptible": 1.027
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -4564,7 +4571,6 @@
     "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4579,14 +4585,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 930,
-     "hourly_cost": 1.274,
-     "monthly_cost_preemptible": 930,
-     "hourly_cost_preemptible": 1.274
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -5065,7 +5064,6 @@
     "atl",
     "fra",
     "sjc",
-    "nrt",
     "sgp",
     "blr"
    ],
@@ -5247,10 +5245,7 @@
    "hourly_cost_preemptible": 0.432,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [
-    "syd",
-    "sgp"
-   ],
+   "locations": [],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -5278,6 +5273,7 @@
    "type": "vcg",
    "locations": [
     "atl",
+    "sgp",
     "blr"
    ],
    "cpu_vendor": "Intel",
