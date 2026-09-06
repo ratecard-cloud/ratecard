@@ -3380,7 +3380,6 @@
    "price_monthly": 158.54,
    "price_hourly": 0.21309,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -3407,7 +3406,6 @@
    "price_monthly": 160.58,
    "price_hourly": 0.21583,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -3490,7 +3488,6 @@
    "price_monthly": 163.64,
    "price_hourly": 0.21995,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -3722,7 +3719,6 @@
    "price_monthly": 182.6,
    "price_hourly": 0.24543,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -3775,7 +3771,6 @@
    "price_monthly": 184.63,
    "price_hourly": 0.24816,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -3802,7 +3797,6 @@
    "price_monthly": 187.69,
    "price_hourly": 0.25227,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -3951,10 +3945,8 @@
    "price_monthly": 217.82,
    "price_hourly": 0.29277,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4004,10 +3996,8 @@
    "price_monthly": 219.86,
    "price_hourly": 0.29551,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4057,10 +4047,8 @@
    "price_monthly": 222.92,
    "price_hourly": 0.29962,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4256,10 +4244,8 @@
    "price_monthly": 265.92,
    "price_hourly": 0.35742,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4283,10 +4269,8 @@
    "price_monthly": 267.96,
    "price_hourly": 0.36016,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4310,10 +4294,8 @@
    "price_monthly": 271.02,
    "price_hourly": 0.36427,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4419,10 +4401,8 @@
    "price_monthly": 314.03,
    "price_hourly": 0.42208,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4446,10 +4426,8 @@
    "price_monthly": 316.07,
    "price_hourly": 0.42483,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4499,10 +4477,8 @@
    "price_monthly": 319.13,
    "price_hourly": 0.42894,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4672,10 +4648,8 @@
    "price_monthly": 362.13,
    "price_hourly": 0.48673,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4699,10 +4673,8 @@
    "price_monthly": 364.17,
    "price_hourly": 0.48948,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4752,10 +4724,8 @@
    "price_monthly": 367.23,
    "price_hourly": 0.49359,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4865,10 +4835,8 @@
    "price_monthly": 432.58,
    "price_hourly": 0.58142,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4892,10 +4860,8 @@
    "price_monthly": 434.62,
    "price_hourly": 0.58417,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -4945,10 +4911,8 @@
    "price_monthly": 437.68,
    "price_hourly": 0.58828,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -5170,10 +5134,7 @@
    "price_monthly": 528.79,
    "price_hourly": 0.71074,
    "regions": [
-    "atl1",
-    "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -5197,10 +5158,7 @@
    "price_monthly": 530.83,
    "price_hourly": 0.71348,
    "regions": [
-    "atl1",
-    "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -5224,10 +5182,7 @@
    "price_monthly": 533.89,
    "price_hourly": 0.71759,
    "regions": [
-    "atl1",
-    "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -5306,9 +5261,7 @@
    "transfer": 10,
    "price_monthly": 565.44,
    "price_hourly": 0.76,
-   "regions": [
-    "tor1"
-   ],
+   "regions": [],
    "available": true,
    "description": "RTX 4000 Ada GPU Droplet - 1X",
    "networking_throughput": 10000,
@@ -5365,10 +5318,7 @@
    "price_monthly": 625,
    "price_hourly": 0.84005,
    "regions": [
-    "atl1",
-    "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -5392,10 +5342,7 @@
    "price_monthly": 627.04,
    "price_hourly": 0.8428,
    "regions": [
-    "atl1",
-    "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -5419,10 +5366,7 @@
    "price_monthly": 630.1,
    "price_hourly": 0.84691,
    "regions": [
-    "atl1",
-    "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -5588,7 +5532,6 @@
    "price_monthly": 721.21,
    "price_hourly": 0.96937,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -5615,7 +5558,6 @@
    "price_monthly": 723.25,
    "price_hourly": 0.97211,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -5672,7 +5614,6 @@
    "price_monthly": 726.31,
    "price_hourly": 0.97622,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
