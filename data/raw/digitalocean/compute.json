@@ -86,7 +86,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -226,7 +225,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -447,7 +445,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -722,7 +719,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -989,7 +985,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -1018,6 +1013,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1129,6 +1125,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1262,7 +1259,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -1407,6 +1403,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1464,6 +1461,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1584,6 +1582,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1887,7 +1886,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -1916,6 +1914,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1946,6 +1945,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2057,6 +2057,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2221,6 +2222,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2429,6 +2431,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2597,7 +2600,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -2822,6 +2824,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2852,6 +2855,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3025,6 +3029,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3055,6 +3060,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3139,6 +3145,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3460,6 +3467,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3521,7 +3529,6 @@
     "lon1",
     "nyc1",
     "nyc2",
-    "nyc3",
     "sfo3",
     "sgp1",
     "syd1"
@@ -3550,6 +3557,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3580,6 +3588,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3691,6 +3700,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3825,6 +3835,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3917,6 +3928,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4100,6 +4112,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4130,6 +4143,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4186,6 +4200,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4216,6 +4231,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4321,6 +4337,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4530,6 +4547,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4560,6 +4578,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4590,6 +4609,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4620,6 +4640,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4648,7 +4669,6 @@
    "price_monthly": 362.13,
    "price_hourly": 0.48673,
    "regions": [
-    "mem1",
     "mkc1"
    ],
    "available": true,
@@ -4673,7 +4693,6 @@
    "price_monthly": 364.17,
    "price_hourly": 0.48948,
    "regions": [
-    "mem1",
     "mkc1"
    ],
    "available": true,
@@ -4724,7 +4743,6 @@
    "price_monthly": 367.23,
    "price_hourly": 0.49359,
    "regions": [
-    "mem1",
     "mkc1"
    ],
    "available": true,
@@ -4751,6 +4769,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4807,6 +4826,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4990,6 +5010,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5020,6 +5041,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5076,6 +5098,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5106,6 +5129,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5208,6 +5232,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5444,6 +5469,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5474,6 +5500,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5504,6 +5531,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5586,6 +5614,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5668,6 +5697,7 @@
    "regions": [
     "ams3",
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
