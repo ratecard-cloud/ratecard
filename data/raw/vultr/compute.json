@@ -883,8 +883,10 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -1169,6 +1171,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1560,7 +1563,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -1621,7 +1623,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -2177,7 +2178,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2242,7 +2242,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2307,7 +2306,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2577,7 +2575,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -2641,7 +2638,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -2756,7 +2752,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2834,7 +2829,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -3070,7 +3064,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -3184,7 +3177,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -3301,7 +3293,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -3422,7 +3413,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -3651,7 +3641,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -3758,7 +3747,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -3920,7 +3908,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -4088,7 +4075,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -4136,6 +4122,7 @@
     "mia",
     "sgp",
     "mex",
+    "mel",
     "hnl",
     "bom",
     "tlv",
