@@ -937,6 +937,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "sjc",
@@ -1052,6 +1053,7 @@
     "sgp",
     "sto",
     "mex",
+    "mel",
     "bom",
     "tlv",
     "blr",
@@ -1083,6 +1085,7 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
+    "ewr",
     "sea",
     "lhr",
     "sjc",
@@ -4978,6 +4981,7 @@
     "lhr",
     "fra",
     "sjc",
+    "syd",
     "yto",
     "cdg",
     "nrt",
@@ -5026,6 +5030,7 @@
     "lhr",
     "fra",
     "sjc",
+    "syd",
     "yto",
     "nrt",
     "waw",
@@ -5099,6 +5104,7 @@
    "type": "vcg",
    "locations": [
     "ewr",
+    "ord",
     "atl",
     "sjc",
     "nrt",
@@ -5130,7 +5136,9 @@
    "hourly_cost_preemptible": 0.075,
    "invoice_type": "hourly",
    "type": "vcg",
-   "locations": [],
+   "locations": [
+    "ewr"
+   ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -6629,7 +6637,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6660,7 +6667,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
