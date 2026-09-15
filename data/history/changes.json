@@ -9389,5 +9389,13 @@
   "region": "us-west",
   "sku": "s-8vcpu-16gb",
   "monthly": 96
+ },
+ {
+  "date": "2026-09-15",
+  "type": "sku_added",
+  "provider": "vultr",
+  "region": "eu-central",
+  "sku": "vhf-4c-16gb",
+  "monthly": 96
  }
 ]
