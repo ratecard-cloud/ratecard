@@ -2852,7 +2852,7 @@
      {
       "id": 1,
       "name": "fsn1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
