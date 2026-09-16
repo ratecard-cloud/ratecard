@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { changesByDate } from '../lib/history';
 import { PROVIDERS, usd } from '../lib/data';
+import notesFile from '../../data/curated/notes.json';
 
 /**
  * RSS is the no-infrastructure alert channel: readers, Slack RSS apps and
@@ -24,6 +25,16 @@ function line(c: any): string {
 }
 
 export const GET: APIRoute = () => {
+  // Editorial findings ride the same feed: one item each, stable guid, so a
+  // subscriber's reader shows the write-up alongside that day's raw events.
+  const noteItems = notesFile.notes.map((n) => `  <item>
+    <title>${esc(`Finding: ${n.title}`)}</title>
+    <link>https://ratecard.cloud/changes</link>
+    <guid isPermaLink="false">ratecard-note-${n.id}</guid>
+    <pubDate>${new Date(n.date + 'T06:00:00Z').toUTCString()}</pubDate>
+    <description><![CDATA[${n.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}]]></description>
+  </item>`);
+
   const items = changesByDate(200).map(([date, events]) => {
     const prices = events.filter((e) => e.type === 'price_changed').length;
     const title = prices
@@ -46,7 +57,7 @@ export const GET: APIRoute = () => {
   <title>RateCard — cloud price changes</title>
   <link>https://ratecard.cloud/changes</link>
   <description>Daily changelog of cloud list-price and coverage changes across ${Object.keys(PROVIDERS).length} providers.</description>
-${items.join('\n')}
+${[...noteItems, ...items].join('\n')}
 </channel>
 </rss>
 `,

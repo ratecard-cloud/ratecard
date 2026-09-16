@@ -2,6 +2,10 @@
 import Base from '../layouts/Base.astro';
 import { PROVIDERS, MANIFEST, usd, gbLabel, freshness } from '../lib/data';
 import { CHANGES, SERIES, changesByDate } from '../lib/history';
+import notesFile from '../../data/curated/notes.json';
+
+// Editorial findings: patterns the mechanical daily diff cannot express.
+const NOTES = [...notesFile.notes].sort((a, b) => (a.date < b.date ? 1 : -1));
 
 const grouped = changesByDate();
 const priceChanges = CHANGES.filter((c) => c.type === 'price_changed').length;
@@ -76,6 +80,26 @@ const description =
       </div>
       <div id="h-chart" style="min-height:140px"></div>
     </section>
+
+    {NOTES.length > 0 && (
+      <section style="margin:0 0 30px">
+        <h2 style="font-size:16px;letter-spacing:-0.01em;margin:0 0 3px">Findings</h2>
+        <p class="faint" style="font-size:12.5px;margin:0 0 10px;max-width:80ch">
+          Patterns the daily diff below cannot express on its own, written up when
+          the accumulated history shows one. Every claim is reproducible from the
+          committed daily snapshots.
+        </p>
+        {NOTES.map((n) => (
+          <article class="card" style="padding:16px 18px;margin:0 0 12px">
+            <p class="num faint" style="font-size:12px;margin:0 0 4px">{n.date}</p>
+            <h3 style="font-size:15px;letter-spacing:-0.01em;margin:0 0 8px">{n.title}</h3>
+            {n.paragraphs.map((p) => (
+              <p class="muted" style="font-size:13.5px;margin:0 0 9px;max-width:88ch">{p}</p>
+            ))}
+          </article>
+        ))}
+      </section>
+    )}
 
     {grouped.map(([date, events]) => (
       <section style="margin:0 0 18px">

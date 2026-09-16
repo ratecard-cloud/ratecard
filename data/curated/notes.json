@@ -1,0 +1,22 @@
+{
+  "_comment": [
+    "Editorial findings for the /changes feed: analysis the mechanical daily",
+    "diff cannot express, written when the accumulated history shows a pattern.",
+    "Every claim must be reproducible from this repo's committed daily",
+    "snapshots (git log -- data/normalized/compute.json). Newest first on the",
+    "page; each note becomes one RSS item, dated, with a stable guid from id."
+  ],
+  "notes": [
+    {
+      "id": "do-dedicated-eu-apac-2026-09",
+      "date": "2026-09-16",
+      "title": "DigitalOcean keeps pulling dedicated-CPU Droplets from Frankfurt — and today, Singapore",
+      "paragraphs": [
+        "Every day this site snapshots which Droplet sizes DigitalOcean's API says can actually be deployed in each region. Since August 18, FRA1 has flipped between its full catalog and a Basic-only one: in 15 of the 30 daily snapshots since then, not a single dedicated-CPU Droplet (General Purpose, CPU-Optimized, Memory-Optimized) was available there in the shapes we index — including an unbroken August 27 to September 6 stretch, at the bottom of which even the shared-CPU Basic lineup thinned from 18 shapes to 9. On September 16, SGP1 — steady at its full 24 dedicated shapes every single day since we began indexing it — showed zero dedicated availability for the first time, putting both non-US regions we index in the Basic-only state on the same day.",
+        "This is availability, not pricing. The sizes API lists, per size, the regions where it can be deployed right now, and DigitalOcean's own documentation describes that list as reflecting live capacity. List prices never moved: each time the dedicated shapes return, they return at exactly the prices they left with. The signal therefore reads as sustained dedicated-CPU capacity pressure in the EU and APAC datacenters, not a product retirement and not a repricing.",
+        "The pattern has structure. DigitalOcean's dedicated catalog is really two half-catalogs — 24 plain slugs (c-2, g-2vcpu-8gb, m-2vcpu-16gb, …) and 21 \"-intel\" variants — and regions shed one half at a time. FRA1's first August dip kept only the -intel half; its recoveries since have often carried only the plain half. SFO3 quietly dropped its -intel half around September 2 and has stayed there. NYC1 has held its 24 plain dedicated shapes every day without exception, and no US region has ever hit zero. If your workload depends on dedicated-CPU Droplets in FRA1 or SGP1, capacity there has been intermittent for a month.",
+        "Method: one snapshot per day, diffed against the previous, so an intraday flap that reverts before the next snapshot never appears here — this understates the churn, never overstates it. Counts are within the fixed vCPU/RAM shapes this site indexes, so they undercount DigitalOcean's full catalog; the zero-dedicated observations are absolute. Every daily state is a commit in this site's public repository."
+      ]
+    }
+  ]
+}
