@@ -2852,14 +2852,14 @@
      {
       "id": 1,
       "name": "fsn1",
-      "available": true,
+      "available": false,
       "recommended": false,
       "deprecation": null
      },
      {
       "id": 2,
       "name": "nbg1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
