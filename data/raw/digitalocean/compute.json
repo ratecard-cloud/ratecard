@@ -1021,7 +1021,6 @@
    "price_monthly": 42,
    "price_hourly": 0.0625,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -1131,7 +1130,6 @@
    "price_monthly": 47,
    "price_hourly": 0.06994,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -1409,7 +1407,6 @@
    "price_monthly": 62,
    "price_hourly": 0.09226,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -1465,7 +1462,6 @@
    "price_monthly": 63,
    "price_hourly": 0.09375,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -1584,7 +1580,6 @@
    "price_monthly": 68,
    "price_hourly": 0.10119,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -1722,7 +1717,7 @@
    "price_hourly": 0.1131,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -1775,7 +1770,7 @@
    "price_hourly": 0.11756,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -1916,7 +1911,6 @@
    "price_monthly": 84,
    "price_hourly": 0.125,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -1945,7 +1939,6 @@
    "price_monthly": 84,
    "price_hourly": 0.125,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -2055,7 +2048,6 @@
    "price_monthly": 90.6,
    "price_hourly": 0.13482,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -2139,7 +2131,7 @@
    "price_hourly": 0.1372,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -2218,7 +2210,6 @@
    "price_monthly": 94,
    "price_hourly": 0.13988,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -2400,7 +2391,7 @@
    "price_hourly": 0.14732,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -2425,7 +2416,6 @@
    "price_monthly": 104,
    "price_hourly": 0.15476,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -2455,7 +2445,7 @@
    "price_hourly": 0.1622,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -2508,7 +2498,7 @@
    "price_hourly": 0.16369,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -2766,7 +2756,7 @@
    "price_hourly": 0.18155,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -2818,7 +2808,6 @@
    "price_monthly": 124,
    "price_hourly": 0.18452,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -2847,7 +2836,6 @@
    "price_monthly": 126,
    "price_hourly": 0.1875,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -2994,7 +2982,7 @@
    "price_hourly": 0.19494,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -3019,7 +3007,6 @@
    "price_monthly": 131,
    "price_hourly": 0.19494,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3048,7 +3035,6 @@
    "price_monthly": 131,
    "price_hourly": 0.19494,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3131,7 +3117,6 @@
    "price_monthly": 136,
    "price_hourly": 0.20238,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3188,7 +3173,7 @@
    "price_hourly": 0.20685,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -3322,7 +3307,7 @@
    "price_hourly": 0.2247,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -3348,7 +3333,7 @@
    "price_hourly": 0.23512,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -3428,7 +3413,7 @@
    "price_hourly": 0.23958,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -3453,7 +3438,6 @@
    "price_monthly": 163,
    "price_hourly": 0.24256,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3544,7 +3528,6 @@
    "price_monthly": 168,
    "price_hourly": 0.25,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3573,7 +3556,6 @@
    "price_monthly": 168,
    "price_hourly": 0.25,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3683,7 +3665,6 @@
    "price_monthly": 181,
    "price_hourly": 0.26935,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3740,7 +3721,7 @@
    "price_hourly": 0.27292,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -3819,7 +3800,6 @@
    "price_monthly": 188,
    "price_hourly": 0.27976,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3885,7 +3865,7 @@
    "price_hourly": 0.29464,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -3910,7 +3890,6 @@
    "price_monthly": 208,
    "price_hourly": 0.30952,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -3967,7 +3946,7 @@
    "price_hourly": 0.3244,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4020,7 +3999,7 @@
    "price_hourly": 0.32738,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4073,7 +4052,7 @@
    "price_hourly": 0.3631,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4098,7 +4077,6 @@
    "price_monthly": 248,
    "price_hourly": 0.36905,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4127,7 +4105,6 @@
    "price_monthly": 252,
    "price_hourly": 0.375,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4157,7 +4134,7 @@
    "price_hourly": 0.38988,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4182,7 +4159,6 @@
    "price_monthly": 262,
    "price_hourly": 0.38988,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4211,7 +4187,6 @@
    "price_monthly": 262,
    "price_hourly": 0.38988,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4321,7 +4296,6 @@
    "price_monthly": 272,
    "price_hourly": 0.40476,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4351,7 +4325,7 @@
    "price_hourly": 0.41369,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4377,7 +4351,7 @@
    "price_hourly": 0.4494,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4457,7 +4431,7 @@
    "price_hourly": 0.47173,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4510,7 +4484,7 @@
    "price_hourly": 0.47917,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4535,7 +4509,6 @@
    "price_monthly": 326,
    "price_hourly": 0.48512,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4564,7 +4537,6 @@
    "price_monthly": 336,
    "price_hourly": 0.5,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4593,7 +4565,6 @@
    "price_monthly": 336,
    "price_hourly": 0.5,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4622,7 +4593,6 @@
    "price_monthly": 362,
    "price_hourly": 0.53869,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4706,7 +4676,7 @@
    "price_hourly": 0.54583,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4758,7 +4728,6 @@
    "price_monthly": 376,
    "price_hourly": 0.55952,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4788,7 +4757,7 @@
    "price_hourly": 0.58929,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4813,7 +4782,6 @@
    "price_monthly": 416,
    "price_hourly": 0.61905,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -4897,7 +4865,7 @@
    "price_hourly": 0.6503,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4950,7 +4918,7 @@
    "price_hourly": 0.65476,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -4976,7 +4944,7 @@
    "price_hourly": 0.72768,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -5001,7 +4969,6 @@
    "price_monthly": 496,
    "price_hourly": 0.7381,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5030,7 +4997,6 @@
    "price_monthly": 504,
    "price_hourly": 0.75,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5060,7 +5026,7 @@
    "price_hourly": 0.77976,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -5085,7 +5051,6 @@
    "price_monthly": 524,
    "price_hourly": 0.77976,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5114,7 +5079,6 @@
    "price_monthly": 524,
    "price_hourly": 0.77976,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5224,7 +5188,6 @@
    "price_monthly": 544,
    "price_hourly": 0.80952,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5254,7 +5217,7 @@
    "price_hourly": 0.82738,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -5278,7 +5241,9 @@
    "transfer": 10,
    "price_monthly": 565.44,
    "price_hourly": 0.76,
-   "regions": [],
+   "regions": [
+    "tor1"
+   ],
    "available": true,
    "description": "RTX 4000 Ada GPU Droplet - 1X",
    "networking_throughput": 10000,
@@ -5310,7 +5275,7 @@
    "price_hourly": 0.9003,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -5417,7 +5382,7 @@
    "price_hourly": 0.94345,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -5443,7 +5408,7 @@
    "price_hourly": 0.95982,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -5468,7 +5433,6 @@
    "price_monthly": 652,
    "price_hourly": 0.97024,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5497,7 +5461,6 @@
    "price_monthly": 672,
    "price_hourly": 1,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5526,7 +5489,6 @@
    "price_monthly": 672,
    "price_hourly": 1,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5609,7 +5571,6 @@
    "price_monthly": 724,
    "price_hourly": 1.07738,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
@@ -5666,7 +5627,7 @@
    "price_hourly": 1.09315,
    "regions": [
     "ams3",
-    "fra1",
+    "nyc2",
     "nyc3"
    ],
    "available": true,
@@ -5691,7 +5652,6 @@
    "price_monthly": 752,
    "price_hourly": 1.11905,
    "regions": [
-    "ams3",
     "blr1",
     "lon1",
     "nyc1",
