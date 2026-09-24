@@ -10293,5 +10293,13 @@
   "region": "eu-central",
   "sku": "gd-8vcpu-32gb-intel",
   "monthly": 317
+ },
+ {
+  "date": "2026-09-24",
+  "type": "sku_added",
+  "provider": "vultr",
+  "region": "us-west",
+  "sku": "vhf-8c-32gb",
+  "monthly": 192
  }
 ]
