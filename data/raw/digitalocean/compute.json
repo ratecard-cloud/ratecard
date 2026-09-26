@@ -88,7 +88,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -227,7 +228,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -447,7 +449,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -721,7 +724,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -987,7 +991,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1015,7 +1020,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized",
@@ -1124,7 +1130,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized 2x SSD",
@@ -1255,7 +1262,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1399,7 +1407,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU Intensive 5x SSD",
@@ -1454,7 +1463,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose",
@@ -1572,7 +1582,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 2x SSD",
@@ -1869,7 +1880,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1897,7 +1909,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized",
@@ -1925,7 +1938,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized",
@@ -2034,7 +2048,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -2194,7 +2209,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized 2x SSD",
@@ -2398,7 +2414,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized 3x SSD",
@@ -2560,7 +2577,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -2782,7 +2800,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU Intensive 5x SSD",
@@ -2810,7 +2829,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose",
@@ -2979,7 +2999,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized",
@@ -3007,7 +3028,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized 6x SSD",
@@ -3089,7 +3111,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 2x SSD",
@@ -3402,7 +3425,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized 1.5x SSD",
@@ -3462,7 +3486,8 @@
     "nyc2",
     "sfo3",
     "sgp1",
-    "syd1"
+    "syd1",
+    "tor1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -3490,7 +3515,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized",
@@ -3518,7 +3544,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized",
@@ -3627,7 +3654,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -3760,7 +3788,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized 2x SSD",
@@ -3848,7 +3877,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized 3x SSD",
@@ -4029,7 +4059,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU Intensive 5x SSD",
@@ -4057,7 +4088,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose",
@@ -4109,7 +4141,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized",
@@ -4137,7 +4170,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized 6x SSD",
@@ -4246,7 +4280,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 2x SSD",
@@ -4451,7 +4486,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized 1.5x SSD",
@@ -4479,7 +4515,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized",
@@ -4507,7 +4544,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized",
@@ -4535,7 +4573,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -4668,7 +4707,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized 2x SSD",
@@ -4720,7 +4760,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized 3x SSD",
@@ -4901,7 +4942,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU Intensive 5x SSD",
@@ -4929,7 +4971,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose",
@@ -4981,7 +5024,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized",
@@ -5009,7 +5053,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized 6x SSD",
@@ -5118,7 +5163,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 2x SSD",
@@ -5353,7 +5399,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Storage-Optimized 1.5x SSD",
@@ -5381,7 +5428,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "Memory-Optimized",
@@ -5409,7 +5457,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized",
@@ -5491,7 +5540,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -5570,7 +5620,8 @@
     "lon1",
     "nyc1",
     "nyc3",
-    "sfo3"
+    "sfo3",
+    "sgp1"
    ],
    "available": true,
    "description": "CPU-Optimized 2x SSD",
