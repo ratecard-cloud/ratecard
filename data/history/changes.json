@@ -10493,5 +10493,29 @@
   "region": "ap-southeast",
   "sku": "gd-8vcpu-32gb",
   "monthly": 272
+ },
+ {
+  "date": "2026-09-27",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-16c-32gb-300s-amd",
+  "monthly": 320
+ },
+ {
+  "date": "2026-09-27",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-16c-32gb-500s-amd",
+  "monthly": 360
+ },
+ {
+  "date": "2026-09-27",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-g-16c-64gb-320s-amd",
+  "monthly": 480
  }
 ]
