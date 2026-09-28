@@ -10517,5 +10517,37 @@
   "region": "ap-southeast",
   "sku": "voc-g-16c-64gb-320s-amd",
   "monthly": 480
+ },
+ {
+  "date": "2026-09-28",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "g6_5-16vcpu-64gb",
+  "monthly": 724
+ },
+ {
+  "date": "2026-09-28",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-8c-16gb-150s-amd",
+  "monthly": 160
+ },
+ {
+  "date": "2026-09-28",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-8c-16gb-300s-amd",
+  "monthly": 180
+ },
+ {
+  "date": "2026-09-28",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-g-8c-32gb-160s-amd",
+  "monthly": 240
  }
 ]
