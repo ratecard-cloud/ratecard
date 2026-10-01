@@ -28,7 +28,7 @@
        }
       },
       {
-       "startUsageAmount": 720,
+       "startUsageAmount": 744,
        "unitPrice": {
         "currencyCode": "USD",
         "units": "0",
@@ -47,7 +47,7 @@
      "aggregationCount": 1
     },
     "currencyConversionRate": 1,
-    "effectiveTime": "2026-09-29T07:00:00Z"
+    "effectiveTime": "2026-10-01T07:00:00Z"
    }
   ],
   "serviceProviderName": "Google",
