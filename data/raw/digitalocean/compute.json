@@ -334,7 +334,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-2vcpu-2gb",
@@ -396,7 +409,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-1vcpu-2gb-30gb",
@@ -423,7 +449,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-2vcpu-2gb-amd",
@@ -517,7 +556,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-1vcpu-1gb-80gb",
@@ -544,7 +596,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-1vcpu-3gb-30gb",
@@ -571,7 +636,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-2vcpu-2gb-90gb-intel",
@@ -668,7 +746,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-1vcpu-2gb-80gb",
@@ -695,7 +786,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-2vcpu-4gb-amd",
@@ -789,7 +893,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-2vcpu-4gb-120gb-intel",
@@ -851,7 +968,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-2vcpu-2gb-50gb",
@@ -878,7 +1008,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-2vcpu-2gb-80gb",
@@ -905,7 +1048,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-2vcpu-4gb-30gb",
@@ -932,7 +1088,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-2vcpu-4gb-50gb",
@@ -959,7 +1128,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-2vcpu-8gb-amd",
@@ -1004,6 +1186,7 @@
    "price_hourly": 0.0625,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1047,7 +1230,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-2vcpu-6gb-30gb",
@@ -1074,7 +1270,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-2vcpu-6gb-50gb",
@@ -1101,7 +1310,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c2-2vcpu-4gb",
@@ -1113,6 +1335,7 @@
    "price_hourly": 0.06994,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1180,7 +1403,6 @@
     "fra1",
     "lon1",
     "nyc1",
-    "nyc2",
     "nyc3",
     "sfo2",
     "sfo3",
@@ -1226,7 +1448,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-4vcpu-8gb-amd",
@@ -1320,7 +1555,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-2vcpu-4gb-50gb",
@@ -1347,7 +1595,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-2vcpu-4gb-80gb",
@@ -1374,7 +1635,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c5-2vcpu-4gb",
@@ -1386,6 +1660,7 @@
    "price_hourly": 0.09226,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1429,7 +1704,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g-2vcpu-8gb",
@@ -1441,6 +1729,7 @@
    "price_hourly": 0.09375,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1519,7 +1808,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-4vcpu-4gb-80gb",
@@ -1546,7 +1848,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "gd-2vcpu-8gb",
@@ -1558,6 +1873,7 @@
    "price_hourly": 0.10119,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1601,7 +1917,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-2vcpu-8gb-50gb",
@@ -1628,7 +1957,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-2vcpu-8gb-80gb",
@@ -1655,7 +1997,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-4vcpu-8gb-30gb",
@@ -1682,7 +2037,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g-2vcpu-8gb-intel",
@@ -1731,7 +2099,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "gd-2vcpu-8gb-intel",
@@ -1780,7 +2161,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-2vcpu-12gb-30gb",
@@ -1807,7 +2201,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-2vcpu-12gb-50gb",
@@ -1834,7 +2241,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-4vcpu-16gb-amd",
@@ -1879,6 +2299,7 @@
    "price_hourly": 0.125,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1907,6 +2328,7 @@
    "price_hourly": 0.125,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -1950,7 +2372,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-4vcpu-12gb-30gb",
@@ -1977,7 +2412,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-4vcpu-12gb-50gb",
@@ -2004,7 +2452,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g6_5-2vcpu-8gb",
@@ -2016,6 +2477,7 @@
    "price_hourly": 0.13482,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2059,7 +2521,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-6vcpu-6gb-30gb",
@@ -2086,7 +2561,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5_5-2vcpu-8gb-intel",
@@ -2135,7 +2623,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-6vcpu-6gb-50gb",
@@ -2162,7 +2663,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c2-4vcpu-8gb",
@@ -2174,6 +2688,7 @@
    "price_hourly": 0.13988,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2217,7 +2732,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-4vcpu-16gb-320gb-intel",
@@ -2312,7 +2840,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-2vcpu-16gb-80gb",
@@ -2339,7 +2880,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "m-2vcpu-16gb-intel",
@@ -2373,6 +2927,7 @@
    "price_hourly": 0.15476,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2438,7 +2993,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "m3-2vcpu-16gb-intel",
@@ -2487,7 +3055,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-6vcpu-12gb-50gb",
@@ -2514,7 +3095,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-8vcpu-16gb-amd",
@@ -2608,7 +3202,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-6vcpu-12gb-80gb",
@@ -2635,7 +3242,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-4vcpu-8gb-80gb",
@@ -2662,7 +3282,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-8vcpu-8gb-30gb",
@@ -2689,7 +3322,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c2-4vcpu-8gb-intel",
@@ -2738,7 +3384,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c5-4vcpu-8gb",
@@ -2750,6 +3409,7 @@
    "price_hourly": 0.18452,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2778,6 +3438,7 @@
    "price_hourly": 0.1875,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2821,7 +3482,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-6vcpu-18gb-30gb",
@@ -2848,7 +3522,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-8vcpu-16gb-480gb-intel",
@@ -2910,7 +3597,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "so-2vcpu-16gb-intel",
@@ -2944,6 +3644,7 @@
    "price_hourly": 0.19494,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -2972,6 +3673,7 @@
    "price_hourly": 0.19494,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3015,7 +3717,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-4vcpu-16gb-30gb",
@@ -3042,7 +3757,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "gd-4vcpu-16gb",
@@ -3054,6 +3782,7 @@
    "price_hourly": 0.20238,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3097,7 +3826,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "so1_5-2vcpu-16gb-intel",
@@ -3146,7 +3888,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-8vcpu-16gb-30gb",
@@ -3173,7 +3928,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-8vcpu-16gb-50gb",
@@ -3200,7 +3968,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-8vcpu-16gb-80gb",
@@ -3227,7 +4008,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g-4vcpu-16gb-intel",
@@ -3298,7 +4092,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-4vcpu-24gb-50gb",
@@ -3325,7 +4132,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c5-4vcpu-8gb-intel",
@@ -3359,6 +4179,7 @@
    "price_hourly": 0.24256,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3402,7 +4223,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s-8vcpu-32gb-amd",
@@ -3447,6 +4281,7 @@
    "price_hourly": 0.25,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3475,6 +4310,7 @@
    "price_hourly": 0.25,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3518,7 +4354,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-8vcpu-24gb-50gb",
@@ -3545,7 +4394,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "s5-8vcpu-24gb-80gb",
@@ -3572,7 +4434,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g6_5-4vcpu-16gb",
@@ -3584,6 +4459,7 @@
    "price_hourly": 0.26935,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3627,7 +4503,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5_5-4vcpu-16gb-intel",
@@ -3676,7 +4565,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-4vcpu-32gb-80gb",
@@ -3703,7 +4605,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c2-8vcpu-16gb",
@@ -3715,6 +4630,7 @@
    "price_hourly": 0.27976,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3800,6 +4716,7 @@
    "price_hourly": 0.30952,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -3843,7 +4760,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c-8-intel",
@@ -3892,7 +4822,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "m3-4vcpu-32gb-intel",
@@ -3941,7 +4884,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c2-8vcpu-16gb-intel",
@@ -3975,6 +4931,7 @@
    "price_hourly": 0.36905,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4003,6 +4960,7 @@
    "price_hourly": 0.375,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4053,6 +5011,7 @@
    "price_hourly": 0.38988,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4081,6 +5040,7 @@
    "price_hourly": 0.38988,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4124,7 +5084,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-8vcpu-32gb-50gb",
@@ -4151,7 +5124,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-8vcpu-32gb-80gb",
@@ -4178,7 +5164,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "gd-8vcpu-32gb",
@@ -4190,6 +5189,7 @@
    "price_hourly": 0.40476,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4277,7 +5277,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-8vcpu-48gb-50gb",
@@ -4304,7 +5317,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "gd-8vcpu-32gb-intel",
@@ -4353,7 +5379,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c5-8vcpu-16gb-intel",
@@ -4387,6 +5426,7 @@
    "price_hourly": 0.48512,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4415,6 +5455,7 @@
    "price_hourly": 0.5,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4443,6 +5484,7 @@
    "price_hourly": 0.5,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4471,6 +5513,7 @@
    "price_hourly": 0.53869,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4514,7 +5557,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-8vcpu-64gb-50gb",
@@ -4541,7 +5597,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5_5-8vcpu-32gb-intel",
@@ -4590,7 +5659,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c2-16vcpu-32gb",
@@ -4602,6 +5684,7 @@
    "price_hourly": 0.55952,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4652,6 +5735,7 @@
    "price_hourly": 0.61905,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4695,7 +5779,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-16vcpu-32gb-50gb",
@@ -4722,7 +5819,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "c-16-intel",
@@ -4771,7 +5881,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "m3-8vcpu-64gb-intel",
@@ -4827,6 +5950,7 @@
    "price_hourly": 0.7381,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4855,6 +5979,7 @@
    "price_hourly": 0.75,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4905,6 +6030,7 @@
    "price_hourly": 0.77976,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4933,6 +6059,7 @@
    "price_hourly": 0.77976,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -4976,7 +6103,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-16vcpu-64gb-50gb",
@@ -5003,7 +6143,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-16vcpu-64gb-80gb",
@@ -5030,7 +6183,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "gd-16vcpu-64gb",
@@ -5042,6 +6208,7 @@
    "price_hourly": 0.80952,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5159,7 +6326,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-16vcpu-96gb-50gb",
@@ -5186,7 +6366,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-16vcpu-96gb-80gb",
@@ -5213,7 +6406,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "gd-16vcpu-64gb-intel",
@@ -5269,6 +6475,7 @@
    "price_hourly": 0.97024,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5297,6 +6504,7 @@
    "price_hourly": 1,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5325,6 +6533,7 @@
    "price_hourly": 1,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5368,7 +6577,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5-16vcpu-128gb-50gb",
@@ -5395,7 +6617,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g6_5-16vcpu-64gb",
@@ -5407,6 +6642,7 @@
    "price_hourly": 1.07738,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
@@ -5450,7 +6686,20 @@
       "unit": "gib"
      }
     }
-   ]
+   ],
+   "components": {
+    "public_ipv4": {
+     "values": [
+      0,
+      1
+     ],
+     "default": 0,
+     "description": "Public IPv4",
+     "price_per_unit_hour": "0.00",
+     "price_per_unit_month": "0.00",
+     "included_in_size_price": false
+    }
+   }
   },
   {
    "slug": "g5_5-16vcpu-64gb-intel",
@@ -5484,6 +6733,7 @@
    "price_hourly": 1.11905,
    "regions": [
     "blr1",
+    "fra1",
     "lon1",
     "nyc1",
     "sfo2",
