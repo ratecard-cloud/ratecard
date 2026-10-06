@@ -306,7 +306,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -545,6 +544,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "bom",
     "jnb",
@@ -559,7 +559,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 480,
+     "hourly_cost": 0.658,
+     "monthly_cost_preemptible": 480,
+     "hourly_cost_preemptible": 0.658
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -1155,6 +1162,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2155,14 +2163,13 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2220,14 +2227,13 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2285,14 +2291,13 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2350,7 +2355,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -2414,7 +2419,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -2478,7 +2483,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -2537,11 +2542,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -2600,11 +2606,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -2668,7 +2675,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -2732,14 +2739,13 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2792,11 +2798,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -2855,11 +2862,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "nrt",
@@ -2867,10 +2875,8 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -2886,14 +2892,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 240,
-     "hourly_cost": 0.329,
-     "monthly_cost_preemptible": 240,
-     "hourly_cost_preemptible": 0.329
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -2916,11 +2915,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "nrt",
@@ -2928,10 +2928,8 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -2947,14 +2945,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 360,
-     "hourly_cost": 0.493,
-     "monthly_cost_preemptible": 360,
-     "hourly_cost_preemptible": 0.493
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -2982,7 +2973,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -3041,11 +3032,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -3104,11 +3096,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "nrt",
@@ -3116,10 +3109,8 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3135,14 +3126,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 270,
-     "hourly_cost": 0.37,
-     "monthly_cost_preemptible": 270,
-     "hourly_cost_preemptible": 0.37
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -3165,6 +3149,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3220,7 +3205,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -3279,6 +3264,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3334,7 +3320,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -3393,11 +3379,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -3456,11 +3443,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "nrt",
@@ -3468,10 +3456,8 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3487,14 +3473,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 480,
-     "hourly_cost": 0.658,
-     "monthly_cost_preemptible": 480,
-     "hourly_cost_preemptible": 0.658
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -3522,7 +3501,7 @@
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -3629,6 +3608,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3727,11 +3707,12 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
     "sjc",
-    "",
+    "stl",
     "syd",
     "yto",
     "cdg",
@@ -3839,6 +3820,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -3883,6 +3865,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3945,6 +3928,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3956,10 +3940,8 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3975,14 +3957,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 585,
-     "hourly_cost": 0.801,
-     "monthly_cost_preemptible": 585,
-     "hourly_cost_preemptible": 0.801
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -4005,6 +3980,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4055,6 +4031,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4253,6 +4230,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4264,10 +4242,8 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4283,14 +4259,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 750,
-     "hourly_cost": 1.027,
-     "monthly_cost_preemptible": 750,
-     "hourly_cost_preemptible": 1.027
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -4316,7 +4285,6 @@
     "waw",
     "icn",
     "mex",
-    "mel",
     "bom",
     "blr"
    ],
@@ -4348,6 +4316,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4359,17 +4328,14 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -4378,14 +4344,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 750,
-     "hourly_cost": 1.027,
-     "monthly_cost_preemptible": 750,
-     "hourly_cost_preemptible": 1.027
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -4408,6 +4367,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4506,6 +4466,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4517,17 +4478,14 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man"
    ],
@@ -4536,14 +4494,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 930,
-     "hourly_cost": 1.274,
-     "monthly_cost_preemptible": 930,
-     "hourly_cost_preemptible": 1.274
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -4614,6 +4565,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4664,6 +4616,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4762,6 +4715,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -5477,9 +5431,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "NVIDIA",
    "link_speed": 25,
-   "link_type": "dedicated",
-   "gpu_brand": "NVIDIA"
+   "link_type": "dedicated"
   },
   {
    "id": "vcg-h100-216c-1914gb-640vram",
@@ -5604,9 +5558,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-2c-16g",
@@ -5639,9 +5593,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-4c-16g",
@@ -5674,9 +5628,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-4c-32gb",
@@ -5709,9 +5663,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-8c-32g",
@@ -5744,9 +5698,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-8c-64gb",
@@ -5779,9 +5733,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-16c-64g",
@@ -5814,9 +5768,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-16c-128gb",
@@ -5849,9 +5803,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-32c-128g",
@@ -5884,9 +5838,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-32c-256gb",
@@ -5919,9 +5873,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-48c-192g",
@@ -5951,9 +5905,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-48c-384gb",
@@ -5983,9 +5937,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-64c-256g",
@@ -6014,9 +5968,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 16,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-m-64c-512gb",
@@ -6045,9 +5999,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 16,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-g-96c-384g",
@@ -6074,9 +6028,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 25,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-m-96c-768gb",
@@ -6102,9 +6056,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 25,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-g-192c-768g",
@@ -6131,9 +6085,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 50,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-m-192c-1536gb",
@@ -6156,9 +6110,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 50,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-g-2c-8g-120s",
@@ -6193,9 +6147,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-2c-16g-120s",
@@ -6230,9 +6184,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-4c-16g-240s",
@@ -6267,9 +6221,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-4c-32g-240s",
@@ -6304,9 +6258,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-8c-32g-480s",
@@ -6341,9 +6295,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-8c-64g-480s",
@@ -6378,9 +6332,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-16c-64g-960s",
@@ -6415,9 +6369,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-16c-128g-960s",
@@ -6452,9 +6406,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-32c-128g-1920s",
@@ -6484,9 +6438,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-32c-256g-1920s",
@@ -6516,9 +6470,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-48c-192g-2880s",
@@ -6535,10 +6489,8 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
-    "sea",
-    "ams"
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6546,9 +6498,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-m-48c-384g-2880s",
@@ -6565,10 +6517,8 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
-    "sea",
-    "ams"
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6576,9 +6526,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 15,
-   "link_type": "shared",
-   "gpu_brand": "none"
+   "link_type": "shared"
   },
   {
    "id": "vx1-g-64c-256g-3840s",
@@ -6595,7 +6545,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord"
    ],
    "cpu_vendor": "AMD",
@@ -6604,9 +6553,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 16,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-m-64c-512g-3840s",
@@ -6623,7 +6572,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord"
    ],
    "cpu_vendor": "AMD",
@@ -6632,9 +6580,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 16,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-g-96c-384g-5760s",
@@ -6657,9 +6605,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 25,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-m-96c-768g-5760s",
@@ -6682,9 +6630,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 25,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-m-192c-1536g-11520s",
@@ -6707,9 +6655,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 50,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vx1-g-192c-768g-11520s",
@@ -6732,9 +6680,9 @@
    "deploy_ondemand": true,
    "deploy_preemptible": false,
    "location_cost": {},
+   "gpu_brand": "none",
    "link_speed": 50,
-   "link_type": "dedicated",
-   "gpu_brand": "none"
+   "link_type": "dedicated"
   },
   {
    "id": "vcg-l40s-32c-375g-96vram",
