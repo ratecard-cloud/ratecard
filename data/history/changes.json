@@ -11413,5 +11413,77 @@
   "region": "ap-southeast",
   "sku": "voc-g-8c-32gb-160s-amd",
   "monthly": 240
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-4gb",
+  "monthly": 24
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-8gb",
+  "monthly": 48
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "s-2vcpu-4gb",
+  "monthly": 24
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "s-4vcpu-8gb",
+  "monthly": 48
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "s-8vcpu-16gb",
+  "monthly": 96
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_added",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-8c-16gb-150s-amd",
+  "monthly": 160
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_added",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-8c-16gb-300s-amd",
+  "monthly": 180
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_added",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-g-8c-32gb-160s-amd",
+  "monthly": 240
+ },
+ {
+  "date": "2026-10-07",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "us-west",
+  "sku": "vhf-8c-32gb",
+  "monthly": 192
  }
 ]
