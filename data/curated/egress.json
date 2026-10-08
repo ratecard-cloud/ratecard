@@ -131,7 +131,7 @@
     ]
   },
   "vultr": {
-    "free_gb_per_month": 0,
+    "free_gb_per_month": 2048,
     "bundled_with_compute": true,
     "tiers": [
       {
@@ -139,12 +139,13 @@
         "usd_per_gb": 0.01
       }
     ],
-    "source_url": "https://www.vultr.com/pricing/",
-    "source_verified_at": "2026-08-11",
+    "source_url": "https://docs.vultr.com/support/platform/billing/how-are-bandwidth-caps-calculated",
+    "source_verified_at": "2026-10-08",
     "confidence": "medium",
     "notes": [
-      "Vultr: \"We charge $0.01 per GB for bandwidth used in excess of your quota.\"",
-      "Allowance is per instance and does not pool across the account."
+      "Vultr: \"2 TB of free bandwidth per account, allocated monthly\" — resets each calendar month, does not carry over. Read 2026-10-08.",
+      "Plan allowances pool globally across every instance on the account, on top of the free 2 TB.",
+      "Overage is $0.01/GB beyond the pooled total."
     ]
   },
   "cloudflare": {

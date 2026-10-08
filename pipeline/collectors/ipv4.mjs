@@ -188,7 +188,7 @@ async function vultr() {
       confidence: 'high',
       notes: [
         `Derived: the IPv6-only variant of ${base.id} is exactly $${delta}/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.`,
-        'Bundled into standard plan prices; avoidable by choosing an IPv6-only plan.',
+        `Only ${base.id}, the smallest sandbox plan, is sold IPv6-only. Every other plan includes IPv4 and can't drop it, so this $${delta} saving doesn't exist at any shape compared here.`,
       ],
     }),
   );

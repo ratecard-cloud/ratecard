@@ -218,12 +218,13 @@ async function linode() {
       display_name: 'Block Storage Volume',
       usd_per_gb_month: round(override?.monthly ?? t.price.monthly, 6),
       min_size_gb: 10,
-      max_size_gb: 10240,
+      // Not in the API; techdocs (read 2026-10-08): "the maximum size is 16 TB."
+      max_size_gb: 16384,
       baseline_iops: null,
       baseline_throughput_mbps: null,
       source_url: 'https://www.linode.com/pricing/',
       confidence: 'high',
-      notes: ['NVMe-backed.'],
+      notes: ['NVMe-backed.', 'Volumes from 10 GB to 16 TB.'],
     });
   });
 }

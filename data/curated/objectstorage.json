@@ -78,26 +78,29 @@
     "source_verified_at": null,
     "confidence": "low",
     "notes": [
-      "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18. These are the long-published flat-rate figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+      "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18 or 2026-10-08. These are the long-published figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+      "Same thing as \"$0.02/GB with a $5/month minimum\": 250 GB x $0.02 = $5. Enabling Object Storage adds 1 TB to the account's pooled outbound transfer.",
       "No per-request charges."
     ]
   },
   "vultr": {
     "sku": "vultr-objects-standard",
     "display_name": "Object Storage (Standard)",
-    "model": "per-gb",
+    "model": "subscription",
     "usd_per_gb_month": 0.018,
-    "base_usd_per_month": 0,
-    "included_storage_gb": 0,
+    "base_usd_per_month": 18.00,
+    "included_storage_gb": 1000,
     "free_storage_gb": 0,
     "usd_per_million_writes": null,
     "usd_per_million_reads": null,
+    "exclude_regions": ["eu-central"],
     "source_url": "https://www.vultr.com/products/object-storage/",
-    "source_verified_at": "2026-08-18",
+    "source_verified_at": "2026-10-08",
     "confidence": "medium",
     "notes": [
-      "Standard tier \"$18 / TB / month\", read off the product page 2026-08-18. Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
-      "Transfer beyond the initial allotment bills separately."
+      "Standard tier: $18.00/month minimum, which includes 1000 GB stored and 1000 GB/month outbound; $0.018/GB stored and $0.01/GB transferred beyond that. Product page FAQ, read 2026-10-08.",
+      "Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
+      "Offered in 14 storage-hub locations, which include New Jersey, Los Angeles and Singapore but not Frankfurt, so there is no eu-central entry."
     ]
   }
 }

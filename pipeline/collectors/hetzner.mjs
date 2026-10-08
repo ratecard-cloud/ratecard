@@ -49,6 +49,15 @@ export default async function collect() {
       const loc = prices.find((p) => p.location === code);
       if (!loc) continue;
 
+      // The pricing endpoint keeps quoting a type in locations where it can no
+      // longer be ordered (e.g. CPX11-51 in every EU location since the
+      // 2025-12-31 retirement). Availability lives on server_types[].locations:
+      // a per-location deprecation is permanent, so drop the record; available
+      // false with no deprecation is a temporary sell-out, so keep and flag it.
+      const avail = t.locations?.find((l) => l.name === code);
+      if (avail?.deprecation) continue;
+      const soldOut = avail?.available === false;
+
       // Hetzner quotes net (ex-VAT) and gross; list-price comparisons use net.
       const monthlyNative = parseFloat(loc.price_monthly.net);
       const hourlyNative = parseFloat(loc.price_hourly.net);
@@ -78,6 +87,7 @@ export default async function collect() {
           source_url: SOURCE,
           confidence: 'high',
           notes: [
+            soldOut && 'Currently unavailable to order in this location (Hetzner reports it as sold out).',
             t.description,
             note,
             'Prices are net of VAT.',

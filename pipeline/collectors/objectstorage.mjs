@@ -215,6 +215,9 @@ async function curated() {
   for (const [provider, c] of Object.entries(file)) {
     if (provider.startsWith('_')) continue;
     for (const canonical of Object.keys(PROVIDERS[provider].regions)) {
+      // A provider's object storage can be absent from a region its compute
+      // covers (Vultr has no Frankfurt storage hub) — omit, don't extrapolate.
+      if (c.exclude_regions?.includes(canonical)) continue;
       out.push(rec(provider, canonical, c));
     }
   }
