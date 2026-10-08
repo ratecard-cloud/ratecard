@@ -11509,5 +11509,157 @@
   "region": "us-east",
   "sku": "s-8vcpu-16gb",
   "monthly": 96
+ },
+ {
+  "date": "2026-10-08",
+  "type": "sku_removed",
+  "provider": "hetzner",
+  "region": "ap-southeast",
+  "sku": "cpx31",
+  "monthly": 38.49
+ },
+ {
+  "date": "2026-10-08",
+  "type": "sku_removed",
+  "provider": "hetzner",
+  "region": "ap-southeast",
+  "sku": "cpx41",
+  "monthly": 65.49
+ },
+ {
+  "date": "2026-10-08",
+  "type": "sku_removed",
+  "provider": "hetzner",
+  "region": "ap-southeast",
+  "sku": "cpx51",
+  "monthly": 117.99
+ },
+ {
+  "date": "2026-10-08",
+  "type": "sku_removed",
+  "provider": "hetzner",
+  "region": "eu-central",
+  "sku": "cpx31",
+  "monthly": 20.49
+ },
+ {
+  "date": "2026-10-08",
+  "type": "sku_removed",
+  "provider": "hetzner",
+  "region": "eu-central",
+  "sku": "cpx41",
+  "monthly": 37.99
+ },
+ {
+  "date": "2026-10-08",
+  "type": "sku_removed",
+  "provider": "hetzner",
+  "region": "eu-central",
+  "sku": "cpx51",
+  "monthly": 83.49
+ },
+ {
+  "date": "2026-10-08",
+  "type": "egress_changed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "old": {
+   "free_gb_per_month": 0,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  },
+  "new": {
+   "free_gb_per_month": 2048,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "type": "egress_changed",
+  "provider": "vultr",
+  "region": "eu-central",
+  "old": {
+   "free_gb_per_month": 0,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  },
+  "new": {
+   "free_gb_per_month": 2048,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "type": "egress_changed",
+  "provider": "vultr",
+  "region": "us-east",
+  "old": {
+   "free_gb_per_month": 0,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  },
+  "new": {
+   "free_gb_per_month": 2048,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "type": "egress_changed",
+  "provider": "vultr",
+  "region": "us-west",
+  "old": {
+   "free_gb_per_month": 0,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  },
+  "new": {
+   "free_gb_per_month": 2048,
+   "bundled_with_compute": true,
+   "tiers": [
+    {
+     "up_to_gb": null,
+     "usd_per_gb": 0.01
+    }
+   ]
+  }
  }
 ]

@@ -13,7 +13,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ebs/pricing/",
-  "collected_at": "2026-10-08T12:06:08.391Z",
+  "collected_at": "2026-10-08T15:08:31.124Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -34,7 +34,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ebs/pricing/",
-  "collected_at": "2026-10-08T12:06:08.391Z",
+  "collected_at": "2026-10-08T15:08:31.124Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -55,7 +55,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ebs/pricing/",
-  "collected_at": "2026-10-08T12:06:08.391Z",
+  "collected_at": "2026-10-08T15:08:31.124Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -76,7 +76,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/ebs/pricing/",
-  "collected_at": "2026-10-08T12:06:08.391Z",
+  "collected_at": "2026-10-08T15:08:31.124Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -97,7 +97,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/managed-disks/",
-  "collected_at": "2026-10-08T12:06:10.394Z",
+  "collected_at": "2026-10-08T15:08:36.082Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -120,7 +120,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/managed-disks/",
-  "collected_at": "2026-10-08T12:06:09.089Z",
+  "collected_at": "2026-10-08T15:08:35.765Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -143,7 +143,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/managed-disks/",
-  "collected_at": "2026-10-08T12:06:08.498Z",
+  "collected_at": "2026-10-08T15:08:34.521Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -166,7 +166,7 @@
   "baseline_throughput_mbps": 125,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/managed-disks/",
-  "collected_at": "2026-10-08T12:06:10.323Z",
+  "collected_at": "2026-10-08T15:08:35.990Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -189,7 +189,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/volumes/details/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.148Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -211,7 +211,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/volumes/details/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.147Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -233,7 +233,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/volumes/details/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.147Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -255,7 +255,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/volumes/details/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.147Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -277,7 +277,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://cloud.google.com/compute/disks-image-pricing",
-  "collected_at": "2026-10-08T12:06:17.648Z",
+  "collected_at": "2026-10-08T15:08:41.466Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -298,7 +298,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://cloud.google.com/compute/disks-image-pricing",
-  "collected_at": "2026-10-08T12:06:17.648Z",
+  "collected_at": "2026-10-08T15:08:41.466Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -319,7 +319,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://cloud.google.com/compute/disks-image-pricing",
-  "collected_at": "2026-10-08T12:06:17.648Z",
+  "collected_at": "2026-10-08T15:08:41.466Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -340,7 +340,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://cloud.google.com/compute/disks-image-pricing",
-  "collected_at": "2026-10-08T12:06:17.648Z",
+  "collected_at": "2026-10-08T15:08:41.466Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -361,7 +361,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:20.545Z",
+  "collected_at": "2026-10-08T15:08:42.950Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -382,7 +382,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:20.545Z",
+  "collected_at": "2026-10-08T15:08:42.950Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -403,7 +403,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:20.545Z",
+  "collected_at": "2026-10-08T15:08:42.950Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -424,7 +424,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:20.545Z",
+  "collected_at": "2026-10-08T15:08:42.950Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -440,16 +440,17 @@
   "kind": "block",
   "usd_per_gb_month": 0.1,
   "min_size_gb": 10,
-  "max_size_gb": 10240,
+  "max_size_gb": 16384,
   "baseline_iops": null,
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.147Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
-   "NVMe-backed."
+   "NVMe-backed.",
+   "Volumes from 10 GB to 16 TB."
   ]
  },
  {
@@ -461,16 +462,17 @@
   "kind": "block",
   "usd_per_gb_month": 0.1,
   "min_size_gb": 10,
-  "max_size_gb": 10240,
+  "max_size_gb": 16384,
   "baseline_iops": null,
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.147Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
-   "NVMe-backed."
+   "NVMe-backed.",
+   "Volumes from 10 GB to 16 TB."
   ]
  },
  {
@@ -482,16 +484,17 @@
   "kind": "block",
   "usd_per_gb_month": 0.1,
   "min_size_gb": 10,
-  "max_size_gb": 10240,
+  "max_size_gb": 16384,
   "baseline_iops": null,
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.147Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
-   "NVMe-backed."
+   "NVMe-backed.",
+   "Volumes from 10 GB to 16 TB."
   ]
  },
  {
@@ -503,16 +506,17 @@
   "kind": "block",
   "usd_per_gb_month": 0.1,
   "min_size_gb": 10,
-  "max_size_gb": 10240,
+  "max_size_gb": 16384,
   "baseline_iops": null,
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/pricing/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.147Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
-   "NVMe-backed."
+   "NVMe-backed.",
+   "Volumes from 10 GB to 16 TB."
   ]
  },
  {
@@ -529,7 +533,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:20.058Z",
+  "collected_at": "2026-10-08T15:08:42.621Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -552,7 +556,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:20.058Z",
+  "collected_at": "2026-10-08T15:08:42.621Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -575,7 +579,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:20.058Z",
+  "collected_at": "2026-10-08T15:08:42.621Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -598,7 +602,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:20.058Z",
+  "collected_at": "2026-10-08T15:08:42.621Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -621,7 +625,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/block-storage/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.148Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -643,7 +647,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/block-storage/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.148Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -665,7 +669,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/block-storage/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.148Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -687,7 +691,7 @@
   "baseline_throughput_mbps": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/block-storage/",
-  "collected_at": "2026-10-08T12:06:20.779Z",
+  "collected_at": "2026-10-08T15:08:43.148Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [

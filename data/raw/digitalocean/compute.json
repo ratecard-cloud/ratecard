@@ -86,8 +86,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -226,8 +225,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -486,8 +484,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -826,8 +823,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1172,8 +1168,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1492,8 +1487,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -2286,8 +2280,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -3138,8 +3131,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -4264,8 +4256,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -6234,9 +6225,7 @@
    "transfer": 10,
    "price_monthly": 565.44,
    "price_hourly": 0.76,
-   "regions": [
-    "tor1"
-   ],
+   "regions": [],
    "available": true,
    "description": "RTX 4000 Ada GPU Droplet - 1X",
    "networking_throughput": 10000,

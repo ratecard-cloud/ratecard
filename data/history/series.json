@@ -3606,7 +3606,8 @@
     "monthly": 20.49
    }
   ],
-  "last_seen": "2026-10-08"
+  "last_seen": "2026-10-08",
+  "removed": "2026-10-08"
  },
  "hetzner/eu-central/cpx32": {
   "first_seen": "2026-08-12",
@@ -3666,7 +3667,8 @@
     "monthly": 37.99
    }
   ],
-  "last_seen": "2026-10-08"
+  "last_seen": "2026-10-08",
+  "removed": "2026-10-08"
  },
  "hetzner/eu-central/cpx42": {
   "first_seen": "2026-08-12",
@@ -3721,7 +3723,8 @@
     "monthly": 83.49
    }
   ],
-  "last_seen": "2026-10-08"
+  "last_seen": "2026-10-08",
+  "removed": "2026-10-08"
  },
  "hetzner/eu-central/cpx62": {
   "first_seen": "2026-08-12",
@@ -6496,7 +6499,8 @@
     "monthly": 38.49
    }
   ],
-  "last_seen": "2026-10-08"
+  "last_seen": "2026-10-08",
+  "removed": "2026-10-08"
  },
  "hetzner/ap-southeast/cpx32": {
   "first_seen": "2026-08-18",
@@ -6529,7 +6533,8 @@
     "monthly": 65.49
    }
   ],
-  "last_seen": "2026-10-08"
+  "last_seen": "2026-10-08",
+  "removed": "2026-10-08"
  },
  "hetzner/ap-southeast/cpx42": {
   "first_seen": "2026-08-18",
@@ -6562,7 +6567,8 @@
     "monthly": 117.99
    }
   ],
-  "last_seen": "2026-10-08"
+  "last_seen": "2026-10-08",
+  "removed": "2026-10-08"
  },
  "hetzner/ap-southeast/cpx62": {
   "first_seen": "2026-08-18",

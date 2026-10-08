@@ -14,7 +14,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-10-08T12:06:35.624Z",
+  "collected_at": "2026-10-08T15:08:56.718Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -37,7 +37,7 @@
   "usd_per_million_reads": 0.43,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-10-08T12:06:35.344Z",
+  "collected_at": "2026-10-08T15:08:56.425Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -60,7 +60,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-10-08T12:06:34.830Z",
+  "collected_at": "2026-10-08T15:08:56.239Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -83,7 +83,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/s3/pricing/",
-  "collected_at": "2026-10-08T12:06:35.375Z",
+  "collected_at": "2026-10-08T15:08:56.563Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -106,7 +106,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-10-08T12:06:39.608Z",
+  "collected_at": "2026-10-08T15:09:01.259Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -129,7 +129,7 @@
   "usd_per_million_reads": 0.43,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-10-08T12:06:37.040Z",
+  "collected_at": "2026-10-08T15:08:56.929Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -152,7 +152,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-10-08T12:06:36.304Z",
+  "collected_at": "2026-10-08T15:08:56.814Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -175,7 +175,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/storage/blobs/",
-  "collected_at": "2026-10-08T12:06:37.284Z",
+  "collected_at": "2026-10-08T15:08:59.660Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -198,7 +198,7 @@
   "usd_per_million_reads": 0,
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -222,7 +222,7 @@
   "usd_per_million_reads": 0,
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -246,7 +246,7 @@
   "usd_per_million_reads": 0,
   "currency": "USD",
   "source_url": "https://www.backblaze.com/cloud-storage/pricing",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -270,7 +270,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -294,7 +294,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-10-08T12:06:42.332Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -318,7 +318,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-10-08T12:06:42.332Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -342,7 +342,7 @@
   "usd_per_million_reads": 0.36,
   "currency": "USD",
   "source_url": "https://developers.cloudflare.com/r2/pricing/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -366,7 +366,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -390,7 +390,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -414,7 +414,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -438,7 +438,7 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/spaces/details/pricing/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -462,7 +462,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-10-08T12:06:39.845Z",
+  "collected_at": "2026-10-08T15:09:01.451Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -485,7 +485,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-10-08T12:06:39.845Z",
+  "collected_at": "2026-10-08T15:09:01.451Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -508,7 +508,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-10-08T12:06:39.845Z",
+  "collected_at": "2026-10-08T15:09:01.451Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -531,7 +531,7 @@
   "usd_per_million_reads": 0.4,
   "currency": "USD",
   "source_url": "https://cloud.google.com/storage/pricing",
-  "collected_at": "2026-10-08T12:06:39.845Z",
+  "collected_at": "2026-10-08T15:09:01.451Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -554,11 +554,12 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
-   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18. These are the long-published flat-rate figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18 or 2026-10-08. These are the long-published figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "Same thing as \"$0.02/GB with a $5/month minimum\": 250 GB x $0.02 = $5. Enabling Object Storage adds 1 TB to the account's pooled outbound transfer.",
    "No per-request charges."
   ]
  },
@@ -577,11 +578,12 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
-   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18. These are the long-published flat-rate figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18 or 2026-10-08. These are the long-published figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "Same thing as \"$0.02/GB with a $5/month minimum\": 250 GB x $0.02 = $5. Enabling Object Storage adds 1 TB to the account's pooled outbound transfer.",
    "No per-request charges."
   ]
  },
@@ -600,11 +602,12 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
-   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18. These are the long-published flat-rate figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18 or 2026-10-08. These are the long-published figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "Same thing as \"$0.02/GB with a $5/month minimum\": 250 GB x $0.02 = $5. Enabling Object Storage adds 1 TB to the account's pooled outbound transfer.",
    "No per-request charges."
   ]
  },
@@ -623,11 +626,12 @@
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.linode.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "low",
   "notes": [
-   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18. These are the long-published flat-rate figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "UNVERIFIED TODAY: Akamai's pricing pages render client-side and printed no numbers on 2026-08-18 or 2026-10-08. These are the long-published figures ($5/month, 250 GB and 1 TB outbound included, $0.02/GB overage) carried forward pending re-verification.",
+   "Same thing as \"$0.02/GB with a $5/month minimum\": 250 GB x $0.02 = $5. Enabling Object Storage adds 1 TB to the account's pooled outbound transfer.",
    "No per-request charges."
   ]
  },
@@ -646,7 +650,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:42.332Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -669,7 +673,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:42.332Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -692,7 +696,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:42.332Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -715,7 +719,7 @@
   "usd_per_million_reads": 0.34,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/storage/pricing/",
-  "collected_at": "2026-10-08T12:06:42.332Z",
+  "collected_at": "2026-10-08T15:09:02.951Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -729,44 +733,22 @@
   "region_code": "sgp",
   "sku": "vultr-objects-standard",
   "display_name": "Object Storage (Standard)",
-  "model": "per-gb",
+  "model": "subscription",
   "usd_per_gb_month": 0.018,
-  "base_usd_per_month": 0,
-  "included_storage_gb": 0,
+  "base_usd_per_month": 18,
+  "included_storage_gb": 1000,
   "free_storage_gb": 0,
   "usd_per_million_writes": null,
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
-  "source_verified_at": "2026-08-18",
+  "collected_at": "2026-10-08T15:09:02.951Z",
+  "source_verified_at": "2026-10-08",
   "confidence": "medium",
   "notes": [
-   "Standard tier \"$18 / TB / month\", read off the product page 2026-08-18. Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
-   "Transfer beyond the initial allotment bills separately."
-  ]
- },
- {
-  "provider": "vultr",
-  "region": "eu-central",
-  "region_code": "fra",
-  "sku": "vultr-objects-standard",
-  "display_name": "Object Storage (Standard)",
-  "model": "per-gb",
-  "usd_per_gb_month": 0.018,
-  "base_usd_per_month": 0,
-  "included_storage_gb": 0,
-  "free_storage_gb": 0,
-  "usd_per_million_writes": null,
-  "usd_per_million_reads": null,
-  "currency": "USD",
-  "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
-  "source_verified_at": "2026-08-18",
-  "confidence": "medium",
-  "notes": [
-   "Standard tier \"$18 / TB / month\", read off the product page 2026-08-18. Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
-   "Transfer beyond the initial allotment bills separately."
+   "Standard tier: $18.00/month minimum, which includes 1000 GB stored and 1000 GB/month outbound; $0.018/GB stored and $0.01/GB transferred beyond that. Product page FAQ, read 2026-10-08.",
+   "Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
+   "Offered in 14 storage-hub locations, which include New Jersey, Los Angeles and Singapore but not Frankfurt, so there is no eu-central entry."
   ]
  },
  {
@@ -775,21 +757,22 @@
   "region_code": "ewr",
   "sku": "vultr-objects-standard",
   "display_name": "Object Storage (Standard)",
-  "model": "per-gb",
+  "model": "subscription",
   "usd_per_gb_month": 0.018,
-  "base_usd_per_month": 0,
-  "included_storage_gb": 0,
+  "base_usd_per_month": 18,
+  "included_storage_gb": 1000,
   "free_storage_gb": 0,
   "usd_per_million_writes": null,
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
-  "source_verified_at": "2026-08-18",
+  "collected_at": "2026-10-08T15:09:02.951Z",
+  "source_verified_at": "2026-10-08",
   "confidence": "medium",
   "notes": [
-   "Standard tier \"$18 / TB / month\", read off the product page 2026-08-18. Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
-   "Transfer beyond the initial allotment bills separately."
+   "Standard tier: $18.00/month minimum, which includes 1000 GB stored and 1000 GB/month outbound; $0.018/GB stored and $0.01/GB transferred beyond that. Product page FAQ, read 2026-10-08.",
+   "Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
+   "Offered in 14 storage-hub locations, which include New Jersey, Los Angeles and Singapore but not Frankfurt, so there is no eu-central entry."
   ]
  },
  {
@@ -798,21 +781,22 @@
   "region_code": "lax",
   "sku": "vultr-objects-standard",
   "display_name": "Object Storage (Standard)",
-  "model": "per-gb",
+  "model": "subscription",
   "usd_per_gb_month": 0.018,
-  "base_usd_per_month": 0,
-  "included_storage_gb": 0,
+  "base_usd_per_month": 18,
+  "included_storage_gb": 1000,
   "free_storage_gb": 0,
   "usd_per_million_writes": null,
   "usd_per_million_reads": null,
   "currency": "USD",
   "source_url": "https://www.vultr.com/products/object-storage/",
-  "collected_at": "2026-10-08T12:06:42.333Z",
-  "source_verified_at": "2026-08-18",
+  "collected_at": "2026-10-08T15:09:02.951Z",
+  "source_verified_at": "2026-10-08",
   "confidence": "medium",
   "notes": [
-   "Standard tier \"$18 / TB / month\", read off the product page 2026-08-18. Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
-   "Transfer beyond the initial allotment bills separately."
+   "Standard tier: $18.00/month minimum, which includes 1000 GB stored and 1000 GB/month outbound; $0.018/GB stored and $0.01/GB transferred beyond that. Product page FAQ, read 2026-10-08.",
+   "Premium ($36), Performance ($50), Accelerated ($100) and Archival ($6) tiers exist; Standard is the general-purpose comparable.",
+   "Offered in 14 storage-hub locations, which include New Jersey, Los Angeles and Singapore but not Frankfurt, so there is no eu-central entry."
   ]
  }
 ]

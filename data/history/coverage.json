@@ -982,7 +982,7 @@
     },
     {
       "date": "2026-10-08",
-      "count": 11
+      "count": 8
     }
   ],
   "compute hetzner/eu-central": [
@@ -1040,7 +1040,7 @@
     },
     {
       "date": "2026-10-08",
-      "count": 19
+      "count": 16
     }
   ],
   "compute hetzner/us-east": [

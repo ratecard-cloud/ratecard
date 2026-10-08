@@ -10,7 +10,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-10-08T12:06:21.951Z",
+  "collected_at": "2026-10-08T15:08:43.702Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -28,7 +28,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-10-08T12:06:21.360Z",
+  "collected_at": "2026-10-08T15:08:43.432Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -46,7 +46,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-10-08T12:06:21.067Z",
+  "collected_at": "2026-10-08T15:08:43.303Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -64,7 +64,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://aws.amazon.com/vpc/pricing/",
-  "collected_at": "2026-10-08T12:06:21.695Z",
+  "collected_at": "2026-10-08T15:08:43.576Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -82,7 +82,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-10-08T12:06:23.995Z",
+  "collected_at": "2026-10-08T15:08:44.315Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -100,7 +100,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-10-08T12:06:22.617Z",
+  "collected_at": "2026-10-08T15:08:44.052Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -118,7 +118,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-10-08T12:06:22.034Z",
+  "collected_at": "2026-10-08T15:08:43.948Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -136,7 +136,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://azure.microsoft.com/en-us/pricing/details/ip-addresses/",
-  "collected_at": "2026-10-08T12:06:23.923Z",
+  "collected_at": "2026-10-08T15:08:44.153Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -154,7 +154,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -173,7 +173,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -192,7 +192,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -211,7 +211,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://docs.digitalocean.com/products/networking/reserved-ips/details/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -230,7 +230,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-10-08T12:06:30.564Z",
+  "collected_at": "2026-10-08T15:08:49.376Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -248,7 +248,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-10-08T12:06:30.564Z",
+  "collected_at": "2026-10-08T15:08:49.376Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -266,7 +266,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-10-08T12:06:30.564Z",
+  "collected_at": "2026-10-08T15:08:49.376Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -284,7 +284,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://cloud.google.com/vpc/network-pricing#ipaddress",
-  "collected_at": "2026-10-08T12:06:30.564Z",
+  "collected_at": "2026-10-08T15:08:49.376Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -302,7 +302,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:31.057Z",
+  "collected_at": "2026-10-08T15:08:49.702Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -320,7 +320,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:31.057Z",
+  "collected_at": "2026-10-08T15:08:49.702Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -338,7 +338,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:31.057Z",
+  "collected_at": "2026-10-08T15:08:49.702Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -356,7 +356,7 @@
   "included_with_instance": false,
   "currency": "USD",
   "source_url": "https://www.hetzner.com/cloud/",
-  "collected_at": "2026-10-08T12:06:31.057Z",
+  "collected_at": "2026-10-08T15:08:49.702Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
@@ -374,7 +374,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -392,7 +392,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -410,7 +410,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -428,7 +428,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://techdocs.akamai.com/cloud-computing/docs/managing-ip-addresses-on-a-compute-instance",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -446,7 +446,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -465,7 +465,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -484,7 +484,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -503,7 +503,7 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.oracle.com/cloud/price-list/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": "2026-08-18",
   "confidence": "medium",
   "notes": [
@@ -522,12 +522,12 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
-   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+   "Only vc2-1c-0.5gb, the smallest sandbox plan, is sold IPv6-only. Every other plan includes IPv4 and can't drop it, so this $1 saving doesn't exist at any shape compared here."
   ]
  },
  {
@@ -541,12 +541,12 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
-   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+   "Only vc2-1c-0.5gb, the smallest sandbox plan, is sold IPv6-only. Every other plan includes IPv4 and can't drop it, so this $1 saving doesn't exist at any shape compared here."
   ]
  },
  {
@@ -560,12 +560,12 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
-   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+   "Only vc2-1c-0.5gb, the smallest sandbox plan, is sold IPv6-only. Every other plan includes IPv4 and can't drop it, so this $1 saving doesn't exist at any shape compared here."
   ]
  },
  {
@@ -579,12 +579,12 @@
   "included_with_instance": true,
   "currency": "USD",
   "source_url": "https://www.vultr.com/pricing/",
-  "collected_at": "2026-10-08T12:06:31.330Z",
+  "collected_at": "2026-10-08T15:08:49.887Z",
   "source_verified_at": null,
   "confidence": "high",
   "notes": [
    "Derived: the IPv6-only variant of vc2-1c-0.5gb is exactly $1/month cheaper than the IPv4 version — Vultr's imputed IPv4 price, from their own plans API.",
-   "Bundled into standard plan prices; avoidable by choosing an IPv6-only plan."
+   "Only vc2-1c-0.5gb, the smallest sandbox plan, is sold IPv6-only. Every other plan includes IPv4 and can't drop it, so this $1 saving doesn't exist at any shape compared here."
   ]
  }
 ]
