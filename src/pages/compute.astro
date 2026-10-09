@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import ProviderSignup from '../components/ProviderSignup.astro';
 import {
   COMPUTE, PROVIDERS, REGIONS, ACTIVE_REGIONS, SHAPES, ACTIVE_PROVIDERS,
-  effectiveMonthly, usd, gbLabel, MANIFEST, freshness, providerList,
+  effectiveMonthly, usd, gbLabel, bundledLabel, MANIFEST, freshness, providerList,
 } from '../lib/data';
 
 const DEFAULT_REGION = 'us-east';
@@ -151,7 +151,7 @@ const description =
                   ? <span class="chip chip-arm">ARM</span>
                   : <span class="faint" style="font-size:12px">x86</span>}
               </td>
-              <td class="right num faint col-optional" data-label="Bundled egress">{gbLabel(r.included_egress_gb)}</td>
+              <td class="right num faint col-optional" data-label="Bundled egress">{bundledLabel(r)}</td>
               <td class="right num muted col-optional" data-label="$/hr">${r.price_hourly_usd.toFixed(4)}</td>
               <td class="right num muted" data-label="$/mo">{usd(e.base)}</td>
               <td class="right num" data-label="+ egress" style={e.egress > 0 ? 'color:var(--warn)' : 'color:var(--fg-faint)'}>

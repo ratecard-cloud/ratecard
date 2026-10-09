@@ -4,7 +4,7 @@ import ProviderSignup from '../../components/ProviderSignup.astro';
 import {
   COMPUTE, PROVIDERS, REGIONS, SHAPES, MANIFEST,
   effectiveMonthly, egressSchedule, egressCost, exitCost, crossover,
-  usd, gbLabel, freshness,
+  usd, gbLabel, bundledLabel, freshness,
 } from '../../lib/data';
 import type { ComputeRow } from '../../lib/data';
 
@@ -99,8 +99,8 @@ const description =
           At {ref.s.label}: {shortOf(ref.ra)} is {usd(effectiveMonthly(ref.ra, 0).total)}/mo
           and {shortOf(ref.rb)} is {usd(effectiveMonthly(ref.rb, 0).total)}/mo before any
           traffic. Bandwidth is what separates them — {A.short} bundles
-          {' '}{gbLabel(ref.ra.included_egress_gb)} and {B.short} bundles
-          {' '}{gbLabel(ref.rb.included_egress_gb)}.
+          {' '}{bundledLabel(ref.ra)} and {B.short} bundles
+          {' '}{bundledLabel(ref.rb)}.
         </div>
       )}
     </div>

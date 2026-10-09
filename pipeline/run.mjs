@@ -16,13 +16,14 @@ import hetzner from './collectors/hetzner.mjs';
 import digitalocean from './collectors/digitalocean.mjs';
 import linode from './collectors/linode.mjs';
 import vultr from './collectors/vultr.mjs';
+import ovh from './collectors/ovh.mjs';
 import egressCollector from './collectors/egress.mjs';
 import storageCollector from './collectors/storage.mjs';
 import ipv4Collector from './collectors/ipv4.mjs';
 import interregionCollector from './collectors/interregion.mjs';
 import objectStorageCollector from './collectors/objectstorage.mjs';
 
-const COMPUTE = { aws, azure, gcp, oci, hetzner, digitalocean, linode, vultr };
+const COMPUTE = { aws, azure, gcp, oci, hetzner, digitalocean, linode, vultr, ovh };
 
 const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
 const c = { g: '\x1b[32m', y: '\x1b[33m', r: '\x1b[31m', d: '\x1b[2m', x: '\x1b[0m' };

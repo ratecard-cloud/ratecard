@@ -54,6 +54,13 @@
     }
   }
 
+  // Mirrors bundledLabel in src/lib/data.ts: "0" would misread an unmetered provider.
+  function bundledLabel(r) {
+    var s = schedule(r.provider, r.region);
+    var free = s && s.tiers.every(function (t) { return t.usd_per_gb === 0; });
+    return free ? 'unmetered' : gbLabel(r.included_egress_gb);
+  }
+
   function egressCost(sched, gb) {
     if (!sched) return 0;
     var remaining = Math.max(0, gb - (sched.free_gb_per_month || 0));
@@ -186,7 +193,7 @@
         '<td class="col-optional" data-label="Arch">' + (r.arch === 'arm64'
           ? '<span class="chip chip-arm">ARM</span>'
           : '<span class="faint" style="font-size:12px">x86</span>') + '</td>' +
-        '<td class="right num faint col-optional" data-label="Bundled egress">' + gbLabel(r.included_egress_gb) + '</td>' +
+        '<td class="right num faint col-optional" data-label="Bundled egress">' + bundledLabel(r) + '</td>' +
         '<td class="right num muted col-optional" data-label="$/hr">$' + r.price_hourly_usd.toFixed(4) + '</td>' +
         '<td class="right num muted" data-label="$/mo">' + usd(r.price_monthly_usd) + '</td>' +
         '<td class="right num" data-label="+ egress" style="color:' + (d.eg > 0 ? 'var(--warn)' : 'var(--fg-faint)') + '">' +

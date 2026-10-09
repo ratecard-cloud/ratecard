@@ -912,6 +912,87 @@
   ]
  },
  {
+  "provider": "ovh",
+  "region": "ap-southeast",
+  "free_gb_per_month": 1024,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0.0109
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.ovhcloud.com/en/public-cloud/prices/",
+  "collected_at": "2026-10-09T03:34:26.552Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "First 1024 GiB/month per project per datacentre is free, then $0.0109/GiB — from OVH's own catalog.",
+   "The allowance is per project, not per instance: several instances in the same datacentre share it."
+  ]
+ },
+ {
+  "provider": "ovh",
+  "region": "eu-central",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.ovhcloud.com/en/public-cloud/prices/",
+  "collected_at": "2026-10-09T03:34:26.552Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Outbound traffic is included and unmetered; instance bandwidth (Mbit/s) is the only limit."
+  ]
+ },
+ {
+  "provider": "ovh",
+  "region": "us-east",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.ovhcloud.com/en/public-cloud/prices/",
+  "collected_at": "2026-10-09T03:34:26.552Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Outbound traffic is included and unmetered; instance bandwidth (Mbit/s) is the only limit."
+  ]
+ },
+ {
+  "provider": "ovh",
+  "region": "us-west",
+  "free_gb_per_month": 0,
+  "bundled_with_compute": false,
+  "tiers": [
+   {
+    "up_to_gb": null,
+    "usd_per_gb": 0
+   }
+  ],
+  "currency": "USD",
+  "source_url": "https://www.ovhcloud.com/en/public-cloud/prices/",
+  "collected_at": "2026-10-09T03:34:26.552Z",
+  "source_verified_at": null,
+  "confidence": "high",
+  "notes": [
+   "Outbound traffic is included and unmetered; instance bandwidth (Mbit/s) is the only limit."
+  ]
+ },
+ {
   "provider": "vultr",
   "region": "ap-southeast",
   "free_gb_per_month": 2048,

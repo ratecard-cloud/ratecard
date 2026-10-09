@@ -62,6 +62,7 @@ next to the normalized output so the schema can change without re-fetching.
 | GCP | Cloud Billing Catalog | `GCP_API_KEY` |
 | Hetzner | Cloud API | `HETZNER_API_TOKEN` |
 | DigitalOcean | `/v2/sizes` | `DO_API_TOKEN` |
+| OVHcloud | Public order catalog (US + international) | none for US; `OVH_*` keys for EU/APAC availability |
 | R2 / B2 | curated from docs | — |
 
 Block storage (`data/normalized/storage.json`) follows the same pattern: six
@@ -74,14 +75,23 @@ managed disks price by size tier, not per GB, and are deliberately excluded.
 Five providers collect with **zero credentials**. The other three are skipped with
 a clear message rather than falling back to guessed numbers.
 
+OVHcloud is half of each. Its catalogs are public, but they price a plan without
+saying where it can be ordered. US regions are published only for models whose
+catalog states the region; Frankfurt (DE1) and Singapore (SGP1) need the
+authenticated availability endpoint and are skipped without its keys.
+
 ### Credentials
 
-All three are free and read-only. Drop them in `.env` or export them:
+All are free and read-only. Drop them in `.env` or export them:
 
 ```bash
 export HETZNER_API_TOKEN=...   # Hetzner Console → Security → API tokens (read)
 export DO_API_TOKEN=...        # DigitalOcean → API → Personal access token (read)
 export GCP_API_KEY=...         # GCP Console → Credentials, enable Cloud Billing API
+export OVH_APPLICATION_KEY=... # OVHcloud: ca.api.ovh.com/createToken, rights GET /cloud/order/rule/availability
+export OVH_APPLICATION_SECRET=...
+export OVH_CONSUMER_KEY=...
+# export OVH_ENDPOINT=https://eu.api.ovh.com/1.0   # only if the keys are for an EU account
 ```
 
 ### AWS caching

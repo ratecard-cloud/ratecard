@@ -1,0 +1,299 @@
+{
+ "us-east": {
+  "planCode": "bandwidth_instance_out.consumption",
+  "invoiceName": "bandwidth_instance_out consumption",
+  "addonFamilies": [],
+  "product": "publiccloud-bandwidth-instance-out",
+  "pricingType": "consumption",
+  "consumptionConfiguration": {
+   "billingStrategy": "sum",
+   "prorataUnit": "day",
+   "pingEndPolicy": null
+  },
+  "pricings": [
+   {
+    "phase": 0,
+    "capacities": [
+     "consumption"
+    ],
+    "commitment": 0,
+    "description": "hourly prices",
+    "interval": 0,
+    "intervalUnit": "none",
+    "quantity": {
+     "min": 1,
+     "max": null
+    },
+    "repeat": {
+     "min": 1,
+     "max": null
+    },
+    "price": 0,
+    "formattedPrice": "$0.00 USD",
+    "tax": 0,
+    "mode": "default",
+    "strategy": "tiered",
+    "mustBeCompleted": false,
+    "type": "consumption",
+    "promotions": [],
+    "engagementConfiguration": null
+   }
+  ],
+  "configurations": [],
+  "family": null,
+  "blobs": {
+   "commercial": {
+    "brick": "bandwidth-instance",
+    "brickSubtype": null,
+    "name": "bandwidth-instance-out",
+    "price": {
+     "display": {
+      "value": "included"
+     },
+     "interval": "PT1H",
+     "precision": 4,
+     "unit": "GiB"
+    }
+   },
+   "tags": [
+    "active"
+   ]
+  }
+ },
+ "eu-central": {
+  "planCode": "bandwidth_instance_out.consumption",
+  "invoiceName": "bandwidth_instance_out",
+  "addonFamilies": [],
+  "product": "publiccloud-bandwidth-instance-out",
+  "pricingType": "consumption",
+  "consumptionConfiguration": {
+   "billingStrategy": "sum",
+   "prorataUnit": "hour",
+   "pingEndPolicy": null
+  },
+  "pricings": [
+   {
+    "phase": 0,
+    "capacities": [
+     "consumption"
+    ],
+    "commitment": 0,
+    "description": "hourly prices",
+    "interval": 0,
+    "intervalUnit": "none",
+    "quantity": {
+     "min": 1,
+     "max": null
+    },
+    "repeat": {
+     "min": 1,
+     "max": null
+    },
+    "price": 0,
+    "formattedPrice": "$0.00 USD",
+    "tax": 0,
+    "mode": "default",
+    "strategy": "tiered",
+    "mustBeCompleted": false,
+    "type": "consumption",
+    "promotions": [],
+    "engagementConfiguration": null
+   }
+  ],
+  "configurations": [
+   {
+    "name": "region",
+    "isCustom": false,
+    "isMandatory": false,
+    "values": [
+     "BHS1",
+     "BHS3",
+     "BHS5",
+     "DE1",
+     "GRA1",
+     "GRA3",
+     "GRA5",
+     "SBG1",
+     "SBG3",
+     "SBG5",
+     "UK1",
+     "WAW1"
+    ]
+   }
+  ],
+  "family": null,
+  "blobs": {
+   "commercial": {
+    "brick": "bandwidth-instance",
+    "brickSubtype": null,
+    "name": "bandwidth-instance-out",
+    "price": {
+     "display": {
+      "value": "included"
+     },
+     "interval": "PT1H",
+     "precision": 4,
+     "unit": "GiB"
+    }
+   },
+   "tags": [
+    "active"
+   ]
+  }
+ },
+ "us-west": {
+  "planCode": "bandwidth_instance_out.consumption",
+  "invoiceName": "bandwidth_instance_out consumption",
+  "addonFamilies": [],
+  "product": "publiccloud-bandwidth-instance-out",
+  "pricingType": "consumption",
+  "consumptionConfiguration": {
+   "billingStrategy": "sum",
+   "prorataUnit": "day",
+   "pingEndPolicy": null
+  },
+  "pricings": [
+   {
+    "phase": 0,
+    "capacities": [
+     "consumption"
+    ],
+    "commitment": 0,
+    "description": "hourly prices",
+    "interval": 0,
+    "intervalUnit": "none",
+    "quantity": {
+     "min": 1,
+     "max": null
+    },
+    "repeat": {
+     "min": 1,
+     "max": null
+    },
+    "price": 0,
+    "formattedPrice": "$0.00 USD",
+    "tax": 0,
+    "mode": "default",
+    "strategy": "tiered",
+    "mustBeCompleted": false,
+    "type": "consumption",
+    "promotions": [],
+    "engagementConfiguration": null
+   }
+  ],
+  "configurations": [],
+  "family": null,
+  "blobs": {
+   "commercial": {
+    "brick": "bandwidth-instance",
+    "brickSubtype": null,
+    "name": "bandwidth-instance-out",
+    "price": {
+     "display": {
+      "value": "included"
+     },
+     "interval": "PT1H",
+     "precision": 4,
+     "unit": "GiB"
+    }
+   },
+   "tags": [
+    "active"
+   ]
+  }
+ },
+ "ap-southeast": {
+  "planCode": "bandwidth_instance_out.consumption.SGP1",
+  "invoiceName": "bandwidth_instance_out",
+  "addonFamilies": [],
+  "product": "publiccloud-bandwidth-instance-out",
+  "pricingType": "consumption",
+  "consumptionConfiguration": {
+   "billingStrategy": "sum",
+   "prorataUnit": "hour",
+   "pingEndPolicy": null
+  },
+  "pricings": [
+   {
+    "phase": 0,
+    "capacities": [
+     "consumption"
+    ],
+    "commitment": 0,
+    "description": "hourly prices",
+    "interval": 0,
+    "intervalUnit": "none",
+    "quantity": {
+     "min": 1,
+     "max": 1024
+    },
+    "repeat": {
+     "min": 1,
+     "max": 1
+    },
+    "price": 0,
+    "formattedPrice": "$0.00 USD",
+    "tax": 0,
+    "mode": "default",
+    "strategy": "tiered",
+    "mustBeCompleted": false,
+    "type": "consumption",
+    "promotions": [],
+    "engagementConfiguration": null
+   },
+   {
+    "phase": 0,
+    "capacities": [
+     "consumption"
+    ],
+    "commitment": 0,
+    "description": "hourly prices",
+    "interval": 0,
+    "intervalUnit": "none",
+    "quantity": {
+     "min": 1025,
+     "max": null
+    },
+    "repeat": {
+     "min": 1,
+     "max": 1
+    },
+    "price": 1090000,
+    "formattedPrice": "$0.01 USD",
+    "tax": 0,
+    "mode": "default",
+    "strategy": "tiered",
+    "mustBeCompleted": false,
+    "type": "consumption",
+    "promotions": [],
+    "engagementConfiguration": null
+   }
+  ],
+  "configurations": [
+   {
+    "name": "region",
+    "isCustom": false,
+    "isMandatory": false,
+    "values": [
+     "SGP1"
+    ]
+   }
+  ],
+  "family": null,
+  "blobs": {
+   "commercial": {
+    "brick": "bandwidth-instance",
+    "brickSubtype": null,
+    "name": "bandwidth-instance-out",
+    "price": {
+     "interval": "PT1H",
+     "precision": 4,
+     "unit": "GiB"
+    }
+   },
+   "tags": [
+    "active"
+   ]
+  }
+ }
+}

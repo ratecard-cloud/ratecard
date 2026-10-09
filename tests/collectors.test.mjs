@@ -24,6 +24,7 @@ before(async () => {
     vultr: await raw('vultr'),
     linode: await raw('linode'),
     hetzner: await raw('hetzner'),
+    ovh: await raw('ovh'),
   };
   // Route by URL; anything unrouted is a test bug, not a network call.
   globalThis.fetch = async (url) => {
@@ -33,6 +34,8 @@ before(async () => {
     else if (u.includes('api.linode.com/v4/linode/types')) payload = fixtures.linode;
     else if (u.includes('api.hetzner.cloud/v1/server_types')) payload = fixtures.hetzner.server_types;
     else if (u.includes('api.hetzner.cloud/v1/pricing')) payload = fixtures.hetzner.pricing;
+    else if (u.includes('api.us.ovhcloud.com/1.0/order/catalog/public/cloud')) payload = fixtures.ovh.US;
+    else if (u.includes('/1.0/order/catalog/public/cloud?ovhSubsidiary=WE')) payload = fixtures.ovh.WE;
     else throw new Error(`unstubbed fetch in collector test: ${u}`);
     return { ok: true, status: 200, statusText: 'OK', json: async () => payload };
   };
@@ -87,4 +90,16 @@ test('hetzner: fixture replay reproduces committed records (incl. per-location t
   const us = got.filter((r) => r.region === 'us-east').map((r) => r.included_egress_gb);
   assert.ok(Math.min(...eu) >= 20480, 'EU bundles at least 20 TiB');
   assert.ok(Math.max(...us) < 20480, 'US bundles far less than EU — must not be assumed uniform');
+});
+
+test('ovh: fixture replay reproduces committed records (US availability fails closed)', async () => {
+  const got = await expectMatchesCommitted('ovh', '../pipeline/collectors/ovh.mjs');
+  // Without availability keys only US regions publish, and only models whose
+  // catalog states the region — b3 is Virginia-only, c3 states none.
+  if (!fixtures.ovh.availability) {
+    assert.ok(got.every((r) => r.region === 'us-east' || r.region === 'us-west'), 'no WE region without keys');
+    assert.ok(!got.some((r) => r.sku.startsWith('c3-')), 'c3 has no stated US region — must not be assumed');
+    assert.ok(!got.some((r) => r.region === 'us-west' && r.sku.startsWith('b3-')), 'b3 is not sold in Oregon');
+  }
+  assert.ok(got.every((r) => r.price_monthly_usd > 0 && r.included_egress_gb === 0));
 });

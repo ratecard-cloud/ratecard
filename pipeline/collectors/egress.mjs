@@ -4,6 +4,7 @@ import { createReadStream, existsSync } from 'node:fs';
 import { createInterface } from 'node:readline';
 import { Readable } from 'node:stream';
 import { ROOT, getJSON, saveRaw, PROVIDERS, round } from '../lib.mjs';
+import { catalog as ovhCatalog } from './ovh.mjs';
 
 /* ------------------------------------------------------------------ AWS -- */
 
@@ -272,6 +273,61 @@ async function hetznerSchedules() {
   return Object.keys(out).length ? out : null;
 }
 
+/* ------------------------------------------------------------------ OVH -- */
+
+/**
+ * OVH prices instance egress in the same public catalog as its instances:
+ * `bandwidth_instance_out.consumption` ("included", $0) for EU and US, and a
+ * region-suffixed addon with real tiers where it is metered (SGP1: the first
+ * 1024 GiB per project per datacentre free, then per GiB). No credentials.
+ */
+async function ovhSchedules() {
+  const out = {};
+  const raw = {};
+  for (const [canonical, code] of Object.entries(PROVIDERS.ovh.regions)) {
+    const sub = code.startsWith('US-') ? 'US' : 'WE';
+    const cat = await ovhCatalog(sub);
+    const egressAddons = cat.addons.filter((a) => a.planCode.startsWith('bandwidth_instance_out.consumption'));
+    const regionsOf = (a) => a.configurations?.find((c) => c.name === 'region')?.values;
+    const addon =
+      egressAddons.find((a) => a.planCode === `bandwidth_instance_out.consumption.${code}`) ??
+      egressAddons.find((a) => a.planCode === 'bandwidth_instance_out.consumption' &&
+        // The US catalog states no regions: its one schedule covers both.
+        (sub === 'US' || regionsOf(a)?.includes(code)));
+    if (!addon) continue;
+    raw[canonical] = addon;
+
+    // Tiers are quantity ranges in GiB with a per-GiB price in 1e-8 USD.
+    let free = 0;
+    const tiers = [];
+    for (const p of [...addon.pricings].sort((a, b) => a.quantity.min - b.quantity.min)) {
+      const usd = p.price / 1e8;
+      if (usd === 0 && tiers.length === 0) {
+        free = p.quantity.max ?? null;
+        if (free == null) break; // unmetered
+        continue;
+      }
+      tiers.push({ up_to_gb: p.quantity.max, usd_per_gb: round(usd, 6) });
+    }
+    const unmetered = tiers.length === 0;
+    out[canonical] = {
+      free_gb_per_month: unmetered ? 0 : free,
+      bundled_with_compute: false,
+      tiers: unmetered ? [{ up_to_gb: null, usd_per_gb: 0 }] : tiers,
+      notes: unmetered
+        ? [
+            'Outbound traffic is included and unmetered; instance bandwidth (Mbit/s) is the only limit.',
+          ]
+        : [
+            `First ${free} GiB/month per project per datacentre is free, then $${tiers[0].usd_per_gb}/GiB — from OVH's own catalog.`,
+            "The allowance is per project, not per instance: several instances in the same datacentre share it.",
+          ],
+    };
+  }
+  await saveRaw('ovh', 'egress', raw);
+  return Object.keys(out).length ? out : null;
+}
+
 /* --------------------------------------------------------------- driver -- */
 
 export default async function collect() {
@@ -293,6 +349,7 @@ export default async function collect() {
     oci: ociSchedules,
     // Only supersedes the curated entry when a token is available.
     hetzner: hetznerSchedules,
+    ovh: ovhSchedules,
   };
   for (const [provider, fn] of Object.entries(parts)) {
     try {

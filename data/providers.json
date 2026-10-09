@@ -120,6 +120,21 @@
       "ap-southeast": "sgp"
     }
   },
+  "ovh": {
+    "name": "OVHcloud",
+    "short": "OVH",
+    "tier": 2,
+    "kind": "compute",
+    "url": "https://www.ovhcloud.com/en/public-cloud/prices/",
+    "affiliate": null,
+    "collector": "api",
+    "regions": {
+      "us-east": "US-EAST-VA-1",
+      "eu-central": "DE1",
+      "us-west": "US-WEST-OR-1",
+      "ap-southeast": "SGP1"
+    }
+  },
   "cloudflare": {
     "name": "Cloudflare R2",
     "short": "R2",

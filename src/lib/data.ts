@@ -221,6 +221,17 @@ export const usd = (n: number) =>
 export const gbLabel = (gb: number) =>
   gb === 0 ? '0' : gb >= 1024 ? `${+(gb / 1024).toFixed(gb % 1024 ? 1 : 0)} TB` : `${gb} GB`;
 
+/** True when a provider's outbound traffic in a region costs nothing at any volume. */
+export const isUnmetered = (s: EgressRow | undefined) =>
+  !!s && s.tiers.every((t) => t.usd_per_gb === 0);
+
+/**
+ * Bundled-egress cell. An unmetered provider bundles no allowance because it
+ * needs none — showing "0" there reads as the opposite of the truth.
+ */
+export const bundledLabel = (r: ComputeRow) =>
+  isUnmetered(egressSchedule(r.provider, r.region)) ? 'unmetered' : gbLabel(r.included_egress_gb);
+
 /**
  * "AWS, Azure, GCP and Vultr" — derived from the data so meta descriptions
  * cannot drift out of date as providers are added or lose their credentials.

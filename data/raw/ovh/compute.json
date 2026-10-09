@@ -1,0 +1,3630 @@
+{
+ "US": {
+  "locale": {
+   "currencyCode": "USD",
+   "subsidiary": "US",
+   "taxRate": 0
+  },
+  "addons": [
+   {
+    "planCode": "d2-4.monthly.postpaid",
+    "invoiceName": "d2-4",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "hour",
+     "pingEndPolicy": "full"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 1418000000,
+      "formattedPrice": "$14.18 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-4",
+      "price": {
+       "interval": "P1M"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 4
+      },
+      "name": "d2-4",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-8.monthly",
+    "invoiceName": "d2-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "rental",
+    "consumptionConfiguration": null,
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "installation"
+      ],
+      "commitment": 0,
+      "description": "installation",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": 1
+      },
+      "price": 0,
+      "formattedPrice": "$0.00 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     },
+     {
+      "phase": 0,
+      "capacities": [
+       "upgrade"
+      ],
+      "commitment": 0,
+      "description": "upgrade",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": 1
+      },
+      "repeat": {
+       "min": 1,
+       "max": 1
+      },
+      "price": 0,
+      "formattedPrice": "$0.00 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     },
+     {
+      "phase": 1,
+      "capacities": [
+       "renew"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 2553000000,
+      "formattedPrice": "$25.53 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1",
+       "US-WEST-OR-1"
+      ]
+     }
+    ],
+    "family": "instance",
+    "blobs": {
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "d2-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "s1-8.monthly.postpaid",
+    "invoiceName": "s1-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "hour",
+     "pingEndPolicy": "full"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 1715000000,
+      "formattedPrice": "$17.15 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1",
+       "US-WEST-OR-1"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "",
+      "brickSubtype": null,
+      "name": "s1-8",
+      "price": {
+       "interval": "P1M"
+      }
+     },
+     "tags": [
+      "legacy"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.1,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "s1-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 40,
+         "iops": 2000,
+         "technology": "SSD"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-4.consumption",
+    "invoiceName": "d2-4",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 2560000,
+      "formattedPrice": "$0.03 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-4",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 4
+      },
+      "name": "d2-4",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "s1-8.monthly",
+    "invoiceName": "s1-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "rental",
+    "consumptionConfiguration": null,
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "installation"
+      ],
+      "commitment": 0,
+      "description": "installation",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": 1
+      },
+      "price": 0,
+      "formattedPrice": "$0.00 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     },
+     {
+      "phase": 0,
+      "capacities": [
+       "upgrade"
+      ],
+      "commitment": 0,
+      "description": "upgrade",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": 1
+      },
+      "repeat": {
+       "min": 1,
+       "max": 1
+      },
+      "price": 0,
+      "formattedPrice": "$0.00 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     },
+     {
+      "phase": 1,
+      "capacities": [
+       "renew"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 1715000000,
+      "formattedPrice": "$17.15 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1",
+       "US-WEST-OR-1"
+      ]
+     }
+    ],
+    "family": "instance",
+    "blobs": {
+     "tags": [],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.1,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "s1-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 40,
+         "iops": 2000,
+         "technology": "SSD"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-4.monthly",
+    "invoiceName": "d2-4",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "rental",
+    "consumptionConfiguration": null,
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "installation"
+      ],
+      "commitment": 0,
+      "description": "installation",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": 1
+      },
+      "price": 0,
+      "formattedPrice": "$0.00 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     },
+     {
+      "phase": 0,
+      "capacities": [
+       "upgrade"
+      ],
+      "commitment": 0,
+      "description": "upgrade",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": 1
+      },
+      "repeat": {
+       "min": 1,
+       "max": 1
+      },
+      "price": 0,
+      "formattedPrice": "$0.00 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     },
+     {
+      "phase": 1,
+      "capacities": [
+       "renew"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 1418000000,
+      "formattedPrice": "$14.18 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "rental",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1",
+       "US-WEST-OR-1"
+      ]
+     }
+    ],
+    "family": "instance",
+    "blobs": {
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 4
+      },
+      "name": "d2-4",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "s1-8.consumption",
+    "invoiceName": "s1-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 4830000,
+      "formattedPrice": "$0.05 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1",
+       "US-WEST-OR-1"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "",
+      "brickSubtype": null,
+      "name": "s1-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "legacy"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.1,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "s1-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 40,
+         "iops": 2000,
+         "technology": "SSD"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-8.consumption",
+    "invoiceName": "d2-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 4610000,
+      "formattedPrice": "$0.05 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "d2-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-8.monthly.postpaid",
+    "invoiceName": "d2-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "hour",
+     "pingEndPolicy": "full"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 2553000000,
+      "formattedPrice": "$25.53 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-8",
+      "price": {
+       "interval": "P1M"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "d2-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-8.consumption",
+    "invoiceName": "c3-8",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 10780000,
+      "formattedPrice": "$0.11 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "c3-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 100,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-32.consumption",
+    "invoiceName": "b3-32",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 24150000,
+      "formattedPrice": "$0.24 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-32",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 2000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 8,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 32
+      },
+      "name": "b3-32",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 200,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-64.consumption",
+    "invoiceName": "b3-64",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 48290000,
+      "formattedPrice": "$0.48 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-64",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 16,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 64
+      },
+      "name": "b3-64",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 400,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-32.consumption",
+    "invoiceName": "c3-32",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 43070000,
+      "formattedPrice": "$0.43 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-32",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 2000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 16,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 32
+      },
+      "name": "c3-32",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 400,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-16.consumption",
+    "invoiceName": "c3-16",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 21540000,
+      "formattedPrice": "$0.22 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-16",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 1000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 8,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 16
+      },
+      "name": "c3-16",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 200,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-16.consumption",
+    "invoiceName": "b3-16",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 12080000,
+      "formattedPrice": "$0.12 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-16",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 1000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 16
+      },
+      "name": "b3-16",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 100,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-8.consumption",
+    "invoiceName": "b3-8",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 6050000,
+      "formattedPrice": "$0.06 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "US-EAST-VA-1"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "b3-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-4.consumption",
+    "invoiceName": "c3-4",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "sum",
+     "prorataUnit": "second",
+     "pingEndPolicy": null
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 0,
+      "intervalUnit": "none",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 5400000,
+      "formattedPrice": "$0.05 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-4",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "coming_soon",
+      "is_new",
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 4
+      },
+      "name": "c3-4",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   }
+  ]
+ },
+ "WE": {
+  "locale": {
+   "currencyCode": "USD",
+   "subsidiary": "WE",
+   "taxRate": 0
+  },
+  "addons": [
+   {
+    "planCode": "d2-4.monthly.postpaid",
+    "invoiceName": "d2-4",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "hour",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 1350000000,
+      "formattedPrice": "$13.50 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-4",
+      "price": {
+       "interval": "P1M"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 4
+      },
+      "name": "d2-4",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-4.consumption",
+    "invoiceName": "d2-4",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 2440000,
+      "formattedPrice": "$0.02 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-4",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 4
+      },
+      "name": "d2-4",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "s1-8.monthly.postpaid",
+    "invoiceName": "s1-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "hour",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 1720000000,
+      "formattedPrice": "$17.20 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "BHS1",
+       "BHS3",
+       "BHS5",
+       "DE1",
+       "GRA1",
+       "GRA3",
+       "GRA5",
+       "SBG1",
+       "SBG3",
+       "SBG5",
+       "SGP1",
+       "SYD1",
+       "UK1",
+       "WAW1",
+       "GRA7"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "",
+      "brickSubtype": null,
+      "name": "s1-8",
+      "price": {
+       "interval": "P1M"
+      }
+     },
+     "tags": [
+      "legacy"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.1,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "s1-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 40,
+         "iops": 2000,
+         "technology": "SSD"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-8.consumption",
+    "invoiceName": "d2-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 4390000,
+      "formattedPrice": "$0.04 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "d2-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "d2-8.monthly.postpaid",
+    "invoiceName": "d2-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "hour",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "monthly prices",
+      "interval": 1,
+      "intervalUnit": "month",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 2431000000,
+      "formattedPrice": "$24.31 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "discovery",
+      "name": "d2-8",
+      "price": {
+       "interval": "P1M"
+      }
+     },
+     "tags": [
+      "active"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "d2-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "interface": "NVMe",
+         "number": 1
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "s1-8.consumption",
+    "invoiceName": "s1-8",
+    "addonFamilies": [
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-free-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 4830000,
+      "formattedPrice": "$0.05 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [
+     {
+      "name": "region",
+      "isCustom": false,
+      "isMandatory": false,
+      "values": [
+       "BHS1",
+       "BHS3",
+       "BHS5",
+       "DE1",
+       "GRA1",
+       "GRA3",
+       "GRA5",
+       "SBG1",
+       "SBG3",
+       "SBG5",
+       "SGP1",
+       "SYD1",
+       "UK1",
+       "WAW1",
+       "GRA7"
+      ]
+     }
+    ],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "",
+      "brickSubtype": null,
+      "name": "s1-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "legacy"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.1,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "s1-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 40,
+         "iops": 2000,
+         "technology": "SSD"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 100,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-32.consumption",
+    "invoiceName": "c3-32",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 43070000,
+      "formattedPrice": "$0.43 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-32",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 2000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 16,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 32
+      },
+      "name": "c3-32",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 400,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-16.consumption",
+    "invoiceName": "c3-16",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 21540000,
+      "formattedPrice": "$0.22 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-16",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 1000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 8,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 16
+      },
+      "name": "c3-16",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 200,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-4.consumption",
+    "invoiceName": "c3-4",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 5400000,
+      "formattedPrice": "$0.05 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-4",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 250,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 4
+      },
+      "name": "c3-4",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-16.consumption",
+    "invoiceName": "b3-16",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 12080000,
+      "formattedPrice": "$0.12 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-16",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 1000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 16
+      },
+      "name": "b3-16",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 100,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-32.consumption",
+    "invoiceName": "b3-32",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 24150000,
+      "formattedPrice": "$0.24 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-32",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 2000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 8,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 32
+      },
+      "name": "b3-32",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 200,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "c3-8.consumption",
+    "invoiceName": "c3-8",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 10780000,
+      "formattedPrice": "$0.11 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "cpu",
+      "name": "c3-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 4,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "c3-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 100,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-64.consumption",
+    "invoiceName": "b3-64",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 48290000,
+      "formattedPrice": "$0.48 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-64",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 16,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 64
+      },
+      "name": "b3-64",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 400,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   },
+   {
+    "planCode": "b3-8.consumption",
+    "invoiceName": "b3-8",
+    "addonFamilies": [
+     {
+      "name": "license",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.windows-vcore-license.hour.consumption"
+      ],
+      "default": null
+     },
+     {
+      "name": "local-storage",
+      "exclusive": false,
+      "mandatory": false,
+      "addons": [
+       "instance.local-storage-gen3-gb.hour.consumption"
+      ],
+      "default": null
+     }
+    ],
+    "product": "publiccloud-instance",
+    "pricingType": "consumption",
+    "consumptionConfiguration": {
+     "billingStrategy": "ping",
+     "prorataUnit": "second",
+     "pingEndPolicy": "prorata"
+    },
+    "pricings": [
+     {
+      "phase": 0,
+      "capacities": [
+       "consumption"
+      ],
+      "commitment": 0,
+      "description": "hourly prices",
+      "interval": 1,
+      "intervalUnit": "hour",
+      "quantity": {
+       "min": 1,
+       "max": null
+      },
+      "repeat": {
+       "min": 1,
+       "max": null
+      },
+      "price": 6050000,
+      "formattedPrice": "$0.06 USD",
+      "tax": 0,
+      "mode": "default",
+      "strategy": "tiered",
+      "mustBeCompleted": false,
+      "type": "consumption",
+      "promotions": [],
+      "engagementConfiguration": null
+     }
+    ],
+    "configurations": [],
+    "family": null,
+    "blobs": {
+     "commercial": {
+      "brick": "guaranteed-resources",
+      "brickSubtype": "general-purpose",
+      "name": "b3-8",
+      "price": {
+       "interval": "PT1H",
+       "precision": 4,
+       "unit": "h"
+      }
+     },
+     "tags": [
+      "active",
+      "coming_soon",
+      "is_top",
+      "savings_plans"
+     ],
+     "technical": {
+      "bandwidth": {
+       "guaranteed": false,
+       "level": 500,
+       "unlimited": false
+      },
+      "cpu": {
+       "cores": 2,
+       "frequency": 2.3,
+       "model": "vCore",
+       "type": "vCore"
+      },
+      "memory": {
+       "size": 8
+      },
+      "name": "b3-8",
+      "os": {
+       "family": "linux"
+      },
+      "storage": {
+       "disks": [
+        {
+         "capacity": 50,
+         "number": 1,
+         "technology": "NVMe"
+        }
+       ],
+       "raid": "local"
+      },
+      "vrack": {
+       "guaranteed": false,
+       "level": 4000,
+       "unlimited": false
+      }
+     }
+    }
+   }
+  ]
+ },
+ "availability": null
+}
