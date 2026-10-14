@@ -84,8 +84,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -115,6 +114,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -150,6 +150,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -221,8 +222,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -252,6 +252,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -287,6 +288,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -478,8 +480,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -509,6 +510,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -664,6 +666,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -815,8 +818,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -846,6 +848,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -921,6 +924,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -1159,8 +1163,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1364,6 +1367,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -1475,8 +1479,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -1506,6 +1509,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -1755,6 +1759,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -2050,7 +2055,9 @@
    "transfer": 4,
    "price_monthly": 76,
    "price_hourly": 0.1131,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel",
    "networking_throughput": 10000,
@@ -2112,7 +2119,9 @@
    "transfer": 4,
    "price_monthly": 79,
    "price_hourly": 0.11756,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
    "networking_throughput": 10000,
@@ -2264,8 +2273,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -2569,7 +2577,9 @@
    "transfer": 4,
    "price_monthly": 92.2,
    "price_hourly": 0.1372,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",
    "networking_throughput": 10000,
@@ -2745,6 +2755,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -2886,7 +2897,9 @@
    "transfer": 4,
    "price_monthly": 99,
    "price_hourly": 0.14732,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Memory-Optimized",
    "networking_throughput": 10000,
@@ -2935,7 +2948,9 @@
    "transfer": 5,
    "price_monthly": 109,
    "price_hourly": 0.1622,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Intel",
    "networking_throughput": 10000,
@@ -2997,7 +3012,9 @@
    "transfer": 4,
    "price_monthly": 110,
    "price_hourly": 0.16369,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Memory-Optimized 3x SSD",
    "networking_throughput": 10000,
@@ -3109,8 +3126,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -3140,6 +3156,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -3328,7 +3345,9 @@
    "transfer": 5,
    "price_monthly": 122,
    "price_hourly": 0.18155,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Intel",
    "networking_throughput": 10000,
@@ -3531,6 +3550,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -3599,7 +3619,9 @@
    "transfer": 4,
    "price_monthly": 131,
    "price_hourly": 0.19494,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Storage-Optimized",
    "networking_throughput": 10000,
@@ -3822,7 +3844,9 @@
    "transfer": 4,
    "price_monthly": 139,
    "price_hourly": 0.20685,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Storage-Optimized 1.5x SSD",
    "networking_throughput": 10000,
@@ -4004,7 +4028,9 @@
    "transfer": 5,
    "price_monthly": 151,
    "price_hourly": 0.2247,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel",
    "networking_throughput": 10000,
@@ -4026,7 +4052,9 @@
    "transfer": 5,
    "price_monthly": 158,
    "price_hourly": 0.23512,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
    "networking_throughput": 10000,
@@ -4128,7 +4156,9 @@
    "transfer": 5,
    "price_monthly": 161,
    "price_hourly": 0.23958,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "CPU Optimized - Premium Intel 5x SSD",
    "networking_throughput": 10000,
@@ -4227,8 +4257,7 @@
     "nyc3",
     "sfo3",
     "sgp1",
-    "syd1",
-    "tor1"
+    "syd1"
    ],
    "available": true,
    "description": "Basic AMD",
@@ -4492,7 +4521,9 @@
    "transfer": 5,
    "price_monthly": 183.4,
    "price_hourly": 0.27292,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",
    "networking_throughput": 10000,
@@ -4628,6 +4659,7 @@
     "lon1",
     "nyc1",
     "nyc2",
+    "nyc3",
     "ric1",
     "sfo2",
     "sfo3",
@@ -4656,7 +4688,9 @@
    "transfer": 6,
    "price_monthly": 198,
    "price_hourly": 0.29464,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Memory-Optimized",
    "networking_throughput": 10000,
@@ -4745,7 +4779,9 @@
    "transfer": 6,
    "price_monthly": 218,
    "price_hourly": 0.3244,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Intel",
    "networking_throughput": 10000,
@@ -4807,7 +4843,9 @@
    "transfer": 6,
    "price_monthly": 220,
    "price_hourly": 0.32738,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Memory-Optimized 3x SSD",
    "networking_throughput": 10000,
@@ -4869,7 +4907,9 @@
    "transfer": 6,
    "price_monthly": 244,
    "price_hourly": 0.3631,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Intel",
    "networking_throughput": 10000,
@@ -4945,7 +4985,9 @@
    "transfer": 6,
    "price_monthly": 262,
    "price_hourly": 0.38988,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Storage-Optimized",
    "networking_throughput": 10000,
@@ -5168,7 +5210,9 @@
    "transfer": 6,
    "price_monthly": 278,
    "price_hourly": 0.41369,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Storage-Optimized 1.5x SSD",
    "networking_throughput": 10000,
@@ -5190,7 +5234,9 @@
    "transfer": 6,
    "price_monthly": 302,
    "price_hourly": 0.4494,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel",
    "networking_throughput": 10000,
@@ -5292,7 +5338,9 @@
    "transfer": 6,
    "price_monthly": 317,
    "price_hourly": 0.47173,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
    "networking_throughput": 10000,
@@ -5354,7 +5402,9 @@
    "transfer": 6,
    "price_monthly": 322,
    "price_hourly": 0.47917,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "CPU Optimized - Premium Intel 5x SSD",
    "networking_throughput": 10000,
@@ -5564,7 +5614,9 @@
    "transfer": 6,
    "price_monthly": 366.8,
    "price_hourly": 0.54583,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",
    "networking_throughput": 10000,
@@ -5653,7 +5705,9 @@
    "transfer": 7,
    "price_monthly": 396,
    "price_hourly": 0.58929,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Memory-Optimized",
    "networking_throughput": 10000,
@@ -5782,7 +5836,9 @@
    "transfer": 7,
    "price_monthly": 437,
    "price_hourly": 0.6503,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Intel",
    "networking_throughput": 10000,
@@ -5844,7 +5900,9 @@
    "transfer": 7,
    "price_monthly": 440,
    "price_hourly": 0.65476,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Memory-Optimized 3x SSD",
    "networking_throughput": 10000,
@@ -5866,7 +5924,9 @@
    "transfer": 7,
    "price_monthly": 489,
    "price_hourly": 0.72768,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Intel",
    "networking_throughput": 10000,
@@ -5942,7 +6002,9 @@
    "transfer": 7,
    "price_monthly": 524,
    "price_hourly": 0.77976,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Storage-Optimized",
    "networking_throughput": 10000,
@@ -6019,6 +6081,7 @@
    "price_monthly": 528.79,
    "price_hourly": 0.71074,
    "regions": [
+    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -6058,6 +6121,7 @@
    "price_monthly": 530.83,
    "price_hourly": 0.71348,
    "regions": [
+    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -6097,6 +6161,7 @@
    "price_monthly": 533.89,
    "price_hourly": 0.71759,
    "regions": [
+    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -6162,7 +6227,9 @@
    "transfer": 7,
    "price_monthly": 556,
    "price_hourly": 0.82738,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "Premium Storage-Optimized 1.5x SSD",
    "networking_throughput": 10000,
@@ -6184,9 +6251,7 @@
    "transfer": 10,
    "price_monthly": 565.44,
    "price_hourly": 0.76,
-   "regions": [
-    "tor1"
-   ],
+   "regions": [],
    "available": true,
    "description": "RTX 4000 Ada GPU Droplet - 1X",
    "networking_throughput": 10000,
@@ -6216,7 +6281,9 @@
    "transfer": 7,
    "price_monthly": 605,
    "price_hourly": 0.9003,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel",
    "networking_throughput": 10000,
@@ -6239,6 +6306,7 @@
    "price_monthly": 625,
    "price_hourly": 0.84005,
    "regions": [
+    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -6278,6 +6346,7 @@
    "price_monthly": 627.04,
    "price_hourly": 0.8428,
    "regions": [
+    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -6317,6 +6386,7 @@
    "price_monthly": 630.1,
    "price_hourly": 0.84691,
    "regions": [
+    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -6355,7 +6425,9 @@
    "transfer": 7,
    "price_monthly": 634,
    "price_hourly": 0.94345,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
    "networking_throughput": 10000,
@@ -6377,7 +6449,9 @@
    "transfer": 7,
    "price_monthly": 645,
    "price_hourly": 0.95982,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "CPU Optimized - Premium Intel 5x SSD",
    "networking_throughput": 10000,
@@ -6563,8 +6637,7 @@
    "regions": [
     "lon1",
     "nyc1",
-    "sfo2",
-    "sfo3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose 6.5x SSD",
@@ -6627,7 +6700,9 @@
    "transfer": 7,
    "price_monthly": 734.6,
    "price_hourly": 1.09315,
-   "regions": [],
+   "regions": [
+    "nyc3"
+   ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",
    "networking_throughput": 10000,
