@@ -12701,5 +12701,13 @@
   "region": "us-west",
   "sku": "g6_5-16vcpu-64gb",
   "monthly": 724
+ },
+ {
+  "date": "2026-10-15",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "g6_5-16vcpu-64gb",
+  "monthly": 724
  }
 ]
