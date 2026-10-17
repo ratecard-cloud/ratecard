@@ -368,6 +368,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -545,6 +546,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "bom",
     "jnb",
@@ -559,7 +561,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 480,
+     "hourly_cost": 0.658,
+     "monthly_cost_preemptible": 480,
+     "hourly_cost_preemptible": 0.658
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -883,7 +892,6 @@
     "atl",
     "ams",
     "lhr",
-    "fra",
     "sjc",
     "syd",
     "yto",
@@ -1125,7 +1133,6 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
-    "ewr",
     "sea",
     "lhr",
     "sjc",
@@ -1171,7 +1178,6 @@
     "dfw",
     "sea",
     "lax",
-    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1182,7 +1188,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -1544,7 +1549,6 @@
     "dfw",
     "sea",
     "lax",
-    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2887,6 +2891,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2942,6 +2947,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3126,6 +3132,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3481,6 +3488,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3620,7 +3628,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
     "mci"
@@ -3722,6 +3729,7 @@
     "mel",
     "hnl",
     "bom",
+    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -3835,6 +3843,7 @@
     "mel",
     "hnl",
     "bom",
+    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -3978,6 +3987,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4157,8 +4167,7 @@
     "hnl",
     "bom",
     "blr",
-    "itm",
-    "mci"
+    "itm"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_storage",
@@ -4204,6 +4213,7 @@
     "mel",
     "hnl",
     "bom",
+    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -4257,7 +4267,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
     "mci"
@@ -4290,6 +4299,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4347,8 +4357,7 @@
     "icn",
     "mex",
     "bom",
-    "blr",
-    "mci"
+    "blr"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_storage",
@@ -4378,6 +4387,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4501,6 +4511,7 @@
     "mel",
     "hnl",
     "bom",
+    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -4535,6 +4546,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4608,7 +4620,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
     "mci"
@@ -4763,6 +4774,7 @@
     "mel",
     "hnl",
     "bom",
+    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -4851,7 +4863,6 @@
     "lax",
     "ams",
     "lhr",
-    "fra",
     "sjc",
     "syd",
     "yto",
@@ -4869,7 +4880,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
     "mci"
@@ -4921,7 +4931,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
     "mci"
@@ -4960,7 +4969,6 @@
     "nrt",
     "waw",
     "icn",
-    "mia",
     "sto",
     "mex",
     "mel",
@@ -5006,7 +5014,6 @@
     "nrt",
     "waw",
     "icn",
-    "mia",
     "sto",
     "mex",
     "mel",
@@ -5155,6 +5162,7 @@
    "invoice_type": "hourly",
    "type": "vdm",
    "locations": [
+    "ewr",
     "lax",
     "lhr",
     "fra",
@@ -5183,6 +5191,7 @@
    "invoice_type": "hourly",
    "type": "vdm",
    "locations": [
+    "ewr",
     "lhr",
     "sgp"
    ],
@@ -5854,7 +5863,8 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr"
+    "ewr",
+    "atl"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
