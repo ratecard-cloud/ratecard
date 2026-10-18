@@ -12901,5 +12901,29 @@
   "region": "us-west",
   "sku": "gd-8vcpu-32gb",
   "monthly": 272
+ },
+ {
+  "date": "2026-10-18",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-4gb",
+  "monthly": 24
+ },
+ {
+  "date": "2026-10-18",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-8gb",
+  "monthly": 48
+ },
+ {
+  "date": "2026-10-18",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-16gb",
+  "monthly": 96
  }
 ]

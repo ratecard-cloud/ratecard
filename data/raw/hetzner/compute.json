@@ -2939,7 +2939,7 @@
      {
       "id": 1,
       "name": "fsn1",
-      "available": true,
+      "available": false,
       "recommended": false,
       "deprecation": null
      },
