@@ -37,7 +37,7 @@ test('DigitalOcean capacity churn passes under its widened tolerance', async () 
   // which is exactly how the first version of this test failed in CI.
   const keep = Math.round(count('digitalocean', 'eu-central') * 0.62); // ~38% drop
   const r = await validatePreviousCoverage(shrink(compute, 'digitalocean', 'eu-central', keep), egress);
-  assert.deepEqual(errsFor(r, 'digitalocean'), [], '38% is inside DO tolerance (0.5)');
+  assert.deepEqual(errsFor(r, 'digitalocean'), [], '38% is inside DO tolerance (0.7)');
   assert.ok(r.warnings.some((w) => w.includes('digitalocean/eu-central')), 'still warned');
 });
 
@@ -47,10 +47,18 @@ test('the same drop percentage stays fatal for a strict provider', async () => {
   assert.ok(errsFor(r, 'aws/us-east').length > 0, 'AWS has no tolerance override');
 });
 
-test('tolerance widens the threshold, it does not remove it', async () => {
-  const keep = Math.round(count('digitalocean', 'eu-central') * 0.4); // ~60% drop
+test('DigitalOcean Basic-only state (-57%) passes under its tolerance', async () => {
+  // 2026-10-21: nyc1 went 42 -> 18 (every dedicated shape gone) and blocked
+  // the whole refresh at 0.5. All four DO regions have now done this.
+  const keep = Math.round(count('digitalocean', 'eu-central') * 0.43); // ~57% drop
   const r = await validatePreviousCoverage(shrink(compute, 'digitalocean', 'eu-central', keep), egress, {}, {}, NO_BASELINES);
-  assert.ok(errsFor(r, 'digitalocean').length > 0, '-60% exceeds even 0.5');
+  assert.deepEqual(errsFor(r, 'digitalocean'), [], '57% is inside DO tolerance (0.7)');
+});
+
+test('tolerance widens the threshold, it does not remove it', async () => {
+  const keep = Math.round(count('digitalocean', 'eu-central') * 0.2); // ~80% drop
+  const r = await validatePreviousCoverage(shrink(compute, 'digitalocean', 'eu-central', keep), egress, {}, {}, NO_BASELINES);
+  assert.ok(errsFor(r, 'digitalocean').length > 0, '-80% exceeds even 0.7');
 });
 
 test('vanishing to zero is fatal regardless of tolerance', async () => {
@@ -75,7 +83,7 @@ test('ALLOW_COVERAGE_DROP downgrades errors to warnings for that provider only',
 test('a drop matching a recently published state passes as a flap', async () => {
   // The incident that shaped this: fra1 flapped 39 -> 18 -> 39 -> 18 across
   // four days; 18 had been reviewed and accepted, yet each down-day re-failed.
-  const keep = Math.round(count('digitalocean', 'eu-central') * 0.4); // over even 0.5
+  const keep = Math.round(count('digitalocean', 'eu-central') * 0.2); // over even 0.7
   const baselines = {
     'compute digitalocean/eu-central': [{ date: daysAgo(3), count: keep }],
   };
@@ -86,7 +94,7 @@ test('a drop matching a recently published state passes as a flap', async () => 
 });
 
 test('the window does not admit a drop below every recorded state', async () => {
-  const keep = Math.round(count('digitalocean', 'eu-central') * 0.4);
+  const keep = Math.round(count('digitalocean', 'eu-central') * 0.2); // over even 0.7
   const baselines = {
     // recorded low is well above where we land now (0.9 slack included)
     'compute digitalocean/eu-central': [{ date: daysAgo(3), count: keep * 2 }],
@@ -97,7 +105,7 @@ test('the window does not admit a drop below every recorded state', async () => 
 });
 
 test('a recorded state outside the 14-day window has expired', async () => {
-  const keep = Math.round(count('digitalocean', 'eu-central') * 0.4);
+  const keep = Math.round(count('digitalocean', 'eu-central') * 0.2); // over even 0.7
   const baselines = {
     'compute digitalocean/eu-central': [{ date: daysAgo(20), count: keep }],
   };

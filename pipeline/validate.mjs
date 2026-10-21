@@ -320,10 +320,13 @@ export async function validatePreviousCoverage(compute, egress, statuses = {}, e
   const warnings = [];
   const baselines = opts.baselines ?? await loadCoverageHistory();
   // Default drop threshold; a provider can widen it via coverage_tolerance in
-  // providers.json. DigitalOcean carries 0.5 because its sizes.regions array
+  // providers.json. DigitalOcean carries 0.7 because its sizes.regions array
   // reflects LIVE CAPACITY, not pricing — fra1 shed 24 of 63 qualifying sizes
   // in seven hours the first day this check ran in CI, and that churn is
-  // normal for DO. Vanishing to zero stays fatal for everyone regardless.
+  // normal for DO. 0.5 held until every region had dropped to its Basic-only
+  // catalog (42 -> 18, -57%; sfo3 reached 42 -> 15) and blocked the refresh
+  // twice in 12 days (2026-10-09 sgp1, 2026-10-21 nyc1). Vanishing to zero
+  // stays fatal for everyone regardless.
   //
   // Known limitation: the baseline is always the previous run, so repeated
   // just-under-threshold drops could ratchet coverage down over many days
