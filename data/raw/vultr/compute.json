@@ -368,6 +368,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -661,7 +662,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -949,7 +949,6 @@
     "atl",
     "ams",
     "lhr",
-    "fra",
     "sjc",
     "syd",
     "yto",
@@ -1091,6 +1090,7 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
+    "ewr",
     "sea",
     "lhr",
     "sjc",
@@ -1425,6 +1425,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2184,6 +2185,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2249,6 +2251,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2314,6 +2317,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2767,6 +2771,7 @@
     "nrt",
     "waw",
     "mad",
+    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -3909,6 +3914,7 @@
     "waw",
     "mad",
     "icn",
+    "mia",
     "mex",
     "mel",
     "hnl",
@@ -4192,7 +4198,6 @@
     "ams",
     "lhr",
     "fra",
-    "nrt",
     "waw",
     "icn",
     "mex",
@@ -5002,12 +5007,11 @@
     "fra",
     "sjc",
     "yto",
-    "nrt",
     "waw",
     "icn",
+    "mia",
     "sto",
     "mex",
-    "mel",
     "bom",
     "tlv",
     "blr",
@@ -5047,12 +5051,11 @@
     "fra",
     "sjc",
     "yto",
-    "nrt",
     "waw",
     "icn",
+    "mia",
     "sto",
     "mex",
-    "mel",
     "bom",
     "tlv",
     "blr",
@@ -5144,7 +5147,6 @@
    "locations": [
     "ewr",
     "ord",
-    "atl",
     "lhr",
     "fra",
     "sjc",
@@ -5400,8 +5402,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5436,8 +5437,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5472,8 +5472,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5508,8 +5507,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5544,8 +5542,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5580,8 +5577,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5616,8 +5612,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5652,8 +5647,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5688,8 +5682,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5724,8 +5717,7 @@
     "lhr",
     "syd",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5757,8 +5749,7 @@
     "sea",
     "atl",
     "ams",
-    "nrt",
-    "mci"
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5790,8 +5781,7 @@
     "sea",
     "atl",
     "ams",
-    "nrt",
-    "mci"
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5823,8 +5813,7 @@
     "sea",
     "atl",
     "ams",
-    "nrt",
-    "mci"
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5856,8 +5845,7 @@
     "sea",
     "atl",
     "ams",
-    "nrt",
-    "mci"
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -5941,8 +5929,7 @@
    "type": "vx1",
    "locations": [
     "ord",
-    "atl",
-    "mci"
+    "atl"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "block_storage",
@@ -6005,8 +5992,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6044,8 +6030,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6083,8 +6068,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6122,8 +6106,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6161,8 +6144,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6200,8 +6182,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6228,6 +6209,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6238,8 +6220,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6266,6 +6247,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6276,8 +6258,7 @@
     "syd",
     "cdg",
     "nrt",
-    "mxp",
-    "mci"
+    "mxp"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6307,8 +6288,7 @@
     "ord",
     "sea",
     "atl",
-    "fra",
-    "mci"
+    "fra"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6338,8 +6318,7 @@
     "ord",
     "sea",
     "atl",
-    "fra",
-    "mci"
+    "fra"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6369,8 +6348,7 @@
     "ord",
     "sea",
     "atl",
-    "fra",
-    "mci"
+    "fra"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6400,8 +6378,7 @@
     "ord",
     "sea",
     "atl",
-    "fra",
-    "mci"
+    "fra"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
