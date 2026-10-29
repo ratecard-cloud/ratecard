@@ -14221,5 +14221,109 @@
   "region": "us-east",
   "sku": "vc2-16c-64gb",
   "monthly": 320
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "s-2vcpu-4gb",
+  "monthly": 24
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "s-4vcpu-8gb",
+  "monthly": 48
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "eu-central",
+  "sku": "s-8vcpu-16gb",
+  "monthly": 96
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-4gb-amd",
+  "monthly": 28
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-8gb-amd",
+  "monthly": 42
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-16gb-amd",
+  "monthly": 84
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-8gb-amd",
+  "monthly": 56
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-16gb-amd",
+  "monthly": 112
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-32gb-amd",
+  "monthly": 168
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "s-2vcpu-4gb",
+  "monthly": 24
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "s-4vcpu-8gb",
+  "monthly": 48
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-west",
+  "sku": "s-8vcpu-16gb",
+  "monthly": 96
+ },
+ {
+  "date": "2026-10-29",
+  "type": "sku_added",
+  "provider": "vultr",
+  "region": "us-east",
+  "sku": "vc2-16c-64gb",
+  "monthly": 320
  }
 ]
