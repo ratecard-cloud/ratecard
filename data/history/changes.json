@@ -14397,5 +14397,157 @@
   "region": "us-east",
   "sku": "s-8vcpu-32gb-amd",
   "monthly": 168
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-4gb-120gb-intel",
+  "monthly": 32
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-4gb-amd",
+  "monthly": 28
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-4gb-intel",
+  "monthly": 28
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-8gb-160gb-intel",
+  "monthly": 48
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-2vcpu-8gb-amd",
+  "monthly": 42
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-16gb-320gb-intel",
+  "monthly": 96
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-16gb-amd",
+  "monthly": 84
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-8gb-240gb-intel",
+  "monthly": 64
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-8gb-amd",
+  "monthly": 56
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-4vcpu-8gb-intel",
+  "monthly": 56
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-16gb-480gb-intel",
+  "monthly": 128
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-16gb-amd",
+  "monthly": 112
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-16gb-intel",
+  "monthly": 112
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-32gb-640gb-intel",
+  "monthly": 192
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_added",
+  "provider": "digitalocean",
+  "region": "us-east",
+  "sku": "s-8vcpu-32gb-amd",
+  "monthly": 168
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-16c-32gb-300s-amd",
+  "monthly": 320
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-c-16c-32gb-500s-amd",
+  "monthly": 360
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "ap-southeast",
+  "sku": "voc-g-16c-64gb-320s-amd",
+  "monthly": 480
+ },
+ {
+  "date": "2026-10-31",
+  "type": "sku_removed",
+  "provider": "vultr",
+  "region": "us-east",
+  "sku": "vc2-16c-64gb",
+  "monthly": 320
  }
 ]

@@ -368,6 +368,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -429,6 +430,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -490,6 +492,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -524,7 +527,6 @@
    "invoice_type": "monthly",
    "type": "vc2",
    "locations": [
-    "ewr",
     "dfw",
     "sea",
     "lax",
@@ -550,6 +552,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -606,6 +609,7 @@
     "jnb",
     "tlv",
     "blr",
+    "del",
     "scl",
     "itm",
     "man"
@@ -963,6 +967,7 @@
     "mex",
     "mel",
     "bom",
+    "jnb",
     "tlv",
     "blr",
     "del",
@@ -1089,9 +1094,7 @@
    "invoice_type": "monthly",
    "type": "vhf",
    "locations": [
-    "ewr",
     "sea",
-    "ams",
     "lhr",
     "sjc",
     "syd",
@@ -1448,7 +1451,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -1488,7 +1490,6 @@
     "dfw",
     "sea",
     "lax",
-    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1510,7 +1511,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -1571,7 +1571,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -1632,7 +1631,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -1688,7 +1686,6 @@
     "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "hnl",
     "bom",
@@ -1705,14 +1702,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 9,
-     "hourly_cost": 0.012,
-     "monthly_cost_preemptible": 9,
-     "hourly_cost_preemptible": 0.012
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -2600,6 +2590,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -2665,6 +2656,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -2863,6 +2855,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -3106,6 +3099,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -3214,7 +3208,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -3335,7 +3328,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -3469,6 +3461,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -3696,7 +3689,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -3754,7 +3746,6 @@
     "mel",
     "hnl",
     "bom",
-    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -3814,6 +3805,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -3869,7 +3861,6 @@
     "mel",
     "hnl",
     "bom",
-    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -3908,7 +3899,6 @@
     "lhr",
     "fra",
     "sjc",
-    "syd",
     "yto",
     "nrt",
     "waw",
@@ -3977,6 +3967,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -4084,7 +4075,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -4151,6 +4141,7 @@
     "tlv",
     "blr",
     "del",
+    "scl",
     "itm",
     "man",
     "cmh",
@@ -4245,7 +4236,6 @@
     "mel",
     "hnl",
     "bom",
-    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -4489,7 +4479,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -4547,7 +4536,6 @@
     "mel",
     "hnl",
     "bom",
-    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -4703,7 +4691,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -4758,7 +4745,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -4816,7 +4802,6 @@
     "mel",
     "hnl",
     "bom",
-    "jnb",
     "tlv",
     "blr",
     "itm",
@@ -4864,7 +4849,6 @@
     "mad",
     "icn",
     "mia",
-    "sgp",
     "sto",
     "mex",
     "mel",
@@ -5020,7 +5004,9 @@
     "cdg",
     "nrt",
     "waw",
+    "mad",
     "icn",
+    "mia",
     "sto",
     "mex",
     "mel",
@@ -5067,6 +5053,7 @@
     "nrt",
     "waw",
     "icn",
+    "mia",
     "sto",
     "mex",
     "mel",
@@ -5129,7 +5116,6 @@
    "locations": [
     "ewr",
     "ord",
-    "atl",
     "lhr",
     "fra",
     "sjc",
@@ -5162,7 +5148,6 @@
    "locations": [
     "ewr",
     "ord",
-    "atl",
     "lhr",
     "fra",
     "sjc",
@@ -5217,9 +5202,7 @@
    "type": "vdm",
    "locations": [
     "lax",
-    "fra",
-    "syd",
-    "sgp"
+    "syd"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -5243,9 +5226,7 @@
    "hourly_cost_preemptible": 6.849,
    "invoice_type": "hourly",
    "type": "vdm",
-   "locations": [
-    "sgp"
-   ],
+   "locations": [],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -5823,6 +5804,7 @@
    "locations": [
     "ewr",
     "ord",
+    "sea",
     "atl",
     "ams",
     "nrt"
@@ -5854,6 +5836,7 @@
    "locations": [
     "ewr",
     "ord",
+    "sea",
     "atl",
     "ams",
     "nrt"
@@ -6358,6 +6341,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6388,6 +6372,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
+    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6418,7 +6403,9 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ord"
+    "ewr",
+    "ord",
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6445,7 +6432,9 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ord"
+    "ewr",
+    "ord",
+    "sea"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
