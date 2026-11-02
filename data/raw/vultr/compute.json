@@ -534,7 +534,6 @@
     "atl",
     "ams",
     "lhr",
-    "fra",
     "sjc",
     "syd",
     "cdg",
@@ -546,7 +545,6 @@
     "sgp",
     "sto",
     "mex",
-    "sao",
     "mel",
     "bom",
     "jnb",
@@ -562,14 +560,7 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {
-    "sao": {
-     "monthly_cost": 480,
-     "hourly_cost": 0.658,
-     "monthly_cost_preemptible": 480,
-     "hourly_cost_preemptible": 0.658
-    }
-   },
+   "location_cost": {},
    "gpu_brand": "none"
   },
   {
@@ -946,7 +937,6 @@
    "type": "vhf",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "lax",
     "atl",
@@ -997,7 +987,6 @@
    "type": "vhf",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "lax",
     "atl",
@@ -1047,7 +1036,6 @@
    "type": "vhf",
    "locations": [
     "ewr",
-    "ord",
     "sea",
     "ams",
     "lhr",
@@ -1429,6 +1417,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1572,7 +1561,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -2188,7 +2176,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2255,7 +2242,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2322,7 +2308,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2575,6 +2560,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2640,6 +2626,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2783,7 +2770,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2838,6 +2824,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2919,6 +2906,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -2936,7 +2924,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 240,
+     "hourly_cost": 0.329,
+     "monthly_cost_preemptible": 240,
+     "hourly_cost_preemptible": 0.329
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -2975,6 +2970,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -2992,7 +2988,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 360,
+     "hourly_cost": 0.493,
+     "monthly_cost_preemptible": 360,
+     "hourly_cost_preemptible": 0.493
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -3081,6 +3084,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3162,6 +3166,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3179,7 +3184,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 270,
+     "hourly_cost": 0.37,
+     "monthly_cost_preemptible": 270,
+     "hourly_cost_preemptible": 0.37
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -3216,6 +3228,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3233,7 +3246,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 480,
+     "hourly_cost": 0.658,
+     "monthly_cost_preemptible": 480,
+     "hourly_cost_preemptible": 0.658
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -3336,6 +3356,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3353,7 +3374,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 720,
+     "hourly_cost": 0.986,
+     "monthly_cost_preemptible": 720,
+     "hourly_cost_preemptible": 0.986
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -3442,6 +3470,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3523,6 +3552,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3540,7 +3570,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 480,
+     "hourly_cost": 0.658,
+     "monthly_cost_preemptible": 480,
+     "hourly_cost_preemptible": 0.658
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -3630,6 +3667,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -3640,6 +3678,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3657,7 +3696,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 1080,
+     "hourly_cost": 1.479,
+     "monthly_cost_preemptible": 1080,
+     "hourly_cost_preemptible": 1.479
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -3694,6 +3740,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -3711,7 +3758,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 540,
+     "hourly_cost": 0.74,
+     "monthly_cost_preemptible": 540,
+     "hourly_cost_preemptible": 0.74
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -3735,8 +3789,8 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
-    "syd",
     "yto",
     "nrt",
     "waw",
@@ -3783,6 +3837,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -3848,8 +3903,8 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
-    "syd",
     "yto",
     "nrt",
     "waw",
@@ -3897,8 +3952,8 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
-    "syd",
     "yto",
     "nrt",
     "waw",
@@ -3943,6 +3998,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4022,6 +4078,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4039,7 +4096,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 585,
+     "hourly_cost": 0.801,
+     "monthly_cost_preemptible": 585,
+     "hourly_cost_preemptible": 0.801
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4076,6 +4140,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4093,7 +4158,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 960,
+     "hourly_cost": 1.315,
+     "monthly_cost_preemptible": 960,
+     "hourly_cost_preemptible": 1.315
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4116,6 +4188,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -4181,10 +4254,11 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
+    "nrt",
     "waw",
     "icn",
     "mex",
-    "mel",
     "hnl",
     "bom",
     "blr",
@@ -4220,8 +4294,8 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
-    "syd",
     "yto",
     "nrt",
     "waw",
@@ -4269,6 +4343,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -4279,6 +4354,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4296,7 +4372,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 1440,
+     "hourly_cost": 1.973,
+     "monthly_cost_preemptible": 1440,
+     "hourly_cost_preemptible": 1.973
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4334,6 +4417,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4351,7 +4435,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 750,
+     "hourly_cost": 1.027,
+     "monthly_cost_preemptible": 750,
+     "hourly_cost_preemptible": 1.027
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4369,7 +4460,6 @@
    "invoice_type": "monthly",
    "type": "voc",
    "locations": [
-    "dfw",
     "lax",
     "ams",
     "lhr",
@@ -4422,6 +4512,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4439,7 +4530,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 750,
+     "hourly_cost": 1.027,
+     "monthly_cost_preemptible": 750,
+     "hourly_cost_preemptible": 1.027
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4476,6 +4574,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4493,7 +4592,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 1177.5,
+     "hourly_cost": 1.613,
+     "monthly_cost_preemptible": 1177.5,
+     "hourly_cost_preemptible": 1.613
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4517,8 +4623,8 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
-    "syd",
     "yto",
     "nrt",
     "waw",
@@ -4580,6 +4686,7 @@
     "sgp",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4597,7 +4704,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 930,
+     "hourly_cost": 1.274,
+     "monthly_cost_preemptible": 930,
+     "hourly_cost_preemptible": 1.274
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4621,6 +4735,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -4631,6 +4746,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4648,7 +4764,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 1762.5,
+     "hourly_cost": 2.414,
+     "monthly_cost_preemptible": 1762.5,
+     "hourly_cost_preemptible": 2.414
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4685,6 +4808,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4702,7 +4826,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 1500,
+     "hourly_cost": 2.055,
+     "monthly_cost_preemptible": 1500,
+     "hourly_cost_preemptible": 2.055
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4739,6 +4870,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4756,7 +4888,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 1500,
+     "hourly_cost": 2.055,
+     "monthly_cost_preemptible": 1500,
+     "hourly_cost_preemptible": 2.055
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4780,8 +4919,8 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
-    "syd",
     "yto",
     "nrt",
     "waw",
@@ -4842,6 +4981,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4859,7 +4999,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 1860,
+     "hourly_cost": 2.548,
+     "monthly_cost_preemptible": 1860,
+     "hourly_cost_preemptible": 2.548
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4883,6 +5030,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -4893,6 +5041,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4910,7 +5059,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 2250,
+     "hourly_cost": 3.082,
+     "monthly_cost_preemptible": 2250,
+     "hourly_cost_preemptible": 3.082
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4934,6 +5090,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "syd",
     "yto",
@@ -4944,6 +5101,7 @@
     "mia",
     "sto",
     "mex",
+    "sao",
     "mel",
     "hnl",
     "bom",
@@ -4961,7 +5119,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 2250,
+     "hourly_cost": 3.082,
+     "monthly_cost_preemptible": 2250,
+     "hourly_cost_preemptible": 3.082
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -4985,6 +5150,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "yto",
     "nrt",
@@ -4993,6 +5159,7 @@
     "icn",
     "sto",
     "mex",
+    "sao",
     "bom",
     "tlv",
     "blr",
@@ -5006,7 +5173,14 @@
    "vcpu_type": "thread",
    "deploy_ondemand": true,
    "deploy_preemptible": false,
-   "location_cost": {},
+   "location_cost": {
+    "sao": {
+     "monthly_cost": 2775,
+     "hourly_cost": 3.801,
+     "monthly_cost_preemptible": 2775,
+     "hourly_cost_preemptible": 3.801
+    }
+   },
    "gpu_brand": "none"
   },
   {
@@ -5030,6 +5204,7 @@
     "lax",
     "ams",
     "lhr",
+    "fra",
     "sjc",
     "yto",
     "nrt",
@@ -5096,6 +5271,7 @@
    "locations": [
     "ewr",
     "ord",
+    "atl",
     "lhr",
     "fra",
     "sjc",
@@ -5128,7 +5304,7 @@
    "locations": [
     "ewr",
     "ord",
-    "lhr",
+    "atl",
     "fra",
     "sjc",
     "nrt",
@@ -5181,8 +5357,7 @@
    "invoice_type": "hourly",
    "type": "vdm",
    "locations": [
-    "lax",
-    "syd"
+    "lax"
    ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
@@ -6183,7 +6358,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6221,7 +6395,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6259,11 +6432,11 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
-    "fra"
+    "fra",
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6290,11 +6463,11 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
-    "fra"
+    "fra",
+    "nrt"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6321,7 +6494,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6352,7 +6524,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
