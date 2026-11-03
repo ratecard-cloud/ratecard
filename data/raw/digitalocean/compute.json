@@ -80,9 +80,10 @@
    "price_hourly": 0.01042,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -214,9 +215,10 @@
    "price_hourly": 0.02083,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -468,9 +470,10 @@
    "price_hourly": 0.03125,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -802,9 +805,10 @@
    "price_hourly": 0.04167,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -1062,7 +1066,6 @@
    "regions": [
     "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1102,7 +1105,6 @@
    "regions": [
     "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1141,9 +1143,10 @@
    "price_hourly": 0.0625,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -1198,7 +1201,6 @@
    "regions": [
     "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1236,9 +1238,7 @@
    "price_monthly": 44.64,
    "price_hourly": 0.06,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1276,9 +1276,7 @@
    "price_monthly": 46.68,
    "price_hourly": 0.06274,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1410,9 +1408,7 @@
    "price_monthly": 49.74,
    "price_hourly": 0.06685,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1451,9 +1447,10 @@
    "price_hourly": 0.08333,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -1662,7 +1659,6 @@
    "regions": [
     "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1761,7 +1757,6 @@
    "regions": [
     "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1801,7 +1796,6 @@
    "regions": [
     "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -1984,9 +1978,7 @@
    "price_monthly": 74.2,
    "price_hourly": 0.09973,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2025,7 +2017,7 @@
    "price_hourly": 0.1131,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel",
@@ -2049,9 +2041,7 @@
    "price_monthly": 76.24,
    "price_hourly": 0.10247,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2090,7 +2080,7 @@
    "price_hourly": 0.11756,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
@@ -2114,9 +2104,7 @@
    "price_monthly": 79.29,
    "price_hourly": 0.10657,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2235,9 +2223,10 @@
    "price_hourly": 0.125,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -2355,9 +2344,7 @@
    "price_monthly": 86.22,
    "price_hourly": 0.11589,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2395,9 +2382,7 @@
    "price_monthly": 88.26,
    "price_hourly": 0.11863,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2460,9 +2445,7 @@
    "price_monthly": 91.32,
    "price_hourly": 0.12274,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2500,9 +2483,7 @@
    "price_monthly": 91.73,
    "price_hourly": 0.12329,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2541,7 +2522,7 @@
    "price_hourly": 0.1372,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",
@@ -2605,9 +2586,7 @@
    "price_monthly": 93.76,
    "price_hourly": 0.12602,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2779,9 +2758,7 @@
    "price_monthly": 96.82,
    "price_hourly": 0.13013,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2860,7 +2837,7 @@
    "price_hourly": 0.14732,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Memory-Optimized",
@@ -2910,7 +2887,7 @@
    "price_hourly": 0.1622,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Intel",
@@ -2934,9 +2911,7 @@
    "price_monthly": 109.77,
    "price_hourly": 0.14754,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -2975,7 +2950,7 @@
    "price_hourly": 0.16369,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Memory-Optimized 3x SSD",
@@ -3039,9 +3014,7 @@
    "price_monthly": 111.8,
    "price_hourly": 0.15027,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3080,9 +3053,10 @@
    "price_hourly": 0.16667,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -3184,9 +3158,7 @@
    "price_monthly": 114.86,
    "price_hourly": 0.15438,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3264,9 +3236,7 @@
    "price_monthly": 121.28,
    "price_hourly": 0.16301,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3305,7 +3275,7 @@
    "price_hourly": 0.18155,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Intel",
@@ -3329,9 +3299,7 @@
    "price_monthly": 123.32,
    "price_hourly": 0.16575,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3419,9 +3387,7 @@
    "price_monthly": 126.38,
    "price_hourly": 0.16987,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3459,9 +3425,7 @@
    "price_monthly": 127.81,
    "price_hourly": 0.17179,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3533,9 +3497,7 @@
    "price_monthly": 129.84,
    "price_hourly": 0.17452,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3574,7 +3536,7 @@
    "price_hourly": 0.19494,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Storage-Optimized",
@@ -3648,9 +3610,7 @@
    "price_monthly": 132.9,
    "price_hourly": 0.17863,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3794,7 +3754,7 @@
    "price_hourly": 0.20685,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Storage-Optimized 1.5x SSD",
@@ -3858,9 +3818,7 @@
    "price_monthly": 145.34,
    "price_hourly": 0.19535,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3898,9 +3856,7 @@
    "price_monthly": 147.37,
    "price_hourly": 0.19808,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3938,9 +3894,7 @@
    "price_monthly": 150.43,
    "price_hourly": 0.20219,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -3979,7 +3933,7 @@
    "price_hourly": 0.2247,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel",
@@ -4004,7 +3958,7 @@
    "price_hourly": 0.23512,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
@@ -4109,7 +4063,7 @@
    "price_hourly": 0.23958,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "CPU Optimized - Premium Intel 5x SSD",
@@ -4199,9 +4153,10 @@
    "price_hourly": 0.25,
    "regions": [
     "ams3",
-    "atl1",
     "blr1",
+    "fra1",
     "lon1",
+    "nyc1",
     "nyc2",
     "sfo3",
     "sgp1",
@@ -4279,9 +4234,7 @@
    "price_monthly": 169.39,
    "price_hourly": 0.22767,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -4319,9 +4272,7 @@
    "price_monthly": 171.43,
    "price_hourly": 0.23042,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -4359,9 +4310,7 @@
    "price_monthly": 174.48,
    "price_hourly": 0.23452,
    "regions": [
-    "atl1",
     "mem1",
-    "mkc1",
     "ric1"
    ],
    "available": true,
@@ -4465,7 +4414,7 @@
    "price_hourly": 0.27292,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",
@@ -4629,7 +4578,7 @@
    "price_hourly": 0.29464,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Memory-Optimized",
@@ -4678,7 +4627,6 @@
    "price_monthly": 217.82,
    "price_hourly": 0.29277,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -4719,7 +4667,7 @@
    "price_hourly": 0.3244,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Intel",
@@ -4743,7 +4691,6 @@
    "price_monthly": 219.86,
    "price_hourly": 0.29551,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -4784,7 +4731,7 @@
    "price_hourly": 0.32738,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Memory-Optimized 3x SSD",
@@ -4808,7 +4755,6 @@
    "price_monthly": 222.92,
    "price_hourly": 0.29962,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -4849,7 +4795,7 @@
    "price_hourly": 0.3631,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Intel",
@@ -4924,7 +4870,7 @@
    "price_hourly": 0.38988,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Storage-Optimized",
@@ -4998,7 +4944,6 @@
    "price_monthly": 265.92,
    "price_hourly": 0.35742,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -5038,7 +4983,6 @@
    "price_monthly": 267.96,
    "price_hourly": 0.36016,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -5078,7 +5022,6 @@
    "price_monthly": 271.02,
    "price_hourly": 0.36427,
    "regions": [
-    "atl1",
     "mem1",
     "mkc1",
     "ric1"
@@ -5144,7 +5087,7 @@
    "price_hourly": 0.41369,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Storage-Optimized 1.5x SSD",
@@ -5169,7 +5112,7 @@
    "price_hourly": 0.4494,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel",
@@ -5272,7 +5215,7 @@
    "price_hourly": 0.47173,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
@@ -5336,7 +5279,7 @@
    "price_hourly": 0.47917,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "CPU Optimized - Premium Intel 5x SSD",
@@ -5539,7 +5482,7 @@
    "price_hourly": 0.54583,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",
@@ -5628,7 +5571,7 @@
    "price_hourly": 0.58929,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Memory-Optimized",
@@ -5756,7 +5699,7 @@
    "price_hourly": 0.6503,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Intel",
@@ -5820,7 +5763,7 @@
    "price_hourly": 0.65476,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Memory-Optimized 3x SSD",
@@ -5845,7 +5788,7 @@
    "price_hourly": 0.72768,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Intel",
@@ -5920,7 +5863,7 @@
    "price_hourly": 0.77976,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Storage-Optimized",
@@ -5995,8 +5938,7 @@
    "price_hourly": 0.71074,
    "regions": [
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -6034,8 +5976,7 @@
    "price_hourly": 0.71348,
    "regions": [
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -6073,8 +6014,7 @@
    "price_hourly": 0.71759,
    "regions": [
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -6137,7 +6077,7 @@
    "price_hourly": 0.82738,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "Premium Storage-Optimized 1.5x SSD",
@@ -6192,7 +6132,7 @@
    "price_hourly": 0.9003,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel",
@@ -6217,8 +6157,7 @@
    "price_hourly": 0.84005,
    "regions": [
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -6256,8 +6195,7 @@
    "price_hourly": 0.8428,
    "regions": [
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -6295,8 +6233,7 @@
    "price_hourly": 0.84691,
    "regions": [
     "mem1",
-    "mkc1",
-    "ric1"
+    "mkc1"
    ],
    "available": true,
    "description": "v5 General Purpose",
@@ -6334,7 +6271,7 @@
    "price_hourly": 0.94345,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose — Premium Intel 2x SSD",
@@ -6359,7 +6296,7 @@
    "price_hourly": 0.95982,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "CPU Optimized - Premium Intel 5x SSD",
@@ -6601,7 +6538,7 @@
    "price_hourly": 1.09315,
    "regions": [
     "nyc2",
-    "nyc3"
+    "sfo2"
    ],
    "available": true,
    "description": "General Purpose - Premium Intel 5.5x SSD",

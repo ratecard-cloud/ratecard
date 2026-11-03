@@ -8,7 +8,7 @@
     "monthly": 85.5
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7g.large": {
   "first_seen": "2026-08-11",
@@ -19,7 +19,7 @@
     "monthly": 60.23
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7i.large": {
   "first_seen": "2026-08-11",
@@ -30,7 +30,7 @@
     "monthly": 74.35
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t3.medium": {
   "first_seen": "2026-08-11",
@@ -41,7 +41,7 @@
     "monthly": 35.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t4g.medium": {
   "first_seen": "2026-08-11",
@@ -52,7 +52,7 @@
     "monthly": 28.03
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7a.large": {
   "first_seen": "2026-08-11",
@@ -63,7 +63,7 @@
     "monthly": 101.37
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7g.large": {
   "first_seen": "2026-08-11",
@@ -74,7 +74,7 @@
     "monthly": 71.39
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7i.large": {
   "first_seen": "2026-08-11",
@@ -85,7 +85,7 @@
     "monthly": 88.15
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t3.large": {
   "first_seen": "2026-08-11",
@@ -96,7 +96,7 @@
     "monthly": 70.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t4g.large": {
   "first_seen": "2026-08-11",
@@ -107,7 +107,7 @@
     "monthly": 56.06
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7a.xlarge": {
   "first_seen": "2026-08-11",
@@ -118,7 +118,7 @@
     "monthly": 171.01
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7g.xlarge": {
   "first_seen": "2026-08-11",
@@ -129,7 +129,7 @@
     "monthly": 120.38
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7i.xlarge": {
   "first_seen": "2026-08-11",
@@ -140,7 +140,7 @@
     "monthly": 148.7
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7a.xlarge": {
   "first_seen": "2026-08-11",
@@ -151,7 +151,7 @@
     "monthly": 202.74
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7g.xlarge": {
   "first_seen": "2026-08-11",
@@ -162,7 +162,7 @@
     "monthly": 142.72
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7i.xlarge": {
   "first_seen": "2026-08-11",
@@ -173,7 +173,7 @@
     "monthly": 176.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t3.xlarge": {
   "first_seen": "2026-08-11",
@@ -184,7 +184,7 @@
     "monthly": 140.16
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t4g.xlarge": {
   "first_seen": "2026-08-11",
@@ -195,7 +195,7 @@
     "monthly": 112.13
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7a.2xlarge": {
   "first_seen": "2026-08-11",
@@ -206,7 +206,7 @@
     "monthly": 342.02
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7g.2xlarge": {
   "first_seen": "2026-08-11",
@@ -217,7 +217,7 @@
     "monthly": 240.75
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7i.2xlarge": {
   "first_seen": "2026-08-11",
@@ -228,7 +228,7 @@
     "monthly": 297.4
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7a.2xlarge": {
   "first_seen": "2026-08-11",
@@ -239,7 +239,7 @@
     "monthly": 405.47
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7g.2xlarge": {
   "first_seen": "2026-08-11",
@@ -250,7 +250,7 @@
     "monthly": 285.43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7i.2xlarge": {
   "first_seen": "2026-08-11",
@@ -261,7 +261,7 @@
     "monthly": 352.59
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t3.2xlarge": {
   "first_seen": "2026-08-11",
@@ -272,7 +272,7 @@
     "monthly": 280.32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/t4g.2xlarge": {
   "first_seen": "2026-08-11",
@@ -283,7 +283,7 @@
     "monthly": 224.26
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7a.4xlarge": {
   "first_seen": "2026-08-11",
@@ -294,7 +294,7 @@
     "monthly": 684.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7g.4xlarge": {
   "first_seen": "2026-08-11",
@@ -305,7 +305,7 @@
     "monthly": 481.51
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/c7i.4xlarge": {
   "first_seen": "2026-08-11",
@@ -316,7 +316,7 @@
     "monthly": 594.8
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7a.4xlarge": {
   "first_seen": "2026-08-11",
@@ -327,7 +327,7 @@
     "monthly": 810.94
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7g.4xlarge": {
   "first_seen": "2026-08-11",
@@ -338,7 +338,7 @@
     "monthly": 570.93
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/eu-central/m7i.4xlarge": {
   "first_seen": "2026-08-11",
@@ -349,7 +349,7 @@
     "monthly": 705.18
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7a.large": {
   "first_seen": "2026-08-11",
@@ -360,7 +360,7 @@
     "monthly": 74.93
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7g.large": {
   "first_seen": "2026-08-11",
@@ -371,7 +371,7 @@
     "monthly": 52.93
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7i.large": {
   "first_seen": "2026-08-11",
@@ -382,7 +382,7 @@
     "monthly": 65.15
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t3.medium": {
   "first_seen": "2026-08-11",
@@ -393,7 +393,7 @@
     "monthly": 30.37
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t4g.medium": {
   "first_seen": "2026-08-11",
@@ -404,7 +404,7 @@
     "monthly": 24.53
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7a.large": {
   "first_seen": "2026-08-11",
@@ -415,7 +415,7 @@
     "monthly": 84.62
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7g.large": {
   "first_seen": "2026-08-11",
@@ -426,7 +426,7 @@
     "monthly": 59.57
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7i.large": {
   "first_seen": "2026-08-11",
@@ -437,7 +437,7 @@
     "monthly": 73.58
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t3.large": {
   "first_seen": "2026-08-11",
@@ -448,7 +448,7 @@
     "monthly": 60.74
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t4g.large": {
   "first_seen": "2026-08-11",
@@ -459,7 +459,7 @@
     "monthly": 49.06
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7a.xlarge": {
   "first_seen": "2026-08-11",
@@ -470,7 +470,7 @@
     "monthly": 149.85
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7g.xlarge": {
   "first_seen": "2026-08-11",
@@ -481,7 +481,7 @@
     "monthly": 105.85
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7i.xlarge": {
   "first_seen": "2026-08-11",
@@ -492,7 +492,7 @@
     "monthly": 130.31
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7a.xlarge": {
   "first_seen": "2026-08-11",
@@ -503,7 +503,7 @@
     "monthly": 169.24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7g.xlarge": {
   "first_seen": "2026-08-11",
@@ -514,7 +514,7 @@
     "monthly": 119.14
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7i.xlarge": {
   "first_seen": "2026-08-11",
@@ -525,7 +525,7 @@
     "monthly": 147.17
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t3.xlarge": {
   "first_seen": "2026-08-11",
@@ -536,7 +536,7 @@
     "monthly": 121.47
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t4g.xlarge": {
   "first_seen": "2026-08-11",
@@ -547,7 +547,7 @@
     "monthly": 98.11
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7a.2xlarge": {
   "first_seen": "2026-08-11",
@@ -558,7 +558,7 @@
     "monthly": 299.71
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7g.2xlarge": {
   "first_seen": "2026-08-11",
@@ -569,7 +569,7 @@
     "monthly": 211.7
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7i.2xlarge": {
   "first_seen": "2026-08-11",
@@ -580,7 +580,7 @@
     "monthly": 260.61
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7a.2xlarge": {
   "first_seen": "2026-08-11",
@@ -591,7 +591,7 @@
     "monthly": 338.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7g.2xlarge": {
   "first_seen": "2026-08-11",
@@ -602,7 +602,7 @@
     "monthly": 238.27
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7i.2xlarge": {
   "first_seen": "2026-08-11",
@@ -613,7 +613,7 @@
     "monthly": 294.34
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t3.2xlarge": {
   "first_seen": "2026-08-11",
@@ -624,7 +624,7 @@
     "monthly": 242.94
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/t4g.2xlarge": {
   "first_seen": "2026-08-11",
@@ -635,7 +635,7 @@
     "monthly": 196.22
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7a.4xlarge": {
   "first_seen": "2026-08-11",
@@ -646,7 +646,7 @@
     "monthly": 599.42
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7g.4xlarge": {
   "first_seen": "2026-08-11",
@@ -657,7 +657,7 @@
     "monthly": 423.4
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/c7i.4xlarge": {
   "first_seen": "2026-08-11",
@@ -668,7 +668,7 @@
     "monthly": 521.22
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7a.4xlarge": {
   "first_seen": "2026-08-11",
@@ -679,7 +679,7 @@
     "monthly": 676.97
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7g.4xlarge": {
   "first_seen": "2026-08-11",
@@ -690,7 +690,7 @@
     "monthly": 476.54
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-east/m7i.4xlarge": {
   "first_seen": "2026-08-11",
@@ -701,7 +701,7 @@
     "monthly": 588.67
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_F2s_v2": {
   "first_seen": "2026-08-11",
@@ -712,7 +712,7 @@
     "monthly": 70.81
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_D2ps_v5": {
   "first_seen": "2026-08-11",
@@ -723,7 +723,7 @@
     "monthly": 67.16
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_D2s_v5": {
   "first_seen": "2026-08-11",
@@ -734,7 +734,7 @@
     "monthly": 83.95
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_F4s_v2": {
   "first_seen": "2026-08-11",
@@ -745,7 +745,7 @@
     "monthly": 141.62
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_D4ps_v5": {
   "first_seen": "2026-08-11",
@@ -756,7 +756,7 @@
     "monthly": 134.32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_D4s_v5": {
   "first_seen": "2026-08-11",
@@ -767,7 +767,7 @@
     "monthly": 167.9
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_F8s_v2": {
   "first_seen": "2026-08-11",
@@ -778,7 +778,7 @@
     "monthly": 283.24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_D8ps_v5": {
   "first_seen": "2026-08-11",
@@ -789,7 +789,7 @@
     "monthly": 268.64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_D8s_v5": {
   "first_seen": "2026-08-11",
@@ -800,7 +800,7 @@
     "monthly": 335.8
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_F16s_v2": {
   "first_seen": "2026-08-11",
@@ -811,7 +811,7 @@
     "monthly": 566.48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/eu-central/Standard_D16s_v5": {
   "first_seen": "2026-08-11",
@@ -822,7 +822,7 @@
     "monthly": 671.6
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_F2s_v2": {
   "first_seen": "2026-08-11",
@@ -833,7 +833,7 @@
     "monthly": 61.76
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_D2ps_v5": {
   "first_seen": "2026-08-11",
@@ -844,7 +844,7 @@
     "monthly": 56.21
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_D2s_v5": {
   "first_seen": "2026-08-11",
@@ -855,7 +855,7 @@
     "monthly": 70.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_F4s_v2": {
   "first_seen": "2026-08-11",
@@ -866,7 +866,7 @@
     "monthly": 123.37
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_D4ps_v5": {
   "first_seen": "2026-08-11",
@@ -877,7 +877,7 @@
     "monthly": 112.42
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_D4s_v5": {
   "first_seen": "2026-08-11",
@@ -888,7 +888,7 @@
     "monthly": 140.16
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_F8s_v2": {
   "first_seen": "2026-08-11",
@@ -899,7 +899,7 @@
     "monthly": 246.74
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_D8ps_v5": {
   "first_seen": "2026-08-11",
@@ -910,7 +910,7 @@
     "monthly": 224.84
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_D8s_v5": {
   "first_seen": "2026-08-11",
@@ -921,7 +921,7 @@
     "monthly": 280.32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_F16s_v2": {
   "first_seen": "2026-08-11",
@@ -932,7 +932,7 @@
     "monthly": 494.21
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-east/Standard_D16s_v5": {
   "first_seen": "2026-08-11",
@@ -943,7 +943,7 @@
     "monthly": 560.64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-dedicated-2": {
   "first_seen": "2026-08-11",
@@ -954,7 +954,7 @@
     "monthly": 36
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-standard-2": {
   "first_seen": "2026-08-11",
@@ -965,7 +965,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-dedicated-4-2": {
   "first_seen": "2026-08-11",
@@ -976,7 +976,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-premium-2": {
   "first_seen": "2026-08-11",
@@ -987,7 +987,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-4-2": {
   "first_seen": "2026-08-11",
@@ -998,7 +998,7 @@
     "monthly": 51.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-8-2": {
   "first_seen": "2026-08-11",
@@ -1009,7 +1009,7 @@
     "monthly": 80.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-dedicated-4": {
   "first_seen": "2026-08-11",
@@ -1020,7 +1020,7 @@
     "monthly": 72
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-standard-4": {
   "first_seen": "2026-08-11",
@@ -1031,7 +1031,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-dedicated-8-4": {
   "first_seen": "2026-08-11",
@@ -1042,7 +1042,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-premium-4": {
   "first_seen": "2026-08-11",
@@ -1053,7 +1053,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-8-4": {
   "first_seen": "2026-08-11",
@@ -1064,7 +1064,7 @@
     "monthly": 102.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-16-4": {
   "first_seen": "2026-08-11",
@@ -1075,7 +1075,7 @@
     "monthly": 153.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-dedicated-8": {
   "first_seen": "2026-08-11",
@@ -1086,7 +1086,7 @@
     "monthly": 144
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-dedicated-16-8": {
   "first_seen": "2026-08-11",
@@ -1097,7 +1097,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-premium-8": {
   "first_seen": "2026-08-11",
@@ -1108,7 +1108,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-16-8": {
   "first_seen": "2026-08-11",
@@ -1119,7 +1119,7 @@
     "monthly": 197.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-standard-8": {
   "first_seen": "2026-08-11",
@@ -1130,7 +1130,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-32-8": {
   "first_seen": "2026-08-11",
@@ -1141,7 +1141,7 @@
     "monthly": 306.6
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-dedicated-16": {
   "first_seen": "2026-08-11",
@@ -1152,7 +1152,7 @@
     "monthly": 288
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-dedicated-32-16": {
   "first_seen": "2026-08-11",
@@ -1163,7 +1163,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g7-premium-16": {
   "first_seen": "2026-08-11",
@@ -1174,7 +1174,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-32-16": {
   "first_seen": "2026-08-11",
@@ -1185,7 +1185,7 @@
     "monthly": 394.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g6-standard-16": {
   "first_seen": "2026-08-11",
@@ -1196,7 +1196,7 @@
     "monthly": 384
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/eu-central/g8-dedicated-64-16": {
   "first_seen": "2026-08-11",
@@ -1207,7 +1207,7 @@
     "monthly": 613.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-dedicated-2": {
   "first_seen": "2026-08-11",
@@ -1218,7 +1218,7 @@
     "monthly": 36
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-standard-2": {
   "first_seen": "2026-08-11",
@@ -1229,7 +1229,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-dedicated-4-2": {
   "first_seen": "2026-08-11",
@@ -1240,7 +1240,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-premium-2": {
   "first_seen": "2026-08-11",
@@ -1251,7 +1251,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-4-2": {
   "first_seen": "2026-08-11",
@@ -1262,7 +1262,7 @@
     "monthly": 51.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-8-2": {
   "first_seen": "2026-08-11",
@@ -1273,7 +1273,7 @@
     "monthly": 80.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-dedicated-4": {
   "first_seen": "2026-08-11",
@@ -1284,7 +1284,7 @@
     "monthly": 72
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-standard-4": {
   "first_seen": "2026-08-11",
@@ -1295,7 +1295,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-dedicated-8-4": {
   "first_seen": "2026-08-11",
@@ -1306,7 +1306,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-premium-4": {
   "first_seen": "2026-08-11",
@@ -1317,7 +1317,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-8-4": {
   "first_seen": "2026-08-11",
@@ -1328,7 +1328,7 @@
     "monthly": 102.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-16-4": {
   "first_seen": "2026-08-11",
@@ -1339,7 +1339,7 @@
     "monthly": 153.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-dedicated-8": {
   "first_seen": "2026-08-11",
@@ -1350,7 +1350,7 @@
     "monthly": 144
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-dedicated-16-8": {
   "first_seen": "2026-08-11",
@@ -1361,7 +1361,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-premium-8": {
   "first_seen": "2026-08-11",
@@ -1372,7 +1372,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-16-8": {
   "first_seen": "2026-08-11",
@@ -1383,7 +1383,7 @@
     "monthly": 197.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-standard-8": {
   "first_seen": "2026-08-11",
@@ -1394,7 +1394,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-32-8": {
   "first_seen": "2026-08-11",
@@ -1405,7 +1405,7 @@
     "monthly": 306.6
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-dedicated-16": {
   "first_seen": "2026-08-11",
@@ -1416,7 +1416,7 @@
     "monthly": 288
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-dedicated-32-16": {
   "first_seen": "2026-08-11",
@@ -1427,7 +1427,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g7-premium-16": {
   "first_seen": "2026-08-11",
@@ -1438,7 +1438,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-32-16": {
   "first_seen": "2026-08-11",
@@ -1449,7 +1449,7 @@
     "monthly": 394.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g6-standard-16": {
   "first_seen": "2026-08-11",
@@ -1460,7 +1460,7 @@
     "monthly": 384
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-east/g8-dedicated-64-16": {
   "first_seen": "2026-08-11",
@@ -1471,7 +1471,7 @@
     "monthly": 613.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-1ocpu-4gb": {
   "first_seen": "2026-08-11",
@@ -1482,7 +1482,7 @@
     "monthly": 22.63
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-1ocpu-8gb": {
   "first_seen": "2026-08-11",
@@ -1493,7 +1493,7 @@
     "monthly": 27.01
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-2ocpu-8gb": {
   "first_seen": "2026-08-11",
@@ -1504,7 +1504,7 @@
     "monthly": 45.26
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-2ocpu-16gb": {
   "first_seen": "2026-08-11",
@@ -1515,7 +1515,7 @@
     "monthly": 54.02
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-4ocpu-16gb": {
   "first_seen": "2026-08-11",
@@ -1526,7 +1526,7 @@
     "monthly": 90.52
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-4ocpu-32gb": {
   "first_seen": "2026-08-11",
@@ -1537,7 +1537,7 @@
     "monthly": 108.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-8ocpu-32gb": {
   "first_seen": "2026-08-11",
@@ -1548,7 +1548,7 @@
     "monthly": 181.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/eu-central/VM.Standard.E4.Flex-8ocpu-64gb": {
   "first_seen": "2026-08-11",
@@ -1559,7 +1559,7 @@
     "monthly": 216.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-1ocpu-4gb": {
   "first_seen": "2026-08-11",
@@ -1570,7 +1570,7 @@
     "monthly": 22.63
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-1ocpu-8gb": {
   "first_seen": "2026-08-11",
@@ -1581,7 +1581,7 @@
     "monthly": 27.01
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-2ocpu-8gb": {
   "first_seen": "2026-08-11",
@@ -1592,7 +1592,7 @@
     "monthly": 45.26
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-2ocpu-16gb": {
   "first_seen": "2026-08-11",
@@ -1603,7 +1603,7 @@
     "monthly": 54.02
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-4ocpu-16gb": {
   "first_seen": "2026-08-11",
@@ -1614,7 +1614,7 @@
     "monthly": 90.52
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-4ocpu-32gb": {
   "first_seen": "2026-08-11",
@@ -1625,7 +1625,7 @@
     "monthly": 108.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-8ocpu-32gb": {
   "first_seen": "2026-08-11",
@@ -1636,7 +1636,7 @@
     "monthly": 181.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-east/VM.Standard.E4.Flex-8ocpu-64gb": {
   "first_seen": "2026-08-11",
@@ -1647,7 +1647,7 @@
     "monthly": 216.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vc2-2c-4gb": {
   "first_seen": "2026-08-11",
@@ -1658,7 +1658,7 @@
     "monthly": 20
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhf-2c-4gb": {
   "first_seen": "2026-08-11",
@@ -1669,7 +1669,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhp-2c-4gb-amd": {
   "first_seen": "2026-08-11",
@@ -1680,7 +1680,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhp-2c-4gb-intel": {
   "first_seen": "2026-08-11",
@@ -1691,7 +1691,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-2c-4gb-50s-amd": {
   "first_seen": "2026-08-11",
@@ -1702,7 +1702,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-2c-4gb-75s-amd": {
   "first_seen": "2026-08-11",
@@ -1713,7 +1713,7 @@
     "monthly": 45
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-g-2c-8gb-50s-amd": {
   "first_seen": "2026-08-11",
@@ -1724,7 +1724,7 @@
     "monthly": 60
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vc2-4c-8gb": {
   "first_seen": "2026-08-11",
@@ -1735,7 +1735,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhp-4c-8gb-amd": {
   "first_seen": "2026-08-11",
@@ -1746,7 +1746,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhp-4c-8gb-intel": {
   "first_seen": "2026-08-11",
@@ -1757,7 +1757,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-4c-8gb-150s-amd": {
   "first_seen": "2026-08-11",
@@ -1768,7 +1768,7 @@
     "monthly": 90
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-4c-8gb-75s-amd": {
   "first_seen": "2026-08-11",
@@ -1779,7 +1779,7 @@
     "monthly": 80
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-g-4c-16gb-80s-amd": {
   "first_seen": "2026-08-11",
@@ -1790,7 +1790,7 @@
     "monthly": 120
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhp-8c-16gb-amd": {
   "first_seen": "2026-08-11",
@@ -1801,7 +1801,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhp-8c-16gb-intel": {
   "first_seen": "2026-08-11",
@@ -1812,7 +1812,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-8c-16gb-150s-amd": {
   "first_seen": "2026-08-11",
@@ -1823,7 +1823,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-8c-16gb-300s-amd": {
   "first_seen": "2026-08-11",
@@ -1834,7 +1834,7 @@
     "monthly": 180
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vc2-8c-32gb": {
   "first_seen": "2026-08-11",
@@ -1845,7 +1845,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-g-8c-32gb-160s-amd": {
   "first_seen": "2026-08-11",
@@ -1856,7 +1856,7 @@
     "monthly": 240
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-16c-32gb-300s-amd": {
   "first_seen": "2026-08-11",
@@ -1867,7 +1867,7 @@
     "monthly": 320
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/voc-c-16c-32gb-500s-amd": {
   "first_seen": "2026-08-11",
@@ -1878,7 +1878,7 @@
     "monthly": 360
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vc2-16c-64gb": {
   "first_seen": "2026-08-11",
@@ -1901,7 +1901,7 @@
     "monthly": 480
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vc2-2c-4gb": {
   "first_seen": "2026-08-11",
@@ -1912,7 +1912,7 @@
     "monthly": 20
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhf-2c-4gb": {
   "first_seen": "2026-08-11",
@@ -1923,7 +1923,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhp-2c-4gb-amd": {
   "first_seen": "2026-08-11",
@@ -1934,7 +1934,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhp-2c-4gb-intel": {
   "first_seen": "2026-08-11",
@@ -1945,7 +1945,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-2c-4gb-50s-amd": {
   "first_seen": "2026-08-11",
@@ -1956,7 +1956,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-2c-4gb-75s-amd": {
   "first_seen": "2026-08-11",
@@ -1967,7 +1967,7 @@
     "monthly": 45
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-g-2c-8gb-50s-amd": {
   "first_seen": "2026-08-11",
@@ -1978,7 +1978,7 @@
     "monthly": 60
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vc2-4c-8gb": {
   "first_seen": "2026-08-11",
@@ -1989,7 +1989,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhp-4c-8gb-amd": {
   "first_seen": "2026-08-11",
@@ -2000,7 +2000,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhp-4c-8gb-intel": {
   "first_seen": "2026-08-11",
@@ -2011,7 +2011,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-4c-8gb-150s-amd": {
   "first_seen": "2026-08-11",
@@ -2022,7 +2022,7 @@
     "monthly": 90
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-4c-8gb-75s-amd": {
   "first_seen": "2026-08-11",
@@ -2033,7 +2033,7 @@
     "monthly": 80
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhf-4c-16gb": {
   "first_seen": "2026-08-11",
@@ -2044,7 +2044,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-g-4c-16gb-80s-amd": {
   "first_seen": "2026-08-11",
@@ -2055,7 +2055,7 @@
     "monthly": 120
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhp-8c-16gb-amd": {
   "first_seen": "2026-08-11",
@@ -2066,7 +2066,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhp-8c-16gb-intel": {
   "first_seen": "2026-08-11",
@@ -2077,7 +2077,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-8c-16gb-150s-amd": {
   "first_seen": "2026-08-11",
@@ -2088,7 +2088,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-8c-16gb-300s-amd": {
   "first_seen": "2026-08-11",
@@ -2099,7 +2099,7 @@
     "monthly": 180
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vc2-8c-32gb": {
   "first_seen": "2026-08-11",
@@ -2110,7 +2110,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/vhf-8c-32gb": {
   "first_seen": "2026-08-11",
@@ -2121,7 +2121,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-g-8c-32gb-160s-amd": {
   "first_seen": "2026-08-11",
@@ -2132,7 +2132,7 @@
     "monthly": 240
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-16c-32gb-300s-amd": {
   "first_seen": "2026-08-11",
@@ -2143,7 +2143,7 @@
     "monthly": 320
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-c-16c-32gb-500s-amd": {
   "first_seen": "2026-08-11",
@@ -2154,7 +2154,7 @@
     "monthly": 360
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-east/voc-g-16c-64gb-320s-amd": {
   "first_seen": "2026-08-11",
@@ -2165,7 +2165,7 @@
     "monthly": 480
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/c-2": {
   "first_seen": "2026-08-12",
@@ -2212,7 +2212,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-2vcpu-4gb-120gb-intel": {
   "first_seen": "2026-08-12",
@@ -2223,7 +2223,7 @@
     "monthly": 32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-2vcpu-4gb-amd": {
   "first_seen": "2026-08-12",
@@ -2234,8 +2234,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-2vcpu-4gb-intel": {
   "first_seen": "2026-08-12",
@@ -2246,7 +2245,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/g-2vcpu-8gb": {
   "first_seen": "2026-08-12",
@@ -2293,7 +2292,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-2vcpu-8gb-amd": {
   "first_seen": "2026-08-12",
@@ -2304,8 +2303,7 @@
     "monthly": 42
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/c-4": {
   "first_seen": "2026-08-12",
@@ -2352,7 +2350,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-4vcpu-8gb-240gb-intel": {
   "first_seen": "2026-08-12",
@@ -2363,7 +2361,7 @@
     "monthly": 64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-4vcpu-8gb-amd": {
   "first_seen": "2026-08-12",
@@ -2374,8 +2372,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-4vcpu-8gb-intel": {
   "first_seen": "2026-08-12",
@@ -2386,7 +2383,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/g-4vcpu-16gb": {
   "first_seen": "2026-08-12",
@@ -2433,7 +2430,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-4vcpu-16gb-amd": {
   "first_seen": "2026-08-12",
@@ -2444,8 +2441,7 @@
     "monthly": 84
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/c-8": {
   "first_seen": "2026-08-12",
@@ -2492,7 +2488,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-8vcpu-16gb-480gb-intel": {
   "first_seen": "2026-08-12",
@@ -2503,7 +2499,7 @@
     "monthly": 128
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-8vcpu-16gb-amd": {
   "first_seen": "2026-08-12",
@@ -2514,8 +2510,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-8vcpu-16gb-intel": {
   "first_seen": "2026-08-12",
@@ -2526,7 +2521,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/g-8vcpu-32gb": {
   "first_seen": "2026-08-12",
@@ -2573,7 +2568,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/s-8vcpu-32gb-amd": {
   "first_seen": "2026-08-12",
@@ -2584,8 +2579,7 @@
     "monthly": 168
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/c-16": {
   "first_seen": "2026-08-12",
@@ -2704,7 +2698,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-2vcpu-4gb-120gb-intel": {
   "first_seen": "2026-08-12",
@@ -2715,7 +2709,7 @@
     "monthly": 32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-2vcpu-4gb-amd": {
   "first_seen": "2026-08-12",
@@ -2726,8 +2720,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-2vcpu-4gb-intel": {
   "first_seen": "2026-08-12",
@@ -2738,7 +2731,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/g-2vcpu-8gb": {
   "first_seen": "2026-08-12",
@@ -2821,7 +2814,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-2vcpu-8gb-amd": {
   "first_seen": "2026-08-12",
@@ -2832,8 +2825,7 @@
     "monthly": 42
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/c-4": {
   "first_seen": "2026-08-12",
@@ -2916,7 +2908,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-4vcpu-8gb-240gb-intel": {
   "first_seen": "2026-08-12",
@@ -2927,7 +2919,7 @@
     "monthly": 64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-4vcpu-8gb-amd": {
   "first_seen": "2026-08-12",
@@ -2938,8 +2930,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-4vcpu-8gb-intel": {
   "first_seen": "2026-08-12",
@@ -2950,7 +2941,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/g-4vcpu-16gb": {
   "first_seen": "2026-08-12",
@@ -3033,7 +3024,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-4vcpu-16gb-amd": {
   "first_seen": "2026-08-12",
@@ -3044,8 +3035,7 @@
     "monthly": 84
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/c-8": {
   "first_seen": "2026-08-12",
@@ -3128,7 +3118,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-8vcpu-16gb-480gb-intel": {
   "first_seen": "2026-08-12",
@@ -3139,7 +3129,7 @@
     "monthly": 128
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-8vcpu-16gb-amd": {
   "first_seen": "2026-08-12",
@@ -3150,8 +3140,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-8vcpu-16gb-intel": {
   "first_seen": "2026-08-12",
@@ -3162,7 +3151,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/g-8vcpu-32gb": {
   "first_seen": "2026-08-12",
@@ -3245,7 +3234,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/s-8vcpu-32gb-amd": {
   "first_seen": "2026-08-12",
@@ -3256,8 +3245,7 @@
     "monthly": 168
    }
   ],
-  "last_seen": "2026-11-01",
-  "removed": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-east/c-16": {
   "first_seen": "2026-08-12",
@@ -3412,7 +3400,7 @@
     "monthly": 91.34
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/eu-central/n2d-standard-2": {
   "first_seen": "2026-08-12",
@@ -3423,7 +3411,7 @@
     "monthly": 79.46
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/eu-central/n2-standard-4": {
   "first_seen": "2026-08-12",
@@ -3434,7 +3422,7 @@
     "monthly": 182.68
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/eu-central/n2d-standard-4": {
   "first_seen": "2026-08-12",
@@ -3445,7 +3433,7 @@
     "monthly": 158.93
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/eu-central/n2-standard-8": {
   "first_seen": "2026-08-12",
@@ -3456,7 +3444,7 @@
     "monthly": 365.36
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/eu-central/n2d-standard-8": {
   "first_seen": "2026-08-12",
@@ -3467,7 +3455,7 @@
     "monthly": 317.85
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/eu-central/n2-standard-16": {
   "first_seen": "2026-08-12",
@@ -3478,7 +3466,7 @@
     "monthly": 730.72
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/eu-central/n2d-standard-16": {
   "first_seen": "2026-08-12",
@@ -3489,7 +3477,7 @@
     "monthly": 635.71
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2-standard-2": {
   "first_seen": "2026-08-12",
@@ -3500,7 +3488,7 @@
     "monthly": 79.85
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2d-standard-2": {
   "first_seen": "2026-08-12",
@@ -3511,7 +3499,7 @@
     "monthly": 69.47
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2-standard-4": {
   "first_seen": "2026-08-12",
@@ -3522,7 +3510,7 @@
     "monthly": 159.69
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2d-standard-4": {
   "first_seen": "2026-08-12",
@@ -3533,7 +3521,7 @@
     "monthly": 138.93
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2-standard-8": {
   "first_seen": "2026-08-12",
@@ -3544,7 +3532,7 @@
     "monthly": 319.38
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2d-standard-8": {
   "first_seen": "2026-08-12",
@@ -3555,7 +3543,7 @@
     "monthly": 277.87
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2-standard-16": {
   "first_seen": "2026-08-12",
@@ -3566,7 +3554,7 @@
     "monthly": 638.77
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-east/n2d-standard-16": {
   "first_seen": "2026-08-12",
@@ -3577,7 +3565,7 @@
     "monthly": 555.73
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cax11": {
   "first_seen": "2026-08-12",
@@ -3588,7 +3576,7 @@
     "monthly": 6.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cpx22": {
   "first_seen": "2026-08-12",
@@ -3599,7 +3587,7 @@
     "monthly": 22.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cx23": {
   "first_seen": "2026-08-12",
@@ -3610,7 +3598,7 @@
     "monthly": 6.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/ccx13": {
   "first_seen": "2026-08-12",
@@ -3621,7 +3609,7 @@
     "monthly": 50.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cax21": {
   "first_seen": "2026-08-12",
@@ -3632,7 +3620,7 @@
     "monthly": 12.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cpx31": {
   "first_seen": "2026-08-12",
@@ -3655,7 +3643,7 @@
     "monthly": 41.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cx33": {
   "first_seen": "2026-08-12",
@@ -3671,7 +3659,7 @@
     "monthly": 9.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/ccx23": {
   "first_seen": "2026-08-12",
@@ -3682,7 +3670,7 @@
     "monthly": 101.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cax31": {
   "first_seen": "2026-08-12",
@@ -3693,7 +3681,7 @@
     "monthly": 24.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cpx41": {
   "first_seen": "2026-08-12",
@@ -3716,7 +3704,7 @@
     "monthly": 81.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cx43": {
   "first_seen": "2026-08-12",
@@ -3727,7 +3715,7 @@
     "monthly": 18.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/ccx33": {
   "first_seen": "2026-08-12",
@@ -3738,7 +3726,7 @@
     "monthly": 162.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cax41": {
   "first_seen": "2026-08-12",
@@ -3749,7 +3737,7 @@
     "monthly": 48.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cpx51": {
   "first_seen": "2026-08-12",
@@ -3772,7 +3760,7 @@
     "monthly": 152.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/cx53": {
   "first_seen": "2026-08-12",
@@ -3783,7 +3771,7 @@
     "monthly": 34.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/eu-central/ccx43": {
   "first_seen": "2026-08-12",
@@ -3794,7 +3782,7 @@
     "monthly": 325.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-east/ccx13": {
   "first_seen": "2026-08-12",
@@ -3805,7 +3793,7 @@
     "monthly": 50.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-east/cpx31": {
   "first_seen": "2026-08-12",
@@ -3816,7 +3804,7 @@
     "monthly": 73.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-east/ccx23": {
   "first_seen": "2026-08-12",
@@ -3827,7 +3815,7 @@
     "monthly": 102.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-east/cpx41": {
   "first_seen": "2026-08-12",
@@ -3838,7 +3826,7 @@
     "monthly": 141.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-east/ccx33": {
   "first_seen": "2026-08-12",
@@ -3849,7 +3837,7 @@
     "monthly": 165.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-east/cpx51": {
   "first_seen": "2026-08-12",
@@ -3860,7 +3848,7 @@
     "monthly": 279.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-east/ccx43": {
   "first_seen": "2026-08-12",
@@ -3871,7 +3859,7 @@
     "monthly": 329.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/eu-central/g-2vcpu-8gb-intel": {
   "first_seen": "2026-08-14",
@@ -4146,7 +4134,7 @@
     "monthly": 86.39
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7g.large": {
   "first_seen": "2026-08-18",
@@ -4157,7 +4145,7 @@
     "monthly": 60.81
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7i.large": {
   "first_seen": "2026-08-18",
@@ -4168,7 +4156,7 @@
     "monthly": 75.12
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t3.medium": {
   "first_seen": "2026-08-18",
@@ -4179,7 +4167,7 @@
     "monthly": 38.54
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t4g.medium": {
   "first_seen": "2026-08-18",
@@ -4190,7 +4178,7 @@
     "monthly": 30.95
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7g.large": {
   "first_seen": "2026-08-18",
@@ -4201,7 +4189,7 @@
     "monthly": 74.46
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7i.large": {
   "first_seen": "2026-08-18",
@@ -4212,7 +4200,7 @@
     "monthly": 91.98
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t3.large": {
   "first_seen": "2026-08-18",
@@ -4223,7 +4211,7 @@
     "monthly": 77.09
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t4g.large": {
   "first_seen": "2026-08-18",
@@ -4234,7 +4222,7 @@
     "monthly": 61.9
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7a.xlarge": {
   "first_seen": "2026-08-18",
@@ -4245,7 +4233,7 @@
     "monthly": 172.78
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7g.xlarge": {
   "first_seen": "2026-08-18",
@@ -4256,7 +4244,7 @@
     "monthly": 121.62
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7i.xlarge": {
   "first_seen": "2026-08-18",
@@ -4267,7 +4255,7 @@
     "monthly": 150.23
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7g.xlarge": {
   "first_seen": "2026-08-18",
@@ -4278,7 +4266,7 @@
     "monthly": 148.92
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7i.xlarge": {
   "first_seen": "2026-08-18",
@@ -4289,7 +4277,7 @@
     "monthly": 183.96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t3.xlarge": {
   "first_seen": "2026-08-18",
@@ -4300,7 +4288,7 @@
     "monthly": 154.18
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t4g.xlarge": {
   "first_seen": "2026-08-18",
@@ -4311,7 +4299,7 @@
     "monthly": 123.81
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7a.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4322,7 +4310,7 @@
     "monthly": 345.55
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7g.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4333,7 +4321,7 @@
     "monthly": 243.24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7i.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4344,7 +4332,7 @@
     "monthly": 300.47
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7g.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4355,7 +4343,7 @@
     "monthly": 297.84
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7i.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4366,7 +4354,7 @@
     "monthly": 367.92
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t3.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4377,7 +4365,7 @@
     "monthly": 308.35
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/t4g.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4388,7 +4376,7 @@
     "monthly": 247.62
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7a.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4399,7 +4387,7 @@
     "monthly": 691.11
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7g.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4410,7 +4398,7 @@
     "monthly": 486.47
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/c7i.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4421,7 +4409,7 @@
     "monthly": 600.94
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7g.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4432,7 +4420,7 @@
     "monthly": 595.68
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/ap-southeast/m7i.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4443,7 +4431,7 @@
     "monthly": 735.84
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7a.large": {
   "first_seen": "2026-08-18",
@@ -4454,7 +4442,7 @@
     "monthly": 74.93
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7g.large": {
   "first_seen": "2026-08-18",
@@ -4465,7 +4453,7 @@
     "monthly": 52.93
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7i.large": {
   "first_seen": "2026-08-18",
@@ -4476,7 +4464,7 @@
     "monthly": 65.15
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t3.medium": {
   "first_seen": "2026-08-18",
@@ -4487,7 +4475,7 @@
     "monthly": 30.37
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t4g.medium": {
   "first_seen": "2026-08-18",
@@ -4498,7 +4486,7 @@
     "monthly": 24.53
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7a.large": {
   "first_seen": "2026-08-18",
@@ -4509,7 +4497,7 @@
     "monthly": 84.62
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7g.large": {
   "first_seen": "2026-08-18",
@@ -4520,7 +4508,7 @@
     "monthly": 59.57
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7i.large": {
   "first_seen": "2026-08-18",
@@ -4531,7 +4519,7 @@
     "monthly": 73.58
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t3.large": {
   "first_seen": "2026-08-18",
@@ -4542,7 +4530,7 @@
     "monthly": 60.74
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t4g.large": {
   "first_seen": "2026-08-18",
@@ -4553,7 +4541,7 @@
     "monthly": 49.06
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7a.xlarge": {
   "first_seen": "2026-08-18",
@@ -4564,7 +4552,7 @@
     "monthly": 149.85
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7g.xlarge": {
   "first_seen": "2026-08-18",
@@ -4575,7 +4563,7 @@
     "monthly": 105.85
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7i.xlarge": {
   "first_seen": "2026-08-18",
@@ -4586,7 +4574,7 @@
     "monthly": 130.31
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7a.xlarge": {
   "first_seen": "2026-08-18",
@@ -4597,7 +4585,7 @@
     "monthly": 169.24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7g.xlarge": {
   "first_seen": "2026-08-18",
@@ -4608,7 +4596,7 @@
     "monthly": 119.14
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7i.xlarge": {
   "first_seen": "2026-08-18",
@@ -4619,7 +4607,7 @@
     "monthly": 147.17
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t3.xlarge": {
   "first_seen": "2026-08-18",
@@ -4630,7 +4618,7 @@
     "monthly": 121.47
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t4g.xlarge": {
   "first_seen": "2026-08-18",
@@ -4641,7 +4629,7 @@
     "monthly": 98.11
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7a.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4652,7 +4640,7 @@
     "monthly": 299.71
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7g.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4663,7 +4651,7 @@
     "monthly": 211.7
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7i.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4674,7 +4662,7 @@
     "monthly": 260.61
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7a.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4685,7 +4673,7 @@
     "monthly": 338.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7g.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4696,7 +4684,7 @@
     "monthly": 238.27
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7i.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4707,7 +4695,7 @@
     "monthly": 294.34
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t3.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4718,7 +4706,7 @@
     "monthly": 242.94
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/t4g.2xlarge": {
   "first_seen": "2026-08-18",
@@ -4729,7 +4717,7 @@
     "monthly": 196.22
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7a.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4740,7 +4728,7 @@
     "monthly": 599.42
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7g.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4751,7 +4739,7 @@
     "monthly": 423.4
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/c7i.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4762,7 +4750,7 @@
     "monthly": 521.22
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7a.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4773,7 +4761,7 @@
     "monthly": 676.97
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7g.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4784,7 +4772,7 @@
     "monthly": 476.54
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "aws/us-west/m7i.4xlarge": {
   "first_seen": "2026-08-18",
@@ -4795,7 +4783,7 @@
     "monthly": 588.67
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_F2s_v2": {
   "first_seen": "2026-08-18",
@@ -4806,7 +4794,7 @@
     "monthly": 71.54
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_D2ps_v5": {
   "first_seen": "2026-08-18",
@@ -4817,7 +4805,7 @@
     "monthly": 70.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_D2s_v5": {
   "first_seen": "2026-08-18",
@@ -4828,7 +4816,7 @@
     "monthly": 87.6
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_F4s_v2": {
   "first_seen": "2026-08-18",
@@ -4839,7 +4827,7 @@
     "monthly": 143.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_D4ps_v5": {
   "first_seen": "2026-08-18",
@@ -4850,7 +4838,7 @@
     "monthly": 140.16
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_D4s_v5": {
   "first_seen": "2026-08-18",
@@ -4861,7 +4849,7 @@
     "monthly": 175.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_F8s_v2": {
   "first_seen": "2026-08-18",
@@ -4872,7 +4860,7 @@
     "monthly": 286.16
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_D8ps_v5": {
   "first_seen": "2026-08-18",
@@ -4883,7 +4871,7 @@
     "monthly": 280.32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_D8s_v5": {
   "first_seen": "2026-08-18",
@@ -4894,7 +4882,7 @@
     "monthly": 350.4
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_F16s_v2": {
   "first_seen": "2026-08-18",
@@ -4905,7 +4893,7 @@
     "monthly": 572.32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/ap-southeast/Standard_D16s_v5": {
   "first_seen": "2026-08-18",
@@ -4916,7 +4904,7 @@
     "monthly": 700.8
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_F2s_v2": {
   "first_seen": "2026-08-18",
@@ -4927,7 +4915,7 @@
     "monthly": 61.76
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_D2ps_v5": {
   "first_seen": "2026-08-18",
@@ -4938,7 +4926,7 @@
     "monthly": 56.21
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_D2s_v5": {
   "first_seen": "2026-08-18",
@@ -4949,7 +4937,7 @@
     "monthly": 70.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_F4s_v2": {
   "first_seen": "2026-08-18",
@@ -4960,7 +4948,7 @@
     "monthly": 123.37
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_D4ps_v5": {
   "first_seen": "2026-08-18",
@@ -4971,7 +4959,7 @@
     "monthly": 112.42
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_D4s_v5": {
   "first_seen": "2026-08-18",
@@ -4982,7 +4970,7 @@
     "monthly": 140.16
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_F8s_v2": {
   "first_seen": "2026-08-18",
@@ -4993,7 +4981,7 @@
     "monthly": 246.74
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_D8ps_v5": {
   "first_seen": "2026-08-18",
@@ -5004,7 +4992,7 @@
     "monthly": 224.84
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_D8s_v5": {
   "first_seen": "2026-08-18",
@@ -5015,7 +5003,7 @@
     "monthly": 280.32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_F16s_v2": {
   "first_seen": "2026-08-18",
@@ -5026,7 +5014,7 @@
     "monthly": 494.21
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "azure/us-west/Standard_D16s_v5": {
   "first_seen": "2026-08-18",
@@ -5037,7 +5025,7 @@
     "monthly": 560.64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/c-2": {
   "first_seen": "2026-08-18",
@@ -5084,7 +5072,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-2vcpu-4gb-120gb-intel": {
   "first_seen": "2026-08-18",
@@ -5095,7 +5083,7 @@
     "monthly": 32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-2vcpu-4gb-amd": {
   "first_seen": "2026-08-18",
@@ -5106,7 +5094,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-2vcpu-4gb-intel": {
   "first_seen": "2026-08-18",
@@ -5117,7 +5105,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/g-2vcpu-8gb": {
   "first_seen": "2026-08-18",
@@ -5164,7 +5152,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-2vcpu-8gb-amd": {
   "first_seen": "2026-08-18",
@@ -5175,7 +5163,7 @@
     "monthly": 42
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/c-4": {
   "first_seen": "2026-08-18",
@@ -5222,7 +5210,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-4vcpu-8gb-240gb-intel": {
   "first_seen": "2026-08-18",
@@ -5233,7 +5221,7 @@
     "monthly": 64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-4vcpu-8gb-amd": {
   "first_seen": "2026-08-18",
@@ -5244,7 +5232,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-4vcpu-8gb-intel": {
   "first_seen": "2026-08-18",
@@ -5255,7 +5243,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/g-4vcpu-16gb": {
   "first_seen": "2026-08-18",
@@ -5302,7 +5290,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-4vcpu-16gb-amd": {
   "first_seen": "2026-08-18",
@@ -5313,7 +5301,7 @@
     "monthly": 84
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/c-8": {
   "first_seen": "2026-08-18",
@@ -5360,7 +5348,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-8vcpu-16gb-480gb-intel": {
   "first_seen": "2026-08-18",
@@ -5371,7 +5359,7 @@
     "monthly": 128
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-8vcpu-16gb-amd": {
   "first_seen": "2026-08-18",
@@ -5382,7 +5370,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-8vcpu-16gb-intel": {
   "first_seen": "2026-08-18",
@@ -5393,7 +5381,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/g-8vcpu-32gb": {
   "first_seen": "2026-08-18",
@@ -5440,7 +5428,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/s-8vcpu-32gb-amd": {
   "first_seen": "2026-08-18",
@@ -5451,7 +5439,7 @@
     "monthly": 168
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/ap-southeast/c-16": {
   "first_seen": "2026-08-18",
@@ -5570,7 +5558,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-2vcpu-4gb-120gb-intel": {
   "first_seen": "2026-08-18",
@@ -5581,7 +5569,7 @@
     "monthly": 32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-2vcpu-4gb-amd": {
   "first_seen": "2026-08-18",
@@ -5592,7 +5580,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-2vcpu-4gb-intel": {
   "first_seen": "2026-08-18",
@@ -5603,7 +5591,7 @@
     "monthly": 28
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/g-2vcpu-8gb": {
   "first_seen": "2026-08-18",
@@ -5686,7 +5674,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-2vcpu-8gb-amd": {
   "first_seen": "2026-08-18",
@@ -5697,7 +5685,7 @@
     "monthly": 42
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/c-4": {
   "first_seen": "2026-08-18",
@@ -5780,7 +5768,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-4vcpu-8gb-240gb-intel": {
   "first_seen": "2026-08-18",
@@ -5791,7 +5779,7 @@
     "monthly": 64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-4vcpu-8gb-amd": {
   "first_seen": "2026-08-18",
@@ -5802,7 +5790,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-4vcpu-8gb-intel": {
   "first_seen": "2026-08-18",
@@ -5813,7 +5801,7 @@
     "monthly": 56
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/g-4vcpu-16gb": {
   "first_seen": "2026-08-18",
@@ -5896,7 +5884,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-4vcpu-16gb-amd": {
   "first_seen": "2026-08-18",
@@ -5907,7 +5895,7 @@
     "monthly": 84
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/c-8": {
   "first_seen": "2026-08-18",
@@ -5990,7 +5978,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-8vcpu-16gb-480gb-intel": {
   "first_seen": "2026-08-18",
@@ -6001,7 +5989,7 @@
     "monthly": 128
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-8vcpu-16gb-amd": {
   "first_seen": "2026-08-18",
@@ -6012,7 +6000,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-8vcpu-16gb-intel": {
   "first_seen": "2026-08-18",
@@ -6023,7 +6011,7 @@
     "monthly": 112
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/g-8vcpu-32gb": {
   "first_seen": "2026-08-18",
@@ -6106,7 +6094,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/s-8vcpu-32gb-amd": {
   "first_seen": "2026-08-18",
@@ -6117,7 +6105,7 @@
     "monthly": 168
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "digitalocean/us-west/c-16": {
   "first_seen": "2026-08-18",
@@ -6272,7 +6260,7 @@
     "monthly": 87.46
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/n2d-standard-2": {
   "first_seen": "2026-08-18",
@@ -6283,7 +6271,7 @@
     "monthly": 76.09
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/t2a-standard-2": {
   "first_seen": "2026-08-18",
@@ -6294,7 +6282,7 @@
     "monthly": 69.32
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/n2-standard-4": {
   "first_seen": "2026-08-18",
@@ -6305,7 +6293,7 @@
     "monthly": 174.92
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/n2d-standard-4": {
   "first_seen": "2026-08-18",
@@ -6316,7 +6304,7 @@
     "monthly": 152.18
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/t2a-standard-4": {
   "first_seen": "2026-08-18",
@@ -6327,7 +6315,7 @@
     "monthly": 138.64
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/n2-standard-8": {
   "first_seen": "2026-08-18",
@@ -6338,7 +6326,7 @@
     "monthly": 349.83
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/n2d-standard-8": {
   "first_seen": "2026-08-18",
@@ -6349,7 +6337,7 @@
     "monthly": 304.36
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/t2a-standard-8": {
   "first_seen": "2026-08-18",
@@ -6360,7 +6348,7 @@
     "monthly": 277.28
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/n2-standard-16": {
   "first_seen": "2026-08-18",
@@ -6371,7 +6359,7 @@
     "monthly": 699.67
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/n2d-standard-16": {
   "first_seen": "2026-08-18",
@@ -6382,7 +6370,7 @@
     "monthly": 608.73
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/ap-southeast/t2a-standard-16": {
   "first_seen": "2026-08-18",
@@ -6393,7 +6381,7 @@
     "monthly": 554.57
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2-standard-2": {
   "first_seen": "2026-08-18",
@@ -6404,7 +6392,7 @@
     "monthly": 70.9
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2d-standard-2": {
   "first_seen": "2026-08-18",
@@ -6415,7 +6403,7 @@
     "monthly": 61.68
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/t2a-standard-2": {
   "first_seen": "2026-08-18",
@@ -6426,7 +6414,7 @@
     "monthly": 56.21
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2-standard-4": {
   "first_seen": "2026-08-18",
@@ -6437,7 +6425,7 @@
     "monthly": 141.79
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2d-standard-4": {
   "first_seen": "2026-08-18",
@@ -6448,7 +6436,7 @@
     "monthly": 123.36
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/t2a-standard-4": {
   "first_seen": "2026-08-18",
@@ -6459,7 +6447,7 @@
     "monthly": 112.42
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2-standard-8": {
   "first_seen": "2026-08-18",
@@ -6470,7 +6458,7 @@
     "monthly": 283.58
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2d-standard-8": {
   "first_seen": "2026-08-18",
@@ -6481,7 +6469,7 @@
     "monthly": 246.72
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/t2a-standard-8": {
   "first_seen": "2026-08-18",
@@ -6492,7 +6480,7 @@
     "monthly": 224.84
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2-standard-16": {
   "first_seen": "2026-08-18",
@@ -6503,7 +6491,7 @@
     "monthly": 567.17
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/n2d-standard-16": {
   "first_seen": "2026-08-18",
@@ -6514,7 +6502,7 @@
     "monthly": 493.43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "gcp/us-west/t2a-standard-16": {
   "first_seen": "2026-08-18",
@@ -6525,7 +6513,7 @@
     "monthly": 449.68
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/cpx22": {
   "first_seen": "2026-08-18",
@@ -6536,7 +6524,7 @@
     "monthly": 30.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/ccx13": {
   "first_seen": "2026-08-18",
@@ -6547,7 +6535,7 @@
     "monthly": 63.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/cpx31": {
   "first_seen": "2026-08-18",
@@ -6570,7 +6558,7 @@
     "monthly": 57.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/ccx23": {
   "first_seen": "2026-08-18",
@@ -6581,7 +6569,7 @@
     "monthly": 127.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/cpx41": {
   "first_seen": "2026-08-18",
@@ -6604,7 +6592,7 @@
     "monthly": 109.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/ccx33": {
   "first_seen": "2026-08-18",
@@ -6615,7 +6603,7 @@
     "monthly": 205.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/cpx51": {
   "first_seen": "2026-08-18",
@@ -6638,7 +6626,7 @@
     "monthly": 202.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/ap-southeast/ccx43": {
   "first_seen": "2026-08-18",
@@ -6649,7 +6637,7 @@
     "monthly": 401.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-west/ccx13": {
   "first_seen": "2026-08-18",
@@ -6660,7 +6648,7 @@
     "monthly": 50.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-west/cpx31": {
   "first_seen": "2026-08-18",
@@ -6671,7 +6659,7 @@
     "monthly": 73.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-west/ccx23": {
   "first_seen": "2026-08-18",
@@ -6682,7 +6670,7 @@
     "monthly": 102.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-west/cpx41": {
   "first_seen": "2026-08-18",
@@ -6693,7 +6681,7 @@
     "monthly": 141.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-west/ccx33": {
   "first_seen": "2026-08-18",
@@ -6704,7 +6692,7 @@
     "monthly": 165.99
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-west/cpx51": {
   "first_seen": "2026-08-18",
@@ -6715,7 +6703,7 @@
     "monthly": 279.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "hetzner/us-west/ccx43": {
   "first_seen": "2026-08-18",
@@ -6726,7 +6714,7 @@
     "monthly": 329.49
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-dedicated-2": {
   "first_seen": "2026-08-18",
@@ -6737,7 +6725,7 @@
     "monthly": 36
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-standard-2": {
   "first_seen": "2026-08-18",
@@ -6748,7 +6736,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-dedicated-4-2": {
   "first_seen": "2026-08-18",
@@ -6759,7 +6747,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-premium-2": {
   "first_seen": "2026-08-18",
@@ -6770,7 +6758,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-4-2": {
   "first_seen": "2026-08-18",
@@ -6781,7 +6769,7 @@
     "monthly": 51.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-8-2": {
   "first_seen": "2026-08-18",
@@ -6792,7 +6780,7 @@
     "monthly": 80.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-dedicated-4": {
   "first_seen": "2026-08-18",
@@ -6803,7 +6791,7 @@
     "monthly": 72
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-standard-4": {
   "first_seen": "2026-08-18",
@@ -6814,7 +6802,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-dedicated-8-4": {
   "first_seen": "2026-08-18",
@@ -6825,7 +6813,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-premium-4": {
   "first_seen": "2026-08-18",
@@ -6836,7 +6824,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-8-4": {
   "first_seen": "2026-08-18",
@@ -6847,7 +6835,7 @@
     "monthly": 102.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-16-4": {
   "first_seen": "2026-08-18",
@@ -6858,7 +6846,7 @@
     "monthly": 153.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-dedicated-8": {
   "first_seen": "2026-08-18",
@@ -6869,7 +6857,7 @@
     "monthly": 144
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-dedicated-16-8": {
   "first_seen": "2026-08-18",
@@ -6880,7 +6868,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-premium-8": {
   "first_seen": "2026-08-18",
@@ -6891,7 +6879,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-16-8": {
   "first_seen": "2026-08-18",
@@ -6902,7 +6890,7 @@
     "monthly": 197.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-standard-8": {
   "first_seen": "2026-08-18",
@@ -6913,7 +6901,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-32-8": {
   "first_seen": "2026-08-18",
@@ -6924,7 +6912,7 @@
     "monthly": 306.6
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-dedicated-16": {
   "first_seen": "2026-08-18",
@@ -6935,7 +6923,7 @@
     "monthly": 288
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-dedicated-32-16": {
   "first_seen": "2026-08-18",
@@ -6946,7 +6934,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g7-premium-16": {
   "first_seen": "2026-08-18",
@@ -6957,7 +6945,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-32-16": {
   "first_seen": "2026-08-18",
@@ -6968,7 +6956,7 @@
     "monthly": 394.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g6-standard-16": {
   "first_seen": "2026-08-18",
@@ -6979,7 +6967,7 @@
     "monthly": 384
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/ap-southeast/g8-dedicated-64-16": {
   "first_seen": "2026-08-18",
@@ -6990,7 +6978,7 @@
     "monthly": 613.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-dedicated-2": {
   "first_seen": "2026-08-18",
@@ -7001,7 +6989,7 @@
     "monthly": 36
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-standard-2": {
   "first_seen": "2026-08-18",
@@ -7012,7 +7000,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-dedicated-4-2": {
   "first_seen": "2026-08-18",
@@ -7023,7 +7011,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-premium-2": {
   "first_seen": "2026-08-18",
@@ -7034,7 +7022,7 @@
     "monthly": 43
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-4-2": {
   "first_seen": "2026-08-18",
@@ -7045,7 +7033,7 @@
     "monthly": 51.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-8-2": {
   "first_seen": "2026-08-18",
@@ -7056,7 +7044,7 @@
     "monthly": 80.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-dedicated-4": {
   "first_seen": "2026-08-18",
@@ -7067,7 +7055,7 @@
     "monthly": 72
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-standard-4": {
   "first_seen": "2026-08-18",
@@ -7078,7 +7066,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-dedicated-8-4": {
   "first_seen": "2026-08-18",
@@ -7089,7 +7077,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-premium-4": {
   "first_seen": "2026-08-18",
@@ -7100,7 +7088,7 @@
     "monthly": 86
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-8-4": {
   "first_seen": "2026-08-18",
@@ -7111,7 +7099,7 @@
     "monthly": 102.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-16-4": {
   "first_seen": "2026-08-18",
@@ -7122,7 +7110,7 @@
     "monthly": 153.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-dedicated-8": {
   "first_seen": "2026-08-18",
@@ -7133,7 +7121,7 @@
     "monthly": 144
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-dedicated-16-8": {
   "first_seen": "2026-08-18",
@@ -7144,7 +7132,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-premium-8": {
   "first_seen": "2026-08-18",
@@ -7155,7 +7143,7 @@
     "monthly": 173
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-16-8": {
   "first_seen": "2026-08-18",
@@ -7166,7 +7154,7 @@
     "monthly": 197.1
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-standard-8": {
   "first_seen": "2026-08-18",
@@ -7177,7 +7165,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-32-8": {
   "first_seen": "2026-08-18",
@@ -7188,7 +7176,7 @@
     "monthly": 306.6
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-dedicated-16": {
   "first_seen": "2026-08-18",
@@ -7199,7 +7187,7 @@
     "monthly": 288
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-dedicated-32-16": {
   "first_seen": "2026-08-18",
@@ -7210,7 +7198,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g7-premium-16": {
   "first_seen": "2026-08-18",
@@ -7221,7 +7209,7 @@
     "monthly": 346
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-32-16": {
   "first_seen": "2026-08-18",
@@ -7232,7 +7220,7 @@
     "monthly": 394.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g6-standard-16": {
   "first_seen": "2026-08-18",
@@ -7243,7 +7231,7 @@
     "monthly": 384
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "linode/us-west/g8-dedicated-64-16": {
   "first_seen": "2026-08-18",
@@ -7254,7 +7242,7 @@
     "monthly": 613.2
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-1ocpu-4gb": {
   "first_seen": "2026-08-18",
@@ -7265,7 +7253,7 @@
     "monthly": 22.63
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-1ocpu-8gb": {
   "first_seen": "2026-08-18",
@@ -7276,7 +7264,7 @@
     "monthly": 27.01
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-2ocpu-8gb": {
   "first_seen": "2026-08-18",
@@ -7287,7 +7275,7 @@
     "monthly": 45.26
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-2ocpu-16gb": {
   "first_seen": "2026-08-18",
@@ -7298,7 +7286,7 @@
     "monthly": 54.02
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-4ocpu-16gb": {
   "first_seen": "2026-08-18",
@@ -7309,7 +7297,7 @@
     "monthly": 90.52
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-4ocpu-32gb": {
   "first_seen": "2026-08-18",
@@ -7320,7 +7308,7 @@
     "monthly": 108.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-8ocpu-32gb": {
   "first_seen": "2026-08-18",
@@ -7331,7 +7319,7 @@
     "monthly": 181.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/ap-southeast/VM.Standard.E4.Flex-8ocpu-64gb": {
   "first_seen": "2026-08-18",
@@ -7342,7 +7330,7 @@
     "monthly": 216.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-1ocpu-4gb": {
   "first_seen": "2026-08-18",
@@ -7353,7 +7341,7 @@
     "monthly": 22.63
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-1ocpu-8gb": {
   "first_seen": "2026-08-18",
@@ -7364,7 +7352,7 @@
     "monthly": 27.01
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-2ocpu-8gb": {
   "first_seen": "2026-08-18",
@@ -7375,7 +7363,7 @@
     "monthly": 45.26
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-2ocpu-16gb": {
   "first_seen": "2026-08-18",
@@ -7386,7 +7374,7 @@
     "monthly": 54.02
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-4ocpu-16gb": {
   "first_seen": "2026-08-18",
@@ -7397,7 +7385,7 @@
     "monthly": 90.52
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-4ocpu-32gb": {
   "first_seen": "2026-08-18",
@@ -7408,7 +7396,7 @@
     "monthly": 108.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-8ocpu-32gb": {
   "first_seen": "2026-08-18",
@@ -7419,7 +7407,7 @@
     "monthly": 181.04
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "oci/us-west/VM.Standard.E4.Flex-8ocpu-64gb": {
   "first_seen": "2026-08-18",
@@ -7430,7 +7418,7 @@
     "monthly": 216.08
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vc2-2c-4gb": {
   "first_seen": "2026-08-18",
@@ -7441,7 +7429,7 @@
     "monthly": 20
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhf-2c-4gb": {
   "first_seen": "2026-08-18",
@@ -7452,7 +7440,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhp-2c-4gb-amd": {
   "first_seen": "2026-08-18",
@@ -7463,7 +7451,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhp-2c-4gb-intel": {
   "first_seen": "2026-08-18",
@@ -7474,7 +7462,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-c-2c-4gb-50s-amd": {
   "first_seen": "2026-08-18",
@@ -7485,7 +7473,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-c-2c-4gb-75s-amd": {
   "first_seen": "2026-08-18",
@@ -7496,7 +7484,7 @@
     "monthly": 45
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-g-2c-8gb-50s-amd": {
   "first_seen": "2026-08-18",
@@ -7507,7 +7495,7 @@
     "monthly": 60
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vc2-4c-8gb": {
   "first_seen": "2026-08-18",
@@ -7518,7 +7506,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhp-4c-8gb-amd": {
   "first_seen": "2026-08-18",
@@ -7529,7 +7517,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhp-4c-8gb-intel": {
   "first_seen": "2026-08-18",
@@ -7540,7 +7528,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-c-4c-8gb-150s-amd": {
   "first_seen": "2026-08-18",
@@ -7551,7 +7539,7 @@
     "monthly": 90
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-c-4c-8gb-75s-amd": {
   "first_seen": "2026-08-18",
@@ -7562,7 +7550,7 @@
     "monthly": 80
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhf-4c-16gb": {
   "first_seen": "2026-08-18",
@@ -7573,7 +7561,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-g-4c-16gb-80s-amd": {
   "first_seen": "2026-08-18",
@@ -7584,7 +7572,7 @@
     "monthly": 120
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhp-8c-16gb-amd": {
   "first_seen": "2026-08-18",
@@ -7595,7 +7583,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhp-8c-16gb-intel": {
   "first_seen": "2026-08-18",
@@ -7606,7 +7594,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-c-8c-16gb-150s-amd": {
   "first_seen": "2026-08-18",
@@ -7617,7 +7605,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-c-8c-16gb-300s-amd": {
   "first_seen": "2026-08-18",
@@ -7628,7 +7616,7 @@
     "monthly": 180
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vc2-8c-32gb": {
   "first_seen": "2026-08-18",
@@ -7639,7 +7627,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/vhf-8c-32gb": {
   "first_seen": "2026-08-18",
@@ -7650,7 +7638,7 @@
     "monthly": 192
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-g-8c-32gb-160s-amd": {
   "first_seen": "2026-08-18",
@@ -7661,7 +7649,7 @@
     "monthly": 240
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-c-16c-32gb-300s-amd": {
   "first_seen": "2026-08-18",
@@ -7696,7 +7684,7 @@
     "monthly": 320
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/ap-southeast/voc-g-16c-64gb-320s-amd": {
   "first_seen": "2026-08-18",
@@ -7719,7 +7707,7 @@
     "monthly": 20
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhf-2c-4gb": {
   "first_seen": "2026-08-18",
@@ -7730,7 +7718,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhp-2c-4gb-amd": {
   "first_seen": "2026-08-18",
@@ -7741,7 +7729,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhp-2c-4gb-intel": {
   "first_seen": "2026-08-18",
@@ -7752,7 +7740,7 @@
     "monthly": 24
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-2c-4gb-50s-amd": {
   "first_seen": "2026-08-18",
@@ -7763,7 +7751,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-2c-4gb-75s-amd": {
   "first_seen": "2026-08-18",
@@ -7774,7 +7762,7 @@
     "monthly": 45
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-g-2c-8gb-50s-amd": {
   "first_seen": "2026-08-18",
@@ -7785,7 +7773,7 @@
     "monthly": 60
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vc2-4c-8gb": {
   "first_seen": "2026-08-18",
@@ -7796,7 +7784,7 @@
     "monthly": 40
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhp-4c-8gb-amd": {
   "first_seen": "2026-08-18",
@@ -7807,7 +7795,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhp-4c-8gb-intel": {
   "first_seen": "2026-08-18",
@@ -7818,7 +7806,7 @@
     "monthly": 48
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-4c-8gb-150s-amd": {
   "first_seen": "2026-08-18",
@@ -7829,7 +7817,7 @@
     "monthly": 90
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-4c-8gb-75s-amd": {
   "first_seen": "2026-08-18",
@@ -7840,7 +7828,7 @@
     "monthly": 80
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhf-4c-16gb": {
   "first_seen": "2026-08-18",
@@ -7851,7 +7839,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-g-4c-16gb-80s-amd": {
   "first_seen": "2026-08-18",
@@ -7862,7 +7850,7 @@
     "monthly": 120
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhp-8c-16gb-amd": {
   "first_seen": "2026-08-18",
@@ -7873,7 +7861,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhp-8c-16gb-intel": {
   "first_seen": "2026-08-18",
@@ -7884,7 +7872,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-8c-16gb-150s-amd": {
   "first_seen": "2026-08-18",
@@ -7895,7 +7883,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-8c-16gb-300s-amd": {
   "first_seen": "2026-08-18",
@@ -7906,7 +7894,7 @@
     "monthly": 180
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vc2-8c-32gb": {
   "first_seen": "2026-08-18",
@@ -7917,7 +7905,7 @@
     "monthly": 160
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vhf-8c-32gb": {
   "first_seen": "2026-08-18",
@@ -7940,7 +7928,7 @@
     "monthly": 240
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-16c-32gb-300s-amd": {
   "first_seen": "2026-08-18",
@@ -7951,7 +7939,7 @@
     "monthly": 320
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-c-16c-32gb-500s-amd": {
   "first_seen": "2026-08-18",
@@ -7962,7 +7950,7 @@
     "monthly": 360
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/vc2-16c-64gb": {
   "first_seen": "2026-08-18",
@@ -7973,7 +7961,7 @@
     "monthly": 320
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/us-west/voc-g-16c-64gb-320s-amd": {
   "first_seen": "2026-08-18",
@@ -7984,7 +7972,7 @@
     "monthly": 480
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhf-4c-16gb": {
   "first_seen": "2026-08-22",
@@ -7995,8 +7983,7 @@
     "monthly": 96
    }
   ],
-  "last_seen": "2026-10-26",
-  "removed": "2026-10-27"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-east/d2-4": {
   "first_seen": "2026-10-09",
@@ -8007,7 +7994,7 @@
     "monthly": 14.18
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-east/b3-8": {
   "first_seen": "2026-10-09",
@@ -8018,7 +8005,7 @@
     "monthly": 44.17
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-east/d2-8": {
   "first_seen": "2026-10-09",
@@ -8029,7 +8016,7 @@
     "monthly": 25.53
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-east/b3-16": {
   "first_seen": "2026-10-09",
@@ -8040,7 +8027,7 @@
     "monthly": 88.18
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-east/b3-32": {
   "first_seen": "2026-10-09",
@@ -8051,7 +8038,7 @@
     "monthly": 176.3
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-east/b3-64": {
   "first_seen": "2026-10-09",
@@ -8062,7 +8049,7 @@
     "monthly": 352.52
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-west/d2-4": {
   "first_seen": "2026-10-09",
@@ -8073,7 +8060,7 @@
     "monthly": 14.18
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "ovh/us-west/d2-8": {
   "first_seen": "2026-10-09",
@@ -8084,7 +8071,7 @@
     "monthly": 25.53
    }
   ],
-  "last_seen": "2026-11-02"
+  "last_seen": "2026-11-03"
  },
  "vultr/eu-central/vhf-8c-32gb": {
   "first_seen": "2026-10-22",
