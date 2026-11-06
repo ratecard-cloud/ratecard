@@ -32,9 +32,15 @@ const ENDPOINT = () => process.env.OVH_ENDPOINT ?? 'https://ca.api.ovh.com/1.0';
 const subsidiaryOf = (code) => (code.startsWith('US-') ? 'US' : 'WE');
 
 // Catalogs are 2-8 MB; compute and egress both read them, so fetch once per run.
+// Only successes are cached: on 2026-11-06 the US catalog 500'd during compute
+// and egress inherited the cached rejection instead of trying again.
 const catalogs = new Map();
 export function catalog(sub) {
-  if (!catalogs.has(sub)) catalogs.set(sub, getJSON(CATALOG[sub]));
+  if (!catalogs.has(sub)) {
+    const p = getJSON(CATALOG[sub]);
+    catalogs.set(sub, p);
+    p.catch(() => catalogs.delete(sub));
+  }
   return catalogs.get(sub);
 }
 

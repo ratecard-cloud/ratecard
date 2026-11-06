@@ -281,12 +281,21 @@ async function hetznerSchedules() {
  * region-suffixed addon with real tiers where it is metered (SGP1: the first
  * 1024 GiB per project per datacentre free, then per GiB). No credentials.
  */
-async function ovhSchedules() {
+export async function ovhSchedules() {
   const out = {};
   const raw = {};
   for (const [canonical, code] of Object.entries(PROVIDERS.ovh.regions)) {
     const sub = code.startsWith('US-') ? 'US' : 'WE';
-    const cat = await ovhCatalog(sub);
+    // US and international are separate catalogs on separate hosts; one being
+    // down must not cost the other's regions (2026-11-06: a US 500 zeroed all
+    // four, including DE1 and SGP1, whose catalog was fine).
+    let cat;
+    try {
+      cat = await ovhCatalog(sub);
+    } catch (err) {
+      console.log(`  egress ovh/${canonical}: ${sub} catalog failed (${err.message}) — region skipped`);
+      continue;
+    }
     const egressAddons = cat.addons.filter((a) => a.planCode.startsWith('bandwidth_instance_out.consumption'));
     const regionsOf = (a) => a.configurations?.find((c) => c.name === 'region')?.values;
     const addon =
