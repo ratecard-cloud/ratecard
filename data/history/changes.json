@@ -15901,5 +15901,13 @@
   "region": "us-east",
   "sku": "vc2-16c-64gb",
   "monthly": 320
+ },
+ {
+  "date": "2026-11-07",
+  "type": "sku_added",
+  "provider": "vultr",
+  "region": "eu-central",
+  "sku": "vc2-16c-64gb",
+  "monthly": 320
  }
 ]
