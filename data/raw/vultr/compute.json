@@ -991,6 +991,7 @@
     "ewr",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "sjc",
@@ -1180,7 +1181,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -1418,6 +1418,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1561,7 +1562,6 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "scl",
     "itm",
     "man"
@@ -4194,6 +4194,7 @@
     "ord",
     "dfw",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -5029,6 +5030,7 @@
     "icn",
     "mia",
     "mex",
+    "mel",
     "bom",
     "tlv",
     "blr",
@@ -5059,7 +5061,6 @@
    "invoice_type": "monthly",
    "type": "voc",
    "locations": [
-    "ewr",
     "ord",
     "dfw",
     "lax",
@@ -5073,6 +5074,7 @@
     "icn",
     "mia",
     "mex",
+    "mel",
     "bom",
     "tlv",
     "blr",
@@ -5217,7 +5219,9 @@
    "hourly_cost_preemptible": 1.712,
    "invoice_type": "hourly",
    "type": "vdm",
-   "locations": [],
+   "locations": [
+    "lax"
+   ],
    "cpu_vendor": "Intel",
    "storage_type": "local_storage",
    "vcpu_type": "thread",
@@ -5807,7 +5811,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -5841,7 +5844,6 @@
    "locations": [
     "ewr",
     "ord",
-    "sea",
     "atl",
     "ams",
     "nrt"
@@ -5872,7 +5874,6 @@
    "type": "vx1",
    "locations": [
     "ord",
-    "sea",
     "atl",
     "ams"
    ],
@@ -5901,7 +5902,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "atl",
     "ams"
    ],
@@ -6276,7 +6276,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6434,8 +6433,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ord",
-    "sea"
+    "ord"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
@@ -6462,8 +6460,7 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ord",
-    "sea"
+    "ord"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
