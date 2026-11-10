@@ -843,7 +843,6 @@
     "tlv",
     "blr",
     "del",
-    "scl",
     "itm",
     "man"
    ],
@@ -939,6 +938,8 @@
    "type": "vhf",
    "locations": [
     "ewr",
+    "ord",
+    "dfw",
     "sea",
     "lax",
     "atl",
@@ -954,7 +955,6 @@
     "icn",
     "mia",
     "sgp",
-    "sto",
     "mex",
     "mel",
     "bom",
@@ -989,6 +989,7 @@
    "type": "vhf",
    "locations": [
     "ewr",
+    "ord",
     "sea",
     "lax",
     "atl",
@@ -1004,7 +1005,6 @@
     "icn",
     "mia",
     "sgp",
-    "sto",
     "mex",
     "mel",
     "bom",
@@ -1039,6 +1039,7 @@
    "locations": [
     "ewr",
     "sea",
+    "atl",
     "ams",
     "lhr",
     "sjc",
@@ -1480,6 +1481,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1541,6 +1543,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -1601,6 +1604,7 @@
     "dfw",
     "sea",
     "lax",
+    "atl",
     "ams",
     "lhr",
     "fra",
@@ -2194,6 +2198,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2260,6 +2265,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2309,7 +2315,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2326,6 +2331,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2391,6 +2397,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2456,6 +2463,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2521,6 +2529,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2566,7 +2575,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -2586,6 +2594,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2631,7 +2640,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -2651,6 +2659,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2716,6 +2725,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2765,7 +2775,6 @@
     "nrt",
     "waw",
     "mad",
-    "mxp",
     "icn",
     "mia",
     "sgp",
@@ -2782,6 +2791,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2827,7 +2837,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -2847,6 +2856,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2892,7 +2902,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -2911,6 +2920,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -2956,7 +2966,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -2975,6 +2984,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3040,6 +3050,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3085,7 +3096,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -3105,6 +3115,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3150,7 +3161,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -3169,6 +3179,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3229,6 +3240,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3287,6 +3299,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3347,6 +3360,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3405,6 +3419,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3450,7 +3465,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -3470,6 +3484,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3515,7 +3530,6 @@
     "stl",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -3534,6 +3548,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3599,6 +3614,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3647,6 +3663,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -3654,9 +3671,9 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3710,6 +3727,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3751,6 +3769,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -3759,6 +3778,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3796,7 +3816,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -3816,6 +3835,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3864,6 +3884,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -3872,6 +3893,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3912,7 +3934,6 @@
     "waw",
     "mad",
     "icn",
-    "mia",
     "mex",
     "mel",
     "hnl",
@@ -3921,6 +3942,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -3958,7 +3980,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -3978,6 +3999,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4022,7 +4044,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4041,6 +4062,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4101,6 +4123,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4138,7 +4161,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4158,6 +4180,7 @@
     "scl",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4205,7 +4228,8 @@
     "hnl",
     "bom",
     "blr",
-    "itm"
+    "itm",
+    "cmh"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_storage",
@@ -4246,6 +4270,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -4254,6 +4279,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4295,6 +4321,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -4302,9 +4329,9 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4342,7 +4369,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4361,6 +4387,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4401,7 +4428,8 @@
     "icn",
     "hnl",
     "bom",
-    "blr"
+    "blr",
+    "cmh"
    ],
    "cpu_vendor": "AMD",
    "storage_type": "local_storage",
@@ -4438,7 +4466,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4457,6 +4484,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4517,6 +4545,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4558,6 +4587,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -4566,6 +4596,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4603,7 +4634,6 @@
     "sjc",
     "syd",
     "yto",
-    "cdg",
     "nrt",
     "waw",
     "mad",
@@ -4622,6 +4652,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4670,6 +4701,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -4677,9 +4709,9 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4733,6 +4765,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4786,6 +4819,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4827,6 +4861,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -4835,6 +4870,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4888,6 +4924,7 @@
     "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4929,6 +4966,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -4936,9 +4974,9 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -4980,6 +5018,7 @@
     "mad",
     "icn",
     "mia",
+    "sgp",
     "mex",
     "mel",
     "hnl",
@@ -4987,9 +5026,9 @@
     "jnb",
     "tlv",
     "blr",
-    "del",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -5025,8 +5064,8 @@
     "fra",
     "sjc",
     "yto",
+    "nrt",
     "waw",
-    "mad",
     "icn",
     "mia",
     "mex",
@@ -5036,6 +5075,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -5061,6 +5101,7 @@
    "invoice_type": "monthly",
    "type": "voc",
    "locations": [
+    "ewr",
     "ord",
     "dfw",
     "lax",
@@ -5070,9 +5111,9 @@
     "fra",
     "sjc",
     "yto",
+    "nrt",
     "waw",
     "icn",
-    "mia",
     "mex",
     "mel",
     "bom",
@@ -5080,6 +5121,7 @@
     "blr",
     "itm",
     "man",
+    "cmh",
     "mci"
    ],
    "cpu_vendor": "AMD",
@@ -5715,7 +5757,6 @@
     "atl",
     "ams",
     "lhr",
-    "syd",
     "nrt",
     "mxp"
    ],
@@ -5750,7 +5791,6 @@
     "atl",
     "ams",
     "lhr",
-    "syd",
     "nrt",
     "mxp"
    ],
@@ -6086,7 +6126,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6124,7 +6163,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6162,7 +6200,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6200,7 +6237,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6238,7 +6274,6 @@
    "invoice_type": "hourly",
    "type": "vx1",
    "locations": [
-    "ewr",
     "ord",
     "sea",
     "atl",
@@ -6375,7 +6410,6 @@
    "locations": [
     "ord",
     "sea",
-    "atl",
     "fra"
    ],
    "cpu_vendor": "AMD",
@@ -6405,7 +6439,6 @@
    "locations": [
     "ord",
     "sea",
-    "atl",
     "fra"
    ],
    "cpu_vendor": "AMD",
@@ -6432,9 +6465,7 @@
    "hourly_cost_preemptible": 2.446,
    "invoice_type": "hourly",
    "type": "vx1",
-   "locations": [
-    "ord"
-   ],
+   "locations": [],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
    "vcpu_type": "thread",
@@ -6459,9 +6490,7 @@
    "hourly_cost_preemptible": 3.086,
    "invoice_type": "hourly",
    "type": "vx1",
-   "locations": [
-    "ord"
-   ],
+   "locations": [],
    "cpu_vendor": "AMD",
    "storage_type": "local_and_block_storage",
    "vcpu_type": "thread",
