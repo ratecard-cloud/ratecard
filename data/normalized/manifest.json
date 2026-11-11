@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-10T13:35:47.485Z",
- "duration_ms": 123201,
- "compute_records": 592,
+ "generated_at": "2026-11-11T12:48:33.557Z",
+ "duration_ms": 84394,
+ "compute_records": 590,
  "egress_records": 43,
  "storage_records": 32,
  "ipv4_records": 32,
@@ -11,47 +11,47 @@
   "aws": {
    "state": "ok",
    "records": 124,
-   "ms": 26087
+   "ms": 24814
   },
   "azure": {
    "state": "ok",
    "records": 44,
-   "ms": 29388
+   "ms": 8164
   },
   "gcp": {
    "state": "ok",
    "records": 40,
-   "ms": 10266
+   "ms": 10045
   },
   "oci": {
    "state": "ok",
    "records": 32,
-   "ms": 1808
+   "ms": 1445
   },
   "hetzner": {
    "state": "ok",
    "records": 38,
-   "ms": 570
+   "ms": 645
   },
   "digitalocean": {
    "state": "ok",
-   "records": 114,
-   "ms": 590
+   "records": 111,
+   "ms": 664
   },
   "linode": {
    "state": "ok",
    "records": 96,
-   "ms": 176
+   "ms": 248
   },
   "vultr": {
    "state": "ok",
-   "records": 96,
-   "ms": 263
+   "records": 97,
+   "ms": 371
   },
   "ovh": {
    "state": "ok",
    "records": 8,
-   "ms": 1898
+   "ms": 1859
   }
  }
 }
