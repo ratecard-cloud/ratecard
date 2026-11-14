@@ -2837,7 +2837,7 @@
      {
       "id": 2,
       "name": "nbg1",
-      "available": false,
+      "available": true,
       "recommended": false,
       "deprecation": null
      },
