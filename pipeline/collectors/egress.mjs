@@ -40,6 +40,16 @@ function splitCSV(line) {
  */
 export const awsInterRegionHarvest = [];
 
+/**
+ * Standard inter-region transfer only. On 2026-11-18 AWS added
+ * "MultipathResilience" rows (USE1-USW2-MultipathResilience-Out-Bytes, $0.03)
+ * beside the standard USE1-USW2-AWS-Out-Bytes ($0.02) for the same pair, and
+ * both carry Transfer Type "InterRegion Outbound" — the validator caught the
+ * duplicate pairs. The usageType suffix is what names the ordinary product.
+ */
+export const isStandardInterRegion = (r) =>
+  r['Transfer Type'] === 'InterRegion Outbound' && r.Unit === 'GB' && /-AWS-Out-Bytes$/.test(r.usageType ?? '');
+
 async function awsSchedules() {
   const cached = resolve(ROOT, 'data/cache/aws-datatransfer.csv');
   const input = existsSync(cached)
@@ -62,7 +72,8 @@ async function awsSchedules() {
 
     if (r.TermType !== 'OnDemand') continue;
 
-    if (r['Transfer Type'] === 'InterRegion Outbound' && r.Unit === 'GB') {
+    if (r['Transfer Type'] === 'InterRegion Outbound') {
+      if (!isStandardInterRegion(r)) continue;
       const from = Object.keys(AWS_FROM).find((k) => AWS_FROM[k] === r['From Location']);
       const to = Object.keys(AWS_FROM).find((k) => AWS_FROM[k] === r['To Location']);
       if (from && to && from !== to) {
