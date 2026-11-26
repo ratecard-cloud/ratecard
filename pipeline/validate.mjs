@@ -313,7 +313,10 @@ export async function recordCoverage(datasets, date = new Date().toISOString().s
  *
  * Intentional removals: ALLOW_COVERAGE_DROP="hetzner,gcp" or "all".
  * opts.baselines injects the rolling coverage record for tests ({} = none);
- * omitted, it is read from data/history/coverage.json.
+ * omitted, it is read from data/history/coverage.json. opts.previous injects
+ * the last published datasets ({compute: [...], egress: [...]}); omitted, they
+ * are read from data/normalized/. Tests use it so drop percentages are exact
+ * instead of fractions of whatever DO happens to list today.
  */
 export async function validatePreviousCoverage(compute, egress, statuses = {}, extra = {}, opts = {}) {
   const errors = [];
@@ -359,7 +362,7 @@ export async function validatePreviousCoverage(compute, egress, statuses = {}, e
     if (Array.isArray(arr)) categories.push([name, arr]);
   }
   for (const [category, current] of categories) {
-    const previous = await loadPrevious(category);
+    const previous = opts.previous ? (opts.previous[category] ?? null) : await loadPrevious(category);
     if (!previous) {
       warnings.push(`${category}: no previous dataset to compare against — coverage check skipped`);
       continue;
